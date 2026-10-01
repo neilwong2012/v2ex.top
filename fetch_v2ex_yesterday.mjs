@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
 import { analyzeTopicsWithDeepSeek, isAnalysisCandidate, MAX_ANALYSIS_TOPICS, selectAnalysisTopics } from './lib/deepseek-analysis.mjs';
 import { renderValueReport } from './lib/report-renderer.mjs';
+import { scrubSecrets } from './lib/secret-redaction.mjs';
 
 const base = process.env.V2EX_BASE_URL || 'https://www.v2ex.com';
 const apiBase = process.env.V2EX_API_BASE_URL || `${base}/api/v2`;
@@ -73,7 +74,7 @@ function describeError(error) {
     const cause = describeError(error.cause);
     if (cause) parts.push(`cause=${cause}`);
   }
-  return parts.join(' | ');
+  return scrubSecrets(parts.join(' | '));
 }
 
 function isNetworkError(error) {
@@ -124,22 +125,6 @@ if (!token) {
 }
 
 const EXCLUDED_NODE_TITLES = new Set(['二手交易', '推广']);
-const SECRET_PATTERNS = [
-  /\bnpm_[A-Za-z0-9]{20,}\b/g,
-  /\b(?:ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9]{20,}\b/g,
-  /\bsk-[A-Za-z0-9_-]{20,}\b/g,
-];
-
-function scrubSecrets(value) {
-  if (typeof value === 'string') {
-    return SECRET_PATTERNS.reduce((text, pattern) => text.replace(pattern, '[REDACTED_SECRET]'), value);
-  }
-  if (Array.isArray(value)) return value.map(scrubSecrets);
-  if (value && typeof value === 'object') {
-    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, scrubSecrets(item)]));
-  }
-  return value;
-}
 
 function getShanghaiDateOffset(offsetDays) {
   const now = new Date();
@@ -245,16 +230,16 @@ async function getJsonOnce(endpoint) {
   const body = await res.text();
   let json = null;
   try {
-    json = body ? JSON.parse(body) : null;
+    json = body ? scrubSecrets(JSON.parse(body)) : null;
   } catch {
     // Some API misses return HTML; keep the body excerpt in the error.
   }
   if (!res.ok || json?.success === false) {
-    const detail = json ? JSON.stringify(json).slice(0, 240) : body.slice(0, 240);
+    const detail = (json ? JSON.stringify(json) : scrubSecrets(body)).slice(0, 240);
     throw new ApiError(`${res.status} ${endpoint}: ${detail}`, {
       status: res.status,
       endpoint,
-      body,
+      body: scrubSecrets(body),
       json,
     });
   }
@@ -560,7 +545,7 @@ async function writeFailure(error) {
     failure_file: failureFile.pathname,
     blocked_report_file: blockedReportFile.pathname,
   };
-  await fs.writeFile(failureFile, JSON.stringify(payload, null, 2));
+  await fs.writeFile(failureFile, JSON.stringify(scrubSecrets(payload), null, 2));
   const report = [
     `# V2EX ${targetDate} 昨日新帖报告（阻塞）`,
     '',
@@ -592,7 +577,7 @@ async function writeFailure(error) {
     `- 阻塞报告：[v2ex_${targetDate}_report_blocked.md](${blockedReportFile.pathname})`,
     '',
   ].join('\n');
-  await fs.writeFile(blockedReportFile, report);
+  await fs.writeFile(blockedReportFile, scrubSecrets(report));
 }
 
 async function main() {
@@ -743,7 +728,7 @@ async function main() {
       process.env.NODE_USE_ENV_PROXY !== '1' &&
       process.env.V2EX_PROXY_FALLBACK_TRIED !== '1'
     ) {
-      console.error(`Direct V2EX API access failed, retrying with proxy ${proxy}: ${describeError(error)}`);
+      console.error(scrubSecrets(`Direct V2EX API access failed, retrying with proxy ${proxy}: ${describeError(error)}`));
       const result = runWithProxy({
         V2EX_PROXY_FALLBACK_TRIED: '1',
         V2EX_DIRECT_ERROR: describeError(error),
@@ -751,7 +736,7 @@ async function main() {
       process.exit(result.status ?? 0);
     }
     await writeFailure(error);
-    console.error(error);
+    console.error(describeError(error));
     process.exit(1);
   }
 }

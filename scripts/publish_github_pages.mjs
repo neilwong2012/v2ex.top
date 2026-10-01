@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { scrubSecrets } from '../lib/secret-redaction.mjs';
 
 import {
   favoriteWeightForCount,
@@ -21,11 +22,6 @@ const rawPath = new URL(`../v2ex_${targetDate}_raw.json`, import.meta.url);
 const failurePath = new URL(`../v2ex_${targetDate}_failure.json`, import.meta.url);
 const postPath = new URL(`../docs/_posts/${targetDate}-v2ex-yesterday-report.md`, import.meta.url);
 const dataPath = new URL(`../docs/data/${targetDate}.json`, import.meta.url);
-const SECRET_PATTERNS = [
-  /\bnpm_[A-Za-z0-9]{20,}\b/g,
-  /\b(?:ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9]{20,}\b/g,
-  /\bsk-[A-Za-z0-9_-]{20,}\b/g,
-];
 
 function getShanghaiDateOffset(offsetDays) {
   const now = new Date();
@@ -66,17 +62,6 @@ function yamlEscape(value) {
 
 function reportUrl(dateText) {
   return `/${dateText.slice(0, 4)}/${dateText.slice(5, 7)}/${dateText.slice(8, 10)}/`;
-}
-
-function scrubSecrets(value) {
-  if (typeof value === 'string') {
-    return SECRET_PATTERNS.reduce((text, pattern) => text.replace(pattern, '[REDACTED_SECRET]'), value);
-  }
-  if (Array.isArray(value)) return value.map(scrubSecrets);
-  if (value && typeof value === 'object') {
-    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, scrubSecrets(item)]));
-  }
-  return value;
 }
 
 function relativizeWorkspaceLinks(markdown, dateText) {
@@ -280,6 +265,6 @@ async function main() {
 }
 
 main().catch((error) => {
-  console.error(error);
+  console.error(scrubSecrets(String(error)));
   process.exit(1);
 });

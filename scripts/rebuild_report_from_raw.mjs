@@ -7,6 +7,7 @@ import {
   replyWeightForCount,
 } from '../lib/deepseek-analysis.mjs';
 import { renderValueReport } from '../lib/report-renderer.mjs';
+import { scrubSecrets } from '../lib/secret-redaction.mjs';
 
 const timezone = 'Asia/Shanghai';
 const targetDate = process.env.V2EX_DATE;
@@ -17,7 +18,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(targetDate || '')) {
 const threshold = Number(process.env.DEEPSEEK_VALUE_THRESHOLD || 70);
 const rawUrl = new URL(`../v2ex_${targetDate}_raw.json`, import.meta.url);
 const reportUrl = new URL(`../v2ex_${targetDate}_report.md`, import.meta.url);
-const raw = JSON.parse(await fs.readFile(rawUrl, 'utf8'));
+const raw = scrubSecrets(JSON.parse(await fs.readFile(rawUrl, 'utf8')));
 const topics = Array.isArray(raw.includedTopics) ? raw.includedTopics.filter(isAnalysisCandidate) : [];
 const topicById = new Map(topics.map((topic) => [Number(topic.id), topic]));
 const valuableAnalyses = (raw.deepseek?.analyses || [])

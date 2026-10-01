@@ -28,6 +28,7 @@ async function copyRuntime(tempDir) {
     fs.copyFile(new URL('../fetch_v2ex_yesterday.mjs', import.meta.url), path.join(tempDir, 'fetch_v2ex_yesterday.mjs')),
     fs.copyFile(new URL('../lib/deepseek-analysis.mjs', import.meta.url), path.join(tempDir, 'lib/deepseek-analysis.mjs')),
     fs.copyFile(new URL('../lib/report-renderer.mjs', import.meta.url), path.join(tempDir, 'lib/report-renderer.mjs')),
+    fs.copyFile(new URL('../lib/secret-redaction.mjs', import.meta.url), path.join(tempDir, 'lib/secret-redaction.mjs')),
   ]);
 }
 

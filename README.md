@@ -39,6 +39,8 @@ After retries are exhausted, an isolated transient topic error is recorded in `s
 
 All topic and reply text is treated as untrusted data. DeepSeek receives one topic at a time without tools, and its JSON response is validated, length-limited, stripped of HTML, and checked against real topic and reply IDs before it can enter the report.
 
+Collection, analysis, report rebuilding and Pages publication share `lib/secret-redaction.mjs`. Recognizable credential strings (including VolcEngine access key IDs) and explicit credential assignments are replaced with `[REDACTED_SECRET]` before analysis or persistence, including reply archives and failure diagnostics. Other content, counts and links are retained. This filtering complements GitHub push protection; it does not disable it or guarantee detection of every possible credential format.
+
 The content score is recomputed locally from six bounded components: information density (25), actionability (25), evidence quality (20), novelty (15), topic consistency (10), and credibility (5). The final ranking uses an uncapped composite score: content score plus one point per reply and three points per favorite. A minimum content score of 60 prevents low-information but popular discussions from passing on activity alone. Advertising, insufficient information, title/content mismatch, or the absence of reusable information is a hard rejection regardless of the model's requested keep flag.
 
 To rebuild a report from an existing raw analysis without calling DeepSeek again:
