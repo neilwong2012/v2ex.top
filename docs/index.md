@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-09-30 08:30:00 +0800
+date: 2026-10-01 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-09-30
-generated_at: "2026-10-01 09:47:04"
-summary: "昨日主题 264 个，过滤 164 个，DeepSeek 分析 99 个，保留高价值内容 20 个。"
-count_all: 264
-count_excluded: 164
-count_included: 100
+target_date: 2026-10-01
+generated_at: "2026-10-02 09:33:45"
+summary: "昨日主题 140 个，过滤 45 个，DeepSeek 分析 95 个，保留高价值内容 11 个。"
+count_all: 140
+count_excluded: 45
+count_included: 95
 count_high_signal: 0
-count_valuable: 20
-report_url: "/2026/09/30/"
-data_url: "/data/2026-09-30.json"
+count_valuable: 11
+report_url: "/2026/10/01/"
+data_url: "/data/2026-10-01.json"
 ---
 
-# V2EX 2026-09-30 昨日新帖报告
+# V2EX 2026-10-01 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1245763" markdown="1">
+<details class="topic-card" data-topic-id="1245950" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">如何避免 AI 生成网页的“AI 味”：圆角、暗黑与毛玻璃</span>
+<span class="topic-title">500元以下有意思的3C数码产品推荐清单</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,33 +29,28 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-发帖人想做个网站，但发现 AI 生成的网页总带着一股“AI 味”——圆角、漆黑、毛玻璃，看多了本能反感，于是征集可参考的干货站点。评论区普遍认同这种审美疲劳，并给出了若干可复用的规避方法。
+楼主已有迷你主机、树莓派 3b/4b/5、NanoKVM、Arduino、STM32、USB PD 分析仪、带屏硬盘盒、复古掌机等，想找 500 元以下、能带来“这个很好玩”感觉的 3C 小玩意，明确排除无人机、相机、高性能掌机。
 
 ### 关键要点
-
-- **典型 AI 味特征**：大圆角、毛玻璃、发光边框、红紫动效、特大标题（左对齐或居中）、单页无分栏、默认暗黑模式且无亮色切换。
-- **先定设计再实现**：让 AI 先出原型，反复调整到满意，再让它对着原型实现功能；一旦进入实现阶段，AI 会更偏向功能而弱化设计。
-- **给参考、下禁令**：直接提供自己认可的网站让 AI 参考，并明确禁止使用毛玻璃等特效。
-- **自己出设计图**：由人负责设计，AI 只做实现方案，可显著降低 AI 味。
-- **参考来源**：可让 AI 先搜集同类热门网站，再从中挑选参考对象。
+- 开发/硬件向：乐鑫 ESP-Mosaico、墨水屏开发板、M5Stack Cardputer S3、Paper S3、直流稳压电源、T12 电烙铁（含耗材辅助工具可控制在 500 元内）、热成像仪、示波器（楼主已有 Keysight/R&S 及 Picoscope，对正点原子 DS100 感兴趣）。
+- 消费电子向：小米智能音频眼镜 2，二手约 300 多元；华强北智能手表（Apple Watch 外观、实为全功能 Android 机，产品列表见 https://github.com/weich22/weich22.github.io/issues/44 ）。
+- 相机方面有评论提到 ZV-E10 单机最低约 2300 元，但普遍反馈容易吃灰，与楼主预算和需求不符。
 
 ### 评论补充
-
-有回复指出，AI 默认暗黑模式是把程序员偏好强加给所有人，点名 commandcode 官网无亮色切换；也有人认为这更多是审美疲劳，AI 产出已超过多数人水平。另有开发者分享基于 Hugo 的自定义站点（https://swaw.com/zh ，源码 https://github.com/SwawHQ/banyan ），强调架构由本人参与，并做了 PWA 离线与按 URL 分类的预取策略（页面加载完成、可见、悬停等档位）。
+有用户长评力荐音频眼镜：若本身戴眼镜，它几乎是除强降噪外所有耳机的上位替代——佩戴舒适、续航一整天、镜架触控、全天候待命、麦克风与通知播报好用，配镜可走美团券约 30 元；缺点是比普通眼镜重约 15g、镜腿粗需几天适应、每晚要充电、轻微漏音（20cm 外才可闻）。另有用户反馈 FoloToy AI PASSPORT 到手一天体验“很拉”，选购需谨慎。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245763" target="_blank" rel="noopener noreferrer">让 AI 做网页，总是有一股 AI 味道。看到那种圆角、漆黑网站就本能的反感。</a></span><span class="topic-stats">回复 77 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245950" target="_blank" rel="noopener noreferrer">有什么有意思的 3C 产品推荐嘛</a></span><span class="topic-stats">回复 41 · 收藏 30</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245748" markdown="1">
+<details class="topic-card" data-topic-id="1245961" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">多年未联系亲戚开口借1万相亲，该不该借</span>
+<span class="topic-title">小区净水器还是家用RO净水器？成本与选购经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -63,29 +58,29 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主收到 20 多年没联系的亲戚 A 微信，开口借 1 万元用于回去相亲，承诺两个月内归还。楼主判断理由不充分、感情基础薄弱，与妻子商量后拒绝。母亲则称 A 是开玩笑，真借也会还。
+楼主长期用小区康基净水器，15L 桶约 2 天接一次，单次 4 元（折扣前），年实际花费约 500 元。想改家用净水器，但担心小型机达不到小区大设备效果、占地麻烦，需求是“不追求直饮但几乎无水垢”。评论普遍倾向家用，核心结论是：净化效果取决于 RO 膜，与机器大小无关。
 
 ### 关键要点
-- **借钱顺位逻辑**：多位回复指出，突然向久未联系的人开口，说明其身边更近的亲友已借过或不愿借，实际负债可能远超 1 万。
-- **信用借贷渠道**：有回复认为，花呗、借呗、信用卡及各类平台信用贷已很发达，仍四处借钱的人可能信用已破产，不借是人之常情。
-- **相亲借款的连锁风险**：相亲之后还有恋爱、彩礼、摆酒、买房，两个月还款不现实，可能拖成五年十年。
-- **关系价值判断**：有回复从原子化社会角度分析，传统宗族互助约束已弱化，久不联系的亲戚关系难以提供实际互助价值。
+- **效果看 RO 膜，不看体积**：多位回复指出前置滤芯只是保护 RO 膜，关键是一根 RO 膜，与设备大小无关。
+- **可量化验证**：有用户实测自来水 TDS 约 50，RO 过滤后为 1（娃哈哈纯净水为 0）；建议用 TDS 笔检测，卖净水器的厂家常赠送。
+- **成本参考**：通用滤芯整机便宜、滤芯更便宜；有回复称自组装约三四百元，诺华清源 0 陈水 800G 618 价 600 多元，通用 RO 膜一根可用数年、约一百多元，年换芯成本约 100 元。
+- **选购建议**：买支持通用滤芯的机型，避免后期专用滤芯被“挨一刀”；要求高可选双 RO。
 
 ### 评论补充
-多数回复支持楼主拒绝，认为除非救命钱，否则亲戚借钱应谨慎；也有人建议直接拉黑或消息免打扰。少数角度提醒：若确属亲人急难可量力无偿帮一点，但相亲消费不属于紧急情况。
+对小区净水器的主要质疑是卫生与维护：使用量大、滤芯需更频繁更换，而商家缺乏维护动力，建议先测 TDS。也有观点认为每年 500 元已够换滤芯，且自己接水费人。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245748" target="_blank" rel="noopener noreferrer">亲戚借钱问题</a></span><span class="topic-stats">回复 72 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245961" target="_blank" rel="noopener noreferrer">小区净水器 or 家用净水器选择？</a></span><span class="topic-stats">回复 42 · 收藏 8</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245781" markdown="1">
+<details class="topic-card" data-topic-id="1245951" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">闲鱼租SU7 Pro押金3000难追回：线下交易踩坑复盘</span>
+<span class="topic-title">FluxDown 桌面端从 Flutter 迁移到 GPUI 的架构实践</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -93,30 +88,30 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主在闲鱼租 SU7 Pro（350 元/天），被引导到平台外交易，押金 5000 元通过修车店收款码支付，还车当场退 2000，剩余 3000 元以“7 天后确认无违章”为由拖延，最终租车老板被抓，押金难追回。
+FluxDown 是一款免费多协议下载管理器（HTTP 多线程 / BT / 磁力 / HLS），定位为 IDM 替代品。作者将其桌面端界面从 Flutter 迁移到 GPUI（Zed 编辑器使用的 Rust UI 框架），并说明了原因与做法。
 
 ### 关键要点
-- **平台外交易是最大风险点**：对方加微信、发身份证和营业执照、走支付宝签电子合同，看似正规，但已脱离闲鱼风控。
-- **支付宝风险提示必须听**：首次扫码被支付宝拦截，楼主换码后支付成功，事后证明拦截有效。
-- **押金不要付给个人或第三方码**：评论建议现场收车退押金，或走一嗨、神州等直营平台，聚合平台对服务商约束力弱。
-- **维权路径**：派出所按经济纠纷不受理，建议法院起诉；线上法院小程序立案材料被打回，需重新提交。
-- **反查线索**：通过修车店收款码找到店铺，得知老板已被抓，多名租客押金未退。
+- **迁移动机**：原 Flutter 界面通过 FFI 与 Rust 引擎通信，每加功能需 Rust、Dart 各写一遍并生成绑定；界面与引擎同进程，界面故障会拖垮下载；常驻下载器不需要界面进程长期占用内存。
+- **新架构**：拆为三个进程——`fluxdown-desktop`（GPUI 界面）、`fluxdown-agent`（常驻托盘、账户、云同步、设备协同）、`fluxdownd`（纯下载核心）。
+- **收益**：关窗后界面进程退出、下载继续；界面崩溃不影响任务；进程间走本机 JSON-RPC 并互相鉴权。
+- **服务端复用**：NAS/服务器可只跑 `fluxdown-agent --server` 加 `fluxdownd`，用内置 Web 页面管理，与桌面端共用同一套核心和接口。
+- 官网 https://fluxdown.zerx.dev ，GitHub https://github.com/zerx-lab/FluxDown 。
 
 ### 评论补充
-有回复指出租车行业套路多，除押金外还有出险、暗病赔偿等；也有用户分享黑中介被骗 9 千的经历，认为 3000 元买教训。楼主承认贪便宜，提醒支付宝提示要听。
+有用户反馈 macOS 上输入框显示 Windows 路径、左侧菜单点击 webhook 时区域异常收窄、设置页非模态等 UI 问题，作者请求提供录屏复现。另有用户询问能否支持下载 YouTube 等流媒体，作者回复将在完善移动端和浏览器插件后支持。部分用户认可 GPUI 方案的内存占用表现。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245781" target="_blank" rel="noopener noreferrer">闲鱼租了辆 SU7 Pro，押金 3000 要不回来，对方人在里面了</a></span><span class="topic-stats">回复 51 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245951" target="_blank" rel="noopener noreferrer">FluxDown（免费的 IDM 替代）桌面端从 Flutter 迁移到 GPUI 了，聊聊为什么和怎么做的</a></span><span class="topic-stats">回复 11 · 收藏 12</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245709" markdown="1">
+<details class="topic-card" data-topic-id="1245975" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">两轮车安全骑行：盲区减速、ABS/TCS与轮胎选择</span>
+<span class="topic-title">Claude 账号遭批量封禁：申诉与退款经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -124,30 +119,30 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主帖从摔车讨论出发，提出两轮车安全骑行的三条原则：所有视觉盲区提前减速、所有路口提前减速（右转汽车也可能突然出现）、考虑更换更宽的轮胎。评论进一步补充了可操作的装备、习惯与风险点。
+多名用户报告 Claude 账号在短时间内被 Anthropic Safeguards Team 以违反 Usage Policy 为由封禁，邮件称经内部调查发现可疑信号，需登录 claude.ai 进入申诉页处理。楼主收到两封内容相同的通知，正在填写申诉。
 
 ### 关键要点
-- **主动安全配置**：在预算内尽量配齐 ABS、TCS，选择抓地力好的大厂轮胎，注意晴雨胎差异，不要只听修车行推荐。
-- **骑行习惯**：保持高度警惕，提前预判；路口、盲区减速；不抢黄灯；不压道路标线；掉头、转弯、变道先看后视镜再回头确认；等红灯时车头不要越过停止线。
-- **被动防护**：头盔要合适，最好全盔，戴手套；夜间及时开灯，检查刹车和轮胎磨损；雨雪天气不骑车。
-- **保险**：经常两轮出行建议购买保险；黄牌摩托交强险必备，三者险能上则上，不要裸骑。
-- **速度控制**：25km/h 以内反应空间更充足；城市内 60km/h 已属偏快，刹车距离通常比四轮长。
+- 封禁理由为“可疑信号”触发 Usage Policy 违规，未给出具体行为细节。
+- 多位回复者反馈申诉几乎无解：`olddogs`、`GG2`、`guanhui07` 均表示申诉未通过或基本不可能解封。
+- 封禁并非个例，`zencitta`、`Y2hpbG9o` 称同日早上被封；`Y2hpbG9o` 通过 Google Play 购买且已使用数年。
+- 退款成为主要止损手段：`largep` 已向信用卡公司申请退款，`V2Try` 建议借机测试能否退款，`WaldenHorizon` 反映刚续费即被封且未获退款。
+- 有用户讨论规避思路，如用美国服务器远程登录、保持工作日同等使用负荷，但均属个人猜测，无官方依据。
 
 ### 评论补充
-有回复指出，很多两轮车主没有汽车驾驶经验，意识不到自身行为的危险；夜间不开灯、穿深色衣服、停在路中间看手机等行为尤其危险。也有观点认为，正规电摩走机动车道可能比非机动车道相对安全，但需以遵守规则和高度注意力为前提。关于换胎，原胎是否还有用未形成明确结论。
+关于“肉身在国内是否基本无法使用”存在分歧：`ZettarYuFan` 提出疑问，`eventlooped` 认为仍有未被封的国内用户。整体共识是封禁风险高、申诉成功率低，建议提前做好退款与备用方案准备。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245709" target="_blank" rel="noopener noreferrer">两轮车安全行驶有感</a></span><span class="topic-stats">回复 46 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245975" target="_blank" rel="noopener noreferrer">号被封了……</a></span><span class="topic-stats">回复 29 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245697" markdown="1">
+<details class="topic-card" data-topic-id="1246029" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">年跑2.68万公里油车换电车四年成本测算与讨论</span>
+<span class="topic-title">横琴澳资AI Agent初创招募CTO：零薪16%股权</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -155,30 +150,29 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主每天通勤 100 公里，年行驶约 26800 公里，按油车每公里 0.6 元、电车每公里 0.1 元测算，四年总成本几乎持平（油车约 11.3 万，电车约 11.3 万），因此纠结是否换电车。
+横琴澳资初创团队招募 AI Agent 方向技术联合创始人（CTO），主打云端优先的移动端跨平台消费比价助手，前期零薪，给 16% 股权（4 年归属、1 年 Cliff），融资或资助到账后转市场化高薪。
 
 ### 关键要点
-- 楼主测算：油车年花费约 28296 元（油费 19296 + 折损 6000 + 保养 1000 + 保险 2000）；电车按 12 万购车、4 年残值 4 万，四年电费 10720 + 保养 2000 + 保险 20600 + 折损 80000 ≈ 11.3 万。
-- 结论是“电车省油不省钱”，但两者体验不同：开四年新车与开四年旧车不可直接等同。
-- 评论普遍认为有家充、里程高时电车更划算，且电费便宜后年里程往往上升。
-- 有回复指出测算漏洞：油车残值 3 万应计入回血，电车 4 万残值偏乐观，年里程按 10 个月算不严谨。
-- 关于固态电池，评论认为短期内只会上高端车型，15 万以下车型不必等。
+- **产品设想**：用户发一张图或一句话，云端 Agent 集群数秒内完成跨平台抓取、优惠折算与品质过滤，输出全网实付最低价并辅助下单。
+- **技术职责**：Serverless + Playwright/Browserless 无头浏览器容器池、动态住宅 IP 与指纹伪装、VLM 打码、短信/人脸环节的人机协同接管。
+- **CEO 承诺**：订阅制+导购佣金+节约分成的变现路径，澳门 FDCT 资助、横琴深合区补贴与创业大赛奖金，以及 Pre-Seed/Seed 融资。
+- **门槛**：熟悉 Python/Node.js 高并发，有无头浏览器、爬虫或 AI Agent 经验，大湾区/澳门高校或大厂背景优先。
 
 ### 评论补充
-丰田混动被提及为折中方案，每公里约 0.3–0.4 元，但纯电家充约 0.1 元/公里仍有明显差距。另有建议考虑二手电车，因电车首一两年贬值最狠，次新二手更划算；也有观点认为二手车市场整体断崖下跌，油车保值率同样不可靠。
+高赞回复普遍质疑零薪模式，认为有该能力者无需此团队。一条长评给出可复用的技术判断：跨 5–10 平台需并行等量无头浏览器会话，Browserless 约 40 并发 $140/月仅能服务 4–8 用户，冷启动叠加代理初始化会让导航超时升至 15 秒以上，“数秒完成”与成本、延迟存在硬矛盾；2025 年《反不正当竞争法》第十三条第三款禁止避开技术管理措施获取他人数据，住宅 IP、指纹伪装、VLM 打码属典型规避行为，合规路径只有官方 API 授权或用户本地代理；长链条多步推理会出现价格失效与逻辑漂移，需外部状态机与人工兜底。另有建议改走 part-time + 薪资、或先自建 MVP 再融资。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245697" target="_blank" rel="noopener noreferrer">纠结很久的油车换电车，大家来看看这样算合理不</a></span><span class="topic-stats">回复 68 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246029" target="_blank" rel="noopener noreferrer">[横琴｜澳资初创｜ AI Agent] 寻找技术联合创始人，前期零薪， 16%股权（4 年归属）</a></span><span class="topic-stats">回复 20 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245769" markdown="1">
+<details class="topic-card" data-topic-id="1245930" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">开发设计文档与流程图工具：ProcessOn 替代方案</span>
+<span class="topic-title">用 LZMA2 与 7z 制作可自包含的递归压缩包</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -186,32 +180,31 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-发帖人用 ProcessOn 画设计文档中的流程图、时序图，但免费版有数量限制，想找替代工具。评论共识是：设计文档仍要写（用于和领导过技术方案），但画图环节已可交给 AI 生成代码化图表。
+作者用 ZIP Quine 尝试让压缩包包含自身，被 DEFLATE 的 32KiB 回溯窗口卡死；转而借助 AI，两小时内基于 LZMA2 与 7z 做出可递归的压缩包，博客压缩包内含全站内容及该压缩包本身，理论上可无限解压套娃。文中还给出 CRC32 求解代码（高斯消元法版与扩展欧几里得版）以及 tar.xz 版本生成器。
 
 ### 关键要点
-- **AI 生成图表**：让 AI 输出 `mermaid` 或 `plantuml` 语法；也可让 Claude Code 直接生成 drawio 格式文件，再用 drawio 打开微调并导出 PNG。
-- **本地/免费工具**：`draw.io`、tldraw、excalidraw（可存本地）、figma。
-- **复杂图痛点**：mermaid 画复杂图时连线乱飞、样式丑，有人因此改用 drawio-skill，飞书文档支持导入该格式。
-- **文档协作**：企业微信文档体验差，只能画好截图贴入；有回复建议用飞书云文档，让 Claude Code 通过 lark-cli 操作并生成链接。
-- **方案形态**：有回复推荐先出 HTML 格式方案（含流程图、验收步骤勾选），审核通过再实作，比 Markdown 更好用。
+- ZIP Quine 的瓶颈是 DEFLATE 的 32KiB 回溯窗口，LZMA2 可绕开该限制。
+- 实现依赖 AI 生成 CRC32 求解代码，作者借此讨论“组合创新算不算创新”。
+- 作者认为 LZ77 家族算法理论上都可行；博客压缩率约 50%，产物约 20MB，尚未触及 CF Pages 的 25MB 上限。
+- 若需真正压缩，可在 Quine 外层再套一层压缩，作者实测后确认不影响需求。
 
 ### 评论补充
-- 有人质疑是否真需要写文档，发帖人确认要写并需与领导评审。
-- 有回复提到用 opus 5 根据 PRD 写设计方案“不像说人话”，说明 AI 生成方案质量仍待人工把关。
-- 相关链接：draw.io（http://draw.io/）、archify（https://github.com/tt-a1i/archify）、drawio-skill（https://github.com/Agents365-ai/drawio-skill）、mermaid 在线编辑器（https://studio.meowv.com/mermaid）。
+有回复指出 zstd 并不小众，浏览器请求头已含 `zstd`，安装命令后可与 gzip 一样配合 tar 使用，作者承认信息过时。另有讨论提出“压缩包包含略大副本并逐层变大”的变体，作者解释压缩后无法引用已解压明文，必须存两份压缩数据，因此不划算。
+
+原文与下载：https://mabbs.github.io/2026/10/01/quine.html 、https://mayx.eu.org/MayxBlog.7z
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245769" target="_blank" rel="noopener noreferrer">想问一下大家现在开发还要写设计文档吗？设计文档中要用到的一些流程图，时序图都是用什么工具画的呢？</a></span><span class="topic-stats">回复 28 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245930" target="_blank" rel="noopener noreferrer">AI 让压缩包包含自己？一个“完整”博客压缩包的诞生</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245678" markdown="1">
+<details class="topic-card" data-topic-id="1245983" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">2026房贷贴息政策：条件、贴息算法与争议</span>
+<span class="topic-title">DeepSeek 跑无人值守编程 agent：20 个 PR 中位数 $0.125</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -219,29 +212,33 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主帖称 2026 年 10 月 1 日起实施居民购房贷款贴息政策，暂定 1 年，实行“免申即享”，符合条件者直接在办理房贷的银行享受贴息。
+作者用 DeepSeek 的 `deepseek-flash`（V4.1-Flash）驱动自研 Orbi 交付链路，统计 9 月 22–24 日合并的 20 个 PR，覆盖写代码、评审、返工到合并的全链路 token 成本。
 
 ### 关键要点
-- **适用条件**：新发放商业性个人住房贷款购买首套住房（新房、二手房均可），不含商转公及公积金贷款；建筑面积 120 平方米及以下，房屋总价 150 万元及以下；贷款须在 2026 年 10 月 1 日（含）之后放款。
-- **贴息算法**：评论给出公式为 `min(贷款金额, 100W) * 1% * min(期限, 5)`，即贷款金额与 100 万取小、期限与 5 年取小。
-- **测算参考**：有回复称等额本息贷 100 万 5 年约省 3.12 万，80 万约省 2.5 万，50 万约省 1.56 万；等额本金贷 100 万 5 年约省 4.7~4.9 万。
-- **争议焦点**：主帖认为该政策对租房者和其他购房者不公平；评论多认为补贴面向刚需，租房者反应平淡，也有声音指出存量房贷用户被排除在外。
+- **成本**：非高峰中位数 **$0.125/PR**，最贵 $0.417；高峰价格翻倍，中位数 $0.249，最贵 $0.834。
+- **用量**：中位数约 **1061 万 token**，耗时约 60 分钟，调用模型 156 次。
+- **便宜的原因**：**97.1% 的 token 是缓存命中**。DeepSeek 缓存命中 $0.003/百万 token，未命中 $0.15，相差 50 倍；agent 反复读同一批文件和对话，缓存利用率高。
+- **踩坑**：上下文窗口最初只配 131K，Pi 运行时在约 115K 时压缩会话，只保留最近两万 token。22 日以来 77 个交付会话中 32 个被压缩，导致已读文件和测试输出丢失、需重读重跑；把窗口配满 1M 后不再出现。
+- **时间套利**：高峰为工作日北京时间 9–12 点、14–18 点；中国法定节假日不计高峰，国庆全天低价。
 
 ### 评论补充
-有回复认为政策意在刺激新增贷款而非减轻存量房奴负担；也有人担心利好一二线外区域、利空一线城市。上述测算与公式来自评论，非官方口径，需以银行实际执行为准。
+作者给出 provider 配置：`baseUrl` 为 `https://api.deepseek.com/v1`，`api` 用 `openai-completions`，key 走环境变量 `$DEEPSEEK_API_KEY`，模型 `deepseek-flash` 的 `contextWindow` 必须填满 `1000000`，否则会反复压缩。配置文件在仓库 `templates/pi-providers/deepseek.json`，自托管免费。
+
+### 限制
+样本仅限作者自有仓库（Python、CI 齐全、Issue 描述清晰），换仓库数字会变；整笔账依赖缓存，换成不支持缓存的接口会显著变贵。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245678" target="_blank" rel="noopener noreferrer">不患寡而患不均- 房贷贴息政策 2026</a></span><span class="topic-stats">回复 59 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245983" target="_blank" rel="noopener noreferrer">用 DeepSeek 跑无人值守的编程 agent，记了 20 个合并 PR 的账：中位数 $0.125 一个</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245761" markdown="1">
+<details class="topic-card" data-topic-id="1246054" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">Hermes Agent 使用场景与模型搭配经验汇总</span>
+<span class="topic-title">AdGuard家庭版终身订阅约60元，9设备授权</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -249,29 +246,32 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主题询问 Hermes Agent 是否仍有人使用、常见用途及高性价比模型搭配。回复显示它仍有稳定用户群，主要作为个人助理、部门级 Agent 和自动化任务工具，模型搭配以 DeepSeek 系列为主。
+StackSocial 上架 AdGuard Family Plan 终身订阅，家庭版支持 9 台设备永久授权。原价 ¥74.00 CNY，使用折扣码 `LIFETIMEO` 可再减 20%，最终到手价约 ¥59.20 CNY。发帖者声明无返利链接。
 
 ### 关键要点
-- **典型用途**：NAS 上语音下载歌曲电影、对接 115；公司部门级 Agent 连接 Lark 做 Q&A；个人助理提醒、记录、定期查股票；飞书待办、查资料、写文档；Discord 推送 AI 新闻与 V2EX 热点；辅助运营与用户反馈回复。
-- **模型搭配**：多人推荐 `DeepSeek v4.1 flash`（快且便宜），也有人同时接 codex 反代与 DeepSeek，或使用第三方自部署 API 避开高峰期收费。
-- **重度用户经验**：可用 `no_agent` 模式跑 5 分钟一轮的监控脚本而不烧 token；桌面版浏览器便于手动登录后自动签到、追踪价格；不同设备间可通过 peer/dm 互相沟通。
-- **对比与风险**：有用户认为它比 OpenClaw 稳定、发版快，但近期 Python 3.11 升 3.14 滚动升级出过问题；也有人因“太重”“手太长”而卸载。
+- 商品：AdGuard Family Plan 终身订阅，9 设备授权
+- 平台：StackSocial
+- 折扣码：`LIFETIMEO`（额外 8 折）
+- 最终价格：约 ¥59.20 CNY
+- 链接：https://www.stacksocial.com/sales/adguard-family-plan-lifetime-subscription
 
 ### 评论补充
-部分用户改用 openclaw 做财务数据导入导出与飞书审批自动化；也有人只用 CLI。是否部署在飞牛等 NAS 上存在安全顾虑，需自行评估。
+有用户反馈此前以 8.8 美元购入，并称 AdGuard 配合 Surge 代理使用，可拦截网页弹窗、强制启用 ECH，网络体验明显改善。
+
+支付环节存在分歧：发帖者称国内 Visa 可直接付款，但多位用户反馈平安、招商银行卡付款失败，也有用户表示招商可用、另一用户表示招商不行，实际能否支付因卡而异，需自行尝试。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245761" target="_blank" rel="noopener noreferrer">Hermes Agent 现在还有人用吗？</a></span><span class="topic-stats">回复 30 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246054" target="_blank" rel="noopener noreferrer">AdGuard Family Plan 终身订阅优惠,9 设备永久授权家庭版 / 60 元</a></span><span class="topic-stats">回复 7 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245741" markdown="1">
+<details class="topic-card" data-topic-id="1245988" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">10年前有买房钱却租了10年合租房：买房与租房的真实账本</span>
+<span class="topic-title">租房两人直饮加做饭净水器怎么选：成本与方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -279,30 +279,30 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主 10 年前已有勉强够首付的钱，因单身、不考虑结婚而选择不买房，住了近 10 年合租房。互联网红利期攒下的钱部分套在 A 股，港美股有盈利，目前大部分资金放在 SGOV 和国内债基避险，利息已覆盖开支并有结余。
+租房两人、直饮加做饭，目前喝瓶装百岁山、做饭用大桶怡宝，年支出约 2500 元。发帖人希望找到拆装方便、能同时满足直饮和做饭的净水器，并关心价格。评论给出的方向集中在台上式 RO 机、带压力桶的 RO 机，以及继续买桶装水的成本对比。
 
 ### 关键要点
-- **不买房的代价**：幸福感低，早上抢卫生间、休息日只能窝在房间、做饭不自在。
-- **不买房的好处**：几乎没有失业焦虑；有钱后更自信，敢约条件好的女生。
-- **当前纠结**：若结婚买房存款将清零（不贷款），对这段关系也犹豫。
-- **评论中的算账模型**：30 万首付买 100 万房，贷款 70 万、30 年、年利率 2.5%，月供约 2766 元，30 年总现金支出约 129.57 万；若租房并把 30 万按 2.5% 复利理财，30 年后约 63 万。核心是比较 30 年后房屋净价值与 63 万金融资产。
-- **反方补充**：现实中 100 万房子的租金通常到不了 2766 元，约 1500 元封顶，模型需修正。
+- **台上式 RO 机**：有即热、制冰型号，搜索即可找到，适合租房免安装场景。
+- **通用滤芯方案**：阿里巴巴上找反渗透 400G 以上、5 级 10 寸通用滤芯的机器，缺点是后续换芯效果变差且需要动手能力。
+- **带桶 RO 机**：50G 带桶即可，但桶别买 30 元廉价橡胶桶，应选 200 元左右金属外壳、内胆为 PE 塑料的桶，水压更高；否则直接上 1200G 以上。
+- **做饭用水**：有回复认为煮饭、做汤多接一会儿即可，炒菜用量小，未必需要专门大流量。
+- **成本参考**：道尔顿直饮过滤器初期约 2000 元，每年滤芯约 300 元；若用量少，买低于 1 元/升的桶装水可能比装净水机更省心。
 
 ### 评论补充
-多位用户分享经历：有人 16 年买房、21 年卖、今年再买；有人 15 年一线买房，22 年最高翻 3 倍，现价仍翻一倍多，且顺利结婚生娃；也有人 19 年北京买房后先涨 100 万再跌 200 万，但因贷款少、已结清，对下跌无感。共识是：若需高杠杆或只有首付，不买风险更小；若资金充裕且是刚需，买房提升居住体验。另有建议：既然有全款能力，可先整租改善生活质量，而非继续合租。
+有用户推荐史密斯净水器，也有人建议在拼多多等平台买桶装水。发帖人自己补充年用水约 2500 元，可作为是否装机的成本基准。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245741" target="_blank" rel="noopener noreferrer">如果 10 年前已经有买房钱，你会选择买房吗？ 我选择住了 10 年合租房</a></span><span class="topic-stats">回复 45 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245988" target="_blank" rel="noopener noreferrer">关于家用净水器,有能满足我这种情况的吗?</a></span><span class="topic-stats">回复 10 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245764" markdown="1">
+<details class="topic-card" data-topic-id="1246061" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">自研自动化工具要不要上报老板？V2EX 讨论与风险清单</span>
+<span class="topic-title">上一代个人 Agent 与新一代 Bot/Muse/Dots 的取舍</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -310,29 +310,29 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主基于同事的重复工作流程做了一套自动化工具，第一版已能稳定产出所需数据，但尚未与同事对接。他纠结是否向老板演示：主动请缨大概率没有奖励，还要持续跟进维护，于是倾向“自娱自乐”。
+楼主认为上一代个人 Agent 被低估，在“有限度让 AI 干活、不追求主动开盒”的前提下，体验不输新一代 Bot/Muse/Dots/Cue。他点名三款：智谱 AgentMore 提供完整持久云端环境、记忆系统、移动版与网页版，每天有免费额度；智谱 AutoClaw 体验较差但支持 BYOK，网页读取工具可翻墙而应用本身不用翻墙；字节扣子同样支持 BYOK，不订阅几乎没法用，但加钱可控制带 GUI 的机器。核心质疑是：这一代个人 Agent 多数不让选模型，而多数人并不真在乎 VPS 配置。
 
 ### 关键要点
-- **上报的收益不确定**：有回复认为可写进周报/月报，让领导主动发现；若领导重视绩效与年终，持续跟进才有意义。
-- **风险更具体**：可能被同事视为抢饭碗、被追责维护、被上级拿去邀功后继续压榨，甚至出问题由作者背锅。
-- **折中做法**：只做对自己负责部分有用的工具，工作量不大的写进日报，其余不公开；或等自己调岗/升任该部门负责人后再拿出来当利器。
-- **现实案例**：有回复称用 AI 做了给另一岗位省时的系统，只申请软著报销 token，不对外推广；也有人做了嵌入式云 IDE 把几天工作压到几小时，但上级并不采用。
+- 上一代产品在**持久云端环境、记忆、BYOK、免费额度**上仍有可取之处。
+- 新一代产品被指限制模型选择，卖点偏向开箱即用而非可配置性。
+- 评论补充：新一代本质是 **Always on 的主动式 agent**，与上一代可能不是同一产品形态。
+- 独立 VPS 的价值在于**标准环境、安全隔离与免配置**，能降低下沉用户门槛。
 
 ### 评论补充
-多数回复倾向“别上报、自己偷偷用”，核心理由是权责不对等：非管理岗没有推广义务，收益归公司、风险归个人。少数意见主张主动推广以增强存在感，但前提是领导会打绩效、影响年终。另有提醒：若工具几天就能被 AI 复现，上报反而暴露工作不饱和。
+有回复指出，本地机器配置普遍高于免费 VPS，但 agent 曾多次误删用户数据，且本地运行会占用机器；标准环境可避免环境不可控、维护成本高的问题。另有观点认为，厂商做这类产品是因为“有一台能跑 agent 的 PC”门槛太高，非 coding 领域增长乏力。隐私问题被提出但未展开。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245764" target="_blank" rel="noopener noreferrer">做了一个可以提升全公司效率的东西，你会告诉老板吗？大概率没奖励。</a></span><span class="topic-stats">回复 30 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246061" target="_blank" rel="noopener noreferrer">Grok Bot/Muse/Dots 这些龙虾类产品卷土重来，我想给上一代产品说几句公道话</a></span><span class="topic-stats">回复 9 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1245878" markdown="1">
+<details class="topic-card" data-topic-id="1245972" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">在职个人开发者如何申请个体工商户做小程序</span>
+<span class="topic-title">拼多多 Mac mini M6 降至 4899，5299 购买者可申请 300 价补</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -340,309 +340,22 @@ data_url: "/data/2026-09-30.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖作者在做小程序，因个人主体账户无法开发 AI 相关功能、限制较多，想注册个体工商户，但缺乏经验，询问在职状态下如何办理。评论给出了流程、时间与风险提示。
-
-### 关键要点
-
-- **在职与个体户并不冲突**：多位回复者表示只要公司没有明确约定或限制，就可以办理（回复 18142894、18142940、18142949）。
-- **办理渠道**：可去市监局/镇工商所领材料，多地已支持网上办理；深圳网上填资料后两三天个体户执照即可快递到手（18142927、18143129、18143132）。
-- **流程与耗时**：有回复者给出全流程攻略 http://accu.cc/content/misc/self_employed_business/ ，称一般一个月内办好；若只为上架 App，完成第一步约 2 天即可，在职走前三步约一周（18142931、18142935、18142937）。
-- **风险提示**：有回复提醒不要自己办，失业时可能影响领取失业金；也有人认为个体户不能上架国内应用商店（18142926、18142940）。
-- **替代方案**：用家人名义办理，但作者担心账户与个体户信息不一致会带来麻烦（18142870、18142941）。
-
-### 评论补充
-
-注销是否支持简易网上办理被提及为痛点（18142957）。整体共识是办理门槛不高，但需先确认与公司的约定及对失业金等权益的影响。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245878" target="_blank" rel="noopener noreferrer">个人开发者，在职如何申请个体工商户</a></span><span class="topic-stats">回复 23 · 收藏 4</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245724" markdown="1">
-<summary>
-<span class="topic-rank">12</span>
-<span class="topic-title">J4125 PVE 爱快+istore 分流方案与升级建议</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-楼主在 J4125 上跑 PVE，虚拟机含 iKuai 与 iStore，遇到 iStore 内 pw2 无法指定分流、网关指向 iStore 后国内流量也走代理的问题，并询问可玩性升级方向。评论给出了多种分流与替代思路。
+拼多多首发的 Mac mini M6 出现降价，最低到手价 4899 元。此前以 5299 元购买的用户，可联系平台专属客服申请 300 元价补，说明降价原因后即可获得 300 元无门槛券。
 
 ### 关键要点
-- **爱快侧分流**：在 iKuai 中做国内外分流，仅把国外流量转发到旁路由，参考 [透明网关替代方案](https://www.jackiewu.top/article/best-alternative-solution-for-transparent-gateway)。
-- **VLAN 分网段**：爱快设 VLAN，一个网段专走出国（端口分流下一跳指向 iStoreOS），另一个网段走国内，配两个 SSID 绑定。
-- **多线路负载均衡**：iStore 拨一路号，其 LAN 作为爱快 WAN1 并设为默认网关，WAN2 再拨一路，配合协议分流与域名分流。
-- **简化思路**：普通用户可只把需翻墙设备的网关指向 iStore，其余指向爱快，比让爱快全量流量绕行更简单。
-- **替代工具**：可试 Daed 透明网关；小米 BE7000 装 shellcrash，自带 DNS+GeoIP 分流，国内流量不走用户态。
+- 价格因账号而异：有用户看到 5299、4999，也有人看到 4899，差异来自“拆封补贴”额度（300 或 400 元）与百亿补贴领券。
+- 申请价补时，可提供价格截图给客服；若遇到机器人回复，发送“12315”可较快拿到补偿券。
+- 有用户反馈价格继续下探至 4699，已购者可再次申请退差价。
+- 若账号被判定为“黑号”，可能无法领取相关优惠券。
 
 ### 评论补充
-有用户反馈 N100 做 All in one 易过热崩溃，加风扇或换散热可缓解，也有人怀疑内存问题建议跑内存测试。另有 J4125 方案将网络与 NAS 分离：PVE 上跑 RouterOS 拨号、alpine 内 Docker 部署 AdGuardHome/Caddy 做 DNS 分流与反代、paopaogateway 作代理网关，按域名走不同节点。
+关于产品本身，有评论指出 M6 版 Mac mini 的 SSD 不可插拔，硬盘升级便利性不如 M4 版；16GB 内存对部分用户偏紧，期待更大内存版本。另有用户认为 M4 Pro 用户没有必要升级到 M6。
+
+＞ 注意：价格与补贴为个人账号实测，存在千人千面和时效性，实际以平台页面与客服答复为准。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245724" target="_blank" rel="noopener noreferrer">all in one 家庭网络求指导</a></span><span class="topic-stats">回复 22 · 收藏 4</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245889" markdown="1">
-<summary>
-<span class="topic-rank">13</span>
-<span class="topic-title">AI 排查代码时输出难懂，如何让模型说人话</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-主帖提出一个常见痛点：用 AI 写项目、再让 AI 排查问题时，AI 的回复读起来很费劲、难以理解。评论区普遍认同，并给出多种可操作的缓解办法，核心思路是通过提示词约束 AI 的表达方式。
-
-### 关键要点
-- **要求降维解释**：直接说“把我当成小学生再解释一遍”。
-- **约束用词与句式**：明确让 AI 避免生造词汇和奇怪句式；有回复建议在 Memory 中记录“要说人话、不要造新词，无法用中文表达时用英文原文”，称可减少约 90% 的莫名新词。
-- **要求具体化**：让 AI“言之有物”，把内容关联到具体目录、文件、逻辑机制和通用术语，无法对应具体事物时尽量举例。
-- **提升视角**：AI 爱堆细节，可让它“up 一下提升视角”。
-- **说明自身知识边界**：告诉 AI 自己懂哪些、不懂哪些，便于针对性输出。
-
-### 评论补充
-多位回复认为这与模型有关：GPT 容易过度抽象、越说越长；Gemini 输出相对好懂，有回复称“Gemini 就好一百倍”，也有建议换模型或换 AI。另有观点认为，问题本身由自己制造，若理解轻松反而说明没暴露问题。
-
-### 风险与限制
-上述效果均为个人主观体验，缺乏系统对比数据；模型版本与具体表现可能随时间变化，需自行验证。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245889" target="_blank" rel="noopener noreferrer">AI 写的项目，让 AI 排查问题。但是有没有感觉沟通过程中读 AI 说的话很费劲，很难懂。。。</a></span><span class="topic-stats">回复 20 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245747" markdown="1">
-<summary>
-<span class="topic-rank">14</span>
-<span class="topic-title">国庆值班日补200元，法定三倍工资与留证问题</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-石家庄一名税前月薪 1.3 万的私企 Qt 程序员被要求填“自愿值班申请表”：10 月 1—3 日每天多给 200 元，后 4 天每天多给 100 元。楼主认为法定节假日本应给三倍工资，但因前两天堵车，考虑值两天。
-
-### 关键要点
-- 多数回复认为该补贴偏低，有回复直接指出“才 200 块一天”；也有回复提醒不少公司值班完全没有补贴。
-- 关于法律标准，有回复主张法定节假日应按三倍工资执行，并质疑“自愿值班表”不能规避三倍工资义务。
-- 可复用做法：保留邮件、截图和上班记录，作为后续主张加班费的证据。
-- 值班与加班性质不同：有回复称值班多为在线待岗、电话畅通，实际工作量小，可摸鱼；但出问题找不到人会被追责。
-- 有回复提到曾以法定假日一天换三天调休、其他假日一天换两天调休，攒假后连休出游。
-
-### 评论补充
-评论分歧集中在“值不值”：一方认为私企值班没必要、补贴太低；另一方认为若只是在线待岗、闲着无事，多挣一点是一点。也有回复强调应要求调休加三倍工资，而非仅现金补贴。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245747" target="_blank" rel="noopener noreferrer">国庆节公司让值班</a></span><span class="topic-stats">回复 25 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245875" markdown="1">
-<summary>
-<span class="topic-rank">15</span>
-<span class="topic-title">海信电视按时间段屏蔽自带首页的树莓派+ADB方案</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者为海信 E8Q pro 电视搭建了一套按时间段控制首页的方案：上学时段（8:00–15:00）放行电视自带首页供老人使用，放学后及整个周末屏蔽首页，避免孩子接触游戏直播等垃圾内容。
-
-### 关键要点
-- 联系客服可关闭开机广告，并设置默认进入上一次输入源；购机赠送的首页 VIP 内容留给老人。
-- 电视安装 Projectivy 精简桌面，只保留文件管理、LocalSend、115 网盘和 SmartTube（仅留“儿童”等标签页）。
-- 用 Projectivy 无障碍服务替换首页会导致遥控器音量失效，该方案不可行。
-- 改用 ADB AppControl 定位首页包 `com.jamdeo.tv.vod`，通过 `adb shell pm enable/disable` 禁用后电视自动进入 Projectivy。
-- 树莓派 2b+ 运行嗅探守护服务，监听 ARP 广播，在电视开机/唤醒时按时间段规则与放行标记静默校准桌面状态。
-- 树莓派另起 HTTP API 服务接收手机指令执行 ADB 操作，并管理放行标记 `/tmp/tv_override.flag`；再 vibe coding 一个安卓 APK，让家人手机可临时开关首页。
-
-### 评论补充
-有回复认为可做成小商业机会：刷机顶盒预置此类教育成长环境卖给家长。
-
-整体方案依赖科学环境与树莓派常驻，适合有一定动手能力的家庭参考。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245875" target="_blank" rel="noopener noreferrer">给客厅电视整了一个很有趣的控制应用</a></span><span class="topic-stats">回复 2 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245719" markdown="1">
-<summary>
-<span class="topic-rank">16</span>
-<span class="topic-title">App Store 已下架应用如何不覆盖数据恢复安装</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-用户换机迁移后，桌面上的已下架 App 处于待下载状态，点击提示“已下架”，且不想覆盖原有重要数据、不越狱。评论给出的共识是：优先走官方购买记录，其次才考虑第三方工具。
-
-### 关键要点
-- **官方途径**：在 App Store 点用户头像进入“已购买/购买记录”，找到该 App 后点击下载，无需登录第三方网站。
-- **限制**：有回复指出，只有曾付费购买过的 App 才较可能保留在购买记录中；免费获取后下架的可能直接消失。
-- **第三方工具**：可用 iMazing 下载后通过 AirDrop 传到手机；或用 ipatool 下载 IPA，再用爱思助手安装；历史版本下载可试 Pastel。
-- **强制下架场景**：有用户用手机上的 Scripting 配合 IPA 工具箱脚本，凭 App ID 找回了被强制下架的 vvebo。
-
-### 评论补充
-对“爱阅书香”这类情况，有回复认为上述方法可能无效。整体建议是：先查购买记录，找不到再考虑第三方偏方，并注意登录 Apple ID 的第三方网站存在账号风险。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245719" target="_blank" rel="noopener noreferrer">苹果商店下架的 app 怎么恢复下载到手机上？</a></span><span class="topic-stats">回复 9 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245753" markdown="1">
-<summary>
-<span class="topic-rank">17</span>
-<span class="topic-title">Android 代理客户端选型：SFA、FlClash、CMFA、NekoBox 对比</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-一份针对 Android 代理客户端的静态选型评估，对比 SFA、FlClash、CMFA、NekoBox 四个 App，并澄清 sing-box 与 Verge-rev 分别只是内核和桌面项目，不参与 Android 排名。结论基于代码抽样（SDK、Manifest、模块、依赖线索）与公开信息交叉验证，非全量审计或 APK 一致性证明。
-
-### 关键要点
-- **综合排名**：SFA（Android 16+ 适配与内核同源最强、无默认遥测）＞ FlClash（Clash 生态体验与 target 36 最佳）＞ CMFA（原生多模块最扎实、VPN 路径成熟）＞ NekoBox（相对落后）。
-- **SDK 适配**：SFA compile/target 37、min 24；FlClash 36/36/23；CMFA 35/35/21；NekoBox 35/35/21。
-- **遥测**：SFA、CMFA、NekoBox 抽样未见 Firebase 等；FlClash 的 Crashlytics 默认关闭、可手动开启。
-- **供应链风险**：NekoBox 官方 README 明确 Google Play 版自 2024-05 起被第三方控制、非开源，勿下载；只从 GitHub Releases / F-Droid 获取并验签。
-- **共性高危面**：无鉴权本地 SOCKS/Mixed 入站可被同设备任意 App 连接（localhost attack），Private Space 也难隔离 loopback；订阅源投毒对所有客户端有效。
-
-### 评论补充
-该主题暂无回复，结论与建议均来自主帖正文。
-
-### 选型建议
-sing-box 路线优先 SFA（注意 Experimental/alpha）；Clash/mihomo 路线首选 FlClash，备选 CMFA；NekoBox 短期可用、中长期建议迁往 SFA。安全基线：启用入站鉴权、审慎对待订阅源、非必要不启用 SFA 的 Xposed 隐藏与 Remote Control，并明确开源客户端不等于匿名保证。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245753" target="_blank" rel="noopener noreferrer">Android 冲浪工具哪家强？别天天问了看看 Cursor 怎么说</a></span><span class="topic-stats">回复 0 · 收藏 2</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245680" markdown="1">
-<summary>
-<span class="topic-rank">18</span>
-<span class="topic-title">OpenAI 调整订阅：$200 由 20X 降为 10X，新增 $500 25X</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-OpenAI 调整订阅档位：**$200 套餐由 20X 降为 10X，$100 保持 5X 不变，并新增 $500 的 25X 档**。官方称 6.1 sol 新模型 token 价格约为 Astra 的 1/5、性能接近 Astra，因此新 $200 的实际用量未必比旧 20X 差。但发帖者认为，原 $200 用户多是冲着 20X 优惠来的，调整后很可能大量退订，拼车也失去意义。
-
-### 关键要点
-- 有回复指出 $200 降为 10X 后与 $100 的 5X 差距缩小，质疑“$200 = $100”。
-- 有用户称已从 20X 退到 5X，并提到 A\ 封号问题；也有人建议等到 11 月再退，因为 10 月底前已有套餐仍可用 20X。
-- 有回复称 20X 额度从年后至今已由约 2400 美元一路砍到 1200 美元。
-- 有观点认为这是先用优惠培养习惯、再砍折扣，引导价格敏感用户转向 5X 并更多调用 sol 6.1。
-
-### 评论补充
-部分评论认为 A\ 在同等性能下可消耗额度更高、写代码体验更好，OpenAI 基础设施与整体实力差距被拉大；也有人认为算力不足、训练新模型导致劝退用户。以上多为个人体验与推测，具体额度与价格以官方为准。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245680" target="_blank" rel="noopener noreferrer">这波定价我感觉会有大量的$200 退订，特别是那些拼车的，拼车毫无意义了！</a></span><span class="topic-stats">回复 22 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245668" markdown="1">
-<summary>
-<span class="topic-rank">19</span>
-<span class="topic-title">123云盘拆分专业/标准空间，10G大文件计入个人空间引退款潮</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-123 云盘于 9 月 24 日调整存储空间体系，将原有空间拆分为“专业空间”和“标准空间”两类。主帖指出，超过 10GB 的大文件会被计入个人空间，而蓝光电影、游戏等常见文件普遍超过该阈值，实际可用空间被压缩。发帖人质疑规则改来改去、当初权益给得太大，并追问 123 云盘是否要跑路。
-
-### 关键要点
-- **规则变化**：空间被拆成两类，10GB 以上大文件归入个人空间，等于变相削减原有权益。
-- **用户应对**：有回复称已成功退款，理由是“私自修改用户协议”，并提到向工信部投诉可加速退款；另有用户表示退款客服一度联系不上，官方发声明后才可排队退款。
-- **行业背景**：多条回复提到存储涨价、网盘公司成本压力大，认为不涨价就难以维持。
-- **替代选择**：评论普遍认为百度网盘地位仍稳，也有用户提到 115 早已采用类似规则。
-
-### 评论补充
-有回复称 123 云盘已被骂到连夜认错并暂停调整，官方会员群早已解散；也有用户提醒带“闪传”功能的网盘不宜当正经用途。关于退款，有用户分享通过淘宝购买、以修改协议为由投诉工信部后当天退款的经历。另有用户询问 115 是否会跑路、以及是否有更合适的替代网盘，但未形成明确结论。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245668" target="_blank" rel="noopener noreferrer">第一家“公摊”网盘出现了，你还会使用/购买 123 云盘的会员？</a></span><span class="topic-stats">回复 19 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1245700" markdown="1">
-<summary>
-<span class="topic-rank">20</span>
-<span class="topic-title">个人开发带论坛UGC的App：国内合规资质门槛</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-主题是个人开发者想做垂直领域（如自驾、钓鱼）App，含用户分享或论坛，询问国内合规所需资质。多位有实操或调研经验的回复给出较一致的结论：**只要存在 UGC 和用户交互，个人资质基本无法合规**，需注册企业主体。
-
-### 关键要点
-- **论坛/交互是最大门槛**：有回复称在网安备案时被明确告知，涉及言论类、具交互性质的产品个人不可能通过；公司主体审核也非常严、成本高。
-- **主体要求**：至少需注册企业，最低为个人独资企业，个体户通常不行。
-- **审核义务**：需接入合规的内容审核机构，覆盖个人信息、文章、视频等内容；未接入直接发布将面临处罚风险。
-- **其他要求**：论坛需实名、内容安全机制，并办理软件著作权。
-- **替代思路**：有回复建议放弃中国区、不上国产手机商店，或改为不含交友、信息记录、绑定手机号的日记类产品。
-
-### 评论补充
-有回复提醒“你想着是垂直，但想不到别人会在论坛发什么”，说明内容风险不可控。整体共识是：UGC 论坛对个人开发者不现实，需企业资质与持续审核投入。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245700" target="_blank" rel="noopener noreferrer">想开发一个 app，在合规这一块需要什么资质？</a></span><span class="topic-stats">回复 12 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1245972" target="_blank" rel="noopener noreferrer">pdd 首发的 mac mini m6 降价了，最低 4899， 5299 买的可以去找客服申请 300 价补</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
 
 </div>
 
