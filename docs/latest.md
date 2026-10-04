@@ -3,24 +3,24 @@ layout: report-home
 title: "V2EX 每日热点回顾"
 permalink: /latest/
 status: success
-target_date: 2026-10-02
-generated_at: "2026-10-03 09:04:33"
-summary: "昨日主题 114 个，过滤 43 个，DeepSeek 分析 71 个，保留高价值内容 12 个。"
-count_all: 114
-count_excluded: 43
-count_included: 71
+target_date: 2026-10-03
+generated_at: "2026-10-04 08:29:59"
+summary: "昨日主题 121 个，过滤 45 个，DeepSeek 分析 76 个，保留高价值内容 7 个。"
+count_all: 121
+count_excluded: 45
+count_included: 76
 count_high_signal: 0
-count_valuable: 12
-report_url: "/2026/10/02/"
-data_url: "/data/2026-10-02.json"
+count_valuable: 7
+report_url: "/2026/10/03/"
+data_url: "/data/2026-10-03.json"
 ---
 
-# V2EX 2026-10-02 昨日新帖报告
+# V2EX 2026-10-03 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1246147" markdown="1">
+<details class="topic-card" data-topic-id="1246205" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">AI 全流程开发的 Backpack 网格自治层开源，实盘 3 天 +10.6%</span>
+<span class="topic-title">安卓与Windows轻量RSS阅读器推荐</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -28,33 +28,29 @@ data_url: "/data/2026-10-02.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者针对 Backpack 交易所自带网格机器人缺少止盈、止损、自动轮换和组合级风控的问题，用 AI 全流程开发了一个跑在原生网格之上的自治层，9/30 起实盘运行，代码已开源。
+原帖询问安卓和 Windows 平台可用的轻量 RSS 方案，起因是 inoreader、folo 免费版够用但被墙，语鲸免费节点少且只能添加 1 个频道。评论给出了多个替代工具，并区分了「带商业服务器的订阅服务」与「纯本地阅读器」两类。
 
 ### 关键要点
-- **巡检与轮换**：每 15 分钟读取所有网格账本、持仓与权益，按规则决策；止盈 +10%、止损 -6%、价格出界或临近强平时平仓并重新选币开格。
-- **选币引擎**：对全市场 USDC 永续按“震荡适配度”评分（双窗 chop × 流动性 − 趋势 − 资金费），低分宁可空仓。
-- **四层风控**：交易所侧原生兜底止损、组合风险预算（≤ 权益 80%）、回撤熔断（40% 预警 / 80% 全停）、write-ahead 意图账本。
-- **工程做法**：不走 API key，改用网页会话鉴权接口（浏览器上下文 fetch），密钥面为零；风险退出立即执行，开新格等重观察后再规划，避免止损被选币耗时阻塞；每个交易所写操作前先持久化意图，断电断网可恢复。
-- **AI 对抗审查**：把代码交给另一个 AI 专门找茬，8 轮修了 25+ 个真实缺陷（如数据缺失当零价格、并发状态覆盖、平仓失败仍开新仓），沉淀 107 个回归用例。
+- **安卓阅读器**：capy reader、ReadYou（[GitHub](https://github.com/ReadYouApp/ReadYou)）、feeder（[GitHub](https://github.com/spacecowboy/feeder)）。其中 feeder 只是阅读器，需自行输入订阅链接或导入 OPML，不自带云端订阅。
+- **网页/PWA 方案**：qireader 可用浏览器安装到手机主屏；免费版最多 30 个订阅、单本电子书最多 5 篇文章（[套餐页](https://www.qireader.com.cn/plans)）。蚁阅的 web 版被认为更好用。
+- **自建方案**：用 Telegram Bot 实现订阅并全平台同步；或自托管阅读器后以 PWA 访问，如 [RayNews-Reader](https://github.com/rayyume/RayNews-Reader)、[feedoverflow](https://github.com/roy2100/feedoverflow)（支持 RSSHub 协议）。
+- **TG 订阅**：可直接用 @rssStreamBot 订阅 RSS。
 
-### 实盘数据与限制
-实盘 3 天运行 4 个中性网格（HYPE/PUMP/SUI/BTC），账户 534 → 591 USD（+10.6%，含行情贡献），自动换仓 4 次、巡检 183 轮、零人工干预。作者明确标注为个人实盘实验记录，不构成投资建议，样本量小。
-
-公开只读仪表盘：https://backpack-grid-dashboard.oxtiger.workers.dev
-开源代码：https://github.com/terryso/backpack-grid
+### 评论补充
+有用户表示直接用 Claude 手搓阅读器，说明自建门槛在降低。整体共识是：想要免维护就用带服务器的服务，想要无限制则自建或纯本地阅读器。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246147" target="_blank" rel="noopener noreferrer">让 AI 全流程开发的加密货币网格交易系统，已在 Backpack 实盘运行 3 天</a></span><span class="topic-stats">回复 0 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246205" target="_blank" rel="noopener noreferrer">求问，安卓，有啥好用的，轻量使用的 RSS？</a></span><span class="topic-stats">回复 18 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246178" markdown="1">
+<details class="topic-card" data-topic-id="1246264" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">浏览器可玩的天文交互演示：10个演示从1米到可观测宇宙</span>
+<span class="topic-title">AI 订阅清单：OpenAI、Claude、Grok 与国产模型取舍</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -62,32 +58,32 @@ data_url: "/data/2026-10-02.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在科普交互网站「格物间」整理出「宇宙与天文」专题，共 10 个浏览器内可玩的演示，无需登录，地址为 https://gewujian.cn/topics/pMaEDfRrATvyqRT6FFfvWQ 。
+作者梳理了自己当前的 AI 订阅组合与去留决策，可作为个人/独立开发者配置 AI 工具预算的参考样本。
 
 ### 关键要点
-- **宇宙的尺度**：从野餐垫上的 1 米开始，每按一次放大 10 倍，27 步到达可观测宇宙边缘（直径约 925 亿光年），途中经过城市卫星照片、行星真实位置、旅行者 1 号、真实恒星与星系分布。
-- **光速与光年**：太阳与日地距离按真实比例绘制，阳光按真实速度运行，可等待 8 分 17 秒看光到达地球；也可模拟「太阳突然不亮」后地球多久才发现。
-- **引力与时空弯曲**：提供橡皮膜、三维网格、「时间也弯了」三种画法，可切换中子星、黑洞；「射出星光」可复现 1919 年日全食的星光偏折，左下角按当年星表绘制毕星团。
-- 其他演示包括恒星核聚变与一生、韦布望远镜折叠发射与展开（轨道用 NASA JPL 真实数据）、月相（按此刻真实位置并可换城市）、日食月食、地球自转、太阳系、太阳的银河之旅。
+- **保留**：5 个 OpenAI Team 席位（45 美元/月）、1 个 Claude Pro（20 美元/月）、Grok Heavy 年付（7100 元，含 Cursor Ultra 与 X 会员）。
+- **放弃**：火山云 Coding Plan Pro（特价 50 元/月，恢复 200 元后不续）、2 个 Kimi 老 199 套餐（398 元/月，量不够用）、OpenCode Go（5 美元优惠取消）。
+- **后续策略**：只续 OpenAI 与 Claude，其余看活动偶尔开一个月尝鲜。
+- 作者对国产模型的评价：GLM 5.3 Flash 写前端不错、页面干净；Kimi K3 综合能力可以但性价比低。
 
 ### 评论补充
-回复仅有一条「挺不错的」，未提供额外事实或验证信息。
-
-### 方法与限制
-能用真实数据的都用真实数据：月亮、行星、旅行者号为此刻真实位置，韦布轨道来自 JPL Horizons，1919 年日食使用当年观测报告星表；每个演示的数字与说法逐条联网核对，出处列在右侧面板「资料来源」中，并纠正了「红移 1 的蓝光变成红光」等常见错误说法。支持中英文切换且切换不重置演示状态；电脑和平板体验最佳，手机可看但不如大屏。
+- 有回复认为生产力场景仍以海外模型为主；作者回应火山云里的 GLM 已够用，故未单独订阅 GLM。
+- 关于 Grok：作者称模型本身“不太行”，主要价值是附赠的 Cursor Ultra 和 X 内容搜索，日常干活仍用 Claude Opus。
+- Grok Heavy 年付来自限时 3 个月 3 折转年付的窗口，现已关闭。
+- 有回复提到 X Premium Plus 自带 Radar 与 Super，可覆盖 TTS/STT、搜索、图像视频生成等轻量需求，未必需要订阅 Grok。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246178" target="_blank" rel="noopener noreferrer">做了一组能在浏览器里直接玩的天文交互演示：从野餐垫上的 1 米放大到可观测宇宙</a></span><span class="topic-stats">回复 1 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246264" target="_blank" rel="noopener noreferrer">闲来无事，梳理了下自己最近的 ai 订阅</a></span><span class="topic-stats">回复 16 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246089" markdown="1">
+<details class="topic-card" data-topic-id="1246241" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">策略研发产品为何违反人性：专业度与用户需求的错位</span>
+<span class="topic-title">Liftoff：macOS 26 启动台替代品，支持窗口预览与智能整理</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -95,31 +91,33 @@ data_url: "/data/2026-10-02.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者复盘自己开发的策略研发产品，发现一个反直觉结论：用户并不想通过多算法、回测来过滤随机性、数据周期与市场 beta 带来的隐性优势，他们只想知道“这个策略赚不赚钱”。当连续 10 个策略都被判定为 No，用户会怀疑产品有问题，而不是策略有问题。由此得出：**产品越专业，离普通用户越远；每增加一个专业 feature，就是在拒绝一部分普通用户**，真正愿意深入研究的用户少到难以触达。
+作者因升级 macOS 26 后启动台变为 App 列表、不习惯网格翻页，开发了开源替代品 **Liftoff**。它保留网格、分页、文件夹、拖动排列、打字搜索等基本功，并额外提供三项能力。
 
 ### 关键要点
-- 专业工具的目标客群天然狭窄：能赚钱的人对自己的策略有信心，未必需要辅助工具；愿意花时间研究的人也更难相信别人的产品。
-- 有评论指出，同花顺一类产品的收入大头来自“亏钱但抱有赚钱幻想的散户”，而非稳定盈利者。
-- 作者提醒：调参优化多半导致过拟合，这是策略验证中可确定的坑。
-- 作者称试过多个流行 TradingView 指标和 YouTube 策略，尚无一个通过其验证。
+- **窗口预览**：鼠标停在运行中的 App 上可看到其所有窗口缩略图，含最小化及位于其他桌面的窗口，点击即可切换，适合同时开大量浏览器窗口的场景。
+- **搜索窗口标题**：可按文档标题搜索并跳转，App 名称支持拼音与首字母。
+- **一键智能整理**：数百个 App 一键分入文件夹，先预览、点「应用」才生效，原排列自动备份。
+- **性能与隐私**：作者自测打开 ＜ 3 ms、翻页不掉帧、空闲 0% CPU，可用 `scripts/selftest.sh` 在本地复现；默认不联网，仅点「检查更新」时连 GitHub。
+- **安装**：`brew install --cask firstfu/tap/liftoff`，或从 GitHub 下载（https://github.com/firstfu/Liftoff）。GPLv3，13 种语言。
 
 ### 评论补充
-- 有从业者表示，量化策略并非小白能靠几句话或复制策略稳定盈利，即使正期望策略也有大量细节要处理。
-- 关于“产品有用创始人早发财”的质疑，作者回应：工具是否有用取决于用户所处阶段——指数定投者不需要交易工具，长期投资者需要基本面工具，只有拿亏光也不心疼的钱做日内交易时，策略研究工具才有价值。
-- 有评论认为创业初期应主动筛掉非目标用户，作者则反问前提是用户已多到忙不过来。
+暂无回复。作者提出的一个待讨论点值得注意：最初尝试用 macOS 本地模型对 130 个 App 分类，准确率约八九成，但错的多是常用大 App（如「地图」被归入浏览器、Sublime Text 被归入办公），冷门 App 也无法识别；最终改为内置 1000 多款 App 的对照表，不联网且结果稳定。
+
+### 限制
+作者无付费 Apple 开发者账号，未做公证：首次打开需在「系统设置 → 隐私与安全性」点「仍要打开」，每次更新后需重新授权「辅助功能」和「录屏与系统录音」（窗口预览依赖）。介意可自行编译。与已公证的 LaunchNext 相比，Liftoff 的差异主要在窗口预览、搜窗口标题和智能整理。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246089" target="_blank" rel="noopener noreferrer">我刚刚发现我辛苦开发的策略研发产品根本就是违反人性的</a></span><span class="topic-stats">回复 13 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246241" target="_blank" rel="noopener noreferrer">启动台替代品已经很多了，我做的这个多了两件事：鼠标停在 App 上看它所有窗口、一键把 App 分进文件夹（开源）</a></span><span class="topic-stats">回复 0 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246111" markdown="1">
+<details class="topic-card" data-topic-id="1246243" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">NyaTerm 2.0 预览版：Rust+GPUI 重写原生终端工具</span>
+<span class="topic-title">拼图接力：如何识别界面与文案中的 AI 味</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -127,32 +125,30 @@ data_url: "/data/2026-10-02.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-NyaTerm 作者将原本基于 Tauri/WebView 的终端管理工具用 **Rust + GPUI** 重写为原生桌面版本，发布 2.0 Preview。重写动机是 WebView 在终端这类高频刷新场景下性能受限，原生架构解决了关键词高亮性能问题，并解锁了 Tauri 框架下难以实现的功能。
+楼主发起“拼图接力”，列举了 AI 生成界面常见的视觉与文案特征，评论补充了错误处理、文档立场等更可操作的识别点。整体是一份可对照自查的“AI 味”清单。
 
 ### 关键要点
-- 2.0 已迁移常用功能：SSH、Telnet、本地终端、多标签、分屏、SFTP 与文件管理、RDP/VNC、Docker 与进程管理、AI Assistant、Cloud Sync、快捷命令与凭据管理。
-- 新增树形目录浏览，便于快速定位服务器配置文件。
-- 近期迭代集中在细节体验：选择、复制粘贴、滚动、焦点、分屏键盘输入归属、拖拽上传下载、多显示器与全屏行为。
-- 作者明确 2.0 仍为 Preview，稳定使用推荐 1.x；Preview 与稳定版可同时安装、互不覆盖。
-- 已知待磨问题：Terminal、输入法、多显示器、RDP/VNC 及不同系统的桌面行为。
+- **视觉套路**：标题附近用极细体小字且字距偏大；过度渐变、圆角卡片且圆角过大；阴影泛滥；伪科技感发光；左大图标配右侧大标题；大号数字 Dashboard；指标卡一排 4～6 个。
+- **文案套路**：无处不在的副标题与说明文字；过度解释简单功能，如按钮“测试连接”旁再写“测试您的 API 连接是否可以正常工作”。
+- **看起来高级但与真实业务无关**，是上述特征的共同底色。
+- **错误处理缺失**：正常状态做得很满，出错只剩“操作失败”；应说明是超时、地址不通还是鉴权失败，并提示检查方向。
+- **文档立场错位**：AI 写汇报文档时会写出“这句话是给领导看的”这类元叙述，把内部对话暴露到对外文本中。
 
 ### 评论补充
-有用户实测 2.0 内存占用不到 100M，功能较全，比套壳 Chromium 的方案更省资源；另有用户确认已支持 Windows 和 Linux，并有人表示正在使用 1.x。
-
-项目地址：https://github.com/nyakang/nyaterm ，预览版：https://github.com/nyakang/nyaterm/releases/tag/v2.0.0-preview.4 ，官网：https://nyaterm.app
+有回复认为毛玻璃、紫色主题更像 AI 味，也有人反驳毛玻璃是早年博客流行风格，不算 AI 特征。关于文档问题，有评论指出 GPT 模型尤其明显，Claude 相对好一些。另有观点认为“AI 味”本身是半吊子水平者的自我防御说法，属于情绪化判断，参考价值有限。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246111" target="_blank" rel="noopener noreferrer">从 WebView 到原生桌面：开源终端工具 NyaTerm 2.0</a></span><span class="topic-stats">回复 7 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246243" target="_blank" rel="noopener noreferrer">拼图接力，来说说什么是 AI 味</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246148" markdown="1">
+<details class="topic-card" data-topic-id="1246191" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">macOS 屏幕共享漏洞 CVE-2026-65400 被 frp 暴露后遭入侵</span>
+<span class="topic-title">英伟达称V100发布近十年仍在跑客户业务</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -160,29 +156,30 @@ NyaTerm 作者将原本基于 Tauri/WebView 的终端管理工具用 **Rust + GP
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-有用户报告 macOS 屏幕共享存在漏洞，攻击者无需正常登录密码即可修改文件，进而写入启动项、安装挖矿程序。作者通过系统日志定位到入侵路径：10 月 2 日 14:14:22 与 14:37:41，某地址两次通过屏幕共享认证为 root，第二次登录后立即出现多次文件传输，同一秒 `/var/tmp/.xm4`、`/etc/zshenv` 和 `/Library/LaunchDaemons/com.apple.metadata.fetch.plist` 状态变更，时间与行为高度吻合。
+英伟达 9 月 30 日官方博客中，副总裁 Ian Buck 提到 CoreWeave 的 V100 在 Volta 架构发布近十年后仍在运行客户工作负载；同一家 CoreWeave 也已把 Vera Rubin NVL72 机柜投入生产。发帖人结合设备维保经验指出，新旧搭配使用是常态：新柜跑最重的活，老卡跑轻一些的。
 
 ### 关键要点
-- 触发条件：开启 macOS 屏幕共享，并通过 frp、端口转发等方式暴露到公网。
-- 症状线索：终端报错 `/etc/zshenv:2: parse error near 'disown'`，作者 8 月已中招一次但未定位入口。
-- 关联漏洞：疑似 CVE-2026-65400，macOS 26.6.1 / 15.7.9 / 14.8.9 已修复。
-- 处置建议：尽快更新系统；检查是否用 frp 等把屏幕共享端口暴露到公网，并立即关闭。
+- **能否继续跑的两个条件**：一是有没有备件，二是有没有人会修。老 GPU 服务器后期卡在电源、风扇、主板停产后的备件获取。
+- **折旧与物理寿命是两回事**：数据中心 GPU 一般按四到六年折旧，V100 快十年仍在接活，属于超期服役；但账面折旧是融资和会计问题，卡能不能跑是物理问题。
+- **V100 规格**：12nm 制程、约 211 亿晶体管，与 20 系同期，放在消费级不算老。
+- **私有化部署场景**：评论认为 V100 32G 版本部署 50B 以内量化模型性价比较高。
+- **个人使用不划算**：V100 是被动散热的数据中心卡，家用需自建风道；一张 5090 在费用、保修、功耗噪音上更省心。
 
 ### 评论补充
-有回复指出 frp 是危险的公网暴露方式，多数场景应改用 VPN 组网；作者确认端口已全部关闭，并用本地 AI 测试复现了问题。
+有评论从金融角度提出，数据中心多采用 SPV 融资、AI 厂提供照付不议担保，GPU 折旧年限直接影响劣后级是否被打穿，因此“吹嘘折旧时间长”可能带有安抚投资人的立场，不宜全信。发帖人回应称，V100 案例只能证明物理上能跑，证明不了六年折旧就合理。另有评论提到英伟达曾表示 580 是最后一个支持 Volta 的驱动分支，后续新版 CUDA 不一定支持，需留意。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246148" target="_blank" rel="noopener noreferrer">macOS 屏幕共享出漏洞了</a></span><span class="topic-stats">回复 2 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246191" target="_blank" rel="noopener noreferrer">英伟达自己说， V100 快十年了还在跑客户业务</a></span><span class="topic-stats">回复 12 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246097" markdown="1">
+<details class="topic-card" data-topic-id="1246201" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">Google账号订阅Gemini的地区与支付条件</span>
+<span class="topic-title">e-ink.me 更新：目录页生成整本 EPUB、Send to Kindle、EPUB 转有声书</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -190,30 +187,30 @@ NyaTerm 作者将原本基于 Tauri/WebView 的终端管理工具用 **Rust + GP
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户想订阅 Gemini 却持续提示“当前地区不支持”，即使把账号国家/地区改成美国也无效。评论指出，Google 账号的“地区”并非设置里手动修改的那一项，而是由 Google 根据付款资料和 IP 等综合认定。
+电子书工具站 e-ink.me（https://e-ink.me/zh）上线多项新功能，主要面向墨水屏阅读器用户，覆盖网页转 EPUB、推送 Kindle 与 EPUB 转有声书等场景。
 
 ### 关键要点
-- **账号地区**：不能是中国大陆和香港；手动改设置无效，需 Google 认定，可能要提交改区域请求。
-- **支付资料**：在 `https://pay.google.com` 查看，若付款资料为中国大陆或香港，需删除后重建；绑定过的信用卡和结算账户也要清理。
-- **IP 环境**：梯子不干净或“送中”会触发地区不支持，可先清空浏览器、换干净节点再登录 Gemini 网页端验证。
-- **成功案例**：有用户按上述条件用 4 个账号成功开通 Pro；印度区 18 个月 Pro 约 7 元，性价比高。
-- **替代路径**：加入他人 Google One 家庭组可自动开通；闲鱼/淘宝低价订阅约 5–20 元，但来源和稳定性存疑。
+- **整书模式（网页 → EPUB）**：粘贴目录页 URL 后点“识别章节”，可勾掉序言、公告等页面，生成带目录的整本 EPUB。计费每章 3 积分，长书有封顶，价格确认前会提示；失败章节自动退积分，24 小时内可免费重新生成。作者提示仅用于有版权的内容。
+- **内置 Send to Kindle**：支持向 @kindle.com 邮箱推送。
+- **EPUB 转有声书**（https://e-ink.me/zh/convert/epub-to-audio）：按章节合成整本书，自动识别章节、可跳过封面与目录、可只选部分章节；开始前预估积分与音频时长；提供 20 多种中文神经语音及英文美音、英音，语速 0.5–2 倍，可调音调与 11 种风格；单本上限 100 万字符，短书输出单个 MP3，长书输出分卷 ZIP。
+- **浏览器本地免费工具**：漫画转 Kindle/Kobo（41 种设备档案、Gamma、16 级灰度抖动、分页、从右到左）、EPUB 压缩（按阅读器尺寸压图或指定目标体积）、EPUB 墨水屏预览、元数据编辑、封面更换、字数统计。
+- 新用户送 10 积分，阅读器、编辑、合并、拆分等长期免费；另有墨水屏小游戏 games.e-ink.me。
 
 ### 评论补充
-有回复认为折腾 Gemini 不如用 ChatGPT 或 Claude，也有人反馈 Gemini 体验一般；另有用户提醒低价订阅可能来自学生优惠或活动，长期可用性需自行评估。
+本主题暂无回复，功能效果与识别准确率缺少第三方验证，建议自行试用后再决定是否付费。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246097" target="_blank" rel="noopener noreferrer">什么样的 Google 账号才能订阅 Gemini？</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246201" target="_blank" rel="noopener noreferrer">e-ink.me 更新：目录页一键生成整本 EPUB、内置 Send to Kindle、EPUB 整本转有声书</a></span><span class="topic-stats">回复 0 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246170" markdown="1">
+<details class="topic-card" data-topic-id="1246277" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">个人项目做到什么程度才适合公开发布</span>
+<span class="topic-title">用 muse.ai 将 YouTube 视频教程转图文并部署 3x-ui 节点</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -221,179 +218,22 @@ NyaTerm 作者将原本基于 Tauri/WebView 的终端管理工具用 **Rust + GP
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-发帖人卡在“再改一点就能发”的循环里：功能可用但界面不行，界面改完又缺说明，越做越像正式产品，始终没验证是否有人需要。多数回复的共识是：**先发再优化，用真实反馈替代自我琢磨**。
+作者实测让 AI Agent（muse.ai）把一条 YouTube 上的 3x-ui 视频教程自动总结成图文教程，并直接按教程在 VPS 上完成部署与节点可用性测试。
 
 ### 关键要点
-- 发布门槛：至少一个主要功能跑通、最核心需求能跑通即可发布，不必等界面和文档完美。
-- 反馈价值：提问和 issue 能决定项目未来方向，自己玩很难发现实际问题；有人吐槽比独自琢磨强。
-- 收费与否影响策略：不收费可以直接发。
-- 发布即消耗个人信用：常发烂货会让人不再关注，但憋太久又可能走错方向。
-- 可先拿截图到社交平台验证需求，有流量再投入开发，避免“憋个大的再验证市场”。
+- 做法：向 Agent 提供视频链接、VPS 的 IP、root 密码与 SSH 端口，要求其总结教程、按教程部署并自行测试节点可用。过程中 Agent 会多次请求授权连接 IP 和端口，需手动同意。
+- 视频理解方式：Agent 并非逐帧读整段视频，而是先分析字幕（可由音频转写得到），再根据“点这里”这类语句定位时间点切帧学习画面，降低数据量。
+- 踩坑与修复：Shadowrocket 测试 reality 协议不通，原因是 Xray-core v26.9.9 的 REALITY 强制要求客户端 ClientHello 首个 key_share 为 X25519MLKEM768（0x11ec），缺少该 key share 的客户端会被直接拒绝；换成 crazypeace/Xray-core-fork 内核后节点连通。
+- 作者观点：视频教程的评判标准可能转向“Agent 能否学会并照着部署成功”。
 
 ### 评论补充
-有回复建议先自己用、不急着发布，因为很多人并非目标用户，好产品应主动筛选客户；也有人认为创意已不值钱。另有回复给出实际案例：用 Gemini 2.5 做了几个月无响应后放弃，后来先发截图验证再开发；以及 V2EX iOS 客户端 Vex 两次公开的经历。发布渠道上，有人回忆早期直接投华军软件园，被喷也碰不到本人。
+有读者误以为是在 Agent 自带环境中部署，作者回应是让其连上 VPS 操作，遇到问题直接问 Agent；该读者对 Agent 能自行产出图文教程表示意外。
+
+＞ 注：文中涉及具体 IP、密码等敏感信息，原文已做打码处理。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246170" target="_blank" rel="noopener noreferrer">个人项目做到哪种程度你才愿意发出来给别人用呢？</a></span><span class="topic-stats">回复 14 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246085" markdown="1">
-<summary>
-<span class="topic-rank">8</span>
-<span class="topic-title">YouTube 评论 API 踩坑：配额、searchTerms 与分页</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者在开发 YouTube 评论工具时，记录了 YouTube Data API v3 的几个实际坑点，对做同类抓取或分析工具的人有直接参考价值。
-
-### 关键要点
-- **配额要提前算**：免费额度 10000 units/天，太平洋时间午夜重置。`commentThreads.list` 和 `comments.list` 各消耗 1 unit，一页最多 100 条；但 `search.list` 一次消耗 100 units，且有独立额度桶，每天仅 100 次。靠关键词发现视频时，配额会先在这里耗尽，而不是拉评论时。
-- **搜索评论应在服务端做**：`commentThreads.list` 自带 `searchTerms` 参数，由 YouTube 在服务端搜索整条线程，而非只搜已加载页，省带宽和延迟。限制是：不能与 `id` 参数同用，只能配合 `videoId` 或 `allThreadsRelatedToChannelId`；且只匹配顶级评论文本，回复内容搜不到，需另走 `comments.list`。
-- **分页与回复是两个 endpoint**：`commentThreads.list` 的 `maxResults` 上限为 100，翻页靠 `nextPageToken`；返回的 `replies` 只是预览，完整回复需再调 `comments.list`。因此请求数约等于「顶级评论页数 + 有回复的评论条数」，而非页数。
-- **读操作无需 OAuth**：读取公开评论用 API key 即可，只有写操作才需要 OAuth。
-
-作者据此做了网站 https://apriocity.com ，支持按关键词搜整条评论线程、按发帖人名字找评论、导出 CSV，前端 Next.js，后端 Flask + Redis。
-
-### 评论补充
-有用户反馈在 YouTube 上常看到重复评论，询问作者是否遇到；作者回复目前尚未遇到。该现象未获进一步验证。
-
-作者也抛出未解问题：热门视频评论达几十万条时如何应对配额，是开多个 GCP 项目轮换，还是放弃官方 API，欢迎有实际经验者分享。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246085" target="_blank" rel="noopener noreferrer">做 YouTube 评论分析踩到的坑：配额、分页，和 searchTerms</a></span><span class="topic-stats">回复 2 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246124" markdown="1">
-<summary>
-<span class="topic-rank">9</span>
-<span class="topic-title">警惕互刷 GitHub Star 平台索取仓库读写权限</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-有开发者收到 Issue 邀请加入名为 GithubStarMate 的平台，对方称可让项目被更多开发者看到。作者用 GitHub 登录后才发现，该平台实际玩法是互赞 Star、Watch、Fork，并可通过购买推广积分、开通会员实现自动回赞。更关键的是，登录时它索要了公开仓库的读写权限，作者已撤销授权并向 GitHub 举报。
-
-### 关键要点
-- 该平台以“管理、分析、发现”和增长曲线、收藏记录包装自己，实际是互刷 Star 的刷量服务。
-- 授权范围包含公开仓库读写权限，风险远高于普通登录。
-- 作者的处理方式：立即撤销 GitHub 授权，并向 GitHub 举报。
-- 评论提醒：给第三方应用授权前务必先看清权限范围。
-
-### 评论补充
-有回复指出，这相当于把刷单逻辑搬到 GitHub 上；也有人提到 GitHub 已看不到别人项目的 Star 名单，可能让刷 Star 更简单。
-
-### 结论
-遇到以“曝光项目”为名邀请登录的第三方平台，先核对 OAuth 权限再决定是否授权；已授权应立即撤销并举报。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246124" target="_blank" rel="noopener noreferrer">避坑，今天遇到一个互刷 Github star 的平台</a></span><span class="topic-stats">回复 6 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246083" markdown="1">
-<summary>
-<span class="topic-rank">10</span>
-<span class="topic-title">GPT-6.1 Sol 与 Opus 5.5 生成介绍视频对比：耗时与额度消耗</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者为 didcodexreset.com 制作介绍视频，用两个模型在 xhigh 思考等级下直接对话生成并渲染视频，对比结果差异明显。
-
-### 关键要点
-- **耗时**：GPT-6.1 Sol 约 35 分钟，Opus 5.5 约 53 分钟。
-- **额度消耗**：Opus 5.5 消耗 Pro 订阅 5 小时额度的不到 50%；GPT 消耗 Pro 200 周额度约 5%。
-- **生成方式**：不是先写脚本再交给其他软件，而是直接对话生成、直接渲染；Opus 在 Claude Code 中完成，GPT 在 Codex 中完成。
-- **效果观感**：评论认为 Claude 更像直接生成视频，GPT 更像 HTML PPT 转视频；作者称 Claude 也是通过 Web 2D 渲染，未确认 GPT 所用技术。
-- **其他模型**：作者试过 astra，评价“很一般”。
-
-### 评论补充
-多位用户认可 Claude Code 效果更好，但指出封号是切换的主要顾虑，作者也认同“不封号就是顶级不二之选”。视频链接见主帖 B 站地址。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246083" target="_blank" rel="noopener noreferrer">使用 GPT 6.1 Sol 和 Opus 5.5 制作的 Did Codex Reset 介绍视频，效果简直是天差地别</a></span><span class="topic-stats">回复 15 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246078" markdown="1">
-<summary>
-<span class="topic-rank">11</span>
-<span class="topic-title">古法编程：用 Flutter+Flame+Soloud 做全平台掼蛋游戏</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者从 2024 年起独立开发全平台掼蛋游戏，非 AI 生成，采用 Flutter + Flame + Soloud 技术栈，2025 年初网页版测试，2026 年初陆续上架 iOS、macOS、Windows 与 Google Play。动机是现有掼蛋应用重捞金、轻体验，老人打开后不知如何操作，大厂（如腾讯掼蛋）只是占坑。
-
-### 关键要点
-- **技术栈评价**：Flutter 生态仍好，但核心功能常依赖第三方库；Flame 基础数据结构自实现导致 bug，曾更新后弄坏基础 touch 功能，作者两天后才发现，提 issue 后半天内修复；最大槽点是两个 `move_to(x,y)` 会叠加，限制高级动画。
-- **音频**：Flutter Soloud 解决现实问题，作者为早期用户，建议使用相对稳定版本。
-- **增长数据**：未做商业广告，靠自增长；采用严格 DAU 口径（当天完整完成一局才算活跃），从首月不到 10 增至约 500，增长缓慢但稳定。
-- **入口**：网页版 https://guandan.app/ ，另有 Apple、Google、Microsoft 商店版本。
-
-### 评论补充
-有用户反馈 Firefox 加载失败；另有用户表示体验不错但不会玩掼蛋，询问是否做其他游戏，作者回应理论上可以，但需先完善现有产品。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246078" target="_blank" rel="noopener noreferrer">（古法编程）做了一款全平台掼蛋游戏， flutter, flame 和 soloud。</a></span><span class="topic-stats">回复 3 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246175" markdown="1">
-<summary>
-<span class="topic-rank">12</span>
-<span class="topic-title">Xcode 27 AI 功能境内可用性：限制国行设备</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-Xcode 27 的 AI 功能在境内能否使用，关键限制并非 IP 或地理位置，而是**设备版本**。发帖者反馈 ChatGPT 无论免费还是登录账号都只返回一句“不符合国家要求”，挂代理也无效。
-
-### 关键要点
-- 有回复指出限制对象是**国行设备**，而非境内 IP；相关思路可参考 `github.com/SkyBlue997/enableMacosAI`，但不确定最新版本是否仍可用，Xcode AI 疑似同样限制。
-- 日版、美版设备可直接使用；有用户建议“能别用国行就别用国行”。
-- 也有用户认为能用但“很鸡肋”，内置对话框功能弱。
-- 更实用的价值在于 Xcode 27 提供 **agent skill 与 MCP 调试 bridge**，可让 AI 在终端编译代码达到与 Xcode 增量编译相当的速度，避免此前每次全量编译的缓慢。
-
-### 评论补充
-关于限制原因，有回复归因于“不符合美国优先的政策导向”，属个人推测，未获证实。整体共识是：想用官方 AI 功能需外版设备，或转向 MCP/agent 方案绕开内置对话框。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246175" target="_blank" rel="noopener noreferrer">xcode 27 ai 功能境内能用吗？</a></span><span class="topic-stats">回复 8 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246277" target="_blank" rel="noopener noreferrer">muse.ai 把视频教程总结成图文教程 按教程搭建 3x-ui 系统和节点</a></span><span class="topic-stats">回复 4 · 收藏 2</span></p>
 
 </div>
 
