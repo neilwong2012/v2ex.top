@@ -1,7 +1,8 @@
 ---
-layout: report-home
-title: "V2EX 每日热点回顾"
-permalink: /latest/
+layout: report-post
+title: "V2EX 每日热点回顾 · 2026-10-05"
+date: 2026-10-05 08:30:00 +0800
+categories: [v2ex, daily-report]
 status: success
 target_date: 2026-10-05
 generated_at: "2026-10-06 10:12:38"
