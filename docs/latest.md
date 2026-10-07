@@ -3,24 +3,24 @@ layout: report-home
 title: "V2EX 每日热点回顾"
 permalink: /latest/
 status: success
-target_date: 2026-10-05
-generated_at: "2026-10-06 10:12:38"
-summary: "昨日主题 127 个，过滤 44 个，DeepSeek 分析 83 个，保留高价值内容 15 个。"
-count_all: 127
-count_excluded: 44
-count_included: 83
+target_date: 2026-10-06
+generated_at: "2026-10-07 09:25:28"
+summary: "昨日主题 124 个，过滤 55 个，DeepSeek 分析 69 个，保留高价值内容 11 个。"
+count_all: 124
+count_excluded: 55
+count_included: 69
 count_high_signal: 0
-count_valuable: 15
-report_url: "/2026/10/05/"
-data_url: "/data/2026-10-05.json"
+count_valuable: 11
+report_url: "/2026/10/06/"
+data_url: "/data/2026-10-06.json"
 ---
 
-# V2EX 2026-10-05 昨日新帖报告
+# V2EX 2026-10-06 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1246459" markdown="1">
+<details class="topic-card" data-topic-id="1246574" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">久坐提醒方案：多喝水、升降桌与开源工具</span>
+<span class="topic-title">Claude 防封号：自建东京节点+固定出口 IP 稳定 3 个月</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -28,29 +28,34 @@ data_url: "/data/2026-10-05.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主想找能强制自己站起来的久坐提醒方案，手环和电脑提醒因力度不足被关闭，希望有“必须起身才能关闭”的机制。评论给出的共识是：**外部提醒只能辅助，关键仍是自身意志**，但可以通过生理手段和工具提高执行率。
+楼主因 IP 在 US/JP 间乱窜导致 Claude 封号，改用一套固定网络方案后稳定使用 3 个月，核心思路是让所有 AI 流量走单一、稳定的出口 IP，避免频繁切换触发风控。
 
 ### 关键要点
-- **多喝水倒逼起身**：多位用户推荐每天喝 2–3L 水（茶、柠檬水、无糖可乐均可），用带刻度烧杯计量，靠上厕所自然增加起身次数；杯子太小反而会懒得接水。
-- **改变默认姿势**：使用升降桌，把桌面升到站立高度、椅子放远，想坐必须专门走过去；有用户称 2/3 上班时间站着。
-- **软件与硬件工具**：开源工具 [ProjectEye](https://github.com/Planshit/ProjectEye) 可定时遮盖屏幕 20 秒；[songzuo](https://github.com/CLOUDUH/songzuo) 用摄像头检测是否在工位，久坐则通过 Bark 推送；另有 Mac 番茄钟 Focus4Timer、无关闭按钮的喝水提醒小工具。
-- **强制关闭机制**：有用户用米家通断器焊接蜂鸣器放在其他房间，配合人在传感器或座椅压力传感器计时，必须起身才能关掉。
+- **自建梯子**：AWS Lightsail 东京，5 美元/月、1T 流量，协议用 vless + reality，伪装成 HTTPS 大站，降低 IP 被封概率。
+- **固定 AI 出口**：所有 AI 服务经 IpRoyal 出站，用 Clash 的 `dialer-proxy` 指向 AWS 节点，并强制指定 proxy name，禁止手动切换。
+- **规则参考**：Clash AI 规则参考 https://github.com/szkane/ClashRuleSet 。
+- **订阅与账号**：安卓 Play 商店 + 招商银行卡订阅；订阅前先用免费网页一两天，检查 setting-account 的登录 session 是否都落在同一目标 region。
+- **用量克制**：不要用满额度，避免被判定为蒸馏；A 社对国内 AI 厂商蒸馏尤为敏感。
+- **其他**：使用 TUN 模式（iOS 用 Stash，Mac 上稳定）；作者未改时区与系统语言，以保持环境不变。
 
 ### 评论补充
-Apple Watch 震动偏弱，沉迷时容易忽略；升降桌专注时也会忘记使用。部分用户认为手环倒计时已够用，问题在于意志力，甚至调侃电击手表、动态血糖仪制造健康恐慌。
+- 有用户采用类似方案（AWS 东京 + 美国服务器 + Clash 规则 + TUN），并用阿里云香港自建 DNS 防泄露，称稳定 2 年。
+- 成本讨论：IpRoyal ISP 约 5 美元/月，作者认为相对 100 美元订阅可接受，也有人认为这层非必需。
+- 反例：有用户 200 美元套餐用半年后因额度消耗快被封；也有人称封号当月几乎没用额度，说明该方案并非绝对有效。
+- 作者补充：注册邮箱从 Gmail 换成 Outlook；自建可用 sing-box 并调整 TCP 为 BBR。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246459" target="_blank" rel="noopener noreferrer">久坐提醒，有没有啥好的方案，能让自己站起来？</a></span><span class="topic-stats">回复 46 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246574" target="_blank" rel="noopener noreferrer">个人使用 Claude 防止封号的经验分享</a></span><span class="topic-stats">回复 56 · 收藏 73</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246444" markdown="1">
+<details class="topic-card" data-topic-id="1246613" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">AI 时代为何 JS/TS 全栈招聘仍少于 Java/PHP/Python</span>
+<span class="topic-title">用 VS Code + SweetPad + XcodeGen 开发 iOS 应用完整指南</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -58,32 +63,32 @@ Apple Watch 震动偏弱，沉迷时容易忽略；升降桌专注时也会忘�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主观察到二线城市招聘以 Java、PHP、Python 全栈为主，TS 全栈偏少，一线城市也类似，与网上“TS 全栈流行”的印象不符。评论普遍认为：AI 拉平了语言间开发效率，选型更看性能、内存与既有项目惯性，而非语法糖。
+
+作者以 SwiftUI 小项目 FloatingBottomSheetsApp 为例，给出不打开 Xcode IDE 的完整 iOS 开发环境方案：XcodeGen 用 `project.yml` 声明工程并生成 `.xcodeproj`；SweetPad 扩展在 VS Code 内完成构建、运行、调试、热重载；VS Code + Swift 扩展提供补全与格式化。底层仍是苹果官方 `xcodebuild` 与 `lldb`，构建产物与签名行为与 Xcode 一致，团队可混用。示例代码见 cyub/sweetpad-demo。
 
 ### 关键要点
-- **存量项目锁定语言**：老项目多为 Java/PHP，不会因个人偏好换框架；新项目话语权常仍在老团队手里。
-- **性能与成本回归**：多位回复称 JS 后端占内存、性能差，已转向 Go；有观点称 JS 与 Go 差距是指数级，但被反驳为纯基准约 3 倍、实际工程差异更大。
-- **AI 时代选型逻辑**：有回复主张选 AI 最会写的 JS/TS/Python，其次 Java；也有回复认为常驻后端首选 Go，Token 经济学更划算。
-- **海外差异**：TS 全栈流行与 Cloudflare Workers 体系有关，心智负担低、账单平缓；国内缺少直接对标产品。
+
+- **工程生成**：`project.yml` 声明 target、iOS 17、SPM 依赖与 `GENERATE_INFOPLIST_FILE: YES`，避免缺 Info.plist 的签名报错；开启 `sweetpad.xcodegen.autogenerate` 可自动重生成，XcodeGen 2.44+ 支持 `syncedFolder`。
+- **补全与调试**：首次构建自动生成 `buildServer.json`（需 gitignore），SourceKit-LSP 即可补全；`launch.json` 用 `sweetpad-lldb`，F5 构建、安装并附加 LLDB。
+- **热重载**：装 InjectionNext，开启 `sweetpad.hotReload.enabled`，SwiftUI 加 `@ObserveInjection` 与 `.enableInjection()`，保存即刷新且保留状态；仅限模拟器与 macOS，真机、watchOS 不支持。
+- **性能与协作**：`-interposable` 仅 Debug 用，Release 关闭；模拟器 UDID 机器相关，团队只固定 scheme。
 
 ### 评论补充
-- 有回复引用 Shopify 2026 年 9 月将旗舰移动应用从 React Native 转向 Swift/Kotlin 原生架构。
-- 有回复称 DHH 演讲提到 HEY 核心后端改由 Agent 生成 Rust 后，CPU 降 99%、内存降 95%，服务器从 110 台减至 10 台。
-- 有回复提到 celld 等 Workers 本地部署方案，以 S3 + SQLite 降低常驻成本。
-- 分歧点：Rust 与 Go 的性能差距、V8 与 Go 的实际差距，以及 AI 是否减少招聘需求。
+
+有回复指出该方案更适合前端背景或不愿用 Xcode 的开发者，SweetPad 调试与 Xcode 开箱即用仍有差距，尤其缺少实时资源占用与性能调试；也有回复认可 Xcode 体验差。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246444" target="_blank" rel="noopener noreferrer">ai 时代怎么感觉招 js/ts 全栈还是那么少？</a></span><span class="topic-stats">回复 27 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246613" target="_blank" rel="noopener noreferrer">告别 Xcode IDE:用 VS Code + SweetPad + XcodeGen 开发 iOS 应用的完整指南</a></span><span class="topic-stats">回复 8 · 收藏 11</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246458" markdown="1">
+<details class="topic-card" data-topic-id="1246588" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">小公司让签自愿放弃社保，刚毕业该不该交</span>
+<span class="topic-title">京东老用户被强制人脸识别，转投其他平台</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -91,31 +96,35 @@ Apple Watch 震动偏弱，沉迷时容易忽略；升降桌专注时也会忘�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-刚转正的全栈开发被小公司要求二选一：按最低标准缴社保，或签《自愿放弃社保说明》把公司部分折现。多数回复认为应正常缴纳，并警惕公司合规风险。
+一位十几年、累计消费约 50 万的京东老用户，账户突然无法登录，手机验证码失效，必须同意京东金融协议并完成人脸识别才能登录。作者付款走第三方、账户无余额，认为人脸识别的唯一用途指向借贷，因此拒绝并转向其他平台。
 
 ### 关键要点
-- **社保不等于养老金**：包含养老、医疗、工伤、失业四类，日常用得最多的是医保，工伤可覆盖身故抚恤与子女补助。
-- **挂钩场景多**：办信用卡、开一类卡、银行卡解封等可能要求社保或个税记录；空档期也可能影响后续求职。
-- **公司风险更大**：不缴社保属违法，被查处的责任在公司；员工可离职后仲裁要求补缴，胜算较高。
-- **替代方案有限**：若确实不缴，可自行购买商业医疗险补充，但无法完全替代职工医保。
+- 客服称人脸识别是“为了安全”，但作者认为其账户无资金风险，诉求不合理。
+- 作者已拨打 12345 投诉京东总部，并计划“用脚投票”。
+- 替代方案：生鲜改山姆、盒马、小象；电子走官网或天猫；日用品试拼多多。
+- 作者对比发现，过去几个月京东日用品价格普遍偏高。
+- 有回复称国家规定不得只提供人脸识别一种验证途径，投诉到管局后客服可能提供免刷脸链接。
 
 ### 评论补充
-有回复主张社保对个人影响有限，认为找工作、签证看的是工资流水，并质疑养老金可持续性；也有回复指出失业金领取门槛高、私企常让员工签自愿离职。发帖人最终表示公司确实不正规，决定正常缴纳。
+- 多位用户指出淘宝、美团、12306、银行证券等也在采集人脸，认为难以完全回避。
+- 有回复认为这是监管要求而非京东单方行为，也有人反驳称更像京东金融自身操作。
+- 有用户反映京东 E 卡也被要求实名，否则无法使用，投诉后被冷处理。
+- 有用户称京东金融运营风格类似小贷公司，曾发生信息泄露。
 
-＞ 结论：优先选择缴纳社保，同时把这家公司当作积累经验的过渡，留意合规风险。
+＞ 争议点：人脸识别是政策要求还是京东金融推动，评论中未形成共识。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246458" target="_blank" rel="noopener noreferrer">社保要交吗？</a></span><span class="topic-stats">回复 35 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246588" target="_blank" rel="noopener noreferrer">接下来一年的时间，我将从京东过渡到其它平台</a></span><span class="topic-stats">回复 49 · 收藏 7</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246475" markdown="1">
+<details class="topic-card" data-topic-id="1246631" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">Loon 去 YouTube 广告：自写插件与 QUIC 拦截方案</span>
+<span class="topic-title">本地小模型 Computer use：Qwen3.5 微调三周 600 美元</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -123,30 +132,32 @@ Apple Watch 震动偏弱，沉迷时容易忽略；升降桌专注时也会忘�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主在 Loon 上寻找能去掉 YouTube 播放广告的插件，发现现有插件大多失效，自己用 AI 从头写的插件也只能去掉首页视频流广告，部分视频仍有播放广告。讨论中给出了若干可尝试的方向，并最终由楼主给出自用插件链接。
+作者用三周业余时间、约 600 美元训练了两个本机小模型（Qwen3.5 0.8B 与 4B 微调，MLX），做出 Mac 上的电脑操作 agent「DeskMind 得心」。思路借鉴 Jev：把每一步变成选择题，让模型给选项打分而非生成文字；决策服务沿用 Jev 的 `POST /v1/systemone` 请求格式，已有 harness 换地址即可接入本机。
 
 ### 关键要点
-- **自写插件**：楼主用 ChatGPT 生成全部 JS，未复用其他去广告脚本，称已解决首页广告并大幅减少播放广告，最终分享插件地址 `https://raw.githubusercontent.com/teaoea/shell/refs/heads/main/loon/YouTube/YouTubeNoAds.plugin`。
-- **拦截 QUIC**：在节点中启用拦截 QUIC，或对 `googlevideo.com` 域名后缀自定义规则拦截 QUIC 协议；楼主反馈副作用是点开视频会黑屏几秒。
-- **改地区参数**：楼主的研究方向是点击播放时改造请求，把地区参数改为中国大陆，让 YouTube 判定为无广告地区；另有回复称澳门 IP 的 Google 全家桶无广告。
-- **其他插件**：可莉插件、圈 X 墨鱼规则（可改写成 Loon 规则）、`https://rucu6.pages.dev/Plugins/youtube_2.lpx` 被提及。
-- **浏览器端**：Safari 用 uBlock Origin Lite 效果很好；iOS 上 Brave 浏览器去广告效果被评价为最好。
+- **分级决策**：0.8B 有把握直接执行（约 0.5 秒），没把握交给 4B（约 3.6 秒）；任务存在两种理解时先反问用户，而非随意选择。
+- **自测结果**：13 个真机任务各跑 3 次，发布版 38/39，未出现未完成却报「完成」；作者强调题目自出、样本小，逐题结果公开。
+- **踩坑**：标签平滑设 0.95，导致 0.8B 置信度挤在 0.96 门槛附近，七成步骤被转交 4B，速度偏慢，下轮修正。
+- **成本经验**：训练先在 Tinker，后转阿里云 PAI，最终按小时租显卡最划算。
+- **已知不足**：模糊指令（如「整理这个文件夹」）表现差；文件多的文件夹每步需几十秒；仅支持 Apple 芯片，首次需下载约 5.3 GB 模型。
 
 ### 评论补充
-有用户反映从圈 X 转到 Loon 后部分去广告插件间歇性失效，也有人用巨魔安装破解增强 IPA 实现去广告。整体共识是 Loon 端去播放广告没有稳定通用方案，需按地区、协议和插件组合自行调试。
+作者在回复中给出训练数据来源：公开数据集加自建合成数据、桌面操作数据由 oracle 自动标注、并蒸馏大模型，训练记录见 [training.zh-CN.md](https://github.com/deskmind-ai/brain/blob/main/docs/training.zh-CN.md)。有评论质疑帖子由 AI 代写，作者承认 AI 协助完善但大纲与内容自拟；另有评论认为当前自跑模型未必必要，云端方案仍有免费额度，作者回应生产环境不便用 Jev API，同时借此学习训练。
+
+项目地址：[GitHub](https://github.com/deskmind-ai/deskmind)、[Mac App](https://deskmind.dev/zh/?ref=v2ex)、[过程与踩坑](https://deskmind.dev/zh/blog/launch?ref=v2ex)。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246475" target="_blank" rel="noopener noreferrer">loon 有没有好用的去 YouTube 广告的插件</a></span><span class="topic-stats">回复 23 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246631" target="_blank" rel="noopener noreferrer">受 Jev 启发，花了三周、600 美元、20 多轮训了两个小模型专门做 Computer use</a></span><span class="topic-stats">回复 7 · 收藏 10</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246434" markdown="1">
+<details class="topic-card" data-topic-id="1246568" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">1000个中文大站仅30个有llms.txt，附体检工具</span>
+<span class="topic-title">B站开源 Index-Translate：150 语言翻译模型与免费 API</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -154,31 +165,29 @@ Apple Watch 震动偏弱，沉迷时容易忽略；升降桌专注时也会忘�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者抓取 1000 个中文大站的 `/llms.txt`，统计 AI 可读文件的部署情况：真正提供文件的只有 30 个，占 3%。
+B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5 Base 训练，支持 150 种文本语言，提供 2B、9B 和 35B-A3B 三种规格。除翻译质量外，还专门训练了指令遵循能力，可塞入术语表、指定文风、要求保留内容与格式，例如翻小说时固定人名和境界名，或要求“别解释，只输出译文”。
 
 ### 关键要点
-- **状态码陷阱**：164 个站返回 200，但内容是 HTML 网页壳，AI 抓到的等于空壳；412 个直接 404；390 个因 WAF 拦截或超时抓不到（这部分不能算作“没有”）。
-- **满分案例**：共 9 个满分，包括 B 站、Gitee、魔搭、SHEIN、TAPTap、环球网等。
-- **大厂反差**：百度、抖音为 404；淘宝、京东、拼多多返回 200 但全是 HTML 壳；字节 Coze 虽做了但仅 50 分、74 个警告、链接重复。阿里系中唯一满分的是魔搭社区。
-- **独立站略好**：100 个独立站中 19% 有文件，博客圈仅 7%。常见毛病是链接无描述、缺摘要，作者认为半小时即可修好。
+- **免费 API 已开放**，兼容 OpenAI 接口，改现有客户端 base URL 即可接入；附零外部依赖的 Python 调用脚本。
+- **网页 demo** 可直接试用，权重发布在 Hugging Face。
+- **衍生分支**：Echo（语音转字幕、带音色克隆的端到端语音翻译）、Homura（给译文设音节预算，适合卡时长场景）、Nailong（长文档翻译，减少分块导致的前后不一致）。
+- 相关链接：demo `https://index-translate.bilibili.com`，调用脚本 `https://github.com/bilibili/Index-Translate/blob/main/inference/llm/call_api.py`，仓库 `https://github.com/bilibili/Index-Translate`，权重 `https://huggingface.co/collections/IndexTeam/index-translate`。
 
 ### 评论补充
-有回复建议也测英文大站，作者回应英文站起步早、数据应更好看，计划做一版中英对比。另有用户反馈工具可用，但满分站点仍存在需调整的警告。
-
-作者开源了体检与生成工具：`cetxt.com` 可输域名打分，无文件时 30 秒生成一份；代码在 github.com/yehyakin/llms-txt-cn，1000 条完整数据可在 cetxt.com/survey/ 搜索筛选。样本由公开排名近似凑成，非官方榜单，方法局限见调查页。
+有用户反馈该免费 API 配合手机翻译 App 作为默认翻译，速度快且不生硬，优于苹果默认翻译。作者回应称与 Sakura 在小说和文化迁移方面类似，但定位为通用全功能翻译模型，支持小语种与自定义指令约束。关于免费 API 的持续时间，作者表示取决于项目能否争取到资源，未给出明确期限，属待核验信息。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246434" target="_blank" rel="noopener noreferrer">测了 1000 个中文大站的 llms.txt，只有 30 个放了真正的文件</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246568" target="_blank" rel="noopener noreferrer">开源了个翻译模型 Index-Translate 🌍 150 种语言，免费 API 已开，欢迎体验</a></span><span class="topic-stats">回复 10 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246550" markdown="1">
+<details class="topic-card" data-topic-id="1246570" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">国行 iPhone 通过 MobileGestalt 修改开启 FaceTime Audio</span>
+<span class="topic-title">GitHub 下载 Xshell 破解版中木马，账号被盗的教训</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -186,322 +195,185 @@ Apple Watch 震动偏弱，沉迷时容易忽略；升降桌专注时也会忘�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-在仍存在 MobileGestalt 修改漏洞的 iOS 版本上，国行 iPhone / 蜂窝 iPad 可通过修改 CacheData 中的 `green-tea` 与 `not-green-tea` 两个布尔位来启用 FaceTime Audio，来去电均支持。作者仅在 CH/A iPhone 11 / iOS 17.0 与 iPhone 15 Pro / iOS 18.7.2 上实测。
+楼主因急需给路由器装插件，在 Google 搜索 Xshell 后误入 GitHub 上一个名为 `xshell-setup-free` 的破解版项目（仅 2 星），解压需密码，Windows 已提示危险仍强行安装。安装瞬间自带杀毒软件闪退，次日 Instagram、邮箱等账号全部被盗，并被用来向好友群发钓鱼链接，随后邮箱收到上百封垃圾邮件。已多次向 GitHub 举报未获回复。
 
 ### 关键要点
-- 原理：FaceTime Audio 可用 = `venice && (!green-tea || 运营商明确允许)`，因此把 `green-tea` 改为 false 即可。
-- 步骤：快捷指令导出 MobileGestalt 文件 → 让 Agent 按实机与系统版本查找 `green-tea` / `not-green-tea` 在 CacheData 中的偏移 → 生成 Nugget Template → 写回设备并重启。
-- 注意：这两个 bool 位于 base64 编码的 CacheData 中，不是 plist 键值，不同机型/系统版本偏移不同，不建议混用 Template。
-- 作者机器曾为强开 Apple Intelligence 改为 LL/A，未做对照实验；若仅改 `green-tea` 无效，可考虑改设备区域。
-- 旧的 FaceTime Audio Enabler 在 iOS 17+ 已不足以开启该功能。
+- **风险信号被忽略**：破解版、GitHub 低星项目、杀毒软件警告、压缩包带密码，四重信号叠加仍继续安装。
+- **后果链条**：本机被控 → 社交账号被盗 → 通讯录被用于钓鱼传播 → 邮箱被轰炸。
+- **补救建议**：评论普遍认为中毒后应全盘格式化重装系统，仅靠火绒全盘查杀可能仍有残留。
+- **正规来源**：Xshell 个人用户可免费使用，官方下载页为 https://xshell.com/zh/all-downloads/ ，无需破解。
 
 ### 评论补充
-- 有回复指出 FaceTime Audio 需双端都支持才能打通，实际作用有限。
-- 有回复称 iOS 26.1 的 CacheData 中已无这两个键值；作者回应其 27.0 developer beta 4 仍存在，并强调它们是 CacheData 中的两个 bit，需按实机查偏移。
-- 另有回复称国行改 LL/A 强开 AI 后，重新导出 MobileGestalt 发现区域变回 C/A。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246550" target="_blank" rel="noopener noreferrer">有 MobileGestalt 修改漏洞的 iOS 版本可以在国行 iPhone / 蜂窝 iPad 上开启 FaceTime Audio</a></span><span class="topic-stats">回复 4 · 收藏 6</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246511" markdown="1">
-<summary>
-<span class="topic-rank">7</span>
-<span class="topic-title">开源在线 plist 编辑器 OpenPlist：免 Xcode 处理二进制 plist</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者开源了浏览器端 plist 编辑器 OpenPlist，用于在 Windows、Linux 等非 Mac 环境下查看、编辑和转换 Apple plist 文件，无需安装 Xcode。在线地址为 https://openplist.com/zh ，源码在 https://github.com/chenz24/openplist ，采用 MIT 协议，可自行部署，界面支持中英日三语。
-
-### 关键要点
-- **格式支持**：可打开 XML、二进制（bplist00）和 OpenStep 格式 plist，在树形视图修改键、值和类型，也可切到 XML/JSON 源码编辑。
-- **格式转换**：XML 与二进制 plist 互转，plist 与 JSON 互转。
-- **日常操作**：搜索键和值、新增与复制条目、撤销重做、未保存提醒。
-- **Apple 开发辅助**：查看 .mobileprovision 有效期、团队与设备信息，编辑 .mobileconfig、.entitlements、.strings、.stringsdict、.xcconfig，并对 OpenCore 配置做基础检查。
-- **隐私**：核心查看、编辑、转换在浏览器本地完成，不上传文件内容；配置描述文件的 AI 分析为可选，仅在主动使用时发送部分脱敏字段。
-
-### 使用限制
-plist 导出会重新生成排版，不保留原注释；JSON 无法完整保留 plist 的日期、二进制数据等类型；内置配置检查只覆盖部分规则。
-
-### 评论补充
-有回复认为该工具实用，并提到此前用 GitHub Actions 处理较麻烦，此工具更方便。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246511" target="_blank" rel="noopener noreferrer">做了个开源的 plist 在线编辑器，不装 Xcode 也能打开二进制 plist</a></span><span class="topic-stats">回复 3 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246513" markdown="1">
-<summary>
-<span class="topic-rank">8</span>
-<span class="topic-title">LocalViewer：基于 EhViewer 的 SMB/WebDAV 漫画相册阅读器</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-LocalViewer 是一款原生 Android 应用（Kotlin + Jetpack Compose），基于 EhViewer 开发，定位为高性能 SMB/WebDAV 图片查看器与漫画阅读器，支持网络图库文件夹，界面采用 Material Design 3 与动态取色。作者称其类似 Perfect Viewer 和 Kuro Reader，主打原图解码不下采样、界面简洁、性能良好。
-
-### 关键要点
-- **网络与本地库**：支持 SMB/WebDAV/NAS，添加文件夹即可阅读，免复杂配置，带文件历史与阅读进度。
-- **格式覆盖广**：可串流打开 ZIP/RAR/CBZ/CBR/CBT/PDF/EPUB；电子书支持 PDF/EPUB/MOBI/FB2/TXT/Markdown；图片支持 JXL/JXR/JPG/AVIF/HEIC 等 gain map 与 PQ HDR。
-- **阅读体验**：Webtoon 条漫模式、原图解码与缩放、漫画双页模式、双击切换上/下一个图库、墨水屏模式。
-- **显示与播放**：支持 HDR、广色域、10 位色深；网络视频可调用 MPV/MX Player/VLC，支持播放列表与外挂字幕。
-- **其他能力**：文件夹多窗口管理、媒体自动分类筛选、内置 HTTP 服务器浏览离线 HTML 档案、EasyTier 支持。
-
-项目主页与下载地址见正文 GitHub 链接（zmz125000/LocalViewer）。
-
-### 评论补充
-该主题暂无回复，以上信息均来自主帖自述，实际性能与兼容性需自行验证。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246513" target="_blank" rel="noopener noreferrer">LocalViewer -- 基于 EhViewer，简洁好用的 SMB 漫画 | 相册 | 视频 | eBook 阅读器</a></span><span class="topic-stats">回复 0 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246437" markdown="1">
-<summary>
-<span class="topic-rank">9</span>
-<span class="topic-title">开源 Precedent Loop：让 Codex/Claude Code 跨会话记住项目经验</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者开源了 Precedent Loop，用于解决 Codex、Claude Code 跨会话“不记事”的问题：上周查清的根因、定下的方案，新会话里模型又从头猜，甚至重提已被否掉的方案。
-
-作者认为两种常见做法都不理想：写进 `AGENTS.md` / `CLAUDE.md` 只适合放必须遵守的规则，经验类内容会让文件膨胀到几百行并被全量塞给模型；客户端自带记忆则由模型自行决定记什么，不可见、难纠错。
-
-### 关键要点
-- **流程**：Agent 在方案确定或根因查清时提交“候选”，写明背景、结论与适用范围；用户在桌面 App 中修改、让 AI 重写或拒绝，确认后才入库。
-- **按需检索**：后续会话中 Agent 主动查询，单次最多 8 条、总计不超过 5000 字，先看标题摘要再读全文，并标记“用上了”；内容过时可提修订，同样需确认。
-- **设计取舍**：检索用 SQLite FTS5 trigram 加字面匹配，未上向量，简单可解释但换说法可能搜不到；补救办法是每条入库必须带 3–16 个检索词。
-- **数据与兼容**：全本地，数据为单个 SQLite 文件，App 不调用模型 API、不保存 Key；Codex 与 Claude Code 共用一个库，多项目可互查；已有 Markdown 笔记可借本机 CLI 转成候选导入。
-- **限制**：仅支持 Apple Silicon Mac，App 未签名需手动放行，界面仅中文；作者自述 7 月 8 日至 10 月 4 日积累 79 条，被查 307 次，模型标记用上 113 次，但“用上”由模型自报，且未做严格对照实验。
-
-项目以 Apache-2.0 开源，GitHub 地址为 https://github.com/hemuzzz/PrecedentLoop ，README 含 83 秒演示视频。作者最想听取同义说法检索与召回评测方面的意见。
-
-### 评论补充
-唯一回复是作者自述背景：5 年 Java 后端，做过资金结算与 AI 客服后端，正在看杭州/上海机会，并留下联系方式，与主题技术内容无关。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246437" target="_blank" rel="noopener noreferrer">[开源] Precedent Loop：让 Agnet 换个会话也记得项目里踩过的坑</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246537" markdown="1">
-<summary>
-<span class="topic-rank">10</span>
-<span class="topic-title">开源 ALTRun：不到 1 MB 的 Windows 启动器，支持拼音与 Everything</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者发布开源 Windows 启动器 ALTRun，用 AutoHotkey v2 重写，操作方式参照 macOS 的 Alfred，按 `Alt+Space` 唤起，输入几个字母后回车即可打开程序、找文件、算数、搜网页、翻剪贴板历史。项目定位是替代体积偏大的 Wox、PowerToys Run、Listary 等方案，并致敬同名的 Pascal 版 ALTRun 与 RunZ。
-
-### 关键要点
-- **体积与便携**：下载不到 1 MB，解压约 2 MB，无需 .NET/Electron 等运行库；免安装、不写注册表、不需管理员权限，数据存于 `Data\` 文件夹，可放 U 盘或同步盘。
-- **中文与搜索**：支持拼音首字母（`wx` → 微信，`vsc` → Visual Studio Code）并高亮匹配；装了 Everything 可毫秒级全盘搜索，未装则用内置索引，输入路径可逐级浏览、Tab 补全。
-- **多合一功能**：计算器（单位、进制、日期、汇率）、网页搜索、浏览器书签、剪贴板历史（文字/文件/图片，可置顶）、文字片段（`;关键字` 展开）、切换窗口、40 多个 Windows 设置页面与系统命令。
-- **效率细节**：记住每次输入所选结果，常用项自动靠前；全键盘操作，`→` 打开操作面板（管理员运行、打开所在位置、复制路径、属性），F3 编辑，`Ctrl+1~9` 直接打开第 N 项。
-- **Total Commander 配合**：打开/保存对话框内 `Ctrl+G` 跳到 TC 当前目录，Insert 标记多文件后一起操作，文件管理器可设为 TC。
-- **个性化与隐私**：支持简中/繁中/English/日本語界面、20 套内置主题、跟随系统深浅色；不收集数据，仅联网检查更新，开启货币换算后每天下载一次汇率。
-
-### 获取方式
-GitHub 仓库 https://github.com/zhugecaomao/ALTRun （GPL-3.0），官网 https://zhugecaomao.github.io/ALTRun/ ，最新版见 releases 页面；也可通过 Scoop 安装：`scoop bucket add altrun` 后 `scoop install altrun`。装好后按 `Alt+Space` 输入 `?` 查看全部用法，有新版本会在搜索窗口提示，回车即可更新。
-
-该主题暂无回复，以上信息均来自作者自述，实际体验与兼容性需自行验证。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246537" target="_blank" rel="noopener noreferrer">[开源] ALTRun: 不到 1 MB 的 Windows 启动器, 操作方式参照 Alfred, 支持拼音首字母和 Everything</a></span><span class="topic-stats">回复 0 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246557" markdown="1">
-<summary>
-<span class="topic-rank">11</span>
-<span class="topic-title">Meta Muse 每人 2C8G 虚拟机：1 亿用户 CPU 需求两种算法差 30 倍</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-Meta 个人 AI 助理 Muse 为每个用户配一台专属虚拟机，规格为 2 vCPU、8GB 内存、100GB 固态硬盘；模型推理在 GPU 上完成，虚拟机层只消耗 CPU、内存和硬盘。围绕“1 亿用户需要多少颗 CPU”，两种算法结果相差约 30 倍。
-
-### 关键要点
-- **往多算（Wccftech）**：假设 1 亿用户全部同时在线，每人 2 vCPU 按 1 vCPU 占 1 物理核、每颗 126 核折算，约 **158 万颗**；打折后一半在线约 79 万颗，一成在线约 15.8 万颗。
-- **往少算（分析师 Freda Duan）**：每人每天用 2 小时，平均同时在线约 833 万台，乘高峰系数 2.5 并留 20% 余量得 2,500 万台；虚拟机约九成时间在等模型返回、CPU 近乎闲置，每台只算 0.5 物理核，合计 1,250 万核，按 256 核一颗折算约 **5 万颗**（折算为发帖人所做）。
-- **分歧集中在两个参数**：同时在线率（100% 对约 8%）与超卖比（1 vCPU 对 1 核，还是 4 vCPU 对 1 核）。发帖人认为后者更接近虚拟化实际，但提醒助理类负载在用户关掉 App 后任务可能仍在跑，在线率未必像网页应用那么低。
-- **供给端紧张**：TrendForce 称服务器 CPU 交期已达 25–30 周（平衡时为 16–20 周）；英特尔 CEO 表示目前只能满足约一半需求；部分代理任务的 CPU 对 GPU 配比在 4:1 到 40:1。
-- **前提是假设**：1 亿用户为假设值，Muse 目前仅在美国和加拿大上线，上线 12 天 iOS 下载量 180 万。
-
-### 评论补充
-该主题暂无回复，发帖人提出的问题——这类“大部分时间在等 IO”的负载应按多少超卖比配置——尚无社区经验回应。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246557" target="_blank" rel="noopener noreferrer">Meta Muse 每人一台 2C8G 虚拟机， 1 亿用户要多少颗 CPU？两种算法差了 30 倍</a></span><span class="topic-stats">回复 0 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246552" markdown="1">
-<summary>
-<span class="topic-rank">12</span>
-<span class="topic-title">某宝微型UPS给光猫路由供电靠谱吗？</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-某宝上给光猫、路由器供电的微型 UPS（含 USB、12V、9V、POE 输出，可放弱电箱）是否靠谱？主帖担心其作坊感、充电 16 小时、断电后需手动重启。评论普遍认为多数产品不靠谱，但特定场景可凑合用。
-
-### 关键要点
-- **电压问题**：多数产品非恒压，电压随电量变化；恒压款也未必所有输出口恒压，断电瞬间电压突变，只适合对电压不敏感、重启无碍的设备。
-- **电池寿命**：锂电池长期满电会加速老化、鼓包过热；铅酸电池更耐浮充，但怕深度放电，且重量大。
-- **实际风险**：有用户买过 5 个灰色 12V 款，两年坏 1 个，自带三无电池且无稳压，明确警告不要接硬盘。另有新品牌直流 UPS 停电后输出高压烧毁设备。
-- **替代方案**：大容量户外充电宝可给光猫路由供电数天；正规 UPS（如 APC、山特）更安全但贵，且带显卡时续航差异大。
-- **根本局限**：断电时小区宽带分光箱也断电，微型 UPS 可能无法维持网络。
-
-### 评论补充
-- 铅酸电池并非娇气，机架式 UPS 用免维护铅酸，标称寿命 5 年，保持充电几乎无限寿命，只要不深度放电即可。
-- 若路由器能接受 13-14V，可 DIY 并联铅酸电池。
-- 安全考虑应选正规品牌，不严肃场合才用杂牌给路由器供电。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246552" target="_blank" rel="noopener noreferrer">话说某宝上面那种装锂电池给光猫路由这些设备用的的微型 UPS 靠谱么？</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246481" markdown="1">
-<summary>
-<span class="topic-rank">13</span>
-<span class="topic-title">甲骨文云注册成功经历与免费实例配置记录</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者在甲骨文云（OCI）成功注册并开通账号，区域为美西凤凰城（US West - Phoenix），在 Always Free 配额下开出两台实例：`VM.Standard.E2.1.Micro`（1 OCPU / 1 GB RAM，AMD）与 `VM.Standard.A1.Flex`（2 OCPU / 12 GB RAM，Ampere A1 ARM，仅用一半额度）。
-
-### 关键要点
-- 注册环境：MacBook Air M4 + macOS，使用 Safari 原生浏览器，未启用第三方拦截扩展。
-- 支付方式：招商银行 VISA 全币种信用卡。
-- 账单地址如实填写，与银行预留账单地址完全一致；作者建议直接打印信用卡账单获取完整地址。
-- 作者表示实例主要用于测试，以保活为目的。
-
-### 评论补充
-- 有回复提醒免费资源并非绝对可靠，曾因未备份损失数据；另一回复认为应自行做好每日 1–2 次备份，而非归咎于免费。
-- 多位用户反馈注册成功率不稳定：有人配置相近却始终失败（提示 abc），也有人换用 muse/gemini 浏览器后成功，怀疑与银行卡有关。
-- 有用户注册圣何塞区域后开不出机器，另有用户在其他区域长期抢不到 ARM 实例，说明可用区与 ARM 库存差异较大。
-- 关于升级后 A1 配额（2 OCPU/12 GB 还是 4 OCPU/24 GB）存在疑问，作者未升级，无法确认。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246481" target="_blank" rel="noopener noreferrer">记录一下甲骨文云（Oracle Cloud）成功注册经历及环境配置</a></span><span class="topic-stats">回复 12 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246486" markdown="1">
-<summary>
-<span class="topic-rank">14</span>
-<span class="topic-title">AI 辅助开发后，人脱离 AI 无法定位问题算项目失控吗</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-主帖提出一个正在 Vibe Coding 团队中出现的现象：AI 辅助让开发速度提升，但成员对项目代码的理解明显下降，甚至脱离 AI 就无法定位问题，说不清自己负责组件的输入、输出和设计原因。作者追问这是否算对项目的失控。
-
-### 关键要点
-- 多数回复认同这属于失控，底线是“人都不懂项目怎么设计了”。
-- 有观点认为这不是 AI 的问题，而是人的问题：复杂需求仍需人先转成实施方案再交给 AI，一问三不知的岗位本身可被替代。
-- 反对“必须脱离 AI”的思路：既然代码由 AI 生成，就应接受用 AI 定位问题，正如不会用机器码排查高级语言问题。
-- 现实做法是调整人的职责边界：关注输入、输出、上层把控和产品，把审查与 debug 交给 AI 流程。
-- 有回复指出，AI 生成速度已超出人工 review 能力，只能让 AI 自审，测试通过即提交。
-
-### 评论补充
-有回复提醒，过去由人维护时也未必真正可控，只是“人还在”造成可控的错觉。真正值得操心的是：AI 快速修复时如何不引入新 bug。另有观点认为软件工程的组织与流程明年会随之变化。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246486" target="_blank" rel="noopener noreferrer">在 AI 驱动下开发的项目，如果后续由人来介入开发阻力很大 算不算对项目上的失控</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1246484" markdown="1">
-<summary>
-<span class="topic-rank">15</span>
-<span class="topic-title">开源 ChatGPT 图片批量下载 Chrome 扩展</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者因频繁使用 ChatGPT 生成图片、逐张下载麻烦，开发了一个 Chrome 扩展，用于批量下载当前这一组生成的图片。项目已在 GitHub 开源，Chrome Web Store 版本处于审核中，目前可从 GitHub Release 下载后手动安装。
-
-### 关键要点
-- 支持一次勾选当前这一组 ChatGPT 生成的图片并批量下载。
-- 覆盖生成结果页与全屏图片查看器两种场景。
-- 提供预览、取消选择、失败重试功能。
-- 下载网页提供的原始图片，不做压缩和转换。
-- 图片仅在浏览器本地处理，不上传其他服务器。
-- 仓库地址：https://github.com/xin0907/gpt-image-batch-downloader
-
-### 评论补充
-有用户反馈一组 10 张图时逐个勾选仍较麻烦，建议支持分批下载或 Shift+鼠标多选，属于可改进的交互方向。
+有用户指出“平日的千般小心比不上偶然的一时情急”，点出紧急状态下判断力下降是主因。另有评论推荐本地免费的 SSH 客户端 https://www.termark.app 。关于是否重装系统，楼主自述已用火绒全盘查杀，但多位回复者建议直接重装。
 
 ### 限制
-当前仅作者自述功能，尚无第三方使用验证；商店版本未上架，需手动安装。
+事件细节均为楼主自述，无第三方取证；病毒样本、具体窃取机制未披露，结论以经验教训为主。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246484" target="_blank" rel="noopener noreferrer">分享一个自己做的 ChatGPT 图片批量下载 Chrome 扩展</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246570" target="_blank" rel="noopener noreferrer">没想到在 GitHub 下载软件还能中木马病毒…真的吃一堑长一智了</a></span><span class="topic-stats">回复 33 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246629" markdown="1">
+<summary>
+<span class="topic-rank">7</span>
+<span class="topic-title">楼上租户夜间噪音：报警、12345投诉与震楼器的处理顺序</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+主帖反映楼上新租户（一对情侣）常在 23 点后大声唱歌、吵架、打游戏喊叫，沟通效果有限，作者考虑用震楼器对刚。评论区的共识是：沟通对无素质者基本无效，但处理要讲顺序，避免自己先违法。
+
+### 关键要点
+- **推荐顺序**：先自行交涉 → 无效找物业 → 再报警，闹一次报一次；报警无效后再考虑震楼器。有回复指出，报过警且对方不听劝阻后再震楼，警察通常不会为难你；未报警直接震楼，对方报警时你可能处于不利位置。
+- **投诉渠道**：不要只找社区辅警（无记录），用微信 12345 投诉会留痕，深圳会指派附近派出所处理，结果不满意可继续投诉，相关部门有绩效压力；注意保存录音。
+- **找房东**：租户问题可联系房东施压，有回复称最终靠反复轰炸房东才把人赶走。
+- **止损选项**：若房子是租的，尽早搬走；自有房则只能长期应对。
+
+### 评论补充
+有回复提醒主动制造噪声可能涉及法律风险，并建议“拾音并扩大”这类规避思路；也有人认为“解决不了就把问题搞大”。多数人认同沟通只对有素质者有效，震楼器是最后手段，且不要承认是自己所为。
+
+＞ 风险提示：震楼器、对骂等做法存在法律与邻里冲突风险，以上为评论观点，非法律建议。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246629" target="_blank" rel="noopener noreferrer">怎么反制楼上租户制造噪音，沟通了效果不大</a></span><span class="topic-stats">回复 34 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246590" markdown="1">
+<summary>
+<span class="topic-rank">8</span>
+<span class="topic-title">Codex 后台控制 macOS 应用的技术实现</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+主题讨论 Codex 在 macOS 上后台操控应用的技术原理：菜单栏出现电脑图标（右下角带小人头像），被控应用左上角也显示该图标，且操作不阻塞用户正常使用电脑。
+
+### 关键要点
+- 方向被指为 Computer use 类能力，但主帖追问底层实现，认为 Accessibility API 是独占的，可能不是它。
+- 有回复给出较具体的解释：使用**录屏 API + Accessibility API**；非独占的关键在于点击不移动光标，而是直接对目标进程的元素执行动作，输入也不发全局键盘事件，而是设置元素的值、选中文本，因此不抢焦点、不动光标，只需后台运行。
+- 有回复称 OpenAI 收购了 Software Applications Incorporated（SAI，苹果快捷指令原创团队），Codex 后台操控 macOS 应用的核心组件用的是 Sky 的客户端程序。
+- 开源参考实现被提及：e2b-dev/open-computer-use（https://github.com/e2b-dev/open-computer-use），但明确说明 Codex 不一定使用它。
+- Windows 侧类似方案被提及 rdpwrap（https://github.com/sebaxakerhtc/rdpwrap），同样只是类比。
+
+### 评论补充
+关于底层机制，评论存在推测与事实混杂：录屏+Accessibility API 的解释较完整，但未提供官方来源；SAI/Sky 的说法也未经证实。可复用的结论是：后台操控通常靠“读屏 + 直接操作元素”而非模拟全局输入，从而避免抢占焦点。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246590" target="_blank" rel="noopener noreferrer">codex 的电脑控制用的是什么技术？</a></span><span class="topic-stats">回复 6 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246665" markdown="1">
+<summary>
+<span class="topic-rank">9</span>
+<span class="topic-title">用 ChatGPT 开发的 YouTube 去广告插件，支持 Loon 与圈X</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者用 ChatGPT 从零开发了一款 YouTube 去广告脚本，未使用开源项目，主打 Loon 效果，圈 X 也可用。功能包括首页视频流无广告、视频播放无广告，且节点无需拦截 QUIC。插件地址：https://github.com/teaoea/shell/tree/main/plugins
+
+### 关键要点
+- 圈 X 安装 URL 为 `https://raw.githubusercontent.com/teaoea/shell/refs/heads/main/plugins/YouTube/YouTubeNoAds.snippet`。
+- 作者称主要面向 Loon 开发，路由器场景未测试。
+- 有用户反馈打开视频略慢，作者表示自身使用无明显问题。
+
+### 评论补充
+- 有用户指出圈 X 直接转换逻辑组合规则会改变匹配条件，改用 sgmodule 后可用。
+- 关于 Surge 模块，评论给出两个可参考的第三方模块链接：`https://raw.githubusercontent.com/Aioneas/Surge/main/Module/youtube.aioneas.hide-shorts.sgmodule` 与 `https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/YouTube.Enhance.sgmodule`。
+- 有用户询问能否解锁最高画质，主题内未给出结论。
+
+整体属于个人自研工具分享，可复用信息集中在安装地址与平台兼容性，效果与稳定性仍待更多验证。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246665" target="_blank" rel="noopener noreferrer">分享自己用 ChatGPT 开发的 YouTube 去广告插件</a></span><span class="topic-stats">回复 13 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246602" markdown="1">
+<summary>
+<span class="topic-rank">10</span>
+<span class="topic-title">Janus v0.3.5：把 OpenCode 包装成统一 Agent 网关</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Janus 是一个 MIT 许可的开源 AI Agent 网关（v0.3.5），定位为控制平面：把只有 `/api/*` 的 OpenCode server 包装成标准 `/v1/*`，让 OpenAI / Anthropic 兼容客户端（Cursor、Trae、OpenAI SDK、LangChain 等）零改动接入，并统一管理会话、工具、权限与用量。它不重造 Agent / Tool / MCP / Session runtime，这些交给 OpenCode。
+
+### 关键要点
+- **安装**：可从 Releases 下载 amd64/arm64/arm/386 预编译包，或源码编译（Go 1.23+），也支持 Docker（distroless 非 root 静态镜像）与仓库自带 systemd 单元。上游需先装 OpenCode。
+- **零配置启动**：Janus 自动发现或自行拉起 `opencode serve`（随机端口+密码），客户端只需把 Base URL 指向 `http://127.0.0.1:2810/v1`、API Key 填 `BRIDGE_API_KEY`；Anthropic 客户端设 `ANTHROPIC_BASE_URL`。
+- **三种执行模式**：`native`（工具在 Janus 主机执行）、`remote-tools`（工具在客户端，经内置 MCP 桥，对客户端仍是标准 tool_calls）、`none`（纯推理）。由 `BRIDGE_AGENT` + `BRIDGE_TOOL_CALLING` 决定。
+- **虚拟模型 janus**：客户端模型名固定填 `janus`，在 `/ui` 面板切换默认模型与思考档位，下一条请求原地生效、不重开会话、上下文保留。解析优先级为面板选择 ＞ `BRIDGE_DEFAULT_MODEL` ＞ 上游默认。
+- **自动注入 agent 配置**：通过 `OPENCODE_CONFIG_CONTENT` 注入白名单式配置，避免手写黑名单因 OpenCode 改工具名而失效。
+- **可观测**：`/v1/requests` 与 `/ui` 提供逐条请求的缓存命中率、思考 token、耗时、费用，同时给出 OpenAI 与 DeepSeek 两种缓存 token 统计口径。
+
+### 评论补充
+唯一回复质疑文中“一句话”式表述不像人话，未提供技术性反驳或验证。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246602" target="_blank" rel="noopener noreferrer">Janus：把 OpenCode 包装成统一的 Agent 网关</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246599" markdown="1">
+<summary>
+<span class="topic-rank">11</span>
+<span class="topic-title">宽楦鞋推荐：特步巴斯克137元实测体验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+一位脚掌宽、前三趾几乎等长的用户分享低价宽楦鞋选购经验：特步巴斯克，淘宝约 137 元入手，穿一个月，上过山下过地。
+
+### 关键要点
+- **尺码参考**：作者平时皮鞋穿 41，以往需买 43 才勉强合脚；此款买 43 前掌仍有余量，不挤脚。
+- **优点**：薄底轻便、透气，鞋垫带一点足弓支撑，前掌空间充足。
+- **缺点**：湿瓷砖上打滑（作者在公共卫生间发现）；石子路硌脚。
+- **适用场景**：日常与轻度户外，非跑步用途。
+
+### 评论补充
+- 有回复指出打滑问题并非个例，斯凯奇、New Balance 部分鞋款同样存在，北方雪天走瓷砖风险更大。
+- 有回复认为该鞋前后落差偏大，体验不佳。
+- 另有回复提示：非跑步用途的户外鞋通常本身较宽松，可作为宽脚选鞋的替代思路。
+
+整体看，这是一条有具体价格、尺码对照和实测缺点的低价宽楦鞋参考，但样本仅一人一月，且打滑与落差问题存在争议，选购前建议实地试穿。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246599" target="_blank" rel="noopener noreferrer">推荐一款物美价廉宽楦鞋-特步巴斯克</a></span><span class="topic-stats">回复 4 · 收藏 1</span></p>
 
 </div>
 
