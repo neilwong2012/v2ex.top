@@ -3,24 +3,24 @@ layout: report-home
 title: "V2EX 每日热点回顾"
 permalink: /latest/
 status: success
-target_date: 2026-10-06
-generated_at: "2026-10-07 09:25:28"
-summary: "昨日主题 124 个，过滤 55 个，DeepSeek 分析 69 个，保留高价值内容 11 个。"
-count_all: 124
+target_date: 2026-10-07
+generated_at: "2026-10-08 09:48:31"
+summary: "昨日主题 155 个，过滤 55 个，DeepSeek 分析 100 个，保留高价值内容 16 个。"
+count_all: 155
 count_excluded: 55
-count_included: 69
+count_included: 100
 count_high_signal: 0
-count_valuable: 11
-report_url: "/2026/10/06/"
-data_url: "/data/2026-10-06.json"
+count_valuable: 16
+report_url: "/2026/10/07/"
+data_url: "/data/2026-10-07.json"
 ---
 
-# V2EX 2026-10-06 昨日新帖报告
+# V2EX 2026-10-07 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1246574" markdown="1">
+<details class="topic-card" data-topic-id="1246711" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">Claude 防封号：自建东京节点+固定出口 IP 稳定 3 个月</span>
+<span class="topic-title">32岁程序员转行做女鞋：三年Shopify仅一单的教训</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -28,34 +28,29 @@ data_url: "/data/2026-10-06.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主因 IP 在 US/JP 间乱窜导致 Claude 封号，改用一套固定网络方案后稳定使用 3 个月，核心思路是让所有 AI 流量走单一、稳定的出口 IP，避免频繁切换触发风控。
+一位 32 岁程序员因静脉炎失去编程工作性价比，又受 AI 浪潮冲击，转行自创女鞋品牌 MAITELAINI，最终失败。他复盘出两条关键教训：产品创新要打在真实痛点上，以及没有流量渠道的独立站等于孤岛。
 
 ### 关键要点
-- **自建梯子**：AWS Lightsail 东京，5 美元/月、1T 流量，协议用 vless + reality，伪装成 HTTPS 大站，降低 IP 被封概率。
-- **固定 AI 出口**：所有 AI 服务经 IpRoyal 出站，用 Clash 的 `dialer-proxy` 指向 AWS 节点，并强制指定 proxy name，禁止手动切换。
-- **规则参考**：Clash AI 规则参考 https://github.com/szkane/ClashRuleSet 。
-- **订阅与账号**：安卓 Play 商店 + 招商银行卡订阅；订阅前先用免费网页一两天，检查 setting-account 的登录 session 是否都落在同一目标 region。
-- **用量克制**：不要用满额度，避免被判定为蒸馏；A 社对国内 AI 厂商蒸馏尤为敏感。
-- **其他**：使用 TUN 模式（iOS 用 Stash，Mac 上稳定）；作者未改时区与系统语言，以保持环境不变。
+- **技术优势不等于商业优势**：他用“时尚工程学”做不对称尖头（缓解拇指外翻）和斜拉桥式三角支撑细跟（防崴脚），但评论指出女鞋首要卖点是时髦好看，创新未命中痛点。
+- **流量是获客前提**：Shopify 独立站经营三年只成交一单，关店后才意识到没有外部流量就是孤岛；后续想靠做网红引流也失败。
+- **成本与链条**：投入约几万元；女鞋链条长、退换货多、流程重，实体行业并不轻松。
+- **心态落差**：程序员工作可掌控、有尊重感，创业则高度不确定，这是他反复强调的核心矛盾。
 
 ### 评论补充
-- 有用户采用类似方案（AWS 东京 + 美国服务器 + Clash 规则 + TUN），并用阿里云香港自建 DNS 防泄露，称稳定 2 年。
-- 成本讨论：IpRoyal ISP 约 5 美元/月，作者认为相对 100 美元订阅可接受，也有人认为这层非必需。
-- 反例：有用户 200 美元套餐用半年后因额度消耗快被封；也有人称封号当月几乎没用额度，说明该方案并非绝对有效。
-- 作者补充：注册邮箱从 Gmail 换成 Outlook；自建可用 sing-box 并调整 TCP 为 BBR。
+有回复分享 2022 年做 JK 女装投入 20 万、收回 15 万加一仓库尾货的经历，同期一对情侣靠小红书押中爆款月销过万件，印证“流量比产品更关键”。另有建议先找圈子、多找 N 个圈子再谈赚钱，以及劝其回归 vibe coding 的声音。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246574" target="_blank" rel="noopener noreferrer">个人使用 Claude 防止封号的经验分享</a></span><span class="topic-stats">回复 56 · 收藏 73</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246711" target="_blank" rel="noopener noreferrer">从转行到失败： 32 岁程序员跨界做女鞋的经历</a></span><span class="topic-stats">回复 80 · 收藏 14</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246613" markdown="1">
+<details class="topic-card" data-topic-id="1246762" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">用 VS Code + SweetPad + XcodeGen 开发 iOS 应用完整指南</span>
+<span class="topic-title">湿疹反复多年：北上广深皮肤科医院与用药经验汇总</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -63,32 +58,29 @@ data_url: "/data/2026-10-06.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-作者以 SwiftUI 小项目 FloatingBottomSheetsApp 为例，给出不打开 Xcode IDE 的完整 iOS 开发环境方案：XcodeGen 用 `project.yml` 声明工程并生成 `.xcodeproj`；SweetPad 扩展在 VS Code 内完成构建、运行、调试、热重载；VS Code + Swift 扩展提供补全与格式化。底层仍是苹果官方 `xcodebuild` 与 `lldb`，构建产物与签名行为与 Xcode 一致，团队可混用。示例代码见 cyub/sweetpad-demo。
+楼主右手食指、中指及虎口背面湿疹反复三四年，激素药膏无效，当地医院排除真菌感染，寻求北上广深优质皮肤科。评论围绕医院推荐、用药方案和病因展开，多数人认为湿疹难以速效根治，需长期管理。
 
 ### 关键要点
-
-- **工程生成**：`project.yml` 声明 target、iOS 17、SPM 依赖与 `GENERATE_INFOPLIST_FILE: YES`，避免缺 Info.plist 的签名报错；开启 `sweetpad.xcodegen.autogenerate` 可自动重生成，XcodeGen 2.44+ 支持 `syncedFolder`。
-- **补全与调试**：首次构建自动生成 `buildServer.json`（需 gitignore），SourceKit-LSP 即可补全；`launch.json` 用 `sweetpad-lldb`，F5 构建、安装并附加 LLDB。
-- **热重载**：装 InjectionNext，开启 `sweetpad.hotReload.enabled`，SwiftUI 加 `@ObserveInjection` 与 `.enableInjection()`，保存即刷新且保留状态；仅限模拟器与 macOS，真机、watchOS 不支持。
-- **性能与协作**：`-interposable` 仅 Debug 用，Release 关闭；模拟器 UDID 机器相关，团队只固定 scheme。
+- **医院推荐**：复旦大学附属华山医院、北京大学第一医院、北京协和医院、上海瑞金医院、中日友好医院、上海市皮肤病医院、南方医科大学皮肤病医院（广东省皮肤病医院）、北京大学人民医院、上海新华医院；另有空军总医院、杭州第三人民医院。
+- **用药经验**：糠酸莫米松乳膏+尿素乳膏（上海仁济南院）；尿素乳膏+联苯苄唑乳膏（深圳社康）；曲咪新乳膏+口服药；地奈德；炉甘石洗剂；他克莫司效果不佳；抗组胺药如盐酸奥洛他定片。
+- **病因共识**：多位回复认为与免疫力、熬夜、饮食、湿热环境相关，运动健身可改善，无法速效除根。
+- **AI 辅助**：有回复称拍照给 ChatGPT 分析为真菌感染并用药半月好转，认为 AI 可辅助判断。
 
 ### 评论补充
-
-有回复指出该方案更适合前端背景或不愿用 Xcode 的开发者，SweetPad 调试与 Xcode 开箱即用仍有差距，尤其缺少实时资源占用与性能调试；也有回复认可 Xcode 体验差。
+有回复提醒阿咖酚散是止痛药，对偏方存疑；也有回复强调医院诊断仍不可替代，AI 建议仅供参考。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246613" target="_blank" rel="noopener noreferrer">告别 Xcode IDE:用 VS Code + SweetPad + XcodeGen 开发 iOS 应用的完整指南</a></span><span class="topic-stats">回复 8 · 收藏 11</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246762" target="_blank" rel="noopener noreferrer">北上广深哪里有好的皮肤病科室吗，湿疹感觉严重了</a></span><span class="topic-stats">回复 37 · 收藏 25</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246588" markdown="1">
+<details class="topic-card" data-topic-id="1246719" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">京东老用户被强制人脸识别，转投其他平台</span>
+<span class="topic-title">iOS 银行政务 App 如何检测代理与 VPN</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -96,35 +88,29 @@ data_url: "/data/2026-10-06.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-一位十几年、累计消费约 50 万的京东老用户，账户突然无法登录，手机验证码失效，必须同意京东金融协议并完成人脸识别才能登录。作者付款走第三方、账户无余额，认为人脸识别的唯一用途指向借贷，因此拒绝并转向其他平台。
+农业银行、鄂汇办等 iOS 银行与政务 App 会在检测到系统代理或 VPN 时限制使用，用户需关闭代理才能正常访问。讨论确认这并非玄学，而是调用了系统公开接口。
 
 ### 关键要点
-- 客服称人脸识别是“为了安全”，但作者认为其账户无资金风险，诉求不合理。
-- 作者已拨打 12345 投诉京东总部，并计划“用脚投票”。
-- 替代方案：生鲜改山姆、盒马、小象；电子走官网或天猫；日用品试拼多多。
-- 作者对比发现，过去几个月京东日用品价格普遍偏高。
-- 有回复称国家规定不得只提供人脸识别一种验证途径，投诉到管局后客服可能提供免刷脸链接。
+- **标准检测方式**：iOS 通过 `CFNetworkCopySystemProxySettings()` 读取系统代理设置，属于官方 API，没有奇技淫巧（回复 18151294 给出 Apple 文档链接）。
+- **VPN 接口检测**：iOS 也向 App 开放了检测 VPN 服务的接口，常规检测即可识别 TUN 类代理。
+- **绕过思路**：使用软路由或透明代理等非 TUN 方案，App 检测不到系统代理，实测可解决（回复 18151237、18151238、18151253）。小火箭关闭系统代理后，部分 App 也不再强制退出（回复 18151243）。
+- **地域限制是另一回事**：部分政务 App 在境外或省外无法访问，更可能是服务端 IP 白名单限制，而非本地代理检测（回复 18151292、18151313、18151317）。
 
 ### 评论补充
-- 多位用户指出淘宝、美团、12306、银行证券等也在采集人脸，认为难以完全回避。
-- 有回复认为这是监管要求而非京东单方行为，也有人反驳称更像京东金融自身操作。
-- 有用户反映京东 E 卡也被要求实名，否则无法使用，投诉后被冷处理。
-- 有用户称京东金融运营风格类似小贷公司，曾发生信息泄露。
-
-＞ 争议点：人脸识别是政策要求还是京东金融推动，评论中未形成共识。
+有用户指出人在国外时部分政务 App 即使不开 VPN 也打不开，交管 12123 在境外看不了违章，只能改用支付宝（回复 18151292）。也有观点认为这类限制是配合监管要求（回复 18151602）。安卓可按 App 路由，iOS 方案不通用（回复 18151249）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246588" target="_blank" rel="noopener noreferrer">接下来一年的时间，我将从京东过渡到其它平台</a></span><span class="topic-stats">回复 49 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246719" target="_blank" rel="noopener noreferrer">iOS 上，银行内和政务类 app，是如何实现检测到网络环境异常的</a></span><span class="topic-stats">回复 41 · 收藏 15</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246631" markdown="1">
+<details class="topic-card" data-topic-id="1246731" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">本地小模型 Computer use：Qwen3.5 微调三周 600 美元</span>
+<span class="topic-title">catbus：统一操作小红书、抖音、B站等10平台的CLI</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -132,32 +118,32 @@ data_url: "/data/2026-10-06.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者用三周业余时间、约 600 美元训练了两个本机小模型（Qwen3.5 0.8B 与 4B 微调，MLX），做出 Mac 上的电脑操作 agent「DeskMind 得心」。思路借鉴 Jev：把每一步变成选择题，让模型给选项打分而非生成文字；决策服务沿用 Jev 的 `POST /v1/systemone` 请求格式，已有 harness 换地址即可接入本机。
+作者开源了命令行工具 catbus（猫巴士），把小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X 共 10 个平台的 web 端能力封装进同一套命令，MIT 协议。
 
 ### 关键要点
-- **分级决策**：0.8B 有把握直接执行（约 0.5 秒），没把握交给 4B（约 3.6 秒）；任务存在两种理解时先反问用户，而非随意选择。
-- **自测结果**：13 个真机任务各跑 3 次，发布版 38/39，未出现未完成却报「完成」；作者强调题目自出、样本小，逐题结果公开。
-- **踩坑**：标签平滑设 0.95，导致 0.8B 置信度挤在 0.96 门槛附近，七成步骤被转交 4B，速度偏慢，下轮修正。
-- **成本经验**：训练先在 Tinker，后转阿里云 PAI，最终按小时租显卡最划算。
-- **已知不足**：模糊指令（如「整理这个文件夹」）表现差；文件多的文件夹每步需几十秒；仅支持 Apple 芯片，首次需下载约 5.3 GB 模型。
+- 安装：`npm i -g catbus-cli`；示例：`catbus xhs item search 露营 --sort latest`，换平台只换一个词。
+- 统一抽象：笔记、作品、稿件、推文一律叫 `item`，搜索叫 `search`，点赞叫 `like`，输出为同结构 JSON。
+- 功能覆盖搜索、详情、评论、用户、推荐流、下载、发布、私信、直播弹幕等，具体见能力矩阵。
+- 仅需 Node，无需 Python 和编译器；Windows/macOS/Linux 的 x64、arm64 均在 CI 测试。
+- stdout 只有 JSON，错误带错误码和下一步命令，便于脚本或 AI Agent 调用；自带 Agent 技能 `npx skills add cv-cat/catbus`。
+- 登录态仅存本地 `~/.catbus/`，按平台×账号隔离，无遥测；能力移植自作者 10 个开源仓库并用 TypeScript 重写。
+- 仓库：https://github.com/cv-cat/catbus
 
 ### 评论补充
-作者在回复中给出训练数据来源：公开数据集加自建合成数据、桌面操作数据由 oracle 自动标注、并蒸馏大模型，训练记录见 [training.zh-CN.md](https://github.com/deskmind-ai/brain/blob/main/docs/training.zh-CN.md)。有评论质疑帖子由 AI 代写，作者承认 AI 协助完善但大纲与内容自拟；另有评论认为当前自跑模型未必必要，云端方案仍有免费额度，作者回应生产环境不便用 Jev API，同时借此学习训练。
-
-项目地址：[GitHub](https://github.com/deskmind-ai/deskmind)、[Mac App](https://deskmind.dev/zh/?ref=v2ex)、[过程与踩坑](https://deskmind.dev/zh/blog/launch?ref=v2ex)。
+有用户反馈此前用 xhs-cli 容易被踢下线；作者称 X 平台登录正在整合，Reddit 等更多平台在 todo 中。另有用户询问能否一键导出收藏夹、是否支持知乎，作者尚未给出明确答复。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246631" target="_blank" rel="noopener noreferrer">受 Jev 启发，花了三周、600 美元、20 多轮训了两个小模型专门做 Computer use</a></span><span class="topic-stats">回复 7 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246731" target="_blank" rel="noopener noreferrer">[开源] catbus：用一套命令操作小红书、抖音、B 站、X 等 10 个平台的 CLI</a></span><span class="topic-stats">回复 10 · 收藏 18</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246568" markdown="1">
+<details class="topic-card" data-topic-id="1246778" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">B站开源 Index-Translate：150 语言翻译模型与免费 API</span>
+<span class="topic-title">AirPods 5 真实反馈：降噪、佩戴与音质取舍</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -165,29 +151,32 @@ data_url: "/data/2026-10-06.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5 Base 训练，支持 150 种文本语言，提供 2B、9B 和 35B-A3B 三种规格。除翻译质量外，还专门训练了指令遵循能力，可塞入术语表、指定文风、要求保留内容与格式，例如翻小说时固定人名和境界名，或要求“别解释，只输出译文”。
+楼主想从 AirPods 2 换到 AirPods 5，但线下门店普遍没有试戴款，社区评价两极分化，于是征集真实使用反馈。评论集中在降噪、佩戴舒适度、音质和做工四点，结论是：AirPods 5 的开放式降噪在同类中属第一梯队，但音质和做工是主要短板。
 
 ### 关键要点
-- **免费 API 已开放**，兼容 OpenAI 接口，改现有客户端 base URL 即可接入；附零外部依赖的 Python 调用脚本。
-- **网页 demo** 可直接试用，权重发布在 Hugging Face。
-- **衍生分支**：Echo（语音转字幕、带音色克隆的端到端语音翻译）、Homura（给译文设音节预算，适合卡时长场景）、Nailong（长文档翻译，减少分块导致的前后不一致）。
-- 相关链接：demo `https://index-translate.bilibili.com`，调用脚本 `https://github.com/bilibili/Index-Translate/blob/main/inference/llm/call_api.py`，仓库 `https://github.com/bilibili/Index-Translate`，权重 `https://huggingface.co/collections/IndexTeam/index-translate`。
+- **降噪**：多位用户认为在非入耳式耳机里属第一梯队，嘈杂环境能明显削弱噪音，通勤听播客够用；但与 AirPods Pro 3 的入耳降噪差距明显。
+- **佩戴**：整体接近 AirPods 2 的无感体验，但不如 1、2 代模具舒适；有用户反馈只开降噪不放音乐时耳内有压迫感。
+- **音质**：被多位用户评价为“白开水”“听个响”，有音频博主认为调音不如 AirPods 4；也有用户认为苹果调音属监听风格，无线耳机不必纠结音质上限。
+- **做工与价格**：有用户反映塑料感强、盒盖开合单薄；无线充电盒版国补后约 900 元，性价比尚可。
 
 ### 评论补充
-有用户反馈该免费 API 配合手机翻译 App 作为默认翻译，速度快且不生硬，优于苹果默认翻译。作者回应称与 Sakura 在小说和文化迁移方面类似，但定位为通用全功能翻译模型，支持小语种与自定义指令约束。关于免费 API 的持续时间，作者表示取决于项目能否争取到资源，未给出明确期限，属待核验信息。
+- 建议官网下单试用，不合适可退货，避免线下无试戴的尴尬。
+- iPhone 用户综合体验优于安卓耳机，建议选带无线充电的版本，电池更大更耐用。
+- 安卓端（如 ColorOS）对 AirPods 的功能支持有限，部分功能不可用，需提前确认。
+- 对降噪耳压敏感者，可优先考虑开放式或半入耳型号，降噪够用即可。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246568" target="_blank" rel="noopener noreferrer">开源了个翻译模型 Index-Translate 🌍 150 种语言，免费 API 已开，欢迎体验</a></span><span class="topic-stats">回复 10 · 收藏 9</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246778" target="_blank" rel="noopener noreferrer">AirPods 5 收集反馈</a></span><span class="topic-stats">回复 36 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246570" markdown="1">
+<details class="topic-card" data-topic-id="1246740" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">GitHub 下载 Xshell 破解版中木马，账号被盗的教训</span>
+<span class="topic-title">Safari 沉浸式翻译替代：BYOK 原生翻译 App 支持 iOS/macOS</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -195,32 +184,33 @@ B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主因急需给路由器装插件，在 Google 搜索 Xshell 后误入 GitHub 上一个名为 `xshell-setup-free` 的破解版项目（仅 2 星），解压需密码，Windows 已提示危险仍强行安装。安装瞬间自带杀毒软件闪退，次日 Instagram、邮箱等账号全部被盗，并被用来向好友群发钓鱼链接，随后邮箱收到上百封垃圾邮件。已多次向 GitHub 举报未获回复。
+作者发布一款原生翻译客户端「纯粹翻译」，定位为 iOS 与 macOS 的完整文本翻译方案，并配套 Safari 浏览器扩展，用于替代 Safari 上无法自填 API Key 的沉浸式翻译。软件无服务端，全部使用用户自己的 API Key，可接入传统翻译与大模型，也支持 Apple 智能翻译。目前处于 TestFlight 阶段，正式版定价 12 元买断，含 iOS 与 macOS 客户端。
 
 ### 关键要点
-- **风险信号被忽略**：破解版、GitHub 低星项目、杀毒软件警告、压缩包带密码，四重信号叠加仍继续安装。
-- **后果链条**：本机被控 → 社交账号被盗 → 通讯录被用于钓鱼传播 → 邮箱被轰炸。
-- **补救建议**：评论普遍认为中毒后应全盘格式化重装系统，仅靠火绒全盘查杀可能仍有残留。
-- **正规来源**：Xshell 个人用户可免费使用，官方下载页为 https://xshell.com/zh/all-downloads/ ，无需破解。
+- **BYOK 模式**：不绑定官方额度，用户自备 API Key，可接传统翻译与大模型。
+- **Safari 扩展**：iOS 与 macOS 均可用，目前仅实现网页翻译，作者称部分网页效果优于沉浸式翻译。
+- **付费策略**：12 元买断；不付费也可使用全部功能，仅限制同时启动多个翻译服务。
+- **macOS 定位**：用法与 Bob 一致，作者称界面更好看。
+- **体验入口**：TestFlight 链接见正文 https://testflight.apple.com/join/sPY8644g
 
 ### 评论补充
-有用户指出“平日的千般小心比不上偶然的一时情急”，点出紧急状态下判断力下降是主因。另有评论推荐本地免费的 SSH 客户端 https://www.termark.app 。关于是否重装系统，楼主自述已用火绒全盘查杀，但多位回复者建议直接重装。
-
-### 限制
-事件细节均为楼主自述，无第三方取证；病毒样本、具体窃取机制未披露，结论以经验教训为主。
+- 有用户反馈 TestFlight 环境下 App Store 地区判断异常，导致 OpenAI 服务消失；作者称已修复 iOS 版，macOS 待审核，但该用户表示 build 32 仍未修复。
+- 有用户指出 Safari 右键菜单未加入，作者承认该版本为初步可用版，细节待完善。
+- 关于 BYOK 为何收费，作者回应：Safari 扩展需开发者证书，iOS 上尤其必须；定价仅为回血 Apple 开发者年费，不追求盈利。
+- 有评论质疑该产品长期商业价值，认为大模型时代翻译市场萎缩；作者表示功能均源于个人需求，未考虑盈利。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246570" target="_blank" rel="noopener noreferrer">没想到在 GitHub 下载软件还能中木马病毒…真的吃一堑长一智了</a></span><span class="topic-stats">回复 33 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246740" target="_blank" rel="noopener noreferrer">Safari 用户苦沉浸式翻译久矣，所以我开发了一个代替它的软件，支持 iOS 和 macOS，正在 TestFlight 中，欢迎使用</a></span><span class="topic-stats">回复 30 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246629" markdown="1">
+<details class="topic-card" data-topic-id="1246737" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">楼上租户夜间噪音：报警、12345投诉与震楼器的处理顺序</span>
+<span class="topic-title">枕芯该洗还是该换？不同材质的处理方式</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -228,31 +218,29 @@ B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主帖反映楼上新租户（一对情侣）常在 23 点后大声唱歌、吵架、打游戏喊叫，沟通效果有限，作者考虑用震楼器对刚。评论区的共识是：沟通对无素质者基本无效，但处理要讲顺序，避免自己先违法。
+楼主把 2024 年淘宝 24 元购入的枕芯拿去清洗，用了漂白水、两桶水浸泡、洗衣机洗、柔顺剂再浸泡加脱水，事后算账发现直接买新的更划算，并自嘲仍停留在物质匮乏、舍不得扔东西的状态。
 
 ### 关键要点
-- **推荐顺序**：先自行交涉 → 无效找物业 → 再报警，闹一次报一次；报警无效后再考虑震楼器。有回复指出，报过警且对方不听劝阻后再震楼，警察通常不会为难你；未报警直接震楼，对方报警时你可能处于不利位置。
-- **投诉渠道**：不要只找社区辅警（无记录），用微信 12345 投诉会留痕，深圳会指派附近派出所处理，结果不满意可继续投诉，相关部门有绩效压力；注意保存录音。
-- **找房东**：租户问题可联系房东施压，有回复称最终靠反复轰炸房东才把人赶走。
-- **止损选项**：若房子是租的，尽早搬走；自有房则只能长期应对。
+- **成本对比**：24 元的枕芯，清洗消耗一瓶漂白水、两桶水、多次机洗与脱水，加上时间精力，不如换新。
+- **材质决定处理方式**：荞麦皮类只能晒不能洗；乳胶枕本身会老化，通常几年换一次；纤维芯可机洗，有回复称晒后发痒、机洗后恢复。
+- **主流做法是勤换枕套**：每周换 1 到 2 次枕套，枕芯发黄就直接换新，周期约 2 到 5 年。
+- **发黄原因**：有回复指出男性因雄激素导致的皮脂分泌和出汗，枕头更容易发黄。
 
 ### 评论补充
-有回复提醒主动制造噪声可能涉及法律风险，并建议“拾音并扩大”这类规避思路；也有人认为“解决不了就把问题搞大”。多数人认同沟通只对有素质者有效，震楼器是最后手段，且不要承认是自己所为。
-
-＞ 风险提示：震楼器、对骂等做法存在法律与邻里冲突风险，以上为评论观点，非法律建议。
+多数回复认为枕芯一洗就废，且内部不易晾干，建议加防水枕套或枕巾、只洗外层。也有观点认为几十元的东西不必纠结，定期更换即可。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246629" target="_blank" rel="noopener noreferrer">怎么反制楼上租户制造噪音，沟通了效果不大</a></span><span class="topic-stats">回复 34 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246737" target="_blank" rel="noopener noreferrer">你会洗枕头吗？</a></span><span class="topic-stats">回复 36 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246590" markdown="1">
+<details class="topic-card" data-topic-id="1246710" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">Codex 后台控制 macOS 应用的技术实现</span>
+<span class="topic-title">2026年8月读6本书：娼妓史、女性研究与随笔</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -260,30 +248,29 @@ B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主题讨论 Codex 在 macOS 上后台操控应用的技术原理：菜单栏出现电脑图标（右下角带小人头像），被控应用左上角也显示该图标，且操作不阻塞用户正常使用电脑。
+作者记录 2026 年 8 月读完的 6 本书，主题围绕娼妓问题、女性研究与生活随笔，并给出每本评分与阅读脉络。
 
 ### 关键要点
-- 方向被指为 Computer use 类能力，但主帖追问底层实现，认为 Accessibility API 是独占的，可能不是它。
-- 有回复给出较具体的解释：使用**录屏 API + Accessibility API**；非独占的关键在于点击不移动光标，而是直接对目标进程的元素执行动作，输入也不发全局键盘事件，而是设置元素的值、选中文本，因此不抢焦点、不动光标，只需后台运行。
-- 有回复称 OpenAI 收购了 Software Applications Incorporated（SAI，苹果快捷指令原创团队），Codex 后台操控 macOS 应用的核心组件用的是 Sky 的客户端程序。
-- 开源参考实现被提及：e2b-dev/open-computer-use（https://github.com/e2b-dev/open-computer-use），但明确说明 Codex 不一定使用它。
-- Windows 侧类似方案被提及 rdpwrap（https://github.com/sebaxakerhtc/rdpwrap），同样只是类比。
+- **娼妓问题三书**：贺萧《危险的愉悦》梳理 20 世纪上海百年娼妓史，豆瓣 8.7，作者评 8 分；《呈现与标定》基于东北三城与广东三村访谈，指出从业者多为自愿、目的主要是钱，人身依附与自由雇佣并存，真正被限制自由的“奴隶制”少见；赵军《惩罚的边界》从法学与警察访谈切入，认为现行禁娼消耗警力大、收效有限，且滋生腐败。
+- **女性研究**：《Women on the River of Life》追踪 Mills 女校群体数十年，发现儿童期对想象与探索活动的偏好可预测中年创造性职业成功；婚姻满意度从 43、52 到 61 岁持续上升，空巢是主因。
+- **小说与随笔**：《解忧杂货店》评 8 分，借“白纸提问”谈命运；《我和琉璃的山居四季》评 6 分，作者认为其满足的是都市人对农村的浪漫幻想。
+- **可复用视角**：作者提醒史料自带滤镜，回忆、庭审自述与出版文本都会避重就轻，真相多面甚至冲突。
 
 ### 评论补充
-关于底层机制，评论存在推测与事实混杂：录屏+Accessibility API 的解释较完整，但未提供官方来源；SAI/Sky 的说法也未经证实。可复用的结论是：后台操控通常靠“读屏 + 直接操作元素”而非模拟全局输入，从而避免抢占焦点。
+有回复认为读这类书浪费时间、性别不应视为差异；也有回复反驳称“男女不谈差异”过于偷懒傲慢，并指出现代社会相关行业有其完整存在逻辑。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246590" target="_blank" rel="noopener noreferrer">codex 的电脑控制用的是什么技术？</a></span><span class="topic-stats">回复 6 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246710" target="_blank" rel="noopener noreferrer">2026 年八月 读女性研究，小说，随笔 6 本</a></span><span class="topic-stats">回复 10 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246665" markdown="1">
+<details class="topic-card" data-topic-id="1246841" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">用 ChatGPT 开发的 YouTube 去广告插件，支持 Loon 与圈X</span>
+<span class="topic-title">Cordis 内核剖析：effect 栈机制、五个事件方法的坑与两张账单</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -291,32 +278,33 @@ B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者用 ChatGPT 从零开发了一款 YouTube 去广告脚本，未使用开源项目，主打 Loon 效果，圈 X 也可用。功能包括首页视频流无广告、视频播放无广告，且节点无需拦截 QUIC。插件地址：https://github.com/teaoea/shell/tree/main/plugins
+
+作者以 DeepSeek Harness（DSH）采用 Cordis（Koishi 内核）为底座为背景，逐层拆解其机制、坑与长期成本。Cordis 是插件元框架，本身无业务能力，只管插件装卸、依赖与卸载；Koishi 社区插件 4000+，DSH 第三方索引 6000+。
 
 ### 关键要点
-- 圈 X 安装 URL 为 `https://raw.githubusercontent.com/teaoea/shell/refs/heads/main/plugins/YouTube/YouTubeNoAds.snippet`。
-- 作者称主要面向 Loon 开发，路由器场景未测试。
-- 有用户反馈打开视频略慢，作者表示自身使用无明显问题。
+
+- **核心机制只有一个栈**：`ctx.effect(acquire, release)` 把资源与清理函数成对入栈，卸载时 LIFO 弹出。它不分析依赖，只是复用“先定义后使用”的注册顺序逆序；倒序注册会静默给出错误顺序。
+- **四条边界**：栈只管经 effect 注册的东西（裸 `setInterval` 静默泄漏）；顺序只沿用注册先后；可逆仅对成对注册成立；异步清理不保证逆序完成，存在“半卸载窗口”，官方建议合并清理链。
+- **五个派发方法属“铺开”而非“收窄”**：`emit/parallel/serial/bail/waterfall` 中 `parallel` 与其余不可比，`serial` 与 `bail` 只差一个 await。地基 `emit` 丢弃返回值，导致黑名单插件 `return true` 拦截静默失效，且异步 reject 无人接收。
+- **判据**：最底层不能是它自己某个用法；API 一旦发布就收不回（Hyrum's Law），4000+ 插件使 4.0 想收敛也难。
+- **两张账单**：用 Cordis 需承担 API 不可收回、rc 迁移、单进程故障、术语误解、退出成本；自组合（tool-func/tool-rpc/tool-event/events-ex）则缺框架强制纪律与嵌套作用域。
 
 ### 评论补充
-- 有用户指出圈 X 直接转换逻辑组合规则会改变匹配条件，改用 sgmodule 后可用。
-- 关于 Surge 模块，评论给出两个可参考的第三方模块链接：`https://raw.githubusercontent.com/Aioneas/Surge/main/Module/youtube.aioneas.hide-shorts.sgmodule` 与 `https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/YouTube.Enhance.sgmodule`。
-- 有用户询问能否解锁最高画质，主题内未给出结论。
 
-整体属于个人自研工具分享，可复用信息集中在安装地址与平台兼容性，效果与稳定性仍待更多验证。
+有回复认为多数人只需大厂开源轮子一键起用，底层瑕疵“瑕不掩瑜”；作者回应正是想直接用 DSH 的 Cordis 插件体系，才踩到坑。另有回复称 Cordis 作者已进 DS 团队。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246665" target="_blank" rel="noopener noreferrer">分享自己用 ChatGPT 开发的 YouTube 去广告插件</a></span><span class="topic-stats">回复 13 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246841" target="_blank" rel="noopener noreferrer">Cordis 的坑与账-DeepSeek Harness 运行时拿它当底座</a></span><span class="topic-stats">回复 4 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246602" markdown="1">
+<details class="topic-card" data-topic-id="1246837" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">Janus v0.3.5：把 OpenCode 包装成统一 Agent 网关</span>
+<span class="topic-title">iFAST 检测到 Sukisu Ultra：HMA-OSS 隐藏应用列表可绕过</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -324,31 +312,31 @@ B 站 Index LLM 团队开源了翻译模型 **Index-Translate**，基于 Qwen3.5
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-Janus 是一个 MIT 许可的开源 AI Agent 网关（v0.3.5），定位为控制平面：把只有 `/api/*` 的 OpenCode server 包装成标准 `/v1/*`，让 OpenAI / Anthropic 兼容客户端（Cursor、Trae、OpenAI SDK、LangChain 等）零改动接入，并统一管理会话、工具、权限与用量。它不重造 Agent / Tool / MCP / Session runtime，这些交给 OpenCode。
+有用户反馈：Android root 后国内银行应用均未检测到，但 iFAST GB 一启动就识别出 Sukisu Ultra，且未授予应用列表权限。评论区给出了可复现的原因与解法。
 
 ### 关键要点
-- **安装**：可从 Releases 下载 amd64/arm64/arm/386 预编译包，或源码编译（Go 1.23+），也支持 Docker（distroless 非 root 静态镜像）与仓库自带 systemd 单元。上游需先装 OpenCode。
-- **零配置启动**：Janus 自动发现或自行拉起 `opencode serve`（随机端口+密码），客户端只需把 Base URL 指向 `http://127.0.0.1:2810/v1`、API Key 填 `BRIDGE_API_KEY`；Anthropic 客户端设 `ANTHROPIC_BASE_URL`。
-- **三种执行模式**：`native`（工具在 Janus 主机执行）、`remote-tools`（工具在客户端，经内置 MCP 桥，对客户端仍是标准 tool_calls）、`none`（纯推理）。由 `BRIDGE_AGENT` + `BRIDGE_TOOL_CALLING` 决定。
-- **虚拟模型 janus**：客户端模型名固定填 `janus`，在 `/ui` 面板切换默认模型与思考档位，下一条请求原地生效、不重开会话、上下文保留。解析优先级为面板选择 ＞ `BRIDGE_DEFAULT_MODEL` ＞ 上游默认。
-- **自动注入 agent 配置**：通过 `OPENCODE_CONFIG_CONTENT` 注入白名单式配置，避免手写黑名单因 OpenCode 改工具名而失效。
-- **可观测**：`/v1/requests` 与 `/ui` 提供逐条请求的缓存命中率、思考 token、耗时、费用，同时给出 OpenAI 与 DeepSeek 两种缓存 token 统计口径。
+- 检测并非依赖应用列表权限，而是通过**组件名称并尝试启动 Activity** 来枚举已安装应用，因此能绕过系统自带的应用列表权限管理。
+- 可用模块 [HMA-OSS](https://github.com/frknkrc44/HMA-OSS) 对指定应用隐藏其他应用；其“Activity 启动保护”默认启用，可阻止目标应用访问这些 Activity，从而避免应用列表被检测。
+- 有回复实测：iFAST 检测到的只是**包名**，临时卸载管理器后即检测不到，理论上更改管理器包名也可行。
+- 发帖人确认安装该模块后 iFAST 可正常使用。
 
 ### 评论补充
-唯一回复质疑文中“一句话”式表述不像人话，未提供技术性反驳或验证。
+- 有用户指出，隐藏 root 方案只能欺骗普通应用，稍加用心的检测仍可快速识别。
+- 另有用户未 root、仅开启调试（Shizuku）也被 iFAST 检测，不卸载不给用，说明检测面不限于 root。
+- 系统自带的应用列表权限管理能力有限，需专门插件拦截。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246602" target="_blank" rel="noopener noreferrer">Janus：把 OpenCode 包装成统一的 Agent 网关</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246837" target="_blank" rel="noopener noreferrer">Android root 之后怎么反检测，没给应用列表权限怎么检测到 SukisU Ultra 的？</a></span><span class="topic-stats">回复 6 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1246599" markdown="1">
+<details class="topic-card" data-topic-id="1246718" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">宽楦鞋推荐：特步巴斯克137元实测体验</span>
+<span class="topic-title">开源 agc-cli：用 Go 把鸿蒙 AppGallery Connect 管理搬进终端</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -356,24 +344,180 @@ Janus 是一个 MIT 许可的开源 AI Agent 网关（v0.3.5），定位为控�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-一位脚掌宽、前三趾几乎等长的用户分享低价宽楦鞋选购经验：特步巴斯克，淘宝约 137 元入手，穿一个月，上过山下过地。
+作者受 App Store Connect CLI（asc-cli）启发，开源了面向华为 AppGallery Connect 的命令行工具 **agc-cli**，用 Go 编写，MIT 许可证，命令名为 `agc`。目标是把应用资料查询、测试用户管理、评论报表等重复操作变成可保存、可复用、可组合的命令，并接入脚本与 AI Agent。
 
 ### 关键要点
-- **尺码参考**：作者平时皮鞋穿 41，以往需买 43 才勉强合脚；此款买 43 前掌仍有余量，不挤脚。
-- **优点**：薄底轻便、透气，鞋垫带一点足弓支撑，前掌空间充足。
-- **缺点**：湿瓷砖上打滑（作者在公共卫生间发现）；石子路硌脚。
-- **适用场景**：日常与轻度户外，非跑步用途。
+- 按场景组织命令：`agc publishing`（资料/多语言/发布）、`agc testing`、`agc pms`（商品订阅）、`agc provisioning`（证书/Profile/设备）、`agc comments`/`agc reports`、`agc projects`/`agc domains`。
+- 注册表含 **13 个 API 家族、156 个接口条目**，每条附官方参考链接；作者明确说明接口数量仅代表注册范围，不代表全部完成生产验证，字段与权限仍以华为文档为准。
+- 安装：macOS 用 Homebrew（`brew tap createitv/tap && brew install agc-cli`），Windows 用 Scoop，Linux 下载 Release 包，二进制无需 Go 环境。
+- 凭据流程：`agc auth login --service-account-file ... --name production` 保存 Service Account，`agc init --app-id ... --default-profile ...` 写入 `.agc/project.json`；多账号用 `--profile` 切换。
+- 默认 **dry-run**：先显示 HTTP 方法与目标 URL，确认后加 `--dry-run=false` 才真正请求；`--out` 可保存原始响应体，便于脚本二次处理。
+- 输出支持 JSON（默认）、table、markdown；`agc capabilities`、`agc publishing endpoints` 无需登录即可查看接口定义，`agc web-server` 提供本地 REST API，`agc openapi` 导出契约。
 
 ### 评论补充
-- 有回复指出打滑问题并非个例，斯凯奇、New Balance 部分鞋款同样存在，北方雪天走瓷砖风险更大。
-- 有回复认为该鞋前后落差偏大，体验不佳。
-- 另有回复提示：非跑步用途的户外鞋通常本身较宽松，可作为宽脚选鞋的替代思路。
+唯一回复为“1000 万以内最好的终端”，属情绪化调侃，无实质信息。
 
-整体看，这是一条有具体价格、尺码对照和实测缺点的低价宽楦鞋参考，但样本仅一人一月，且打滑与落差问题存在争议，选购前建议实地试穿。
+### 限制
+完整二进制/multipart 上传编排与本地 Hvigor 构建执行器尚未完成；命令模板仅用于导航，不替代业务状态检查或审核判断。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246599" target="_blank" rel="noopener noreferrer">推荐一款物美价廉宽楦鞋-特步巴斯克</a></span><span class="topic-stats">回复 4 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246718" target="_blank" rel="noopener noreferrer">把鸿蒙应用管理带回终端：我开源了 agc-cli</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246792" markdown="1">
+<summary>
+<span class="topic-rank">12</span>
+<span class="topic-title">云南电信IPv6被收回：NAS远程访问失效与应对</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+云南电信用户使用近两年 IPv6 正常，NAS 通过 DDNS 走 v6 访问。某日突然无法连接，重启光猫无效。客服称线路正常，上门人员只测速、不处理 IPv6，并称无权限。发帖者怀疑运营商有意收回 IPv6。
+
+### 关键要点
+- 排查方向：先确认是否被改为 NAT4；测上行速度是否被降（建议用非 Speedtest 白名单的测速点）。发帖者实测上行未变，判断是单纯不给 IPv6。
+- 沟通与投诉：有回复建议以国家推进 IPv6 部署政策为由沟通，或直接投诉，参考 china-ipv6.cn。
+- 替代方案：换联通（有回复称联通仍给公网 v4）；用手机流量也有 IPv6。
+- 风险规避：直接用 HTTP(S) 访问 NAS 可能被运营商判定为开放互联网服务，建议先套 VPN 再访问，有用户称此方式 6 年无事。
+
+### 评论补充
+有回复指出这不是个例，近期已有其他用户遇到；云南电信虽可多拨，但可能只有一个 /64 地址、无 PD 前缀。另有观点认为 IPv6 在国内相当于另一套网，过滤和管控成本高，运营商在降本背景下可能收缩。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246792" target="_blank" rel="noopener noreferrer">IPv6 地址被收回了</a></span><span class="topic-stats">回复 16 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246847" markdown="1">
+<summary>
+<span class="topic-rank">13</span>
+<span class="topic-title">SmsPop：Rust 写的 Windows 短信验证码自动填入工具</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者因厌烦手动输入短信验证码，开发了 Windows 小工具 **SmsPop**：通过蓝牙接收手机通知/短信，在电脑右下角弹通知，自动识别验证码并复制，在输入框附近显示候选条，点击即可填入，省去拿手机的操作。项目基于 Rust，体积仅 3.46 MB，已开源并提供 Releases 下载。
+
+### 关键要点
+- **安卓**：只能走 HTTP 接入，可配合 SmsForwarder 等第三方工具转发短信和通知。
+- **iPhone**：无需额外 App，但要求电脑蓝牙适配器支持 BLE 外设角色，并在 iPhone 蓝牙设置中开启“共享系统通知”；并非所有适配器都支持。
+- 项目处于早期开发阶段，不同适配器、驱动和 iOS 版本表现可能有差异，作者欢迎反馈兼容性。
+- 项目地址：https://github.com/fxaxg/sms-pop-rs ，演示视频：https://vimeo.com/1233745344
+
+### 评论补充
+有用户表示自己常用手机复制后经输入法同步到 PC 再粘贴，说明该工具并非唯一方案；另有用户称自研版本可直接自动填入验证码输入框，无需点击，提示 SmsPop 的“点击填入”仍有优化空间。整体适合愿意折腾蓝牙/HTTP 转发、追求少拿一次手机的 Windows 用户尝试。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246847" target="_blank" rel="noopener noreferrer">我讨厌输入验证码...于是我开发了这个小工具： SmsPop</a></span><span class="topic-stats">回复 4 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246806" markdown="1">
+<summary>
+<span class="topic-rank">14</span>
+<span class="topic-title">Android HDR 看图 App：支持 RAW、JXR 与 SMB/WebDAV</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者发布了一款 Android 看图 App（LocalViewer），核心是在 Android 上实现 FP16 位图的 HDR 显示，并配合色彩管理，覆盖广色域、高色深与 HDR 图片格式。
+
+### 关键要点
+- **独家能力**：支持 RAW 照片与 Win11 JXR 游戏截图等非标格式的色彩管理和 HDR 预览。
+- **三种 HDR 显示模式**：普通格式走系统解码；高级格式走 lib 解码直出；用 libultrahdr 转 UHDR JPEG gain map 以保留高光。
+- **格式覆盖**：JXL/JXR/JPG/AVIF/HEIC 等；RAW 支持 dng、cr2、cr3、nef、nrw、arw、raf、orf、rw2、pef、srw、raw；兼容 Oppo/OnePlus ProXDR HEIC。
+- **文件与网络**：多文件夹窗口管理，支持 SMB 和 WebDAV，适合浏览 NAS 文件；也可看电子书、漫画，调用其他播放器看视频，并可隐藏某文件夹浏览记录。
+- 下载地址：https://github.com/zmz125000/LocalViewer
+
+### 评论补充
+有用户询问安卓截屏是否支持 HDR，作者回复支持，并称前两张截图即为 UHDR JPEG 截图，在 Chrome 中查看呈 HDR 效果。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246806" target="_blank" rel="noopener noreferrer">可以在手机屏幕上 HDR 显示 Raw 照片的看图 App， 支持 SMB 和 JXR 游戏截图</a></span><span class="topic-stats">回复 2 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246738" markdown="1">
+<summary>
+<span class="topic-rank">15</span>
+<span class="topic-title">Sub2API 0.2.14 修复 EasyPay 回调伪造漏洞</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+使用 Sub2API 搭建中转站的站长需尽快升级到 **0.2.14**。该版本修复两处安全问题：全新安装不再使用可猜测的默认管理员账号；封堵 EasyPay 支付回调伪造漏洞。发帖者称凌晨被“白嫖”大量额度，已临时暂停新用户注册。
+
+### 关键要点
+- 受影响版本：Sub2API 0.2.14 之前的部署，尤其是仍在使用默认管理员账号的实例。
+- 风险点一：默认管理员账号可被猜测，存在被直接接管后台的可能。
+- 风险点二：EasyPay 支付回调可被伪造，攻击者无需真实付款即可完成充值。
+- 处置建议：升级到 0.2.14；检查并更换默认管理员凭据；核对支付回调来源与订单记录，排查异常充值。
+
+### 评论补充
+有回复者表示同样中招，称攻击者“充了 2 个亿”，说明该漏洞可能已被批量利用，而非个例。
+
+### 限制
+主帖未给出漏洞细节、影响版本范围或官方公告链接，具体修复效果与排查方法需以项目更新说明为准。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246738" target="_blank" rel="noopener noreferrer">用 sub2api 程序的站长们，抓紧更新了。封堵 EasyPay 支付回调伪造漏洞</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1246813" markdown="1">
+<summary>
+<span class="topic-rank">16</span>
+<span class="topic-title">开源：Cloudflare Workers + R2 自部署轻量 WebDAV</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者开源了一个基于 Cloudflare Workers + 私有 R2 bucket 的轻量 WebDAV 服务，面向个人自部署，用于手机与电脑间同步文件及小工具配置（如 cc-switch、clash）。目标是免去单独维护服务器，并利用 Cloudflare 免费额度降低低频访问成本。项目地址：https://github.com/CallMeKingsley97/cf-free-webdav
+
+### 关键要点
+- 支持 Basic Auth，以及 GET、HEAD、PUT、PROPFIND、MKCOL、DELETE、COPY、MOVE 等常用文件与目录操作。
+- 支持空目录和文件字节范围读取。
+- 部署方式：可连接已有 GitHub 仓库部署到 Workers，也可用 Wrangler 本地部署；配置 `WEBDAV_PASSWORD` Secret 后，用任意 WebDAV 客户端连接 `/dav/` 路径。
+- 已知限制：暂不支持 LOCK/UNLOCK，自定义 WebDAV 属性不会持久化，单次上传受 Cloudflare 请求体大小限制。
+- 成本提醒：免费额度适合个人低频使用，但额度与计费规则可能变化，超出后可能产生费用。
+
+### 评论补充
+有用户质疑 WebDAV 读写能否持久。作者回应：Worker 本身无状态，不长期保存文件，实际文件写入 R2，PUT 上传、GET 读取，因此 Worker 重启或重新部署不会清空文件。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1246813" target="_blank" rel="noopener noreferrer">[分享创造] [开源] 用 Cloudflare Workers + R2 做了个轻量 WebDAV，支持个人自部署</a></span><span class="topic-stats">回复 2 · 收藏 0</span></p>
 
 </div>
 
