@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-10-22 08:30:00 +0800
+date: 2026-10-23 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-10-22
-generated_at: "2026-10-23 08:35:21"
-summary: "昨日主题 308 个，过滤 208 个，DeepSeek 分析 100 个，保留高价值内容 13 个。"
-count_all: 308
-count_excluded: 208
+target_date: 2026-10-23
+generated_at: "2026-10-24 08:30:40"
+summary: "昨日主题 290 个，过滤 190 个，DeepSeek 分析 99 个，保留高价值内容 16 个。"
+count_all: 290
+count_excluded: 190
 count_included: 100
 count_high_signal: 0
-count_valuable: 13
-report_url: "/2026/10/22/"
-data_url: "/data/2026-10-22.json"
+count_valuable: 16
+report_url: "/2026/10/23/"
+data_url: "/data/2026-10-23.json"
 ---
 
-# V2EX 2026-10-22 昨日新帖报告
+# V2EX 2026-10-23 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1250878" markdown="1">
+<details class="topic-card" data-topic-id="1251173" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">吉列换舒适手动剃刀：刀头成本与体验对比</span>
+<span class="topic-title">远程跨境收款被银行拦截：合规纳税与收款方式讨论</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,34 +29,32 @@ data_url: "/data/2026-10-22.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主用吉列锋隐致护六年，感觉刀头耐久度下降：一周刮五次，约一个多月就钝，剃须有拉扯感。查资料得知吉列新款上市后，老刀头会转到越南工厂生产，只有极光系列刀头仍在美国产；极光 8 个刀头约 200 元，折合 25 元一个。
 
-后来了解到盒刀市场份额第二的舒适，入手水次元 Pro：135 元含刀架加 5 个刀头，另花 110 元买 8 个刀头；不追新款的话，水次元 5 刀头约 10 元一个。楼主称剃须体验与锋隐致护无明显区别，耐久度待观察，性价比明显更高。
-
-关键认知：手动剃须刀的手柄基本是白送的，真正赚钱的是刀头和剃须泡沫。
+远程工作收入以人民币跨境汇入国内银行卡，附言为“Contractor consultant on technology services”，被银行拦截并要求提供合同，银行称每笔跨境人民币都需材料。发帖人想找“不被税务盯上”的收款方式。评论普遍指出：这属于纳税义务问题，而非单纯收款渠道问题。
 
 ### 关键要点
-- 锋隐致护实际约用 10 次就感觉变钝，20 次左右该换，为省钱常撑到一个多月。
-- 舒适水次元 Pro 的刀头带润滑盒，会释放较多润滑液；润滑液用完后剃感如何尚不确定。
-- 购买渠道：楼主在京东凑单，叠加限时立减 50 和返利后约 133 元；日常淘宝、拼多多同款约 220 元，建议等活动。
+
+- **性质认定**：无劳动合同、以外包形式工作，收入更可能按“劳务报酬”计税（有回复称税率 20%），而非工资个税；注册小微企业把收入包装为营业收入可享税收优惠，属于合法改变收入性质。
+- **信息交换**：CRS 会交换金融账户信息；有回复称 Wise 已要求登记税务身份，港卡同样受 CRS 覆盖。
+- **银行审核**：跨境人民币入账需提交合同、流水等材料，属审核流程；外币小额入账通常无需额外材料，可在银行 App 自行结汇。
+- **风险提示**：境外收入依法应申报，银行与税务是否主动同步无定论，但流水是实打实的证据；用 U 收款变现可能收到黑钱。
 
 ### 评论补充
-- 有用户用吉列三层替代五层，认为差别不大但便宜很多；也有人用得力 2 元 10 片、舒适一次性剃刀（拼多多约 2 元一支）。
-- 有用户称拼多多锋隐刀头约 88 元 8 个，质疑楼主 110 元偏贵；也有人反映吉列替换刀头不如刀架自带初始刀头耐用，且进口与否会在商品页标明。
-- 舒适旧款创 4 纪（四层刀片）获好评；理然新出的剃须刀也有人询问使用体验，暂无结论。
+
+有回复提到开卡/换卡时被要求签涉税信息报送授权；也有人建议办港卡在境内消费，但被追问如何消费及是否仍受 CRS 约束。共识是：合法节税需改变收入性质或税务居民身份，单纯换收款渠道不改变纳税义务。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250878" target="_blank" rel="noopener noreferrer">关于手动剃刀，最近从吉列换成舒适了，消费降级，体验没降。</a></span><span class="topic-stats">回复 64 · 收藏 25</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251173" target="_blank" rel="noopener noreferrer">远程收入 如何优雅的避税</a></span><span class="topic-stats">回复 89 · 收藏 56</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250922" markdown="1">
+<details class="topic-card" data-topic-id="1251258" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">根管治疗后牙齿会变脆吗？是否必须做牙冠及费用经验</span>
+<span class="topic-title">东京办入台证10天，台北台南高雄8日游体验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -64,33 +62,30 @@ data_url: "/data/2026-10-22.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-根管治疗后的牙齿确实会变脆，但并非必然很快损坏。多位用户经验表明，**做牙冠是保护根管牙的关键**，否则容易崩裂甚至拔除。治疗本身有寿命，保护得当可用十几年甚至更久。
+作者从东京出发，用 8 天走完台北、台南、高雄，记录入台证办理流程与实地体验。整体结论是：**台北的体验低于预期，台南城市破旧但人情味浓，高雄城市环境和地铁最好，值得多留时间**。
 
 ### 关键要点
-
-- **牙齿变脆的原因**：根管清除了牙髓，牙齿失去营养供给和痛觉保护；治疗需磨除部分牙体，结构强度下降。
-- **牙冠的必要性**：多数回复强调根管后应做牙冠或嵌体，否则咬硬物易崩裂。有用户未做牙冠，几年后牙冠裂开最终拔除，后续种植+矫正花费两万五。
-- **费用参考**：有用户北大口腔根管+打桩+牙冠共约7000元；另一用户预估后槽牙根管约5000元。
-- **医院选择**：建议去三甲或当地口碑好的公立医院。有用户在小诊所根管不到位，5-6年后出现瘘管，二次根管花费4-5千。
-- **长期预期**：根管牙是逐步走向拔牙的过程，日常防护可延缓；避免咬硬物，有夜磨牙习惯可配护牙套。
+- **入台证**：在东京办理，中途补交照片和行程单两次材料，全程约 10 天；照片不要用申请系统自带工具处理。
+- **行程**：台北故宫、中正纪念堂、松山文创园区、安平树屋、旗后炮台、驳二、爱河湾夜景值得去；台湾博物馆和台南美术馆是意外惊喜。
+- **交通**：高铁和台铁都不安检，流程顺畅，高铁腿部空间大；地铁便宜、乘客先下后上、无人外放；机车多但普遍守交规。台南公交半小时一班且到站不减速，需留意。
+- **消费**：作者回复称整体消费水平比深圳高，酒店偏贵，餐饮尚可。
+- **避坑**：夜市体验普遍不佳，士林夜市部分摊主对本地与外国顾客态度差异明显；多家餐厅收 10% 服务费但服务有限，还有加收茶水费、打烊前催买单的情况。
 
 ### 评论补充
-
-部分用户根管后十年未做牙冠，但不用该牙咬硬物；也有医生认为牙齿太小无法做牙冠，仅填充。是否做牙冠需结合牙齿位置和医生评估。
+有台湾用户指出“别从台北看台湾”，认为台北人与其他地区差异大；也有评论认为两岸关系与国力变化会影响当地人的态度，早年环岛时遇到的热心人更多。这些属于个人观察，缺少系统证据。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250922" target="_blank" rel="noopener noreferrer">根管治疗过的聊聊</a></span><span class="topic-stats">回复 68 · 收藏 17</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251258" target="_blank" rel="noopener noreferrer">去了趟既熟悉又陌生的台湾</a></span><span class="topic-stats">回复 58 · 收藏 18</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250844" markdown="1">
+<details class="topic-card" data-topic-id="1251142" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">宝塔 PHP 7.0–8.1 的 PHP2Shell 漏洞修复包及一键升级回滚脚本</span>
+<span class="topic-title">京东4年只换不修值不值得买：第三方延保的扯皮风险</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -98,32 +93,33 @@ data_url: "/data/2026-10-22.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者针对 PHP 官方披露的 PHP2Shell 漏洞（CVE-2026-109618 / CVE-2026-109619，CVSS 9.2，无需登录即可远程执行代码，影响 PHP-FPM 与 Apache mod_php），为宝塔面板用户做了一套覆盖 PHP 7.0–8.1 的修复包，开源地址为 https://github.com/Qsnh/php2shell-fixed 。
+
+主帖在纠结：3200 多元的石头扫地机器人，加 392 元买京东“4 年只换不修”，而石头官方本身有 2 年保修。评论区的共识是：**这类服务由第三方公司承保，并非京东自营售后，理赔时容易扯皮，是否值得买取决于品类和价格。**
 
 ### 关键要点
-- **补丁来源**：7.4 / 8.0 / 8.1 使用 PHP 官方补丁原件；7.0–7.3 基于官方 7.4 补丁逐版本移植。
-- **顺带升级**：每个版本升到该分支最后一个版本（如 7.3.x → 7.3.33），一并获得历年安全修复。
-- **一键脚本**：下载后 `build`、`install` 两条命令完成升级；自动沿用宝塔原编译参数，php.ini、FPM 配置与 redis 等扩展保持不变。
-- **安全机制**：安装前完整备份，任一步失败自动回滚，也可手动一条命令回滚；每个版本站点仅中断数秒。
-- **测试范围**：在 Ubuntu 16.04 与 CentOS 7 上按宝塔方式安装未打补丁版本，逐版本验证升级、回滚、FPM 行为，并与未打补丁版本做数千个回归测试对比。
+
+- **服务性质**：多位用户指出，京东增值延保由第三方（有回复提到海南聚惠）执行，本质接近保险，不是官方保修。
+- **拒保案例**：饮水机旋钮失灵被认定“非核心功能”拒换；罗技鼠标右键失灵被判定“无问题”；手机出问题后被以各种理由拒绝换修。
+- **成功案例**：蝰蛇鼠标用了两年多中键损坏，因无货按原价退 500 元；小米冰箱过保后不制冷，第三方上门免费修好。
+- **品类差异**：扫地机器人被多人认为故障率高（电池温度异常、不到一年损坏等），但也有人认为石头 G10S 两年稳定、不易坏。
+- **价格判断**：有回复认为扣除官方 2 年保修后实际只多保 2 年，392 元偏贵。
 
 ### 评论补充
-- 有用户询问 PHP 5.x 支持，作者随后补充了 5.4 / 5.5 / 5.6；另有用户给出第三方 5.x 补丁仓库 https://github.com/vperetti/php-cve-2026-109618-109619-backports ，作者表示原理相同，但对方只提供 patch。
-- 有用户反馈宝塔官方已推送修复版本，可直接在面板更新；作者提醒 8.2 及以上无需此包，长期仍建议迁移到 PHP 8.2+。
-- **限制**：7.0–7.3 的移植补丁未经 PHP 官方审核，上线前应在测试环境验证。
+
+石头官方保修期内可免费维修，有用户称售后三次后直接换新，因此官方渠道本身有一定保障。倾向购买者多出于“买安心”，反对者则强调第三方维修点质量与拒保风险。综合看，高故障率品类可考虑，但需预期理赔可能扯皮，不宜把它当作官方保修的替代。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250844" target="_blank" rel="noopener noreferrer">用宝塔装了 PHP 7.x / 8.0 / 8.1 的朋友注意了！我和 AI 一起做了一套修复包，覆盖 PHP 7.0 – 8.1</a></span><span class="topic-stats">回复 17 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251142" target="_blank" rel="noopener noreferrer">京东提供的 4 年只换不修你们会买吗</a></span><span class="topic-stats">回复 74 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250865" markdown="1">
+<details class="topic-card" data-topic-id="1251243" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">117个智能设备接入HA：Claude写自动化与IPv6中继踩坑</span>
+<span class="topic-title">用Stripe等付款页流量给607个闷声赚钱网站做排行榜</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -131,31 +127,31 @@ data_url: "/data/2026-10-22.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在成都新家接入米家 105 台设备，HA 中共 117 台设备、3800 多个实体，自动化基本由 Claude Code（Opus 5.5）按需求编写。开关、温控、阀门多为蓝牙 Mesh 2.0，网关本地执行，断网仍可开关灯阀。
+作者没有采用“晒 MRR”的思路，而是用 Similarweb 的引荐记录，统计各网站导流到 Stripe、Gumroad、Lemon Squeezy、Polar、Creem、Whop 付款页的访问量，据此判断哪些产品真正有人掏钱。数据覆盖 2026 年 4–9 月，共 15,790 个网站；筛掉 9 月付费页访问不足 3,000、付费流量过半、大厂与融资公司、企业 B2B、市场平台和联盟拉客后，剩 607 个。
 
 ### 关键要点
-- **“欢迎回家”条件复杂**：需同时满足时间段、两小时内未播报、玄关空置 30 分钟、其他房间无人、灯全关、音箱未播放；书房无传感器仍是盲区。
-- **设备状态不可信**：海尔洗衣机筒门始终报“关”，改为检测生活阳台是否有人。
-- **漏水关阀性价比最高**：6 个水浸传感器加阀门控制器不到 600 元，报警后网关本地直接关总阀。
-- **IPv6 只有 /64**：光猫无法桥接，让 J4125 直连光猫，用 odhcpd 将 RA/DHCPv6/NDP 设为 relay 中继；需光猫断电重拨生效，新设备有约十分钟慢热期，且无 NAT 需单独配置防火墙。
-- **旁路由与远程**：电视手动指定网关和 DNS 指向 J4125 即可看 YouTube/Netflix，需屏蔽 QUIC；无公网 IP 靠 Tailscale，自建成都 DERP。
-- **AI 翻车教训**：曾误开中央空调 37 秒、只复刻网页“保存”一半动作导致整网告警。现规定改配置先备份、动真实设备先询问、夜间不测试、路由器只读、密码自己输。
+- 按新客来源分类：SEO 171 个、社交媒体 79 个、病毒传播 126 个、AI 助手仅 6 个、其他 225 个。作者据此认为 GEO 目前还当不了主渠道。
+- 221 个网站是 4–6 月还低于门槛、半年内冒出来的，超过三分之一；不少是冷门刚需，如监狱小卖部充值（月 18 万次）、英国宠物芯片登记、英国医学考试题库、机票降价提醒会员。
+- 榜首 krillion.io 是每日猜谜小游戏，9 月付费页访问 65 万，7–9 月涨 300 多倍，59% 为直接访问；votremelodie.com 做法国定制歌曲礼物，9 月从 0 跳到 29 万，35% 来自邮件。
+- 每个网站有单独页面，可看付费页访问走势、流量来源、搜索词、访客国家和定价。
 
 ### 评论补充
-有回复认为“欢迎回家”和洗衣机提醒属伪需求，建议关联门锁、半小时内不重复播报，或直接洗烘一体；也有人建议直接向装维要光猫密码改桥接。另有用户用豆包写自动化、以 FRP/MQTT 做远程数据回传，或使用 ZeroTier 组网；还有人反馈开启 IPv6 会影响正常网络而放弃。
+回复多为认可思路和域名，未提供可验证的补充数据。
+
+＞ 口径限制：数字是 Similarweb 估算的“跳转到付款页的访问次数”，点击不等于付款，重复点击会重复计数，不能直接换算收入。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250865" target="_blank" rel="noopener noreferrer">新家 117 个智能设备，自动化基本是 Claude 帮我写的，聊聊踩坑和感受</a></span><span class="topic-stats">回复 20 · 收藏 8</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251243" target="_blank" rel="noopener noreferrer">给全球闷声发大财的网站做了一个排行榜</a></span><span class="topic-stats">回复 6 · 收藏 20</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250791" markdown="1">
+<details class="topic-card" data-topic-id="1251358" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">AWS Lightsail 全球多区域共享流量监控与自动停机部署手册</span>
+<span class="topic-title">用 artex 扫描自建服务：43%链路暴露56个漏洞的连锁风险</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -163,31 +159,32 @@ data_url: "/data/2026-10-22.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **Lambda + SNS + EventBridge** 自建了一套监控方案，可并发扫描全球 15 个 Lightsail 区域，按区域汇总共享流量池，并在用量超过配额 95% 时强制关停该区域全部实例、发送邮件告警。脚本在 Lambda 免费额度内运行。
+作者在 home lab 部署 artex 并接入 ds，让它探测自己公网服务的漏洞。原本只想测主域名入口，artex 却先发现同 IP 下存在多个二级域名，随后展开链式调查：扫描到 43% 链路时，问题从 4 个增至 56 个，其中 1 个 critical、6 个 high。作者边发现边修复或下线入口。
 
 ### 关键要点
-- **区域流量池计算**：严格对齐计费规则，累加同区域所有实例的配额与用量（入站 + 出站）。
-- **首月配额折算**：当月新建实例按剩余时间比例折算可用免费配额。
-- **部署步骤**：先建 SNS 标准主题并完成邮件订阅确认；再建 Python 3.12+ Lambda，内存 256/512 MB、超时改为 30 秒（默认 3 秒不够）；然后给执行角色加内联策略，授予 `lightsail:GetInstances/GetInstance/GetInstanceMetricData/StopInstance` 与 `sns:Publish`；粘贴代码并核对 `SNS_TOPIC_ARN`；最后用 EventBridge 设 `rate(1 hour)` 或 `rate(15 minutes)` 定时触发。
-- **成本控制**：把 CloudWatch 日志保留期设为 7 天或 30 天。
-- **删除实例的计费陷阱**：停止的实例仍保留月度配额供同区域共享；月中删除跑过流量的实例会扣减区域配额，可能导致剩余机器超额，建议先关机到月底再删。
-- **流量双向计费**：出站与入站都计入，例如 2000GB 配额下出 500GB、入 1600GB 即已超额。
+- **cAdvisor 端口暴露**：早年远程调试后忘记关闭，公网可读取全部 Docker 服务元信息，属信息泄露。
+- **MinIO 公开桶**：桶内是旧版 AI 网关的请求日志，日志中的配置文件含 MinIO 高权限调试 key/secret，导致整个 MinIO 失守。
+- **配置连锁泄露**：同一配置文件还含 Redis 和 Postgres 配置。Redis 可写入 refresh_token 绕过鉴权；Postgres 可通过超级用户 `PROGRAM` 执行命令并尝试容器逃逸，但需在内网实施。
+- **proxyscotch 无鉴权**：可构造请求访问内网全部 HTTP 端点，作者在漏洞出现一分钟内下线，避免进一步放大。
+- **SMTP 口令泄露**：企业邮箱可被接管，并借邮箱找回密码登录内网 Gitea，获取未开源项目及存有数据库、Redis、阿里云 AK/SK 的口令仓库。
 
 ### 评论补充
-回复仅表示收藏与感谢，未提供额外技术细节或反驳意见。
+有回复认为这类明显漏洞用 cc+ds 也能找到；作者回应此前用 opencode+ds 只能抓到直接漏洞，专业工具链式挖掘更深。另有回复称 artex 已删库，作者表示从备份仓库拉取后让 AI 构建镜像。
+
+**启示**：自建服务的暴露面、日志与配置文件中的密钥、无鉴权的内部代理，会形成可被自动扫描串联的放大链路，应优先排查并轮换已泄露凭据。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250791" target="_blank" rel="noopener noreferrer">AWS Lightsail 全球多区域共享流量监控与自动停机部署手册</a></span><span class="topic-stats">回复 2 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251358" target="_blank" rel="noopener noreferrer">我感觉有点死了， artex 也太可怕了</a></span><span class="topic-stats">回复 5 · 收藏 15</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250832" markdown="1">
+<details class="topic-card" data-topic-id="1251090" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">宝塔面板同步PHP漏洞修复进展：8.2至8.5及7.4/8.0/8.1已推送</span>
+<span class="topic-title">独自一人突发心梗的现场应对操作手册 v1.3</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -195,29 +192,35 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-宝塔面板官方在社区同步了 PHP 漏洞修复的发布进展：PHP 官方发布修复后，宝塔因需兼容多版本系统，编译测试耗时较长。时间线为：14:47 先在社群和公众号发布临时缓解方案；21:40 监控到官方修复后开始编译测试；23:05 推送 8.2 版本修复；23:20 推送仍在维护的 8.2、8.3、8.4、8.5 四个版本；23:45 公众号再次提醒升级；次日 01:38 发布 7.4、8.0、8.1 的补丁打包修复。
+
+作者把一份 13319 字的《疑似心梗与心脏骤停现场应对手册》中“独自一人时怎么做”的部分摘出来，核心原则是：**先让急救人员尽快赶来，其余操作视情况而定，最后静卧不动**。
 
 ### 关键要点
-- 官方仅提供 7.4、8.0、8.1 的修复补丁，宝塔需自行打包测试，因此这三个版本发布较晚。
-- 官方提醒尽快升级，社区中已发现疑似入侵利用案例，不要心存侥幸。
-- 建议迁移到官方仍在安全维护周期内的版本，旧版本停止维护后难以及时获得补丁。
-- 官方判断 AI 加速了漏洞发现与利用，旧版本风险进一步上升。
+
+- **求助**：普通时段优先联系熟悉自己情况、距离最近的人（邻居、社区人员）协助拨打 120；深夜或无人可帮时拨打 110，说明“可能突发心梗、独自一人、随时失去意识”，请 110 协助联系 120 并出警，同时告知详细地址。打电话的同时把家门都打开。
+- **阿司匹林**：若有强烈撕裂样疼痛，不要服阿司匹林，也不要服硝酸甘油；否则嚼服 300mg（国内 100mg/片约 3 片，美版 86mg/片约 4 片，25mg/片至少 12 片），必须嚼碎咽下。
+- **体位与监测**：服阿司匹林后右侧卧等待；测血压需换回半卧、双腿不交叠，袖带与心脏同高、距手肘约 3cm，双臂各测至少两次、间隔 1 分钟，差值大于 10mmHg 时加测至稳定，并记录时间、侧别和数值。
+- **硝酸甘油**：双臂压差大于 10mmHg、高压低于 120（有心脏病史者以平日同时段为基准）、高压小于等于 90、48 小时内用过西地那非/他达拉非/伐地那非、胸背痛为撕裂感——五条中任一条存在就不要用；标准用法为舌下 0.5mg，每 5 分钟一次，最多 3 次。
+- **其他**：血氧小于等于 90 且有氧气瓶时可深呼吸吸氧；可开空调降温、头部敷冰贴；带心电图功能的智能手表若提示房颤、室颤或房扑，记录并告知急救人员。
 
 ### 评论补充
-多数回复确认已更新并认可响应速度。实际痛点集中在更老版本：多位用户询问 5.x、5.6、7.3 及以下版本是否有补丁，有人建议用 AI 辅助自行编译；也有回复提到第三方提供了 php7.0~7.3 的补丁包（https://github.com/Qsnh/php2shell-fixed），并询问官方能否同步修复。另有用户询问 aapanel 的更新计划。
+
+作者回应称，智能手表通常是在指标巨幅变动时才发现，不能替代体感判断；找他人或 110 代打 120，是因为心梗可能迅猛到话没说完就失去意识，120 还需定位患者，耽误几分钟就可能造成不可逆后果。手册并非理想化，而是分级看待：瞬间倒下的确实无能为力，但只要还有意识，就能降低一点风险。
+
+＞ 原文全文见 [GitHub](https://github.com/shangshuo/cardiac-emergency-field-manual) 与[公众号](https://mp.weixin.qq.com/s/a-kHTgOkw5qVPdhRHRDM6g)。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250832" target="_blank" rel="noopener noreferrer">和大家同步一下宝塔面板关于 PHP 漏洞的发布进展</a></span><span class="topic-stats">回复 30 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251090" target="_blank" rel="noopener noreferrer">疑似心梗与心脏骤停：普通人的现场应对操作手册 v1.3</a></span><span class="topic-stats">回复 6 · 收藏 7</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250769" markdown="1">
+<details class="topic-card" data-topic-id="1251131" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">开源管线：Blender合成数据微调DINOv2还原视频动作到非人形3D模型</span>
+<span class="topic-title">腰椎椎管狭窄要不要打钉子：多院会诊与术后恢复经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -225,29 +228,32 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者开源了一条从生图到骨骼动画的全自动管线，重点解决非人形 3D 模型的自动绑骨与视频动作还原。流程为：Tripo3D 生成基础模型 → TokenRig 自动绑骨蒙皮 → 在 Blender 中用双视角与随机姿势渲染 3,000 个动作样本作为合成训练集 → 基于 DINOv2 微调视觉小模型，输入渲染图与关节坐标标注 → MiniMax H3 生成目标动作视频 → 小模型逐帧推理提取关节坐标与深度 → 解算映射回模型，重建 3D 骨骼动画。
+
+主帖询问父亲腰椎间盘突出合并椎管狭窄、医生建议“打钉子”手术后的恢复情况。评论没有给出统一答案，但形成了较一致的决策路径：**多找几家有脊柱外科的三甲医院看片子，若多数建议手术再做**。有回复以自身经历说明，上海几家三甲中两家建议做、两家不建议做，说明不同医生对“狭窄程度是否必须手术”的判断存在差异。
 
 ### 关键要点
-- 用 Blender 合成数据绕开非人形动作标注稀缺的问题，是整条管线的关键。
-- 训练与推理代码已开源：GrinZero/open-game-studio 的 monster 包（https://github.com/GrinZero/open-game-studio/tree/main/packages/monster）。
-- 算力来自 Gemini Ultra 附赠的 Colab 额度。
-- 作者自评效果“勉强可用”，动作大形已无问题，下一步接入 DeepSeek 4.1 Flash 配合同坐标叠图与逐帧评分工具去抖。
+
+- **先多院会诊**：同一医院医生意见可能趋同，建议换院咨询；若多家都建议做，再决定。
+- **术式分层**：有回复称微创适合病情较轻者，“打钉子”多用于后期；也有家属只做突出髓核摘除、未打钉子，术后腿麻症状消失。
+- **恢复预期**：有案例术后疼痛立即缓解、几天出院；也有回复称完全恢复约需三个月，半年内避免重体力活和弯腰。
+- **术后养护关键**：遵医嘱做臀桥等锻炼，一年内尽量不做家务和重活；有案例因过早劳累复发疼痛。
 
 ### 评论补充
-有回复建议在关节坐标推理与骨骼解算之间加一层轻量滤波（如 1Euro Filter 或卡尔曼滤波），按关节点设置不同截止频率；并建议大模型逐帧修正采用“关键帧 + 异常阈值触发”，避免长镜头下 token 开销累积。作者回应滤波已先做，逐帧修正比预想复杂。另有用户询问 2D Spine 方案，作者表示未涉及。
+
+有回复提醒不要依赖按摩、中医替代手术，称试过一圈无效；也有回复强调日常腰部锻炼的长期价值。个别推荐具体医院和康复师的内容缺乏可核验依据，仅作线索。总体看，评论支持“手术较成熟、不必过度恐惧”，但具体方案仍应由专科医生结合影像判断。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250769" target="_blank" rel="noopener noreferrer">[开源] 从生图到骨骼动画全自动：用 Blender 合成数据微调 DINOv2，把视频动作还原到非人形 3D 模型上</a></span><span class="topic-stats">回复 7 · 收藏 9</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251131" target="_blank" rel="noopener noreferrer">有大佬或者家里人做过腰椎相关的手术吗？</a></span><span class="topic-stats">回复 32 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250879" markdown="1">
+<details class="topic-card" data-topic-id="1251176" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">BT 公网资源冷清后：PT、网盘与离线下载的取舍</span>
+<span class="topic-title">比价焦虑：如何应对平台低价与BUG价</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -255,35 +261,30 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖的疑问是：熟悉的 BT 搜索站几乎找不到做种资源，活跃的却是需要邀请的私人论坛。评论区的共识是，公网 BT 并未消失，而是冷门资源难以保种，下载渠道逐渐转向 PT、网盘离线或在线媒体库。
+楼主因比价产生消费焦虑：看到小红书、什么值得买上的低价（如 iPhone 88xx、Mac mini 2700），自己却凑不到，感觉“买贵了很蠢”。评论普遍认为，很多低价是 BUG 价、退款券、购物金抵扣或口嗨，并非大众可复现的价格，不必为此消耗心智。
 
 ### 关键要点
-
-- **公网 BT 仍可用**：热门资源下载体验尚可，冷门资源容易死种；有稳定粉丝团体的老种（如 vcb-s、fitgirl）体验较好。
-- **PT 的核心差异**：底层仍是 BitTorrent 协议，但通过上传约束和小组供种提高保种稳定性，代价是需要邀请与持续做种。
-- **替代路径**：网盘离线可救部分死种，再拖回本地；也可用 Emby 类在线媒体直接观看。
-- **冷门资源的实操**：有回复建议热门用 qBittorrent，冷门用迅雷离线或挂 NAS 慢下，同时搜索网盘分享。
-- **公网 BT 衰落的原因**：迅雷吸血、家宽上传限速与 PCDN 限制、版权打击，以及流媒体便利性削弱了部分盗版需求。
+- **区分价格类型**：大众能买到的常规优惠价才值得参考；BUG 价、叠加特殊券的价格没有普遍意义（回复 18213250、18213995）。
+- **设定心理差价阈值**：差价一两百元在可接受范围内就果断买，避免为省小钱耗费大量时间（回复 18213617、18213652、18214143）。
+- **验证低价真实性**：遇到声称超低价的人，可追问具体渠道和细节；对方含糊其辞或拒绝回答，大概率是口嗨（回复 18213902）。
+- **利用价保缓冲**：京东自营可常点一键价保，减少刚买就降价的后悔；淘宝价保限制多，商家常改新链接规避（回复 18214438）。
+- **选择省心渠道**：部分用户直接选拼多多百亿补贴，差不多就买，不再蹲守（回复 18213617、18213995、18214154）。
 
 ### 评论补充
-
-有用户认为 IPFS 理论上更科学，但因生态薄弱、引导节点集中、隐私与法律风险等原因未能替代 BT。也有用户指出 PT 资源未必齐全，且邀请制存在门槛；另有回复愿意发放 MT 邀请，但要求保种。
-
-＞ 注意：以上为社区经验，具体站点可用性与运营商策略需自行核实。
+有回复指出，消费降级背景下比价行为增多（18213063）；也有人认为凑到优惠本身有乐趣，但不应总与最低价比较（18213740）。关于“买万元手机还差这点”的说法，评论认为每个人关注点不同，不必被他人话术影响（18213902）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250879" target="_blank" rel="noopener noreferrer">现在 BT 下载全都变成私域了吗？</a></span><span class="topic-stats">回复 29 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251176" target="_blank" rel="noopener noreferrer">吗的，消费焦虑全来自比价</a></span><span class="topic-stats">回复 33 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250962" markdown="1">
+<details class="topic-card" data-topic-id="1251245" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">FluxDown v0.6.0 插件系统：JS 沙箱、权限分级与跨端界面</span>
+<span class="topic-title">软件工程不会消失：从信息论看AI Coding的边界</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -291,30 +292,35 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-开源多协议下载器 FluxDown（AGPL-3.0，Rust 引擎，支持 HTTP/BT/HLS/DASH/FTP/eD2K，含桌面、NAS Web、Android/iOS）在 v0.6.0 发布插件系统。插件是一个含 `manifest.json` 与 JS 脚本的文件夹，打包为 `.fxplug`，可提供链接解析、下载后处理、请求改写、站点登录、订阅源、界面扩展、浏览器嗅探规则与页面脚本等能力。
+作者用信息论框架论证：软件工程不会因 AI Coding 而消失。系统可抽象为“需求建模→编码→反馈”的循环，完美系统要求对任意动作的反馈不确定性为 0，即条件熵 `∑H(R|S(A_i))=0`；需求反馈则充当优化函数，引导熵下降。
+
+编程语言演化是提高抽象、把实现细节交给编译器，本质是信息编码器：描述越短，系统不确定性越高，受柯氏复杂度下界约束。AI 也无法违背这一规律，因此“许愿式编程”解决复杂需求不现实，需求拆解与编码的不确定性是永恒问题。
 
 ### 关键要点
-- **跨端界面**：插件界面用 JSX 编写，由宿主渲染，同一份代码可显示在 GPUI 桌面端与 NAS Web 端；内置标题、表格、表单、进度条等组件。
-- **安全设计**：脚本运行在 QuickJS 沙箱，默认仅有 `flux.*` 基础能力；创建任务、拦截下载、登录、页面脚本等需单独授权，更新新增权限会再次询问；授权分「标准/较高权限/完全信任」三档，并有审计日志与连续 3 次超时或超内存的自动禁用熔断。
-- **失败策略**：解析失败直接报错（fail-closed），不会退回下载原始页面。
-- **开发方式**：SDK 已发布 npm，可用 `npx fluxdown-plugin-sdk create` 创建项目，`npm run dev` 热构建、`npm run pack` 打包；manifest 校验器与应用共用同一套规则。
-- **文档与仓库**：开发文档见 https://fluxdown.com/docs/zh/plugins/overview/ ，插件索引仓为 https://github.com/zerx-lab/fluxdown-plugin-index 。
+- 代码生成变廉价不等于软件工程消失，反而更重要。
+- 复杂需求无法靠一句提示无损实现，存在理论下界。
+- 程序员的核心价值转向架构、技术选型、约束设计与需求判断。
 
 ### 评论补充
-作者确认移动端暂不支持插件，因能力过多，后续可能实现部分功能；另有用户反馈 issue 822，作者表示将测试修复。
+- 有回复认为编码中重复部分被 AI 替代，人应把控架构与产品价值判断（18214343）。
+- 有回复指出 AI 处理复杂任务的能力已超过部分从业者，不能低估（18214665）。
+- 有回复称 AI 把一周功能压缩到一天多，人只需讨论技术取舍与关键点（18214673）。
+- 分歧在于岗位数量：一方认为个性化需求会大增，另一方以岗位未增长反驳，认为低端从业者被淘汰（18214705、18214827）。
+- 有回复强调与物理世界连接越多、需求越难量化，AI 越难全自动（18214977）。
+- 作者澄清：重点不是程序员是否被替代，而是如何指挥 AI、显式约束复杂任务（18214831）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250962" target="_blank" rel="noopener noreferrer">给开源下载器 FluxDown 做了一套插件系统：网页解析、拦截下载、自定义界面，桌面和 Web 端通用</a></span><span class="topic-stats">回复 4 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251245" target="_blank" rel="noopener noreferrer">软件工程不会消失</a></span><span class="topic-stats">回复 21 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250960" markdown="1">
+<details class="topic-card" data-topic-id="1251125" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">广州前端被优化：绩效与N+1仲裁取证要点</span>
+<span class="topic-title">Ubuntu LTS 为何锁定 PHP 版本号：backport 机制与合规沟通</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -322,30 +328,33 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-广州一名前端员工在合同到期前一个月面临被优化，公司只愿按“基本月薪×(N+1)”赔偿，并拖欠一年绩效（每月为基本月薪的25%，按季度发放）。他想追讨绩效，并要求N+1按平均工资计算。评论区的共识是：**N+1基数应按离职前12个月平均薪资（含奖金、提成）计算**；绩效能否追回，关键看劳动合同或员工手册是否明确约定“必然发放”，以及能否举证。
+
+Ubuntu 24.04 LTS 自带 PHP 8.3.6，安全更新后版本号形如 `8.3.6-0ubuntu0.24.04.13`。这不是没升级，而是发行版把上游补丁 backport 回固定基线版本，只修漏洞、不引入功能变更，以保证兼容性。因此不能拿它和 PHP 官网的 8.3.36 直接比大小。
 
 ### 关键要点
-- **绩效举证是核心**：若合同写明“每月绩效=基本月薪×25%”，仲裁支持的可能性较大；若手册写的是“视评分/项目成果发放”，则难以主张。往年稳定发放记录、同组他人已发、季度评分记录都可作为证据。
-- **书面异议别超期**：立即以书面形式（私人邮箱或EMS/挂号信，普通快递法律效力低）向公司提出绩效异议，避免超过追诉时效。
-- **拖到满三年**：合同签订日满三年后再解除，赔偿可能多约2个月工资；期间正常上下班，不主动表达离职意愿。
-- **谈话录音、签字谨慎**：所有沟通录音；对不认可的签字文件先反馈协商，不轻易签。
-- **评估仲裁成本**：先到当地仲裁庭了解排期，可能需一两年；机会成本高则拿N+1尽快找新工作。
+
+- **版本号含义**：前半段是上游基线版本，后半段是 Ubuntu 自己的修订号；安全修复体现在后者。
+- **锁定原因**：LTS 追求“同一发行版上行为一致”，避免升级导致接口或功能变化、系统崩溃。
+- **与 Python 的差异**：Python 锁的是大版本（如 3.12），末位小版本仍会滚动；PHP 则连小版本都固定在基线。
+- **应对监管质疑**：直接出示 Ubuntu 官方安全公告中的修复版本说明，比解释版本号更有效。
+- **替代方案**：需要紧跟上游版本时，可用容器自建镜像、第三方源（如 remi）或滚动发行版。
 
 ### 评论补充
-有回复提醒：年底双薪即使写在offer上，也可能被认定为奖励性质而不受支持；广州主体是皮包公司、存在混合用工，需注意主体注销风险。也有回复建议花少量咨询费多问几位律师，并指出调查取证申请在实践中常被仲裁院回绝，证据主要靠自己。楼主则强调金额达数万元，不应因耗时而放弃。
+
+有回复指出，Ubuntu 维护自己的代码仓，由维护者 review 后 backport 补丁，RHEL 系做法类似；Debian 系中主要 Ubuntu 如此。也有回复提醒，并非所有包都锁小版本，MySQL、Python 的小版本会滚动，策略取决于上游版本管理方式与发行版大客户需求。另有观点认为，若企业安全扫描产品无法识别各发行版公告中的 patched versions，应考虑更换。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250960" target="_blank" rel="noopener noreferrer">关于离职赔偿索要，哪位大兄弟有经验的指导一下</a></span><span class="topic-stats">回复 14 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251125" target="_blank" rel="noopener noreferrer">Ubuntu 等 Linux 发行版一发布，就锁定 PHP 版本号的原因是什么？</a></span><span class="topic-stats">回复 24 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250963" markdown="1">
+<details class="topic-card" data-topic-id="1251158" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">跨境电商多账号网络：固定住宅IP与指纹浏览器隔离方案</span>
+<span class="topic-title">XiaomiAlbumSyncer：支持小米云与iCloud增量同步到NAS</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -353,35 +362,32 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-做 TikTok、Facebook、Reddit 等跨境电商运营，核心问题不是“机场还是自建”，而是 **IP 固定、干净、与账号一一对应**。主帖担心机场多 IP 切换导致封号，评论区的共识是：切换比 IP 脏更容易触发风控。
+XiaomiAlbumSyncer 是一个把手机云相册归档到 NAS/homelab 的开源工具，作者称项目已累计 400+ Star、80k+ Docker pull。它新增了对 Apple iCloud 照片的支持，与原有小米云服务（相册+录音）并列，并提供 Web UI 配置、定时任务与多账号管理。
 
 ### 关键要点
-
-- **机场**：多人共用出口，IP 信誉不可控，节点可能自动切换。若使用，至少锁死节点，关闭自动选择/负载均衡。
-- **自建 VPS**：机房 IP（数据中心 ASN）稳定但容易被平台标记，不一定“干净”。
-- **住宅 IP**：常见做法是 VPS/机场做链路，落地用**静态**住宅 IP；轮换住宅 IP 对养号反而不利。
-- **环境隔离**：一个账号配一个指纹浏览器环境、固定一个 IP，不跨账号共用。
-- **上线前自检**：检查 IP 的 ASN 类型（住宅/机房）、DNS 与 WebRTC 是否泄漏、时区和语言是否与 IP 所在地一致。
+- **定位是归档**：只同步新增相册内容，不同步删除动作，因此云端数据被误删不会影响已下载数据。
+- **增量同步**：小米云与 iCloud 均支持位点模式，首次同步耗时较长，后续只消费新增数据，类似 CDC，避免全库对比。
+- **链路与依赖**：手机→厂商云→NAS，NAS 只需能访问互联网，不需要公网 IP，也不与手机直连；下载后可交给 immich 或飞牛相册消费。
+- **其他能力**：自动刷新凭据、按相册分类存储、填充 Exif 与文件系统时间、表达式插值路径、SSL 与 Passkey。
+- **iCloud 限制**：需提供 Apple 账号密码和 2FA，登录状态约 30 天有效，失效后需重新验证，作者称会发送通知。
 
 ### 评论补充
+作者回应多手机场景可通过多小米账号、多 iCloud 账号并行独立处理。与 iCloudpd 相比，作者认为优势是增量同步和 Web UI，劣势是 iCloud 支持较新、bug 仍需时间暴露。有用户建议参考 iCloudpd 用 Telegram 或 Cloudflare Worker 完成 2FA 续期，也有人希望增加 Google Photos 支持。
 
-有回复建议预算有限时用“固定落地的 VPS + 静态住宅 IP + 指纹浏览器”，比买贵机场更划算；也有人认为紫鸟、战斧等成熟方案更省事，精力应放在运营而非每月一两百元成本上。主帖作者最终认同：前置代理自建或机场只需速度稳定，关键在指纹浏览器与优质住宅 IP。
-
-注意：以上为经验性建议，平台风控规则未在讨论中给出官方依据，需自行验证。
+项目地址：https://github.com/Coooolfan/XiaomiAlbumSyncer
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250963" target="_blank" rel="noopener noreferrer">做跨境电商，代理是购买机场还是自建？需要住宅 ip 吗？</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251158" target="_blank" rel="noopener noreferrer">一年过去，收获了一些 star，也有不少朋友在用。现在我的相册同步工具现在同时支持 小米云服务 和 iCloud 了，支持在 web 页面中配置，以定时增量同步的模式从 iCloud 同步数据到 nas</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251002" markdown="1">
+<details class="topic-card" data-topic-id="1251177" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">CVE-2026-91403：JDK 全版本受 eMudhra 证书影响及临时缓解</span>
+<span class="topic-title">鼠须管与 macOS 自带拼音的取舍：词库、联想与隐私</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -389,35 +395,30 @@ AWS Lightsail 没有内置“流量快用完自动停机”功能，作者用 **
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-CVE-2026-91403 与 eMudhra（印度 CA）的 8 张中级 CA 证书有关。发帖者指出，公告中列出的版本只是“已测试发现有问题”的版本，并不代表其他 JDK 不受影响；按此推断，几乎所有 JDK 都存在风险。目前修复版本尚未发布，只能按公告做临时缓解。
+楼主使用 Rime（鼠须管）+ 万象方案半年后换回 macOS 自带简体拼音，理由是经常打错别字、长句能力弱。评论区的共识是：这不是简单的“谁更好”，而是**隐私与联网智能之间的取舍**。
 
 ### 关键要点
-
-- 缓解方式：从 OpenJDK 公告页下载对应平台的 `blocked.certs`，备份后替换 `$JAVA_HOME/lib/security/blocked.certs`。
-- JDK 8 特例：文件名是 `blacklisted.certs`，路径相同。
-- 被拉黑的是 8 张 eMudhra 中级 CA 证书。
-- 发帖者确认 Oracle JDK 与 OpenJDK 均受影响。
-- 参考链接：https://openjdk.org/groups/vulnerability/advisories/2026-10-21 （`blocked.certs` 下载页）、https://www.oracle.com/security-alerts/alert-cve-2026-91403.html 。
+- **Rime 的短板**：不联网，缺少大厂词库和智能联想，长句输入和联想能力弱；需要长期“养”自己的词库，否则容易选错字。
+- **自带的短板**：动态词频会变动，导致选错字（如“了”打成“里”）；有回复称 iOS/macOS 27 的简体拼音在词频和联想上出现严重 bug，繁体反而正常。
+- **Rime 的优势**：跨平台，词库可迁移。有用户把电脑端 Rime 词库搬到手机 Fcitx 的 Rime 上，换机时可直接复制，数据自己掌握。
+- **可尝试的调整**：换用白霜、万象等方案或接入大厂词库/模型；万象拼音的正确用法是辅助码方案；用 Rime 打双拼+辅助码体验更好。
+- **替代思路**：有用户推荐豆包语音输入，认为长段文字输入很好用，但多端同步情况不明；也有人继续用搜狗并做上传拦截。
 
 ### 评论补充
-
-有回复认为，这本质上是 CA 证书信任问题，与 Go 等语言遇到的是同类问题；另有回复列出 Google/Go、Mozilla、Perl、Red Hat、Python 等也分配了相关编号，并称影响范围可能覆盖所有互联网设施。也有回复质疑：对服务端而言，这类漏洞难以被实际利用，是否算“重大漏洞”值得商榷。
-
-注意：上述影响范围与严重性判断来自发帖者和评论者，尚未经独立验证，建议以官方公告为准。
+分歧明显：有用户从自带拼音转向鼠须管，原因是受不了动态词频；也有五笔用户同样换回自带。结论取决于你更看重隐私、跨平台词库，还是开箱即用的长句联想。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251002" target="_blank" rel="noopener noreferrer">Java 重大漏洞 CVE-2026-91403</a></span><span class="topic-stats">回复 14 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251177" target="_blank" rel="noopener noreferrer">鼠须管用了半年，还是换回了 macos 自带的简体拼音</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1250885" markdown="1">
+<details class="topic-card" data-topic-id="1251355" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">PingCAP TiDB Cloud 被曝 10.6TB 数据外泄，官方否认客户数据受影响</span>
+<span class="topic-title">小扫帚 Broomy 1.0：免费不联网的 Mac 清理卸载工具</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -425,20 +426,116 @@ CVE-2026-91403 与 eMudhra（印度 CA）的 8 张中级 CA 证书有关。发�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-据安全公司 Fulcrum 披露，PingCAP 生产控制平面疑似被持续导出数据：累计 10.6 TB、约 490 万个文件，连续 88 次（每 6 小时一次）导出未被检测。涉及约 50 个 GCP 存储桶、单仓 5.338 亿行的 BigQuery 数据、180,046 个租户组织、403,262 个独立邮箱、115,308 个客户明文 API 密钥（其中 42,612 个仍有效）、2064 万条客户 SQL 语句、1.02 亿次网关连接记录、503 万个客户服务器 IP，以及 413 个私有源码仓库等。
+作者发布 Mac 清理工具「小扫帚」（Broomy）1.0，免费、无广告、不联网，支持 macOS 14 及以上，兼容 Apple 芯片与 Intel。功能按页划分，两指左右滑动切换：概览、清理垃圾、卸载、系统状态、硬盘健康、外设。
 
 ### 关键要点
-- 攻击者据称利用仓库中提交的 GCP 服务账号密钥与 Azure 服务主体，建立控制面数据库的复制通道。
-- PingCAP 官方安全公告称，外部事件响应公司未发现攻击者在被审查系统中执行命令或维持持久访问的证据，也没有证据表明存储在 TiDB 中的数据受到影响。
-- 评论补充认为，泄露的主要是 TiDB 内部经营数据，数据库本身及客户数据库不受影响。
-- 双方说法存在明显分歧，泄露范围与影响仍需以官方取证结论为准。
+- **卸载**：按 App 标识识别，列出容器、缓存、设置、应用支持文件、窗口状态、网页数据和登录项及各自大小，一并移入废纸篓；同名但非同一 App 的文件夹默认不勾选；苹果自带 App 不列出；正在运行的 App 需先退出；共用文件不动。
+- **清理垃圾**：覆盖 Xcode、模拟器、Gradle、Homebrew 及 pip、npm、pnpm、Yarn、Bun、CocoaPods、SwiftPM、Go、Cargo 缓存；可清理 30 天未修改项目中的 `node_modules`、`.build`、`target`、`dist` 等，需有对应项目文件佐证，git 跟踪的不动且默认不勾选。
+- **安全设计**：删除内容先进废纸篓，清空前可恢复；不碰外接硬盘，不显示序列号；无联网代码，不收集数据。
+- **外设**：可调显示器亮度与音量（含外接），不支持时说明原因；另有鼠标滚轮反转与平滑滚动。
 
 ### 评论补充
-有回复指出，这类事件并非个例，建议使用密钥扫描与周期性轮换工具（如评论提到的 keyrotate.sh），排查环境、系统和仓库中的 API key 与密钥并定期失效。
+有用户认为“卸载连残留一起列出”很实用，可免去手动翻 Library；不联网也被视为清理类工具的重要加分项。另有用户询问是否与 mole、腾讯 Lemon 比较过，作者表示没有对比。
+
+注意：该工具尚未通过苹果公证，首次打开需按系统版本手动放行。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1250885" target="_blank" rel="noopener noreferrer">PingCap TiDB 生产环境 10.6 TB 数据泄露</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251355" target="_blank" rel="noopener noreferrer">做了个 Mac 清理小工具「小扫帚」：卸载 App 连残留一起带走，免费、没广告、不联网</a></span><span class="topic-stats">回复 4 · 收藏 5</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251253" markdown="1">
+<summary>
+<span class="topic-rank">14</span>
+<span class="topic-title">麦当劳 MCP 省钱助手「麦麦精算师」：一句话算出最省点餐方案</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者基于麦当劳开放 MCP 能力（共 33 个工具，覆盖点餐、领券、积分、活动日历等）开发了「麦麦精算师」，把原本需要手动领券、翻菜单、排列组合比价、查积分和活动的 7 步流程压缩成一句话。项目地址：https://github.com/qinruimac/mcd-smart-spender
+
+### 关键要点
+- **比价逻辑**：`auto-bind-coupons` 一键领券，拉取菜单与优惠券做组合，用 `calculate-price` 逐个算价取 Top3；再检测积分过期、拉当月活动日历，若叠加活动更便宜则更新推荐。
+- **附加输出**：附热量、蛋白质、脂肪、碳水营养报告。
+- **工具覆盖**：共调用 16 个 MCP 工具。
+- **两种用法**：作为 AgentSkill 加载 `SKILL.md` 到支持 MCP 的 AI 客户端，或命令行运行 `python mcd_smart_spender.py`。
+- **已知限制**：全菜单穷举组合数会爆炸，目前采用热门品项 Top5 采样的折中方案。
+
+### 评论补充
+有回复提出可先锁定能用券的品项再计算，比扫全菜单更省心；也有多位用户指出，实际比价后闲鱼代下单可能更便宜，说明工具结论未必覆盖所有渠道价格。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251253" target="_blank" rel="noopener noreferrer">做了个麦当劳 MCP 省钱助手「麦麦精算师」，一句话帮你算出最省点餐方案</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251274" markdown="1">
+<summary>
+<span class="topic-rank">15</span>
+<span class="topic-title">亚瑟士Gel-Kahana偏硬偏重：买鞋前先看用途与版型</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主吐槽新买的亚瑟士鞋：质地偏硬、包裹过紧、脚感差、外观不如图片、鞋很沉，试穿时尺码合适，实际穿一天后觉得“被裹惨”。评论指出问题可能不在品牌，而在选错系列和版型。
+
+### 关键要点
+- **系列定位**：评论称该款 Gel-Kahana 偏户外徒步，结构为上下坡、石子路增加稳定与支撑，因此重且硬，不适合铺装路面跑步和日常走路；无徒步需求可考虑退货。
+- **软硬取向**：想要软弹脚感应选缓震厚底系列，支撑系列鞋底本就偏硬。
+- **版型问题**：鞋和衣服一样有版型，可能长度合适但偏窄，只适合脚瘦的人；包裹过紧未必是尺码对。
+- **选购方法**：先明确用途（走路、日常练习、间歇、长跑、比赛）和脚型需求（缓震或稳定），再去线下奥特莱斯多试，或向跑友了解。
+
+### 评论补充
+有用户认为亚瑟士网面耐用性近年改善，自己跑一千公里不坏；也有人同款失望，称不如两百多元的迪卡侬好穿，并提到美津浓。楼主表示鞋已穿一天难退，打算留作徒步用。
+
+＞ 结论：买跑鞋别只看外观，先按用途和脚型选系列，并尽量线下试穿。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251274" target="_blank" rel="noopener noreferrer">双十一了，吐槽一下新买的鞋子</a></span><span class="topic-stats">回复 13 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251226" markdown="1">
+<summary>
+<span class="topic-rank">16</span>
+<span class="topic-title">项目失败后用原技术栈重写：AI 辅助开发的掌控力反思</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者的项目被判定推倒重构，换技术栈后功能虽实现，但作者用原技术栈重写一版，确认问题不在选型，而在对业务、技术和开发过程的掌控不足。
+
+### 关键要点
+- **需求未想清就动手**：初期只知大概业务流程，未规划架构、模块划分与维护成本；技术选型偏激进，选了不熟悉、难掌控的栈。
+- **AI 辅助的失控循环**：小问题让 AI 改，AI 却改动多个文件甚至调整结构，作者未完全理解影响，陷入“问题→AI 改→新问题→再让 AI 改”的循环。核心教训是：不该把判断和把控交给 AI。
+- **进度压力下积累技术债**：已发现架构不合理、代码变乱，却总想“以后再说”，新需求叠加后只能继续在旧基础上修补。
+- **重写验证**：先梳理核心需求、模块划分和整体设计再写代码；仍用 AI，但限制修改范围，先理解方案再采用。
+- **结论**：AI 能提效，但业务理解、架构设计、技术选型和代码质量仍需开发者负责；“能跑”不等于“掌握”。
+
+### 评论补充
+有回复建议了解 Spec-Driven Development（规格驱动开发），以先定规格再让 AI 实现；也有人调侃后期只能让 AI“自由发挥、当许愿盒”。作者补充背景：自己是前端，被要求用 Python + PySide6 独立开发桌面程序。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251226" target="_blank" rel="noopener noreferrer">项目失败后，我用原来的技术栈重写了一遍，也重新认识了 AI 和自己</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
 
 </div>
 

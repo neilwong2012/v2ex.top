@@ -1,0 +1,542 @@
+---
+layout: report-post
+title: "V2EX 每日热点回顾 · 2026-10-23"
+date: 2026-10-23 08:30:00 +0800
+categories: [v2ex, daily-report]
+status: success
+target_date: 2026-10-23
+generated_at: "2026-10-24 08:30:40"
+summary: "昨日主题 290 个，过滤 190 个，DeepSeek 分析 99 个，保留高价值内容 16 个。"
+count_all: 290
+count_excluded: 190
+count_included: 100
+count_high_signal: 0
+count_valuable: 16
+report_url: "/2026/10/23/"
+data_url: "/data/2026-10-23.json"
+---
+
+# V2EX 2026-10-23 昨日新帖报告
+
+<details class="topic-card" data-topic-id="1251173" markdown="1">
+<summary>
+<span class="topic-rank">1</span>
+<span class="topic-title">远程跨境收款被银行拦截：合规纳税与收款方式讨论</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+远程工作收入以人民币跨境汇入国内银行卡，附言为“Contractor consultant on technology services”，被银行拦截并要求提供合同，银行称每笔跨境人民币都需材料。发帖人想找“不被税务盯上”的收款方式。评论普遍指出：这属于纳税义务问题，而非单纯收款渠道问题。
+
+### 关键要点
+
+- **性质认定**：无劳动合同、以外包形式工作，收入更可能按“劳务报酬”计税（有回复称税率 20%），而非工资个税；注册小微企业把收入包装为营业收入可享税收优惠，属于合法改变收入性质。
+- **信息交换**：CRS 会交换金融账户信息；有回复称 Wise 已要求登记税务身份，港卡同样受 CRS 覆盖。
+- **银行审核**：跨境人民币入账需提交合同、流水等材料，属审核流程；外币小额入账通常无需额外材料，可在银行 App 自行结汇。
+- **风险提示**：境外收入依法应申报，银行与税务是否主动同步无定论，但流水是实打实的证据；用 U 收款变现可能收到黑钱。
+
+### 评论补充
+
+有回复提到开卡/换卡时被要求签涉税信息报送授权；也有人建议办港卡在境内消费，但被追问如何消费及是否仍受 CRS 约束。共识是：合法节税需改变收入性质或税务居民身份，单纯换收款渠道不改变纳税义务。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251173" target="_blank" rel="noopener noreferrer">远程收入 如何优雅的避税</a></span><span class="topic-stats">回复 89 · 收藏 56</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251258" markdown="1">
+<summary>
+<span class="topic-rank">2</span>
+<span class="topic-title">东京办入台证10天，台北台南高雄8日游体验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者从东京出发，用 8 天走完台北、台南、高雄，记录入台证办理流程与实地体验。整体结论是：**台北的体验低于预期，台南城市破旧但人情味浓，高雄城市环境和地铁最好，值得多留时间**。
+
+### 关键要点
+- **入台证**：在东京办理，中途补交照片和行程单两次材料，全程约 10 天；照片不要用申请系统自带工具处理。
+- **行程**：台北故宫、中正纪念堂、松山文创园区、安平树屋、旗后炮台、驳二、爱河湾夜景值得去；台湾博物馆和台南美术馆是意外惊喜。
+- **交通**：高铁和台铁都不安检，流程顺畅，高铁腿部空间大；地铁便宜、乘客先下后上、无人外放；机车多但普遍守交规。台南公交半小时一班且到站不减速，需留意。
+- **消费**：作者回复称整体消费水平比深圳高，酒店偏贵，餐饮尚可。
+- **避坑**：夜市体验普遍不佳，士林夜市部分摊主对本地与外国顾客态度差异明显；多家餐厅收 10% 服务费但服务有限，还有加收茶水费、打烊前催买单的情况。
+
+### 评论补充
+有台湾用户指出“别从台北看台湾”，认为台北人与其他地区差异大；也有评论认为两岸关系与国力变化会影响当地人的态度，早年环岛时遇到的热心人更多。这些属于个人观察，缺少系统证据。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251258" target="_blank" rel="noopener noreferrer">去了趟既熟悉又陌生的台湾</a></span><span class="topic-stats">回复 58 · 收藏 18</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251142" markdown="1">
+<summary>
+<span class="topic-rank">3</span>
+<span class="topic-title">京东4年只换不修值不值得买：第三方延保的扯皮风险</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖在纠结：3200 多元的石头扫地机器人，加 392 元买京东“4 年只换不修”，而石头官方本身有 2 年保修。评论区的共识是：**这类服务由第三方公司承保，并非京东自营售后，理赔时容易扯皮，是否值得买取决于品类和价格。**
+
+### 关键要点
+
+- **服务性质**：多位用户指出，京东增值延保由第三方（有回复提到海南聚惠）执行，本质接近保险，不是官方保修。
+- **拒保案例**：饮水机旋钮失灵被认定“非核心功能”拒换；罗技鼠标右键失灵被判定“无问题”；手机出问题后被以各种理由拒绝换修。
+- **成功案例**：蝰蛇鼠标用了两年多中键损坏，因无货按原价退 500 元；小米冰箱过保后不制冷，第三方上门免费修好。
+- **品类差异**：扫地机器人被多人认为故障率高（电池温度异常、不到一年损坏等），但也有人认为石头 G10S 两年稳定、不易坏。
+- **价格判断**：有回复认为扣除官方 2 年保修后实际只多保 2 年，392 元偏贵。
+
+### 评论补充
+
+石头官方保修期内可免费维修，有用户称售后三次后直接换新，因此官方渠道本身有一定保障。倾向购买者多出于“买安心”，反对者则强调第三方维修点质量与拒保风险。综合看，高故障率品类可考虑，但需预期理赔可能扯皮，不宜把它当作官方保修的替代。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251142" target="_blank" rel="noopener noreferrer">京东提供的 4 年只换不修你们会买吗</a></span><span class="topic-stats">回复 74 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251243" markdown="1">
+<summary>
+<span class="topic-rank">4</span>
+<span class="topic-title">用Stripe等付款页流量给607个闷声赚钱网站做排行榜</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者没有采用“晒 MRR”的思路，而是用 Similarweb 的引荐记录，统计各网站导流到 Stripe、Gumroad、Lemon Squeezy、Polar、Creem、Whop 付款页的访问量，据此判断哪些产品真正有人掏钱。数据覆盖 2026 年 4–9 月，共 15,790 个网站；筛掉 9 月付费页访问不足 3,000、付费流量过半、大厂与融资公司、企业 B2B、市场平台和联盟拉客后，剩 607 个。
+
+### 关键要点
+- 按新客来源分类：SEO 171 个、社交媒体 79 个、病毒传播 126 个、AI 助手仅 6 个、其他 225 个。作者据此认为 GEO 目前还当不了主渠道。
+- 221 个网站是 4–6 月还低于门槛、半年内冒出来的，超过三分之一；不少是冷门刚需，如监狱小卖部充值（月 18 万次）、英国宠物芯片登记、英国医学考试题库、机票降价提醒会员。
+- 榜首 krillion.io 是每日猜谜小游戏，9 月付费页访问 65 万，7–9 月涨 300 多倍，59% 为直接访问；votremelodie.com 做法国定制歌曲礼物，9 月从 0 跳到 29 万，35% 来自邮件。
+- 每个网站有单独页面，可看付费页访问走势、流量来源、搜索词、访客国家和定价。
+
+### 评论补充
+回复多为认可思路和域名，未提供可验证的补充数据。
+
+＞ 口径限制：数字是 Similarweb 估算的“跳转到付款页的访问次数”，点击不等于付款，重复点击会重复计数，不能直接换算收入。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251243" target="_blank" rel="noopener noreferrer">给全球闷声发大财的网站做了一个排行榜</a></span><span class="topic-stats">回复 6 · 收藏 20</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251358" markdown="1">
+<summary>
+<span class="topic-rank">5</span>
+<span class="topic-title">用 artex 扫描自建服务：43%链路暴露56个漏洞的连锁风险</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者在 home lab 部署 artex 并接入 ds，让它探测自己公网服务的漏洞。原本只想测主域名入口，artex 却先发现同 IP 下存在多个二级域名，随后展开链式调查：扫描到 43% 链路时，问题从 4 个增至 56 个，其中 1 个 critical、6 个 high。作者边发现边修复或下线入口。
+
+### 关键要点
+- **cAdvisor 端口暴露**：早年远程调试后忘记关闭，公网可读取全部 Docker 服务元信息，属信息泄露。
+- **MinIO 公开桶**：桶内是旧版 AI 网关的请求日志，日志中的配置文件含 MinIO 高权限调试 key/secret，导致整个 MinIO 失守。
+- **配置连锁泄露**：同一配置文件还含 Redis 和 Postgres 配置。Redis 可写入 refresh_token 绕过鉴权；Postgres 可通过超级用户 `PROGRAM` 执行命令并尝试容器逃逸，但需在内网实施。
+- **proxyscotch 无鉴权**：可构造请求访问内网全部 HTTP 端点，作者在漏洞出现一分钟内下线，避免进一步放大。
+- **SMTP 口令泄露**：企业邮箱可被接管，并借邮箱找回密码登录内网 Gitea，获取未开源项目及存有数据库、Redis、阿里云 AK/SK 的口令仓库。
+
+### 评论补充
+有回复认为这类明显漏洞用 cc+ds 也能找到；作者回应此前用 opencode+ds 只能抓到直接漏洞，专业工具链式挖掘更深。另有回复称 artex 已删库，作者表示从备份仓库拉取后让 AI 构建镜像。
+
+**启示**：自建服务的暴露面、日志与配置文件中的密钥、无鉴权的内部代理，会形成可被自动扫描串联的放大链路，应优先排查并轮换已泄露凭据。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251358" target="_blank" rel="noopener noreferrer">我感觉有点死了， artex 也太可怕了</a></span><span class="topic-stats">回复 5 · 收藏 15</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251090" markdown="1">
+<summary>
+<span class="topic-rank">6</span>
+<span class="topic-title">独自一人突发心梗的现场应对操作手册 v1.3</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+作者把一份 13319 字的《疑似心梗与心脏骤停现场应对手册》中“独自一人时怎么做”的部分摘出来，核心原则是：**先让急救人员尽快赶来，其余操作视情况而定，最后静卧不动**。
+
+### 关键要点
+
+- **求助**：普通时段优先联系熟悉自己情况、距离最近的人（邻居、社区人员）协助拨打 120；深夜或无人可帮时拨打 110，说明“可能突发心梗、独自一人、随时失去意识”，请 110 协助联系 120 并出警，同时告知详细地址。打电话的同时把家门都打开。
+- **阿司匹林**：若有强烈撕裂样疼痛，不要服阿司匹林，也不要服硝酸甘油；否则嚼服 300mg（国内 100mg/片约 3 片，美版 86mg/片约 4 片，25mg/片至少 12 片），必须嚼碎咽下。
+- **体位与监测**：服阿司匹林后右侧卧等待；测血压需换回半卧、双腿不交叠，袖带与心脏同高、距手肘约 3cm，双臂各测至少两次、间隔 1 分钟，差值大于 10mmHg 时加测至稳定，并记录时间、侧别和数值。
+- **硝酸甘油**：双臂压差大于 10mmHg、高压低于 120（有心脏病史者以平日同时段为基准）、高压小于等于 90、48 小时内用过西地那非/他达拉非/伐地那非、胸背痛为撕裂感——五条中任一条存在就不要用；标准用法为舌下 0.5mg，每 5 分钟一次，最多 3 次。
+- **其他**：血氧小于等于 90 且有氧气瓶时可深呼吸吸氧；可开空调降温、头部敷冰贴；带心电图功能的智能手表若提示房颤、室颤或房扑，记录并告知急救人员。
+
+### 评论补充
+
+作者回应称，智能手表通常是在指标巨幅变动时才发现，不能替代体感判断；找他人或 110 代打 120，是因为心梗可能迅猛到话没说完就失去意识，120 还需定位患者，耽误几分钟就可能造成不可逆后果。手册并非理想化，而是分级看待：瞬间倒下的确实无能为力，但只要还有意识，就能降低一点风险。
+
+＞ 原文全文见 [GitHub](https://github.com/shangshuo/cardiac-emergency-field-manual) 与[公众号](https://mp.weixin.qq.com/s/a-kHTgOkw5qVPdhRHRDM6g)。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251090" target="_blank" rel="noopener noreferrer">疑似心梗与心脏骤停：普通人的现场应对操作手册 v1.3</a></span><span class="topic-stats">回复 6 · 收藏 7</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251131" markdown="1">
+<summary>
+<span class="topic-rank">7</span>
+<span class="topic-title">腰椎椎管狭窄要不要打钉子：多院会诊与术后恢复经验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖询问父亲腰椎间盘突出合并椎管狭窄、医生建议“打钉子”手术后的恢复情况。评论没有给出统一答案，但形成了较一致的决策路径：**多找几家有脊柱外科的三甲医院看片子，若多数建议手术再做**。有回复以自身经历说明，上海几家三甲中两家建议做、两家不建议做，说明不同医生对“狭窄程度是否必须手术”的判断存在差异。
+
+### 关键要点
+
+- **先多院会诊**：同一医院医生意见可能趋同，建议换院咨询；若多家都建议做，再决定。
+- **术式分层**：有回复称微创适合病情较轻者，“打钉子”多用于后期；也有家属只做突出髓核摘除、未打钉子，术后腿麻症状消失。
+- **恢复预期**：有案例术后疼痛立即缓解、几天出院；也有回复称完全恢复约需三个月，半年内避免重体力活和弯腰。
+- **术后养护关键**：遵医嘱做臀桥等锻炼，一年内尽量不做家务和重活；有案例因过早劳累复发疼痛。
+
+### 评论补充
+
+有回复提醒不要依赖按摩、中医替代手术，称试过一圈无效；也有回复强调日常腰部锻炼的长期价值。个别推荐具体医院和康复师的内容缺乏可核验依据，仅作线索。总体看，评论支持“手术较成熟、不必过度恐惧”，但具体方案仍应由专科医生结合影像判断。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251131" target="_blank" rel="noopener noreferrer">有大佬或者家里人做过腰椎相关的手术吗？</a></span><span class="topic-stats">回复 32 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251176" markdown="1">
+<summary>
+<span class="topic-rank">8</span>
+<span class="topic-title">比价焦虑：如何应对平台低价与BUG价</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主因比价产生消费焦虑：看到小红书、什么值得买上的低价（如 iPhone 88xx、Mac mini 2700），自己却凑不到，感觉“买贵了很蠢”。评论普遍认为，很多低价是 BUG 价、退款券、购物金抵扣或口嗨，并非大众可复现的价格，不必为此消耗心智。
+
+### 关键要点
+- **区分价格类型**：大众能买到的常规优惠价才值得参考；BUG 价、叠加特殊券的价格没有普遍意义（回复 18213250、18213995）。
+- **设定心理差价阈值**：差价一两百元在可接受范围内就果断买，避免为省小钱耗费大量时间（回复 18213617、18213652、18214143）。
+- **验证低价真实性**：遇到声称超低价的人，可追问具体渠道和细节；对方含糊其辞或拒绝回答，大概率是口嗨（回复 18213902）。
+- **利用价保缓冲**：京东自营可常点一键价保，减少刚买就降价的后悔；淘宝价保限制多，商家常改新链接规避（回复 18214438）。
+- **选择省心渠道**：部分用户直接选拼多多百亿补贴，差不多就买，不再蹲守（回复 18213617、18213995、18214154）。
+
+### 评论补充
+有回复指出，消费降级背景下比价行为增多（18213063）；也有人认为凑到优惠本身有乐趣，但不应总与最低价比较（18213740）。关于“买万元手机还差这点”的说法，评论认为每个人关注点不同，不必被他人话术影响（18213902）。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251176" target="_blank" rel="noopener noreferrer">吗的，消费焦虑全来自比价</a></span><span class="topic-stats">回复 33 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251245" markdown="1">
+<summary>
+<span class="topic-rank">9</span>
+<span class="topic-title">软件工程不会消失：从信息论看AI Coding的边界</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者用信息论框架论证：软件工程不会因 AI Coding 而消失。系统可抽象为“需求建模→编码→反馈”的循环，完美系统要求对任意动作的反馈不确定性为 0，即条件熵 `∑H(R|S(A_i))=0`；需求反馈则充当优化函数，引导熵下降。
+
+编程语言演化是提高抽象、把实现细节交给编译器，本质是信息编码器：描述越短，系统不确定性越高，受柯氏复杂度下界约束。AI 也无法违背这一规律，因此“许愿式编程”解决复杂需求不现实，需求拆解与编码的不确定性是永恒问题。
+
+### 关键要点
+- 代码生成变廉价不等于软件工程消失，反而更重要。
+- 复杂需求无法靠一句提示无损实现，存在理论下界。
+- 程序员的核心价值转向架构、技术选型、约束设计与需求判断。
+
+### 评论补充
+- 有回复认为编码中重复部分被 AI 替代，人应把控架构与产品价值判断（18214343）。
+- 有回复指出 AI 处理复杂任务的能力已超过部分从业者，不能低估（18214665）。
+- 有回复称 AI 把一周功能压缩到一天多，人只需讨论技术取舍与关键点（18214673）。
+- 分歧在于岗位数量：一方认为个性化需求会大增，另一方以岗位未增长反驳，认为低端从业者被淘汰（18214705、18214827）。
+- 有回复强调与物理世界连接越多、需求越难量化，AI 越难全自动（18214977）。
+- 作者澄清：重点不是程序员是否被替代，而是如何指挥 AI、显式约束复杂任务（18214831）。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251245" target="_blank" rel="noopener noreferrer">软件工程不会消失</a></span><span class="topic-stats">回复 21 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251125" markdown="1">
+<summary>
+<span class="topic-rank">10</span>
+<span class="topic-title">Ubuntu LTS 为何锁定 PHP 版本号：backport 机制与合规沟通</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+Ubuntu 24.04 LTS 自带 PHP 8.3.6，安全更新后版本号形如 `8.3.6-0ubuntu0.24.04.13`。这不是没升级，而是发行版把上游补丁 backport 回固定基线版本，只修漏洞、不引入功能变更，以保证兼容性。因此不能拿它和 PHP 官网的 8.3.36 直接比大小。
+
+### 关键要点
+
+- **版本号含义**：前半段是上游基线版本，后半段是 Ubuntu 自己的修订号；安全修复体现在后者。
+- **锁定原因**：LTS 追求“同一发行版上行为一致”，避免升级导致接口或功能变化、系统崩溃。
+- **与 Python 的差异**：Python 锁的是大版本（如 3.12），末位小版本仍会滚动；PHP 则连小版本都固定在基线。
+- **应对监管质疑**：直接出示 Ubuntu 官方安全公告中的修复版本说明，比解释版本号更有效。
+- **替代方案**：需要紧跟上游版本时，可用容器自建镜像、第三方源（如 remi）或滚动发行版。
+
+### 评论补充
+
+有回复指出，Ubuntu 维护自己的代码仓，由维护者 review 后 backport 补丁，RHEL 系做法类似；Debian 系中主要 Ubuntu 如此。也有回复提醒，并非所有包都锁小版本，MySQL、Python 的小版本会滚动，策略取决于上游版本管理方式与发行版大客户需求。另有观点认为，若企业安全扫描产品无法识别各发行版公告中的 patched versions，应考虑更换。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251125" target="_blank" rel="noopener noreferrer">Ubuntu 等 Linux 发行版一发布，就锁定 PHP 版本号的原因是什么？</a></span><span class="topic-stats">回复 24 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251158" markdown="1">
+<summary>
+<span class="topic-rank">11</span>
+<span class="topic-title">XiaomiAlbumSyncer：支持小米云与iCloud增量同步到NAS</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+XiaomiAlbumSyncer 是一个把手机云相册归档到 NAS/homelab 的开源工具，作者称项目已累计 400+ Star、80k+ Docker pull。它新增了对 Apple iCloud 照片的支持，与原有小米云服务（相册+录音）并列，并提供 Web UI 配置、定时任务与多账号管理。
+
+### 关键要点
+- **定位是归档**：只同步新增相册内容，不同步删除动作，因此云端数据被误删不会影响已下载数据。
+- **增量同步**：小米云与 iCloud 均支持位点模式，首次同步耗时较长，后续只消费新增数据，类似 CDC，避免全库对比。
+- **链路与依赖**：手机→厂商云→NAS，NAS 只需能访问互联网，不需要公网 IP，也不与手机直连；下载后可交给 immich 或飞牛相册消费。
+- **其他能力**：自动刷新凭据、按相册分类存储、填充 Exif 与文件系统时间、表达式插值路径、SSL 与 Passkey。
+- **iCloud 限制**：需提供 Apple 账号密码和 2FA，登录状态约 30 天有效，失效后需重新验证，作者称会发送通知。
+
+### 评论补充
+作者回应多手机场景可通过多小米账号、多 iCloud 账号并行独立处理。与 iCloudpd 相比，作者认为优势是增量同步和 Web UI，劣势是 iCloud 支持较新、bug 仍需时间暴露。有用户建议参考 iCloudpd 用 Telegram 或 Cloudflare Worker 完成 2FA 续期，也有人希望增加 Google Photos 支持。
+
+项目地址：https://github.com/Coooolfan/XiaomiAlbumSyncer
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251158" target="_blank" rel="noopener noreferrer">一年过去，收获了一些 star，也有不少朋友在用。现在我的相册同步工具现在同时支持 小米云服务 和 iCloud 了，支持在 web 页面中配置，以定时增量同步的模式从 iCloud 同步数据到 nas</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251177" markdown="1">
+<summary>
+<span class="topic-rank">12</span>
+<span class="topic-title">鼠须管与 macOS 自带拼音的取舍：词库、联想与隐私</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主使用 Rime（鼠须管）+ 万象方案半年后换回 macOS 自带简体拼音，理由是经常打错别字、长句能力弱。评论区的共识是：这不是简单的“谁更好”，而是**隐私与联网智能之间的取舍**。
+
+### 关键要点
+- **Rime 的短板**：不联网，缺少大厂词库和智能联想，长句输入和联想能力弱；需要长期“养”自己的词库，否则容易选错字。
+- **自带的短板**：动态词频会变动，导致选错字（如“了”打成“里”）；有回复称 iOS/macOS 27 的简体拼音在词频和联想上出现严重 bug，繁体反而正常。
+- **Rime 的优势**：跨平台，词库可迁移。有用户把电脑端 Rime 词库搬到手机 Fcitx 的 Rime 上，换机时可直接复制，数据自己掌握。
+- **可尝试的调整**：换用白霜、万象等方案或接入大厂词库/模型；万象拼音的正确用法是辅助码方案；用 Rime 打双拼+辅助码体验更好。
+- **替代思路**：有用户推荐豆包语音输入，认为长段文字输入很好用，但多端同步情况不明；也有人继续用搜狗并做上传拦截。
+
+### 评论补充
+分歧明显：有用户从自带拼音转向鼠须管，原因是受不了动态词频；也有五笔用户同样换回自带。结论取决于你更看重隐私、跨平台词库，还是开箱即用的长句联想。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251177" target="_blank" rel="noopener noreferrer">鼠须管用了半年，还是换回了 macos 自带的简体拼音</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251355" markdown="1">
+<summary>
+<span class="topic-rank">13</span>
+<span class="topic-title">小扫帚 Broomy 1.0：免费不联网的 Mac 清理卸载工具</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者发布 Mac 清理工具「小扫帚」（Broomy）1.0，免费、无广告、不联网，支持 macOS 14 及以上，兼容 Apple 芯片与 Intel。功能按页划分，两指左右滑动切换：概览、清理垃圾、卸载、系统状态、硬盘健康、外设。
+
+### 关键要点
+- **卸载**：按 App 标识识别，列出容器、缓存、设置、应用支持文件、窗口状态、网页数据和登录项及各自大小，一并移入废纸篓；同名但非同一 App 的文件夹默认不勾选；苹果自带 App 不列出；正在运行的 App 需先退出；共用文件不动。
+- **清理垃圾**：覆盖 Xcode、模拟器、Gradle、Homebrew 及 pip、npm、pnpm、Yarn、Bun、CocoaPods、SwiftPM、Go、Cargo 缓存；可清理 30 天未修改项目中的 `node_modules`、`.build`、`target`、`dist` 等，需有对应项目文件佐证，git 跟踪的不动且默认不勾选。
+- **安全设计**：删除内容先进废纸篓，清空前可恢复；不碰外接硬盘，不显示序列号；无联网代码，不收集数据。
+- **外设**：可调显示器亮度与音量（含外接），不支持时说明原因；另有鼠标滚轮反转与平滑滚动。
+
+### 评论补充
+有用户认为“卸载连残留一起列出”很实用，可免去手动翻 Library；不联网也被视为清理类工具的重要加分项。另有用户询问是否与 mole、腾讯 Lemon 比较过，作者表示没有对比。
+
+注意：该工具尚未通过苹果公证，首次打开需按系统版本手动放行。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251355" target="_blank" rel="noopener noreferrer">做了个 Mac 清理小工具「小扫帚」：卸载 App 连残留一起带走，免费、没广告、不联网</a></span><span class="topic-stats">回复 4 · 收藏 5</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251253" markdown="1">
+<summary>
+<span class="topic-rank">14</span>
+<span class="topic-title">麦当劳 MCP 省钱助手「麦麦精算师」：一句话算出最省点餐方案</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者基于麦当劳开放 MCP 能力（共 33 个工具，覆盖点餐、领券、积分、活动日历等）开发了「麦麦精算师」，把原本需要手动领券、翻菜单、排列组合比价、查积分和活动的 7 步流程压缩成一句话。项目地址：https://github.com/qinruimac/mcd-smart-spender
+
+### 关键要点
+- **比价逻辑**：`auto-bind-coupons` 一键领券，拉取菜单与优惠券做组合，用 `calculate-price` 逐个算价取 Top3；再检测积分过期、拉当月活动日历，若叠加活动更便宜则更新推荐。
+- **附加输出**：附热量、蛋白质、脂肪、碳水营养报告。
+- **工具覆盖**：共调用 16 个 MCP 工具。
+- **两种用法**：作为 AgentSkill 加载 `SKILL.md` 到支持 MCP 的 AI 客户端，或命令行运行 `python mcd_smart_spender.py`。
+- **已知限制**：全菜单穷举组合数会爆炸，目前采用热门品项 Top5 采样的折中方案。
+
+### 评论补充
+有回复提出可先锁定能用券的品项再计算，比扫全菜单更省心；也有多位用户指出，实际比价后闲鱼代下单可能更便宜，说明工具结论未必覆盖所有渠道价格。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251253" target="_blank" rel="noopener noreferrer">做了个麦当劳 MCP 省钱助手「麦麦精算师」，一句话帮你算出最省点餐方案</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251274" markdown="1">
+<summary>
+<span class="topic-rank">15</span>
+<span class="topic-title">亚瑟士Gel-Kahana偏硬偏重：买鞋前先看用途与版型</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主吐槽新买的亚瑟士鞋：质地偏硬、包裹过紧、脚感差、外观不如图片、鞋很沉，试穿时尺码合适，实际穿一天后觉得“被裹惨”。评论指出问题可能不在品牌，而在选错系列和版型。
+
+### 关键要点
+- **系列定位**：评论称该款 Gel-Kahana 偏户外徒步，结构为上下坡、石子路增加稳定与支撑，因此重且硬，不适合铺装路面跑步和日常走路；无徒步需求可考虑退货。
+- **软硬取向**：想要软弹脚感应选缓震厚底系列，支撑系列鞋底本就偏硬。
+- **版型问题**：鞋和衣服一样有版型，可能长度合适但偏窄，只适合脚瘦的人；包裹过紧未必是尺码对。
+- **选购方法**：先明确用途（走路、日常练习、间歇、长跑、比赛）和脚型需求（缓震或稳定），再去线下奥特莱斯多试，或向跑友了解。
+
+### 评论补充
+有用户认为亚瑟士网面耐用性近年改善，自己跑一千公里不坏；也有人同款失望，称不如两百多元的迪卡侬好穿，并提到美津浓。楼主表示鞋已穿一天难退，打算留作徒步用。
+
+＞ 结论：买跑鞋别只看外观，先按用途和脚型选系列，并尽量线下试穿。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251274" target="_blank" rel="noopener noreferrer">双十一了，吐槽一下新买的鞋子</a></span><span class="topic-stats">回复 13 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251226" markdown="1">
+<summary>
+<span class="topic-rank">16</span>
+<span class="topic-title">项目失败后用原技术栈重写：AI 辅助开发的掌控力反思</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者的项目被判定推倒重构，换技术栈后功能虽实现，但作者用原技术栈重写一版，确认问题不在选型，而在对业务、技术和开发过程的掌控不足。
+
+### 关键要点
+- **需求未想清就动手**：初期只知大概业务流程，未规划架构、模块划分与维护成本；技术选型偏激进，选了不熟悉、难掌控的栈。
+- **AI 辅助的失控循环**：小问题让 AI 改，AI 却改动多个文件甚至调整结构，作者未完全理解影响，陷入“问题→AI 改→新问题→再让 AI 改”的循环。核心教训是：不该把判断和把控交给 AI。
+- **进度压力下积累技术债**：已发现架构不合理、代码变乱，却总想“以后再说”，新需求叠加后只能继续在旧基础上修补。
+- **重写验证**：先梳理核心需求、模块划分和整体设计再写代码；仍用 AI，但限制修改范围，先理解方案再采用。
+- **结论**：AI 能提效，但业务理解、架构设计、技术选型和代码质量仍需开发者负责；“能跑”不等于“掌握”。
+
+### 评论补充
+有回复建议了解 Spec-Driven Development（规格驱动开发），以先定规格再让 AI 实现；也有人调侃后期只能让 AI“自由发挥、当许愿盒”。作者补充背景：自己是前端，被要求用 Python + PySide6 独立开发桌面程序。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251226" target="_blank" rel="noopener noreferrer">项目失败后，我用原来的技术栈重写了一遍，也重新认识了 AI 和自己</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
+
+</div>
+
+</details>
