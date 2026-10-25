@@ -3,24 +3,24 @@ layout: report-home
 title: "V2EX 每日热点回顾"
 permalink: /latest/
 status: success
-target_date: 2026-10-23
-generated_at: "2026-10-24 08:30:40"
-summary: "昨日主题 290 个，过滤 190 个，DeepSeek 分析 99 个，保留高价值内容 16 个。"
-count_all: 290
-count_excluded: 190
+target_date: 2026-10-24
+generated_at: "2026-10-25 08:14:00"
+summary: "昨日主题 169 个，过滤 69 个，DeepSeek 分析 100 个，保留高价值内容 8 个。"
+count_all: 169
+count_excluded: 69
 count_included: 100
 count_high_signal: 0
-count_valuable: 16
-report_url: "/2026/10/23/"
-data_url: "/data/2026-10-23.json"
+count_valuable: 8
+report_url: "/2026/10/24/"
+data_url: "/data/2026-10-24.json"
 ---
 
-# V2EX 2026-10-23 昨日新帖报告
+# V2EX 2026-10-24 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1251173" markdown="1">
+<details class="topic-card" data-topic-id="1251410" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">远程跨境收款被银行拦截：合规纳税与收款方式讨论</span>
+<span class="topic-title">AI 能否取代运维：风险、隔离与回退实践</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -28,32 +28,30 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-远程工作收入以人民币跨境汇入国内银行卡，附言为“Contractor consultant on technology services”，被银行拦截并要求提供合同，银行称每笔跨境人民币都需材料。发帖人想找“不被税务盯上”的收款方式。评论普遍指出：这属于纳税义务问题，而非单纯收款渠道问题。
+楼主认为 AI 能写脚本、SQL，还能在凌晨定时执行上线任务，24 小时不休息，运维岗位可能被取代。评论区的共识是：AI 可以承担大量流程化运维工作，但“全权交给 AI 直接操作线上”风险极高，关键在隔离、留痕和回退机制。
 
 ### 关键要点
-
-- **性质认定**：无劳动合同、以外包形式工作，收入更可能按“劳务报酬”计税（有回复称税率 20%），而非工资个税；注册小微企业把收入包装为营业收入可享税收优惠，属于合法改变收入性质。
-- **信息交换**：CRS 会交换金融账户信息；有回复称 Wise 已要求登记税务身份，港卡同样受 CRS 覆盖。
-- **银行审核**：跨境人民币入账需提交合同、流水等材料，属审核流程；外币小额入账通常无需额外材料，可在银行 App 自行结汇。
-- **风险提示**：境外收入依法应申报，银行与税务是否主动同步无定论，但流水是实打实的证据；用 U 收款变现可能收到黑钱。
+- **风险真实存在**：有回复提到 Grok 更换 TLS 证书导致全炸；也有人担心 AI 发现磁盘报警后误删 data 目录。
+- **可靠性是权衡**：AI 出错概率可能低于人，但单次错误后果可能更严重，需要比较两者可靠性。
+- **可行架构**（回复 jheroy）：流程化工作让 AI 写程序执行；非流程化操作封装成 MCP 工具，AI 只能查看和做允许的修改，危险操作仍由人执行脚本。
+- **安全实践**（回复 v2gba）：做好数据备份；在安全环境验证；用 deadman switch 自动回退；不可逆操作请求批准；区分 AI 与人类动作，高危动作强制人工。
+- **留痕与监督**：操作要留记录，可引入第二个 AI 检查日志；上线前人工复核操作记录。
 
 ### 评论补充
-
-有回复提到开卡/换卡时被要求签涉税信息报送授权；也有人建议办港卡在境内消费，但被追问如何消费及是否仍受 CRS 约束。共识是：合法节税需改变收入性质或税务居民身份，单纯换收款渠道不改变纳税义务。
+多人质疑“AI 背锅”问题，认为公司业务出事时责任仍落在人身上；也有人指出，设置定时任务和下达命令本身仍需人来做。整体看，AI 压缩了运维人力需求，但尚未消除人工监督与责任归属。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251173" target="_blank" rel="noopener noreferrer">远程收入 如何优雅的避税</a></span><span class="topic-stats">回复 89 · 收藏 56</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251410" target="_blank" rel="noopener noreferrer">别说开发了, 这把运维真给干没了把</a></span><span class="topic-stats">回复 74 · 收藏 14</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251258" markdown="1">
+<details class="topic-card" data-topic-id="1251415" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">东京办入台证10天，台北台南高雄8日游体验</span>
+<span class="topic-title">Personal Agent 实用场景与定时任务经验汇总</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -61,30 +59,33 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者从东京出发，用 8 天走完台北、台南、高雄，记录入台证办理流程与实地体验。整体结论是：**台北的体验低于预期，台南城市破旧但人情味浓，高雄城市环境和地铁最好，值得多留时间**。
+
+主帖质疑 Personal Agent 是否只是“美丽的小废物”，多数定时任务玩两天就吃灰。评论区的共识是：**通用 Agent 价值有限，真正留下来的是专用场景 + 可组装的工作流**。
 
 ### 关键要点
-- **入台证**：在东京办理，中途补交照片和行程单两次材料，全程约 10 天；照片不要用申请系统自带工具处理。
-- **行程**：台北故宫、中正纪念堂、松山文创园区、安平树屋、旗后炮台、驳二、爱河湾夜景值得去；台湾博物馆和台南美术馆是意外惊喜。
-- **交通**：高铁和台铁都不安检，流程顺畅，高铁腿部空间大；地铁便宜、乘客先下后上、无人外放；机车多但普遍守交规。台南公交半小时一班且到站不减速，需留意。
-- **消费**：作者回复称整体消费水平比深圳高，酒店偏贵，餐饮尚可。
-- **避坑**：夜市体验普遍不佳，士林夜市部分摊主对本地与外国顾客态度差异明显；多家餐厅收 10% 服务费但服务有限，还有加收茶水费、打烊前催买单的情况。
+
+- **生活监控类**：机票降价蹲守、条件提醒、保号手机号代接电话与短信转发、带个人 context 的行程制定、长视频先让 AI 判断是否值得看（v2gba）。
+- **信息收集类**：写作素材与热点发现（kuhung）；每日新闻、社区动态、收藏项目调研（1874w）；过去 24 小时业内热点 + 垃圾邮件总结成日报（92493）。
+- **知识库闭环**：信息源 → Agent 中讨论调研 → 总结到本地 Markdown（Obsidian + LiveSync）→ 回顾 → 再讨论或实践，让记录成为对话的副产品（1874w）。
+- **专用 Agent 组合**：Grok Bot 装了没用起来，主要用 Dots，但 Codex 的 Dots 不稳定；场景多为专用 Agent 对应专用场景（liulanggoukk）。
+- **自定义连接**：Hermes 可连接各类 APP 和服务，用于定时抓取、调研和记账（1874w、sisuer1129）。
 
 ### 评论补充
-有台湾用户指出“别从台北看台湾”，认为台北人与其他地区差异大；也有评论认为两岸关系与国力变化会影响当地人的态度，早年环岛时遇到的热心人更多。这些属于个人观察，缺少系统证据。
+
+有用户指出，个人绝大部分需求都是“普通”需求，资讯整理类任务直接用现成头条服务更省事，除非是市场没有供给的个性化数据（jacketma）。对热点收集容易吃灰的问题，建议不必强迫自己准时看，真正有用的新闻一个月内会从多个渠道再次出现（1874w）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251258" target="_blank" rel="noopener noreferrer">去了趟既熟悉又陌生的台湾</a></span><span class="topic-stats">回复 58 · 收藏 18</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251415" target="_blank" rel="noopener noreferrer">Personal Agent 大家平时都拿来干啥？都有啥定时任务？</a></span><span class="topic-stats">回复 32 · 收藏 15</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251142" markdown="1">
+<details class="topic-card" data-topic-id="1251464" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">京东4年只换不修值不值得买：第三方延保的扯皮风险</span>
+<span class="topic-title">开源AI错题本：拍照识别、国产大模型直连与安卓单机版</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -92,33 +93,32 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖在纠结：3200 多元的石头扫地机器人，加 392 元买京东“4 年只换不修”，而石头官方本身有 2 年保修。评论区的共识是：**这类服务由第三方公司承保，并非京东自营售后，理赔时容易扯皮，是否值得买取决于品类和价格。**
+作者开源了 Smart Wrong Notebook（智能错题本），fork 自 wttwins/wrong-notebook，MIT 协议。项目针对三个痛点：错题“只存不练”、拍照配图模糊且带手写痕迹、AI 工具默认对接海外接口且部署门槛高。目前已打通“拍照识别 → 动态讲解 → 举一反三 → 组卷打印 → 作答回填”的闭环。
 
 ### 关键要点
-
-- **服务性质**：多位用户指出，京东增值延保由第三方（有回复提到海南聚惠）执行，本质接近保险，不是官方保修。
-- **拒保案例**：饮水机旋钮失灵被认定“非核心功能”拒换；罗技鼠标右键失灵被判定“无问题”；手机出问题后被以各种理由拒绝换修。
-- **成功案例**：蝰蛇鼠标用了两年多中键损坏，因无货按原价退 500 元；小米冰箱过保后不制冷，第三方上门免费修好。
-- **品类差异**：扫地机器人被多人认为故障率高（电池温度异常、不到一年损坏等），但也有人认为石头 G10S 两年稳定、不易坏。
-- **价格判断**：有回复认为扣除官方 2 年保修后实际只多保 2 年，392 元偏贵。
+- **录入与配图**：支持拍照、剪贴板粘贴、截图和 Markdown/LaTeX 录入，可框选整页试卷批量导入；按题干相似度自动判重（默认阈值 90%）；AI 输出 SVG 重绘几何与函数图，打印不失真。
+- **讲解与练习**：AI 生成分步骤 SVG 动画讲解，可开启 GeoGebra 交互演示；单题可生成同知识点变式题并记录对错。
+- **打印回填闭环**：按错题本、知识点、掌握状态抽题组卷，支持打印预览、导出 HTML 或存为 PDF；每题有 6 位来源 ID，纸上作答后输入 ID 回填对错，系统据此评估掌握概率并流转状态。
+- **模型直连**：内置 MiniMax、DeepSeek、智谱 GLM、Kimi 四家国产渠道预设，也支持 Anthropic、OpenAI、Gemini、Azure 及兼容接口；配置可在网页实时修改并测试连接。
+- **部署形态**：Docker（amd64/arm64）、npm 全局安装（Node ≥22.15）、Windows/macOS/Linux 桌面版、飞牛 OS 的 .fpk，以及安卓 APK。单机版约 75MB，内置完整服务端，断网可查题；客户端版约 2MB，需连接已有服务端。iOS 可用 PWA。
 
 ### 评论补充
+仅有一条“支持一下”的回复，无实质技术反馈或使用验证。
 
-石头官方保修期内可免费维修，有用户称售后三次后直接换新，因此官方渠道本身有一定保障。倾向购买者多出于“买安心”，反对者则强调第三方维修点质量与拒保风险。综合看，高故障率品类可考虑，但需预期理赔可能扯皮，不宜把它当作官方保修的替代。
+仓库：https://github.com/margrop/wrong-notebook ，Demo 为公共账号，数据全员可见，勿传隐私。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251142" target="_blank" rel="noopener noreferrer">京东提供的 4 年只换不修你们会买吗</a></span><span class="topic-stats">回复 74 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251464" target="_blank" rel="noopener noreferrer">开源 AI 错题本：支持拍照识别、国内大模型直连（DeepSeek/MiniMax）、组卷打印与安卓单机版</a></span><span class="topic-stats">回复 1 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251243" markdown="1">
+<details class="topic-card" data-topic-id="1251491" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">用Stripe等付款页流量给607个闷声赚钱网站做排行榜</span>
+<span class="topic-title">纯 Go 实现的本地生图桌面客户端：无 cgo、非 WebView</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -126,31 +126,33 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者没有采用“晒 MRR”的思路，而是用 Similarweb 的引荐记录，统计各网站导流到 Stripe、Gumroad、Lemon Squeezy、Polar、Creem、Whop 付款页的访问量，据此判断哪些产品真正有人掏钱。数据覆盖 2026 年 4–9 月，共 15,790 个网站；筛掉 9 月付费页访问不足 3,000、付费流量过半、大厂与融资公司、企业 B2B、市场平台和联盟拉客后，剩 607 个。
+作者用 Go + mygo + stable-diffusion.cpp 做了一个本地 AI 生图桌面客户端，界面原生绘制，不使用 cgo、WebView 或 Electron。目标是降低本地生图门槛：像 LLM Studio 一样下载即用，不必自己拼 ComfyUI 节点图，也不用逐个寻找扩散模型、文本编码器和 VAE。
 
 ### 关键要点
-- 按新客来源分类：SEO 171 个、社交媒体 79 个、病毒传播 126 个、AI 助手仅 6 个、其他 225 个。作者据此认为 GEO 目前还当不了主渠道。
-- 221 个网站是 4–6 月还低于门槛、半年内冒出来的，超过三分之一；不少是冷门刚需，如监狱小卖部充值（月 18 万次）、英国宠物芯片登记、英国医学考试题库、机票降价提醒会员。
-- 榜首 krillion.io 是每日猜谜小游戏，9 月付费页访问 65 万，7–9 月涨 300 多倍，59% 为直接访问；votremelodie.com 做法国定制歌曲礼物，9 月从 0 跳到 29 万，35% 来自邮件。
-- 每个网站有单独页面，可看付费页访问走势、流量来源、搜索词、访客国家和定价。
+- **平台**：macOS 支持 Apple 芯片；Windows 为 x64，显卡需支持 Vulkan（N 卡、A 卡、I 卡均走 Vulkan）。
+- **模型**：可跑 Z-Image Turbo、Z-Image、Qwen Image 2.1、Qwen Image Edit 2511、FLUX.2 klein 4B、ERNIE-Image Turbo、Krea 2 Turbo 等；理论上 stable-diffusion.cpp 支持的模型都能跑，适配仍在推进。
+- **下载前评估**：模型仓库标注下载大小和运行内存，并按本机物理内存提示“流畅运行 / 可能较慢 / 内存可能不足”。
+- **按配置安装**：各组件可选量化版本，可选组件自行决定是否安装；同一模型可装多份配置，共用文件只下载一次。
+- **多模型并行**：每个模型独立进程，互不影响；生成时按模型提供尺寸、步数、种子等默认值，默认一键可用。
+- 作者称登录仅用于统计使用人数，软件完全免费；当前为早期版本，多机型验证不足。
 
 ### 评论补充
-回复多为认可思路和域名，未提供可验证的补充数据。
+有用户询问 mygo 的 Native UI 相比 wails 有何提升。作者回应：无需 WebView 渲染，规避部分机器的 WebView 兼容问题，启动快、占用小、无通信损耗，并提供应用更新等基础能力。另有评论指出 Native UI 可能无法播放视频，属于待确认的限制。
 
-＞ 口径限制：数字是 Similarweb 估算的“跳转到付款页的访问次数”，点击不等于付款，重复点击会重复计数，不能直接换算收入。
+下载地址：https://mindsee.app/zh/download
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251243" target="_blank" rel="noopener noreferrer">给全球闷声发大财的网站做了一个排行榜</a></span><span class="topic-stats">回复 6 · 收藏 20</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251491" target="_blank" rel="noopener noreferrer">纯 go 实现的生图应用，本地部署模型</a></span><span class="topic-stats">回复 5 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251358" markdown="1">
+<details class="topic-card" data-topic-id="1251556" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">用 artex 扫描自建服务：43%链路暴露56个漏洞的连锁风险</span>
+<span class="topic-title">两天上线出海AI同人工具站：技术栈、收款与踩坑记录</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -158,32 +160,30 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在 home lab 部署 artex 并接入 ds，让它探测自己公网服务的漏洞。原本只想测主域名入口，artex 却先发现同 IP 下存在多个二级域名，随后展开链式调查：扫描到 43% 链路时，问题从 4 个增至 56 个，其中 1 个 critical、6 个 high。作者边发现边修复或下线入口。
+作者用两天时间上线英文 AI 同人生成器 fanficwizard.com：用户填写作品、角色/CP、梗（如 enemies to lovers、slow burn）、基调与人称，几秒生成带 AO3 风格标题和 tags 的同人场景。免费每天 3 次、无需注册。选词思路是“一个关键词一个页面”，先做首页主词，站稳后再做内页。
 
 ### 关键要点
-- **cAdvisor 端口暴露**：早年远程调试后忘记关闭，公网可读取全部 Docker 服务元信息，属信息泄露。
-- **MinIO 公开桶**：桶内是旧版 AI 网关的请求日志，日志中的配置文件含 MinIO 高权限调试 key/secret，导致整个 MinIO 失守。
-- **配置连锁泄露**：同一配置文件还含 Redis 和 Postgres 配置。Redis 可写入 refresh_token 绕过鉴权；Postgres 可通过超级用户 `PROGRAM` 执行命令并尝试容器逃逸，但需在内网实施。
-- **proxyscotch 无鉴权**：可构造请求访问内网全部 HTTP 端点，作者在漏洞出现一分钟内下线，避免进一步放大。
-- **SMTP 口令泄露**：企业邮箱可被接管，并借邮箱找回密码登录内网 Gitea，获取未开源项目及存有数据库、Redis、阿里云 AK/SK 的口令仓库。
+- **技术栈**：Next.js 16 + Postgres（Neon）+ Prisma + Vercel，Google 登录，Cloudflare Turnstile 防刷；模型走 OpenAI 兼容网关，免费档用便宜模型写短场景，付费档用好模型写整章并支持续写（人物设定 + 前情摘要 + 上一章结尾）。
+- **收款**：Stripe 账号资料有问题，改用 MoR 代理销售方。费率对比：Creem 3.9%+$0.40、Waffo 3.9%+$0.50、Paddle/Lemon Squeezy 5%+$0.50；固定费对 $5 小包接近 14%，后续准备调价，定价页暂为 Coming soon。
+- **域名跳转坑**：Vercel 默认勾选“裸域跳 www”，但站点配置、登录回调、canonical 都是裸域，导致生成接口同源校验和 Google 登录失败；改为 www → 裸域 308 后恢复。
+- **内容安全**：只写 G/T 级，请求与输出两层检查（输出边流边查），检查服务出错也一律拦截且不扣积分。
+- **防刷**：IP 哈希 + Turnstile + 每日全站成本上限，超限暂停免费额度，避免账单失控。
 
 ### 评论补充
-有回复认为这类明显漏洞用 cc+ds 也能找到；作者回应此前用 opencode+ds 只能抓到直接漏洞，专业工具链式挖掘更深。另有回复称 artex 已删库，作者表示从备份仓库拉取后让 AI 构建镜像。
-
-**启示**：自建服务的暴露面、日志与配置文件中的密钥、无鉴权的内部代理，会形成可被自动扫描串联的放大链路，应优先排查并轮换已泄露凭据。
+有做过 AI SaaS 的读者反馈：用香港港卡个人账户注册 Stripe 可行；Vercel 部署后曾被恶意脚本刷流量，后在 Cloudflare 加防护。该读者还询问 Claude 是直购还是走中转，主帖未回答。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251358" target="_blank" rel="noopener noreferrer">我感觉有点死了， artex 也太可怕了</a></span><span class="topic-stats">回复 5 · 收藏 15</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251556" target="_blank" rel="noopener noreferrer">两天上线第一个出海 AI 工具站（英文 AI 同人生成器），记录一下过程和踩的坑</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251090" markdown="1">
+<details class="topic-card" data-topic-id="1251479" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">独自一人突发心梗的现场应对操作手册 v1.3</span>
+<span class="topic-title">香港地铁公交能否用支付宝微信：乘车码与八达通实用指南</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -192,34 +192,33 @@ data_url: "/data/2026-10-23.json"
 
 ### 核心内容
 
-作者把一份 13319 字的《疑似心梗与心脏骤停现场应对手册》中“独自一人时怎么做”的部分摘出来，核心原则是：**先让急救人员尽快赶来，其余操作视情况而定，最后静卧不动**。
+香港地铁和多数公交已支持支付宝、微信乘车码，但覆盖范围并不完整，小巴、轻铁、轮渡等场景存在例外，准备八达通或少量现金仍更稳妥。
 
 ### 关键要点
 
-- **求助**：普通时段优先联系熟悉自己情况、距离最近的人（邻居、社区人员）协助拨打 120；深夜或无人可帮时拨打 110，说明“可能突发心梗、独自一人、随时失去意识”，请 110 协助联系 120 并出警，同时告知详细地址。打电话的同时把家门都打开。
-- **阿司匹林**：若有强烈撕裂样疼痛，不要服阿司匹林，也不要服硝酸甘油；否则嚼服 300mg（国内 100mg/片约 3 片，美版 86mg/片约 4 片，25mg/片至少 12 片），必须嚼碎咽下。
-- **体位与监测**：服阿司匹林后右侧卧等待；测血压需换回半卧、双腿不交叠，袖带与心脏同高、距手肘约 3cm，双臂各测至少两次、间隔 1 分钟，差值大于 10mmHg 时加测至稳定，并记录时间、侧别和数值。
-- **硝酸甘油**：双臂压差大于 10mmHg、高压低于 120（有心脏病史者以平日同时段为基准）、高压小于等于 90、48 小时内用过西地那非/他达拉非/伐地那非、胸背痛为撕裂感——五条中任一条存在就不要用；标准用法为舌下 0.5mg，每 5 分钟一次，最多 3 次。
-- **其他**：血氧小于等于 90 且有氧气瓶时可深呼吸吸氧；可开空调降温、头部敷冰贴；带心电图功能的智能手表若提示房颤、室颤或房扑，记录并告知急救人员。
+- **地铁**：可用支付宝乘车码，走紫色闸机；有回复称微信“搭车码”也可用。
+- **巴士**：大部分支持，但部分线路不行；小巴说法不一，有回复称只能用八达通，也有回复称部分口岸小巴可用支付宝。
+- **例外场景**：轻铁、轮渡、部分小巴可能不支持；富豪雪糕车等部分店铺也不收支付宝微信。
+- **八达通**：多位回复建议手机开通八达通；iPhone 可在钱包申请，押金过几个月可退。Apple Pay 绑银联卡进出站体验可能更顺。
+- **现金**：小餐厅、部分大厦等场景可能仍需现金。
+- **其他提醒**：支付宝识别香港定位后乘车码会自动切换；需开通境外漫游或港澳流量包；注意汇率，有回复提到部分场景按美元结算。
 
 ### 评论补充
 
-作者回应称，智能手表通常是在指标巨幅变动时才发现，不能替代体感判断；找他人或 110 代打 120，是因为心梗可能迅猛到话没说完就失去意识，120 还需定位患者，耽误几分钟就可能造成不可逆后果。手册并非理想化，而是分级看待：瞬间倒下的确实无能为力，但只要还有意识，就能降低一点风险。
-
-＞ 原文全文见 [GitHub](https://github.com/shangshuo/cardiac-emergency-field-manual) 与[公众号](https://mp.weixin.qq.com/s/a-kHTgOkw5qVPdhRHRDM6g)。
+评论对“小巴是否支持”存在分歧，说明不同线路差异较大，出行前最好按具体线路确认，并保留八达通作为兜底。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251090" target="_blank" rel="noopener noreferrer">疑似心梗与心脏骤停：普通人的现场应对操作手册 v1.3</a></span><span class="topic-stats">回复 6 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251479" target="_blank" rel="noopener noreferrer">香港做地铁公交可以用支付宝微信吗</a></span><span class="topic-stats">回复 16 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251131" markdown="1">
+<details class="topic-card" data-topic-id="1251444" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">腰椎椎管狭窄要不要打钉子：多院会诊与术后恢复经验</span>
+<span class="topic-title">codex cli 0.164.0 后 CC Switch 切换账号失效的解决方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -227,32 +226,29 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖询问父亲腰椎间盘突出合并椎管狭窄、医生建议“打钉子”手术后的恢复情况。评论没有给出统一答案，但形成了较一致的决策路径：**多找几家有脊柱外科的三甲医院看片子，若多数建议手术再做**。有回复以自身经历说明，上海几家三甲中两家建议做、两家不建议做，说明不同医生对“狭窄程度是否必须手术”的判断存在差异。
+升级到 codex cli 0.164.0 后，用 CC Switch 切换账号不再生效；即使运行 `codex --disable tui_app_server` 也无法恢复。发帖者给出的原因是：0.164.0 已移除 `tui_app_server` 开关，旧参数无法再关闭它；而共享后台服务可能保留旧登录状态，导致 CC Switch 写入的账号文件不生效。
 
 ### 关键要点
-
-- **先多院会诊**：同一医院医生意见可能趋同，建议换院咨询；若多家都建议做，再决定。
-- **术式分层**：有回复称微创适合病情较轻者，“打钉子”多用于后期；也有家属只做突出髓核摘除、未打钉子，术后腿麻症状消失。
-- **恢复预期**：有案例术后疼痛立即缓解、几天出院；也有回复称完全恢复约需三个月，半年内避免重体力活和弯腰。
-- **术后养护关键**：遵医嘱做臀桥等锻炼，一年内尽量不做家务和重活；有案例因过早劳累复发疼痛。
+- 旧参数 `--disable tui_app_server` 在新版本中已失效，不要再依赖它。
+- 改用 `--no-daemon` 绕过可能保留旧登录状态的共享后台服务，让 CC Switch 写入的账号文件生效。
+- 发帖者验证可用的完整命令为：`codex --sandbox danger-full-access --no-daemon`。
+- 注意 `danger-full-access` 会放开沙箱限制，属于高权限运行方式，使用前应确认风险。
 
 ### 评论补充
-
-有回复提醒不要依赖按摩、中医替代手术，称试过一圈无效；也有回复强调日常腰部锻炼的长期价值。个别推荐具体医院和康复师的内容缺乏可核验依据，仅作线索。总体看，评论支持“手术较成熟、不必过度恐惧”，但具体方案仍应由专科医生结合影像判断。
+有回复表示，Codex 切换供应商密钥的问题长期未解决，建议改用 magpie，并认为 CC Switch 已完成历史使命。这属于替代工具的个人推荐，未给出具体迁移步骤或验证细节，可作为备选方向参考。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251131" target="_blank" rel="noopener noreferrer">有大佬或者家里人做过腰椎相关的手术吗？</a></span><span class="topic-stats">回复 32 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251444" target="_blank" rel="noopener noreferrer">codex cli 0.164.0 版本后， CC Switch 切换账号又不生效了</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251176" markdown="1">
+<details class="topic-card" data-topic-id="1251536" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">比价焦虑：如何应对平台低价与BUG价</span>
+<span class="topic-title">用 paseo 加 codex cli 远程 vibe 编程，并适配安卓平板</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -260,281 +256,20 @@ data_url: "/data/2026-10-23.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主因比价产生消费焦虑：看到小红书、什么值得买上的低价（如 iPhone 88xx、Mac mini 2700），自己却凑不到，感觉“买贵了很蠢”。评论普遍认为，很多低价是 BUG 价、退款券、购物金抵扣或口嗨，并非大众可复现的价格，不必为此消耗心智。
+作者在双 11 购入平板后，先后试用了 orca 和 paseo，最终选择 paseo，理由是它更接近本地 ChatGPT 客户端，贴大段文本和图片更方便。部署方式是在服务器上安装 paseo 和 codex cli（或其他 CLI），用 nginx 反向代理并加 IP 白名单，浏览器即可随时随地远程 vibe 编程。作者认为体验与本地工作无差别，甚至因为本地是 Windows、paseo 跑在 Linux 上而更好，外出不必再背游戏本。
 
 ### 关键要点
-- **区分价格类型**：大众能买到的常规优惠价才值得参考；BUG 价、叠加特殊券的价格没有普遍意义（回复 18213250、18213995）。
-- **设定心理差价阈值**：差价一两百元在可接受范围内就果断买，避免为省小钱耗费大量时间（回复 18213617、18213652、18214143）。
-- **验证低价真实性**：遇到声称超低价的人，可追问具体渠道和细节；对方含糊其辞或拒绝回答，大概率是口嗨（回复 18213902）。
-- **利用价保缓冲**：京东自营可常点一键价保，减少刚买就降价的后悔；淘宝价保限制多，商家常改新链接规避（回复 18214438）。
-- **选择省心渠道**：部分用户直接选拼多多百亿补贴，差不多就买，不再蹲守（回复 18213617、18213995、18214154）。
+- 官方客户端横屏适配有问题、竖屏正常，作者用 AI 花了一些 token 做了适配，并发布 `tablet-v0.13.0-1` 版本：https://github.com/cwateryuan/paseo/releases/tag/tablet-v0.13.0-1
+- 远程访问方案：服务器装 paseo + CLI，nginx 反代，IP 白名单限制来源。
+- 评论建议用 tailscale 替代裸反代，安全性更好。
+- 评论称 paseo 可直接调用各 AI 平台官方 CLI，并能在不同 CLI 间转发消息，例如让 Claude 拟任务、交给 Sol 执行、再由 Claude 验收。
 
 ### 评论补充
-有回复指出，消费降级背景下比价行为增多（18213063）；也有人认为凑到优惠本身有乐趣，但不应总与最低价比较（18213740）。关于“买万元手机还差这点”的说法，评论认为每个人关注点不同，不必被他人话术影响（18213902）。
+有用户反馈兼容性差，CLI 模式下中文全是乱码、基本不可用，说明该方案在中文环境下仍需验证。整体看，远程 vibe 编程思路可复用，但安全与中文兼容性存在分歧，落地前应自行测试。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251176" target="_blank" rel="noopener noreferrer">吗的，消费焦虑全来自比价</a></span><span class="topic-stats">回复 33 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251245" markdown="1">
-<summary>
-<span class="topic-rank">9</span>
-<span class="topic-title">软件工程不会消失：从信息论看AI Coding的边界</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者用信息论框架论证：软件工程不会因 AI Coding 而消失。系统可抽象为“需求建模→编码→反馈”的循环，完美系统要求对任意动作的反馈不确定性为 0，即条件熵 `∑H(R|S(A_i))=0`；需求反馈则充当优化函数，引导熵下降。
-
-编程语言演化是提高抽象、把实现细节交给编译器，本质是信息编码器：描述越短，系统不确定性越高，受柯氏复杂度下界约束。AI 也无法违背这一规律，因此“许愿式编程”解决复杂需求不现实，需求拆解与编码的不确定性是永恒问题。
-
-### 关键要点
-- 代码生成变廉价不等于软件工程消失，反而更重要。
-- 复杂需求无法靠一句提示无损实现，存在理论下界。
-- 程序员的核心价值转向架构、技术选型、约束设计与需求判断。
-
-### 评论补充
-- 有回复认为编码中重复部分被 AI 替代，人应把控架构与产品价值判断（18214343）。
-- 有回复指出 AI 处理复杂任务的能力已超过部分从业者，不能低估（18214665）。
-- 有回复称 AI 把一周功能压缩到一天多，人只需讨论技术取舍与关键点（18214673）。
-- 分歧在于岗位数量：一方认为个性化需求会大增，另一方以岗位未增长反驳，认为低端从业者被淘汰（18214705、18214827）。
-- 有回复强调与物理世界连接越多、需求越难量化，AI 越难全自动（18214977）。
-- 作者澄清：重点不是程序员是否被替代，而是如何指挥 AI、显式约束复杂任务（18214831）。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251245" target="_blank" rel="noopener noreferrer">软件工程不会消失</a></span><span class="topic-stats">回复 21 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251125" markdown="1">
-<summary>
-<span class="topic-rank">10</span>
-<span class="topic-title">Ubuntu LTS 为何锁定 PHP 版本号：backport 机制与合规沟通</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-Ubuntu 24.04 LTS 自带 PHP 8.3.6，安全更新后版本号形如 `8.3.6-0ubuntu0.24.04.13`。这不是没升级，而是发行版把上游补丁 backport 回固定基线版本，只修漏洞、不引入功能变更，以保证兼容性。因此不能拿它和 PHP 官网的 8.3.36 直接比大小。
-
-### 关键要点
-
-- **版本号含义**：前半段是上游基线版本，后半段是 Ubuntu 自己的修订号；安全修复体现在后者。
-- **锁定原因**：LTS 追求“同一发行版上行为一致”，避免升级导致接口或功能变化、系统崩溃。
-- **与 Python 的差异**：Python 锁的是大版本（如 3.12），末位小版本仍会滚动；PHP 则连小版本都固定在基线。
-- **应对监管质疑**：直接出示 Ubuntu 官方安全公告中的修复版本说明，比解释版本号更有效。
-- **替代方案**：需要紧跟上游版本时，可用容器自建镜像、第三方源（如 remi）或滚动发行版。
-
-### 评论补充
-
-有回复指出，Ubuntu 维护自己的代码仓，由维护者 review 后 backport 补丁，RHEL 系做法类似；Debian 系中主要 Ubuntu 如此。也有回复提醒，并非所有包都锁小版本，MySQL、Python 的小版本会滚动，策略取决于上游版本管理方式与发行版大客户需求。另有观点认为，若企业安全扫描产品无法识别各发行版公告中的 patched versions，应考虑更换。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251125" target="_blank" rel="noopener noreferrer">Ubuntu 等 Linux 发行版一发布，就锁定 PHP 版本号的原因是什么？</a></span><span class="topic-stats">回复 24 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251158" markdown="1">
-<summary>
-<span class="topic-rank">11</span>
-<span class="topic-title">XiaomiAlbumSyncer：支持小米云与iCloud增量同步到NAS</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-XiaomiAlbumSyncer 是一个把手机云相册归档到 NAS/homelab 的开源工具，作者称项目已累计 400+ Star、80k+ Docker pull。它新增了对 Apple iCloud 照片的支持，与原有小米云服务（相册+录音）并列，并提供 Web UI 配置、定时任务与多账号管理。
-
-### 关键要点
-- **定位是归档**：只同步新增相册内容，不同步删除动作，因此云端数据被误删不会影响已下载数据。
-- **增量同步**：小米云与 iCloud 均支持位点模式，首次同步耗时较长，后续只消费新增数据，类似 CDC，避免全库对比。
-- **链路与依赖**：手机→厂商云→NAS，NAS 只需能访问互联网，不需要公网 IP，也不与手机直连；下载后可交给 immich 或飞牛相册消费。
-- **其他能力**：自动刷新凭据、按相册分类存储、填充 Exif 与文件系统时间、表达式插值路径、SSL 与 Passkey。
-- **iCloud 限制**：需提供 Apple 账号密码和 2FA，登录状态约 30 天有效，失效后需重新验证，作者称会发送通知。
-
-### 评论补充
-作者回应多手机场景可通过多小米账号、多 iCloud 账号并行独立处理。与 iCloudpd 相比，作者认为优势是增量同步和 Web UI，劣势是 iCloud 支持较新、bug 仍需时间暴露。有用户建议参考 iCloudpd 用 Telegram 或 Cloudflare Worker 完成 2FA 续期，也有人希望增加 Google Photos 支持。
-
-项目地址：https://github.com/Coooolfan/XiaomiAlbumSyncer
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251158" target="_blank" rel="noopener noreferrer">一年过去，收获了一些 star，也有不少朋友在用。现在我的相册同步工具现在同时支持 小米云服务 和 iCloud 了，支持在 web 页面中配置，以定时增量同步的模式从 iCloud 同步数据到 nas</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251177" markdown="1">
-<summary>
-<span class="topic-rank">12</span>
-<span class="topic-title">鼠须管与 macOS 自带拼音的取舍：词库、联想与隐私</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-楼主使用 Rime（鼠须管）+ 万象方案半年后换回 macOS 自带简体拼音，理由是经常打错别字、长句能力弱。评论区的共识是：这不是简单的“谁更好”，而是**隐私与联网智能之间的取舍**。
-
-### 关键要点
-- **Rime 的短板**：不联网，缺少大厂词库和智能联想，长句输入和联想能力弱；需要长期“养”自己的词库，否则容易选错字。
-- **自带的短板**：动态词频会变动，导致选错字（如“了”打成“里”）；有回复称 iOS/macOS 27 的简体拼音在词频和联想上出现严重 bug，繁体反而正常。
-- **Rime 的优势**：跨平台，词库可迁移。有用户把电脑端 Rime 词库搬到手机 Fcitx 的 Rime 上，换机时可直接复制，数据自己掌握。
-- **可尝试的调整**：换用白霜、万象等方案或接入大厂词库/模型；万象拼音的正确用法是辅助码方案；用 Rime 打双拼+辅助码体验更好。
-- **替代思路**：有用户推荐豆包语音输入，认为长段文字输入很好用，但多端同步情况不明；也有人继续用搜狗并做上传拦截。
-
-### 评论补充
-分歧明显：有用户从自带拼音转向鼠须管，原因是受不了动态词频；也有五笔用户同样换回自带。结论取决于你更看重隐私、跨平台词库，还是开箱即用的长句联想。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251177" target="_blank" rel="noopener noreferrer">鼠须管用了半年，还是换回了 macos 自带的简体拼音</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251355" markdown="1">
-<summary>
-<span class="topic-rank">13</span>
-<span class="topic-title">小扫帚 Broomy 1.0：免费不联网的 Mac 清理卸载工具</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者发布 Mac 清理工具「小扫帚」（Broomy）1.0，免费、无广告、不联网，支持 macOS 14 及以上，兼容 Apple 芯片与 Intel。功能按页划分，两指左右滑动切换：概览、清理垃圾、卸载、系统状态、硬盘健康、外设。
-
-### 关键要点
-- **卸载**：按 App 标识识别，列出容器、缓存、设置、应用支持文件、窗口状态、网页数据和登录项及各自大小，一并移入废纸篓；同名但非同一 App 的文件夹默认不勾选；苹果自带 App 不列出；正在运行的 App 需先退出；共用文件不动。
-- **清理垃圾**：覆盖 Xcode、模拟器、Gradle、Homebrew 及 pip、npm、pnpm、Yarn、Bun、CocoaPods、SwiftPM、Go、Cargo 缓存；可清理 30 天未修改项目中的 `node_modules`、`.build`、`target`、`dist` 等，需有对应项目文件佐证，git 跟踪的不动且默认不勾选。
-- **安全设计**：删除内容先进废纸篓，清空前可恢复；不碰外接硬盘，不显示序列号；无联网代码，不收集数据。
-- **外设**：可调显示器亮度与音量（含外接），不支持时说明原因；另有鼠标滚轮反转与平滑滚动。
-
-### 评论补充
-有用户认为“卸载连残留一起列出”很实用，可免去手动翻 Library；不联网也被视为清理类工具的重要加分项。另有用户询问是否与 mole、腾讯 Lemon 比较过，作者表示没有对比。
-
-注意：该工具尚未通过苹果公证，首次打开需按系统版本手动放行。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251355" target="_blank" rel="noopener noreferrer">做了个 Mac 清理小工具「小扫帚」：卸载 App 连残留一起带走，免费、没广告、不联网</a></span><span class="topic-stats">回复 4 · 收藏 5</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251253" markdown="1">
-<summary>
-<span class="topic-rank">14</span>
-<span class="topic-title">麦当劳 MCP 省钱助手「麦麦精算师」：一句话算出最省点餐方案</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者基于麦当劳开放 MCP 能力（共 33 个工具，覆盖点餐、领券、积分、活动日历等）开发了「麦麦精算师」，把原本需要手动领券、翻菜单、排列组合比价、查积分和活动的 7 步流程压缩成一句话。项目地址：https://github.com/qinruimac/mcd-smart-spender
-
-### 关键要点
-- **比价逻辑**：`auto-bind-coupons` 一键领券，拉取菜单与优惠券做组合，用 `calculate-price` 逐个算价取 Top3；再检测积分过期、拉当月活动日历，若叠加活动更便宜则更新推荐。
-- **附加输出**：附热量、蛋白质、脂肪、碳水营养报告。
-- **工具覆盖**：共调用 16 个 MCP 工具。
-- **两种用法**：作为 AgentSkill 加载 `SKILL.md` 到支持 MCP 的 AI 客户端，或命令行运行 `python mcd_smart_spender.py`。
-- **已知限制**：全菜单穷举组合数会爆炸，目前采用热门品项 Top5 采样的折中方案。
-
-### 评论补充
-有回复提出可先锁定能用券的品项再计算，比扫全菜单更省心；也有多位用户指出，实际比价后闲鱼代下单可能更便宜，说明工具结论未必覆盖所有渠道价格。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251253" target="_blank" rel="noopener noreferrer">做了个麦当劳 MCP 省钱助手「麦麦精算师」，一句话帮你算出最省点餐方案</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251274" markdown="1">
-<summary>
-<span class="topic-rank">15</span>
-<span class="topic-title">亚瑟士Gel-Kahana偏硬偏重：买鞋前先看用途与版型</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-楼主吐槽新买的亚瑟士鞋：质地偏硬、包裹过紧、脚感差、外观不如图片、鞋很沉，试穿时尺码合适，实际穿一天后觉得“被裹惨”。评论指出问题可能不在品牌，而在选错系列和版型。
-
-### 关键要点
-- **系列定位**：评论称该款 Gel-Kahana 偏户外徒步，结构为上下坡、石子路增加稳定与支撑，因此重且硬，不适合铺装路面跑步和日常走路；无徒步需求可考虑退货。
-- **软硬取向**：想要软弹脚感应选缓震厚底系列，支撑系列鞋底本就偏硬。
-- **版型问题**：鞋和衣服一样有版型，可能长度合适但偏窄，只适合脚瘦的人；包裹过紧未必是尺码对。
-- **选购方法**：先明确用途（走路、日常练习、间歇、长跑、比赛）和脚型需求（缓震或稳定），再去线下奥特莱斯多试，或向跑友了解。
-
-### 评论补充
-有用户认为亚瑟士网面耐用性近年改善，自己跑一千公里不坏；也有人同款失望，称不如两百多元的迪卡侬好穿，并提到美津浓。楼主表示鞋已穿一天难退，打算留作徒步用。
-
-＞ 结论：买跑鞋别只看外观，先按用途和脚型选系列，并尽量线下试穿。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251274" target="_blank" rel="noopener noreferrer">双十一了，吐槽一下新买的鞋子</a></span><span class="topic-stats">回复 13 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1251226" markdown="1">
-<summary>
-<span class="topic-rank">16</span>
-<span class="topic-title">项目失败后用原技术栈重写：AI 辅助开发的掌控力反思</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者的项目被判定推倒重构，换技术栈后功能虽实现，但作者用原技术栈重写一版，确认问题不在选型，而在对业务、技术和开发过程的掌控不足。
-
-### 关键要点
-- **需求未想清就动手**：初期只知大概业务流程，未规划架构、模块划分与维护成本；技术选型偏激进，选了不熟悉、难掌控的栈。
-- **AI 辅助的失控循环**：小问题让 AI 改，AI 却改动多个文件甚至调整结构，作者未完全理解影响，陷入“问题→AI 改→新问题→再让 AI 改”的循环。核心教训是：不该把判断和把控交给 AI。
-- **进度压力下积累技术债**：已发现架构不合理、代码变乱，却总想“以后再说”，新需求叠加后只能继续在旧基础上修补。
-- **重写验证**：先梳理核心需求、模块划分和整体设计再写代码；仍用 AI，但限制修改范围，先理解方案再采用。
-- **结论**：AI 能提效，但业务理解、架构设计、技术选型和代码质量仍需开发者负责；“能跑”不等于“掌握”。
-
-### 评论补充
-有回复建议了解 Spec-Driven Development（规格驱动开发），以先定规格再让 AI 实现；也有人调侃后期只能让 AI“自由发挥、当许愿盒”。作者补充背景：自己是前端，被要求用 Python + PySide6 独立开发桌面程序。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251226" target="_blank" rel="noopener noreferrer">项目失败后，我用原来的技术栈重写了一遍，也重新认识了 AI 和自己</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251536" target="_blank" rel="noopener noreferrer">感谢大家推荐的 paseo。旅游 vibe 神器。顺带 vibe 了一个安卓平板客户端</a></span><span class="topic-stats">回复 3 · 收藏 1</span></p>
 
 </div>
 
