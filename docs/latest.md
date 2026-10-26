@@ -3,24 +3,24 @@ layout: report-home
 title: "V2EX 每日热点回顾"
 permalink: /latest/
 status: success
-target_date: 2026-10-24
-generated_at: "2026-10-25 08:14:00"
-summary: "昨日主题 169 个，过滤 69 个，DeepSeek 分析 100 个，保留高价值内容 8 个。"
-count_all: 169
-count_excluded: 69
-count_included: 100
+target_date: 2026-10-25
+generated_at: "2026-10-26 08:06:08"
+summary: "昨日主题 132 个，过滤 61 个，DeepSeek 分析 71 个，保留高价值内容 9 个。"
+count_all: 132
+count_excluded: 61
+count_included: 71
 count_high_signal: 0
-count_valuable: 8
-report_url: "/2026/10/24/"
-data_url: "/data/2026-10-24.json"
+count_valuable: 9
+report_url: "/2026/10/25/"
+data_url: "/data/2026-10-25.json"
 ---
 
-# V2EX 2026-10-24 昨日新帖报告
+# V2EX 2026-10-25 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1251410" markdown="1">
+<details class="topic-card" data-topic-id="1251592" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">AI 能否取代运维：风险、隔离与回退实践</span>
+<span class="topic-title">用AI学习字帖生成书法作品：在线体验与开源项目</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -28,30 +28,32 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主认为 AI 能写脚本、SQL，还能在凌晨定时执行上线任务，24 小时不休息，运维岗位可能被取代。评论区的共识是：AI 可以承担大量流程化运维工作，但“全权交给 AI 直接操作线上”风险极高，关键在隔离、留痕和回退机制。
+作者用一篇真实字帖训练 AI 学习文字结构，目标是输入任意文字即可生成书法作品。项目采用三层动态书法异形引擎（同字异形 PUA 轮换、部件级错落微变、弹性笔势场与蘸墨呼吸）和随字赋形不等距纵向排版（True Bounding-Box Vertical Kerning），以消除电脑排字的机械感。作者自评效果约达原字帖 90% 水平，并提供了在线体验页与 GitHub 仓库：
+- https://dvbs2000.github.io/liuchunlin-shufa/
+- https://github.com/dvbs2000/liuchunlin-shufa
 
 ### 关键要点
-- **风险真实存在**：有回复提到 Grok 更换 TLS 证书导致全炸；也有人担心 AI 发现磁盘报警后误删 data 目录。
-- **可靠性是权衡**：AI 出错概率可能低于人，但单次错误后果可能更严重，需要比较两者可靠性。
-- **可行架构**（回复 jheroy）：流程化工作让 AI 写程序执行；非流程化操作封装成 MCP 工具，AI 只能查看和做允许的修改，危险操作仍由人执行脚本。
-- **安全实践**（回复 v2gba）：做好数据备份；在安全环境验证；用 deadman switch 自动回退；不可逆操作请求批准；区分 AI 与人类动作，高危动作强制人工。
-- **留痕与监督**：操作要留记录，可引入第二个 AI 检查日志；上线前人工复核操作记录。
+- 训练样本仅一篇文章，作者称先验证可行性，扩充样本后可迭代到可用水平。
+- 字库覆盖：繁体 12,959 字、简体 11,345 字，已 100% 覆盖 GB2312（6,763 字）与《通用规范汉字表》（8,105 字）。
+- 已知缺口：约 500 个先秦生僻字（如「樛」「藟」）不在覆盖范围，作者称后续补齐，并已回复修复漏字问题。
 
 ### 评论补充
-多人质疑“AI 背锅”问题，认为公司业务出事时责任仍落在人身上；也有人指出，设置定时任务和下达命令本身仍需人来做。整体看，AI 压缩了运维人力需求，但尚未消除人工监督与责任归属。
+- 有用户反馈生成结果仍有字体痕迹、与原帖差距大，认为不如直接用现成字体；也有人质疑该需求是否必须用 AI。
+- 有用户建议改称「规范字」而非「书法」，并指出缺乏书法审美时混入名家笔意并不美观。
+- 有用户报告服务器无法连接，说明在线体验的可用性尚不稳定。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251410" target="_blank" rel="noopener noreferrer">别说开发了, 这把运维真给干没了把</a></span><span class="topic-stats">回复 74 · 收藏 14</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251592" target="_blank" rel="noopener noreferrer">用 ai 实现书法作品自动生成</a></span><span class="topic-stats">回复 18 · 收藏 19</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251415" markdown="1">
+<details class="topic-card" data-topic-id="1251691" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">Personal Agent 实用场景与定时任务经验汇总</span>
+<span class="topic-title">免费开源的雅思背词网站：7298词配插画与配音</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -59,33 +61,31 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖质疑 Personal Agent 是否只是“美丽的小废物”，多数定时任务玩两天就吃灰。评论区的共识是：**通用 Agent 价值有限，真正留下来的是专用场景 + 可组装的工作流**。
+作者发布了一个自建雅思背词网站，主打完全免费、无需注册、打开即用，并公开了代码与词库。站点收录 **7,298 个雅思词**，每个词配一幅原创插画，英音、美音和例句均有接近真人的配音；学习进度以“词汇星图”点亮星星的方式呈现。作者称高质量配音与图片投入了不少成本，并希望借此帮助更多人备考雅思。
 
 ### 关键要点
-
-- **生活监控类**：机票降价蹲守、条件提醒、保号手机号代接电话与短信转发、带个人 context 的行程制定、长视频先让 AI 判断是否值得看（v2gba）。
-- **信息收集类**：写作素材与热点发现（kuhung）；每日新闻、社区动态、收藏项目调研（1874w）；过去 24 小时业内热点 + 垃圾邮件总结成日报（92493）。
-- **知识库闭环**：信息源 → Agent 中讨论调研 → 总结到本地 Markdown（Obsidian + LiveSync）→ 回顾 → 再讨论或实践，让记录成为对话的副产品（1874w）。
-- **专用 Agent 组合**：Grok Bot 装了没用起来，主要用 Dots，但 Codex 的 Dots 不稳定；场景多为专用 Agent 对应专用场景（liulanggoukk）。
-- **自定义连接**：Hermes 可连接各类 APP 和服务，用于定时抓取、调研和记账（1874w、sisuer1129）。
+- 入口：`http://0xlei.tech/words`；开源地址：`http://github.com/designfuchen/word-atlas`
+- 无需注册，代码和词库可自行取用
+- 评论反馈审美与配图友好，词云可视化被认为有意思
 
 ### 评论补充
+使用者提出了若干可改进点：B2 及以上词汇可补充词源信息，并支持按词根索引同源词；增加“隐藏中文释义”按钮，便于先猜词再核对；常用搭配增加朗读功能；有用户反馈特定分辨率下字体中的字母 e 横线不显示、易被误认为 c，作者回应会马上修改。另有用户表示自测词汇量约在 B1，B2 已出现不少生词。
 
-有用户指出，个人绝大部分需求都是“普通”需求，资讯整理类任务直接用现成头条服务更省事，除非是市场没有供给的个性化数据（jacketma）。对热点收集容易吃灰的问题，建议不必强迫自己准时看，真正有用的新闻一个月内会从多个渠道再次出现（1874w）。
+### 限制
+以上功能与数据均来自作者自述和评论，未独立核验；站点长期可用性、词库准确性及开源协议细节需读者自行确认。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251415" target="_blank" rel="noopener noreferrer">Personal Agent 大家平时都拿来干啥？都有啥定时任务？</a></span><span class="topic-stats">回复 32 · 收藏 15</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251691" target="_blank" rel="noopener noreferrer">我做了一个我自认为全世界最好的雅思背词网站，完全免费，完全开源。🔥🔥🔥🔥🔥</a></span><span class="topic-stats">回复 14 · 收藏 17</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251464" markdown="1">
+<details class="topic-card" data-topic-id="1251604" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">开源AI错题本：拍照识别、国产大模型直连与安卓单机版</span>
+<span class="topic-title">Reelay：自动监听TG影视BOT并转存115整理媒体库</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -93,32 +93,32 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者开源了 Smart Wrong Notebook（智能错题本），fork 自 wttwins/wrong-notebook，MIT 协议。项目针对三个痛点：错题“只存不练”、拍照配图模糊且带手写痕迹、AI 工具默认对接海外接口且部署门槛高。目前已打通“拍照识别 → 动态讲解 → 举一反三 → 组卷打印 → 作答回填”的闭环。
+Reelay 是一个开源工具，用个人 Telegram 账号监听指定频道或 Bot，把影视资源自动转存到 115 网盘，并按 Emby 规范改名归类，减少“复制链接→转存→改名→等刮削”的手工流程。项目不提供也不索引资源，只处理自己账号可见的消息，目前仅支持 115。
 
 ### 关键要点
-- **录入与配图**：支持拍照、剪贴板粘贴、截图和 Markdown/LaTeX 录入，可框选整页试卷批量导入；按题干相似度自动判重（默认阈值 90%）；AI 输出 SVG 重绘几何与函数图，打印不失真。
-- **讲解与练习**：AI 生成分步骤 SVG 动画讲解，可开启 GeoGebra 交互演示；单题可生成同知识点变式题并记录对错。
-- **打印回填闭环**：按错题本、知识点、掌握状态抽题组卷，支持打印预览、导出 HTML 或存为 PDF；每题有 6 位来源 ID，纸上作答后输入 ID 回填对错，系统据此评估掌握概率并流转状态。
-- **模型直连**：内置 MiniMax、DeepSeek、智谱 GLM、Kimi 四家国产渠道预设，也支持 Anthropic、OpenAI、Gemini、Azure 及兼容接口；配置可在网页实时修改并测试连接。
-- **部署形态**：Docker（amd64/arm64）、npm 全局安装（Node ≥22.15）、Windows/macOS/Linux 桌面版、飞牛 OS 的 .fpk，以及安卓 APK。单机版约 75MB，内置完整服务端，断网可查题；客户端版约 2MB，需连接已有服务端。iOS 可用 PWA。
+- **识别流程**：AI 提取片名、季集、分辨率和片源，再用 TMDB 校正，并与分享中的真实文件核对；AI 只给建议，转存、改名、去重由固定代码执行并读回核验，AI 不可用时回退规则识别。
+- **防重复**：调用接口前先记录进度，结果不确定时只核验、不重发。
+- **操作入口**：Web 管理台、Telegram Bot 和 MCP（可供 Claude 等 Agent 查询与审批）；识别错误可发“片名 繁花 第 2 季”修正，同一来源下次会参考。
+- **追剧与洗版**：订阅后新集自动转存，缺集每日提醒，播完且全部入库后自动结束；库中已有时可选转人工、跳过、两版都留或洗版。
+- **AI 接入**：使用 OpenAI 兼容接口，也支持本地模型。
 
 ### 评论补充
-仅有一条“支持一下”的回复，无实质技术反馈或使用验证。
+有用户提出部署后缺少 Telegram 代理设置，作者已确认并补充该功能；作者还给出自己使用的影视 Bot `@QukanMovie`。另有用户分享替代思路：把频道消息转成 RSS，再由自动化工具监控并转存。
 
-仓库：https://github.com/margrop/wrong-notebook ，Demo 为公共账号，数据全员可见，勿传隐私。
+GitHub：https://github.com/Derrors/reelay
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251464" target="_blank" rel="noopener noreferrer">开源 AI 错题本：支持拍照识别、国内大模型直连（DeepSeek/MiniMax）、组卷打印与安卓单机版</a></span><span class="topic-stats">回复 1 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251604" target="_blank" rel="noopener noreferrer">[开源] Reelay：自动监听 TG 里影视资源 BOT 转存到 115，并整理成个人媒体库</a></span><span class="topic-stats">回复 12 · 收藏 11</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251491" markdown="1">
+<details class="topic-card" data-topic-id="1251598" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">纯 Go 实现的本地生图桌面客户端：无 cgo、非 WebView</span>
+<span class="topic-title">Bing 中国大陆版为何不优先展示可访问的国外官网</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -126,33 +126,33 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者用 Go + mygo + stable-diffusion.cpp 做了一个本地 AI 生图桌面客户端，界面原生绘制，不使用 cgo、WebView 或 Electron。目标是降低本地生图门槛：像 LLM Studio 一样下载即用，不必自己拼 ComfyUI 节点图，也不用逐个寻找扩散模型、文本编码器和 VAE。
+
+有用户实测发现，在中国大陆使用 Bing 搜索 `themoviedb`、`google`、`youtube`、`telegram`、`x.com`、`openai` 等关键词时，官网往往不出现在前几页，取而代之的是第三方项目、域名近似的站点、教程或镜像站。以 TMDB 为例，搜索结果首条是部署在 Vercel 的第三方项目，第二条是域名高度相似的 `themoviesdb.org`，而可正常访问的官网 `themoviedb.org` 未出现；同样关键词在 Google 首条即为官网。
 
 ### 关键要点
-- **平台**：macOS 支持 Apple 芯片；Windows 为 x64，显卡需支持 Vulkan（N 卡、A 卡、I 卡均走 Vulkan）。
-- **模型**：可跑 Z-Image Turbo、Z-Image、Qwen Image 2.1、Qwen Image Edit 2511、FLUX.2 klein 4B、ERNIE-Image Turbo、Krea 2 Turbo 等；理论上 stable-diffusion.cpp 支持的模型都能跑，适配仍在推进。
-- **下载前评估**：模型仓库标注下载大小和运行内存，并按本机物理内存提示“流畅运行 / 可能较慢 / 内存可能不足”。
-- **按配置安装**：各组件可选量化版本，可选组件自行决定是否安装；同一模型可装多份配置，共用文件只下载一次。
-- **多模型并行**：每个模型独立进程，互不影响；生成时按模型提供尺寸、步数、种子等默认值，默认一键可用。
-- 作者称登录仅用于统计使用人数，软件完全免费；当前为早期版本，多机型验证不足。
+
+- 主帖强调 TMDB 在国内可正常访问、并非被墙站点，因此“官网消失”不能简单归因于访问限制。
+- 评论普遍认为这是国内版的合规与本地化结果，而非单纯的算法失误。
+- 有回复指出 `cn.bing.com` 搜索框附近提供“国内版/国际版”切换，可尝试切换后再比较结果。
+- 有回复推测国内版索引服务器位于大陆，无法访问的站点会因用户点击后打不开而逐步降权；此说法未获证实。
+- 风险提示：有回复称同事搜索 DeepSeek 时点进非官方网站并下载到病毒，说明结果中的仿冒站点存在实际安全风险。
 
 ### 评论补充
-有用户询问 mygo 的 Native UI 相比 wails 有何提升。作者回应：无需 WebView 渲染，规避部分机器的 WebView 兼容问题，启动快、占用小、无通信损耗，并提供应用更新等基础能力。另有评论指出 Native UI 可能无法播放视频，属于待确认的限制。
 
-下载地址：https://mindsee.app/zh/download
+关于原因，评论存在分歧：一方认为是刻意“优化”与合规要求，另一方认为是索引与点击反馈导致的自然降权，也有人建议直接使用 Google 或参考曾泄漏的 Bing 源码验证。可复用的做法是：优先核对域名、避免点击名称相近的第三方站，并在需要时切换国际版或改用其他搜索引擎交叉验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251491" target="_blank" rel="noopener noreferrer">纯 go 实现的生图应用，本地部署模型</a></span><span class="topic-stats">回复 5 · 收藏 9</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251598" target="_blank" rel="noopener noreferrer">Bing 中国大陆搜索是否存在对部分国外网站的刻意降权或隐藏？</a></span><span class="topic-stats">回复 31 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251556" markdown="1">
+<details class="topic-card" data-topic-id="1251596" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">两天上线出海AI同人工具站：技术栈、收款与踩坑记录</span>
+<span class="topic-title">ShellReady：一条命令配好 Linux 终端与 BBR 的开源工具</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -160,30 +160,24 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者用两天时间上线英文 AI 同人生成器 fanficwizard.com：用户填写作品、角色/CP、梗（如 enemies to lovers、slow burn）、基调与人称，几秒生成带 AO3 风格标题和 tags 的同人场景。免费每天 3 次、无需注册。选词思路是“一个关键词一个页面”，先做首页主词，站稳后再做内页。
+作者针对“每台新 VPS 都要重复配置终端环境”的痛点，开源了 ShellReady：登录服务器后执行一条命令，即可安装并管理 6 项常用组件，避免逐条敲命令。
 
 ### 关键要点
-- **技术栈**：Next.js 16 + Postgres（Neon）+ Prisma + Vercel，Google 登录，Cloudflare Turnstile 防刷；模型走 OpenAI 兼容网关，免费档用便宜模型写短场景，付费档用好模型写整章并支持续写（人物设定 + 前情摘要 + 上一章结尾）。
-- **收款**：Stripe 账号资料有问题，改用 MoR 代理销售方。费率对比：Creem 3.9%+$0.40、Waffo 3.9%+$0.50、Paddle/Lemon Squeezy 5%+$0.50；固定费对 $5 小包接近 14%，后续准备调价，定价页暂为 Coming soon。
-- **域名跳转坑**：Vercel 默认勾选“裸域跳 www”，但站点配置、登录回调、canonical 都是裸域，导致生成接口同源校验和 Google 登录失败；改为 www → 裸域 308 后恢复。
-- **内容安全**：只写 G/T 级，请求与输出两层检查（输出边流边查），检查服务出错也一律拦截且不扣积分。
-- **防刷**：IP 哈希 + Turnstile + 每日全站成本上限，超限暂停免费额度，避免账单失控。
-
-### 评论补充
-有做过 AI SaaS 的读者反馈：用香港港卡个人账户注册 Stripe 可行；Vercel 部署后曾被恶意脚本刷流量，后在 Cloudflare 加防护。该读者还询问 Claude 是直购还是走中转，主帖未回答。
+- **集成组件**：BBR（默认启用当前内核，可选升级 BBRv3）、trzsz-go（`trz`/`tsz` 拖拽传文件）、Starship 提示符、zsh-autosuggestions、Atuin（接管 `Ctrl+R` 历史搜索）、zoxide（`z` 跳转）。
+- **安装方式**：执行 `bash   注意：脚本通过 `curl | bash` 方式执行，使用前建议先审阅源码，并在测试机验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251556" target="_blank" rel="noopener noreferrer">两天上线第一个出海 AI 工具站（英文 AI 同人生成器），记录一下过程和踩的坑</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251596" target="_blank" rel="noopener noreferrer">[开源] 每次买新 VPS 都要重配一遍环境太烦了，写了个一条命令配好 Linux 终端的工具 ShellReady（集成 BBR / trzsz / Starship / Atuin / zoxide）</a></span><span class="topic-stats">回复 11 · 收藏 8</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251479" markdown="1">
+<details class="topic-card" data-topic-id="1251624" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">香港地铁公交能否用支付宝微信：乘车码与八达通实用指南</span>
+<span class="topic-title">微信为何检测并退出 Codex 操作：原因与绕行思路</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -192,33 +186,31 @@ data_url: "/data/2026-10-24.json"
 
 ### 核心内容
 
-香港地铁和多数公交已支持支付宝、微信乘车码，但覆盖范围并不完整，小巴、轻铁、轮渡等场景存在例外，准备八达通或少量现金仍更稳妥。
+在 Mac 上用 Codex 的 Computer Use 操作微信时，微信会检测到非人类操作并强制退出、要求重新登录。评论中有人实测后给出较具体的判断：微信能通过事件来源进程识别出操作来自 `Codex Computer Use.app` 内的 `SkyComputerUseService`，因此这不是单纯的“模仿人类点击”就能绕过的问题。
 
 ### 关键要点
 
-- **地铁**：可用支付宝乘车码，走紫色闸机；有回复称微信“搭车码”也可用。
-- **巴士**：大部分支持，但部分线路不行；小巴说法不一，有回复称只能用八达通，也有回复称部分口岸小巴可用支付宝。
-- **例外场景**：轻铁、轮渡、部分小巴可能不支持；富豪雪糕车等部分店铺也不收支付宝微信。
-- **八达通**：多位回复建议手机开通八达通；iPhone 可在钱包申请，押金过几个月可退。Apple Pay 绑银联卡进出站体验可能更顺。
-- **现金**：小餐厅、部分大厦等场景可能仍需现金。
-- **其他提醒**：支付宝识别香港定位后乘车码会自动切换；需开通境外漫游或港澳流量包；注意汇率，有回复提到部分场景按美元结算。
+- **检测机制**：程序化点击可被识别，来源进程是重要线索；微信本身也常申请较高权限。
+- **可行思路**：有回复建议改用 RPA，或让 Codex 自行开发一个操作电脑的 App，而不是直接使用 Codex Computer Use；也有人提出关闭微信的截图等权限后 Computer Use 可正常使用。
+- **硬件隔离方案**：用 ESP32 HID 模拟鼠标键盘，再配合 AI 识图操作；或通过 iPhone 镜像、物理外挂等方式间接控制。
+- **旁证**：有用户用 Sunshine/Moonlight 远程控制台式机上的微信，同样触发退出，说明风控不只针对 Codex。
 
 ### 评论补充
 
-评论对“小巴是否支持”存在分歧，说明不同线路差异较大，出行前最好按具体线路确认，并保留八达通作为兜底。
+多位用户确认遇到过类似问题，并认为国内 App 普遍存在此类风控，手机端 AI 助理短期内难以发挥太大作用。上述绕行方案多为个人经验，效果和合规性需自行验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251479" target="_blank" rel="noopener noreferrer">香港做地铁公交可以用支付宝微信吗</a></span><span class="topic-stats">回复 16 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251624" target="_blank" rel="noopener noreferrer">微信是怎么屏蔽 codex 的</a></span><span class="topic-stats">回复 16 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251444" markdown="1">
+<details class="topic-card" data-topic-id="1251701" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">codex cli 0.164.0 后 CC Switch 切换账号失效的解决方法</span>
+<span class="topic-title">自建安卓远程对比RustDesk：实测延迟与放弃理由</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -226,29 +218,32 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-升级到 codex cli 0.164.0 后，用 CC Switch 切换账号不再生效；即使运行 `codex --disable tui_app_server` 也无法恢复。发帖者给出的原因是：0.164.0 已移除 `tui_app_server` 开关，旧参数无法再关闭它；而共享后台服务可能保留旧登录状态，导致 CC Switch 写入的账号文件不生效。
+作者为局域网安卓控制工具 UnitCtrl 评估是否加外网远程，设定“比 RustDesk 好才做”的规则，并用同一套方法实测后决定放弃。
 
 ### 关键要点
-- 旧参数 `--disable tui_app_server` 在新版本中已失效，不要再依赖它。
-- 改用 `--no-daemon` 绕过可能保留旧登录状态的共享后台服务，让 CC Switch 写入的账号文件生效。
-- 发帖者验证可用的完整命令为：`codex --sandbox danger-full-access --no-daemon`。
-- 注意 `danger-full-access` 会放开沙箱限制，属于高权限运行方式，使用前应确认风险。
+- **测量方法可复用**：远端安卓与本地浏览器同开一个毫秒时钟页面，把毫秒数编成黑白条码（第二排取反自检），每 0.5 秒截屏读两个条码相减，得到“屏幕到屏幕”真实延迟；两机时钟差约 33ms 已扣除。
+- **测试条件**：同一电脑、同一远端设备（无硬件编码器，最高 15fps）、同一网络（RTT 约 240ms，带宽 1–3Mbit/s，夜间抖动），每组 25 张截图。
+- **结果**：日常点看场景 RustDesk 中位约 0.55s、最慢 10% 约 0.86s，UnitCtrl 为 0.84s/1.41s；整屏运动时 RustDesk 掉到 2–3fps、延迟累积 20 多秒，UnitCtrl 稳定约 1.4s（但测试页占满 CPU，对软件编码不利）；清晰度上 UnitCtrl 笔画锐度约为 RustDesk 的 2.5 倍；带宽降到约 1Mbit/s 时 RustDesk 仍约 0.5s，UnitCtrl 最多落后 37 秒。
+- **原因**：RustDesk 用 VP9 把码率压到约 0.2Mbit/s，并按 RTT 主动降帧降质；UnitCtrl 用硬件编码、码率约 1.2Mbit/s，为局域网设计，不会随网络降码率。
+- **源码发现**：RustDesk 界面“质量监测”的延迟只是测试消息往返时间，不含编码、排队、解码，显示 255ms 时实际延迟已超半秒。
 
 ### 评论补充
-有回复表示，Codex 切换供应商密钥的问题长期未解决，建议改用 magpie，并认为 CC Switch 已完成历史使命。这属于替代工具的个人推荐，未给出具体迁移步骤或验证细节，可作为备选方向参考。
+评论未讨论技术细节，主要质疑用 AI 代写发帖，作者回应是头疼不想码字；另有回复提到局域网可用 adb 自带方案。
+
+结论：外网远程继续用 RustDesk 并保持更新，UnitCtrl 只做局域网；延迟测量页作者表示可按需贴出。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251444" target="_blank" rel="noopener noreferrer">codex cli 0.164.0 版本后， CC Switch 切换账号又不生效了</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251701" target="_blank" rel="noopener noreferrer">想给自己做的安卓控制工具加个外网远程，和 RustDesk 认真比了一次，结论是：不做了</a></span><span class="topic-stats">回复 6 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1251536" markdown="1">
+<details class="topic-card" data-topic-id="1251702" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">用 paseo 加 codex cli 远程 vibe 编程，并适配安卓平板</span>
+<span class="topic-title">pgvector 语义降噪与防重推送的四个工程坑</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -256,20 +251,51 @@ data_url: "/data/2026-10-24.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在双 11 购入平板后，先后试用了 orca 和 paseo，最终选择 paseo，理由是它更接近本地 ChatGPT 客户端，贴大段文本和图片更方便。部署方式是在服务器上安装 paseo 和 codex cli（或其他 CLI），用 nginx 反向代理并加 IP 白名单，浏览器即可随时随地远程 vibe 编程。作者认为体验与本地工作无差别，甚至因为本地是 Windows、paseo 跑在 Linux 上而更好，外出不必再背游戏本。
+作者基于开源底座二次开发了一套垂直情报过滤管道，单机部署在 Linux VPS 上，每天只推送 2~3 条高信噪比卡片。运行半个月后，他复盘了四个工程层面的坑，对自建信息流、做数据清洗或向量搜索的读者有参考价值。
 
 ### 关键要点
-- 官方客户端横屏适配有问题、竖屏正常，作者用 AI 花了一些 token 做了适配，并发布 `tablet-v0.13.0-1` 版本：https://github.com/cwateryuan/paseo/releases/tag/tablet-v0.13.0-1
-- 远程访问方案：服务器装 paseo + CLI，nginx 反代，IP 白名单限制来源。
-- 评论建议用 tailscale 替代裸反代，安全性更好。
-- 评论称 paseo 可直接调用各 AI 平台官方 CLI，并能在不同 CLI 间转发消息，例如让 Claude 拟任务、交给 Sol 执行、再由 Claude 验收。
+- **语义去重的阈值陷阱**：直接用文本 embedding 做 pgvector 去重时，余弦相似度阈值设 0.85 会误杀同赛道不同技术方案的独立项目，放宽到 0.92 又会漏掉换标题的通稿。作者改为先做实体与依赖层提取（GitHub Repo 归一化、顶级域名折叠），实体命中直接折叠；不命中才走落地可行性、商业闭环、代码成熟度等 5 轴语义打分，把公关稿在打分层过滤掉。
+- **异步双写导致重复推送**：异步队列消费时，外部消息发送成功，但数据库记账因连续拼接两段 SQL 触发 Prepared Statement 解析报错，事务回滚后队列误判任务未完成，指数退避重试造成同一条消息向外部端点死循环狂推。教训是跨外部网络调用的副作用必须与本地数据库状态做原子防重，外部调用前显式插入 pending 占位锁。
+- **克制的推送纪律**：单日封顶 ≤4 条，两次推送硬间隔 ≥2.5 小时，23:00–08:30 绝对静默，任务推迟到次日早晨。
+- **归档**：每晚自动抓取 Top 信号并生成 Markdown 归档，推送到 GitHub 仓库 https://github.com/louis-cai/daily-indie-radar 。
 
 ### 评论补充
-有用户反馈兼容性差，CLI 模式下中文全是乱码、基本不可用，说明该方案在中文环境下仍需验证。整体看，远程 vibe 编程思路可复用，但安全与中文兼容性存在分歧，落地前应自行测试。
+评论仅有“收徒”类闲聊，作者回应不收徒，未提供额外技术信息。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251536" target="_blank" rel="noopener noreferrer">感谢大家推荐的 paseo。旅游 vibe 神器。顺带 vibe 了一个安卓平板客户端</a></span><span class="topic-stats">回复 3 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251702" target="_blank" rel="noopener noreferrer">二开信源管道跑了半个月，聊聊用 pgvector 语义降噪和防重推送踩的几个深坑</a></span><span class="topic-stats">回复 2 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1251577" markdown="1">
+<summary>
+<span class="topic-rank">9</span>
+<span class="topic-title">Chrome 与 Firefox 支持 JXL HDR，LocalViewer 可转换样图</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Chrome 和 Firefox 近期都加入了对 JXL 图片的支持，网页因此可以直接显示采用 HDR PQ transfer 的图片。发帖者用 LocalViewer（https://github.com/zmz125000/LocalViewer）把 JXR 和相机 RAW 转成多种 HDR 格式做测试，并给出各格式的输出参数：
+
+### 关键要点
+- **JXL HDR**：16-bit float，Linear 加亮度元数据；**JXL HDR PQ**：16-bit integer，PQ。
+- **JPEG HDR**：8-bit base 加 gain map，sRGB base 做 HDR 重建。
+- **AVIF HDR**：10-bit，无损时 12-bit，sRGB base 加 ISO gain map；**AVIF HDR PQ**：10-bit，无损时 12-bit，PQ。
+- **AVIF ULTRA HDR**：遵循 ISO 21496-1。
+- 非 HDR 显示器上，白色过曝区域属于 HDR 亮度范围，属预期现象。
+
+### 评论补充
+有用户在小新 Pro GT 上确认样图可正常显示。发帖者补充：一张 AVIF 4K 截图约 1MB，兼容安卓、苹果及 SDR/HDR，认为互联网 HDR 时代到来；另有用户认为 AVIF 更好。发帖者还发现 Chrome 会针对 SDR 显示器做 tone mapping，高光细节保留完整，但整体观感张力下降，与 gain map 格式对 SDR base 做动态范围压缩不同。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1251577" target="_blank" rel="noopener noreferrer">测试一下 Chrome 最新支持的 JXL HDR 图片格式</a></span><span class="topic-stats">回复 4 · 收藏 1</span></p>
 
 </div>
 
