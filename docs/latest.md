@@ -3,24 +3,24 @@ layout: report-home
 title: "V2EX 每日热点回顾"
 permalink: /latest/
 status: success
-target_date: 2026-10-29
-generated_at: "2026-10-30 09:53:05"
-summary: "昨日主题 317 个，过滤 217 个，DeepSeek 分析 100 个，保留高价值内容 25 个。"
-count_all: 317
-count_excluded: 217
+target_date: 2026-10-30
+generated_at: "2026-10-31 09:33:24"
+summary: "昨日主题 312 个，过滤 212 个，DeepSeek 分析 100 个，保留高价值内容 20 个。"
+count_all: 312
+count_excluded: 212
 count_included: 100
 count_high_signal: 0
-count_valuable: 25
-report_url: "/2026/10/29/"
-data_url: "/data/2026-10-29.json"
+count_valuable: 20
+report_url: "/2026/10/30/"
+data_url: "/data/2026-10-30.json"
 ---
 
-# V2EX 2026-10-29 昨日新帖报告
+# V2EX 2026-10-30 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1252719" markdown="1">
+<details class="topic-card" data-topic-id="1253076" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">2026 年 20 条 AI Coding 最佳实践：需求、规则、编码与审查</span>
+<span class="topic-title">Claude Max 账号连续被封：支付卡、设备与网络风控讨论</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -28,30 +28,29 @@ data_url: "/data/2026-10-29.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者把 AI Coding 经验整理成 20 条可复用规则，覆盖需求、规则、编码、排查、审查、发布和复盘七个阶段。核心思路是：从写实现细节转向“许愿式编程”，把背景和目标讲清楚，技术细节交给 Agent 判断；同时用脚本和流程约束 Agent，而不是只靠 prompt。
+楼主用 Google 老号订阅 Claude Max 数月后于 10 月中旬被封；换较老 Gmail 重新订阅，今早触发认证，用 CN 护照认证后立即被封；再用较新 Gmail 开通 Max，支付成功瞬间被封。其共同点是同一梯子（约 300 元/月）、同一张美国信用卡、同一设备，因此怀疑是设备、卡、网络组合被风控标记。
 
 ### 关键要点
-- **需求**：优先用最好的模型；新功能、配置和开关先让 Agent 确认；每次只拆成最小可用版本，及时提交以便回滚。
-- **规则**：在 `AGENTS.md`、`CLAUDE.md` 中只写代码里看不出来的规则和被否决过的方案；密钥和 token 不要贴给 Agent，贴了就当已泄露并立即更换；必须遵守的规则要用脚本限制，并真实跑通。
-- **编码与排查**：写代码前先让 Agent 说明改动范围和影响；让它补充验证脚本；多 Agent 并行时各用独立 worktree，只提交自己的改动。修 Bug 先找原因，两次没修好就加日志，三次不对就清空上下文重来。
-- **审查与发布**：写代码和 Review 的 Agent 分开；Review 最多跑 3 轮，第二轮只看新改动；删除、付费、发布等单向门改动要人工确认。提交信息写清做了什么、怎么验证、如何回滚；对外功能先小范围 beta。
-- **复盘**：每个线上 Bug 和用户反馈都留测试案例，上线前跑一遍；换模型时也回归旧问题；修复时举一反三，处理同类问题。
+- **支付卡关联**：有回复指出同卡号支付的账号只要一个被封，其余可能连带被封；楼主补充换新加坡卡同样失败并被封。
+- **环境一致性**：有回复提醒系统时区、语言等细节可能被用于识别；建议让 Claude 运行在虚拟机 NAT 模式，固定代理出口 IP，并调好系统时区语言，通过 Google Play 或 Apple 订阅。
+- **替代路径**：评论提到 OpenRouter、官方 API Key（管 Key 一般不封号，但成本高）、企业 Premium、Copilot（风控较松，Cyber 场景除外），以及转向 Codex。
+- **退款**：有回复建议向官方申请退款。
 
 ### 评论补充
-有回复建议在大型公司项目中让 AI 沉淀技能、工具、索引与文档，构建项目专属 harness；作者回应自己的实践是 [Waza](https://github.com/tw93/Waza)。另有讨论指出 `AGENTS.md` 与 `CLAUDE.md` 可同时维护，大型项目只记录规则、禁止事项和工作流目录索引，由 Agent 按索引载入。关于 plan 模式，作者表示自己已很少使用，倾向直接执行。
+楼主称 Claude 用于独立开发，收益远超订阅成本，因此暂不敏感价格；另一位开发者称已认真考虑移居海外，认为平台有多种方式判断用户所在地。企业 Premium 用户表示已续费第二月，但无法保证稳定，自己也曾被封掉用了一年的 20x 账号。上述替代方案与稳定性均为个人经验，缺乏官方依据，需自行验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252719" target="_blank" rel="noopener noreferrer">2026 年，我的 20 条 AI Coding 最佳实践</a></span><span class="topic-stats">回复 17 · 收藏 125</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253076" target="_blank" rel="noopener noreferrer">我没有任何办法用 Claude 了吗？</a></span><span class="topic-stats">回复 135 · 收藏 22</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252837" markdown="1">
+<details class="topic-card" data-topic-id="1253104" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">独立开发者低成本上线小项目：个体户、备案与推广经验</span>
+<span class="topic-title">第一次相亲没话题：如何推进与调整心态</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -59,30 +58,30 @@ data_url: "/data/2026-10-29.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者从 2026 年 6 月起做独立小项目，已上线十多个小软件，成本基本覆盖。主帖给出从注册主体、服务器、备案到找需求、推广的完整低成本路径，评论则集中讨论推广与方向哪个更关键。
+楼主经父母介绍第一次相亲，见面后觉得对方“正常人”、条件不错，但没有心动，也不知道该聊什么；家人催促“男方要主动”，他因此焦虑。评论区的共识是：**不必急于推进关系，先多约出来共同经历，话题会自然产生**；同时要调整“讨好者”心态。
 
 ### 关键要点
-- **收款主体**：要收款才需注册，个体户 0 成本但流程麻烦，可让 AI 逐步指导；需按季度申报（4、7、10、1 月），另有年度汇算与清税，个人所得税每年报一次。找代办注册约 200 元、税务处理每年 1000+，小项目未必划算。
-- **服务器与域名**：阿里云 99 元/年新用户机，提前续费可再享一年，约 198 元/两年，小项目够用；域名约 50 元/年。国内项目需用服务器 IP 备案，约两周并有电话确认，接入支付也需要备案。
-- **找需求**：从生活问题或难用软件切入，拆分为可用程序简化的部分，判断是否刚需、是否有人做过。
-- **推广**：先在 V2EX 首发，借程序员挑毛病打磨稳定，再发各大论坛、贴吧；作者称也天天发小红书。
-- **心态**：作者强调耐心与相信自己的眼光，承认有项目上线后失败被删减。
+- **进度自己掌握**：长辈心急是长辈的事，按自己舒服的节奏相处（回复 18238125）。
+- **线下优先于硬聊**：吃饭、逛街、逛公园都行，重点是持续约出来，熟悉后自然有话题（18238239、18238514）。
+- **做自己，别预设对方喜好**：日常琐事、猎奇内容想发就发，不必先判断“合不合适”（18238293、18238363）。
+- **用行动判断意向**：能约出来就是有兴趣，频繁拒绝就是没兴趣，不必反复揣测对方心理（18238363）。
+- **没话讲就不讲**：强行找话题反而刻意，如实说明对方通常能理解（18238293、18238514）。
 
 ### 评论补充
-多人认为推广才是最大难点，帖子发出去可能没流量；作者回应贴吧发帖主要是让内容被收录。有评论质疑其需求小众或已有大量现成工具，作者称靠持续推广。关于耐心，有评论提出相反观点：方向正确比耐心更重要，没用的产品挂十年也没人用。另有提问涉及个体户地址（作者答与房东商量）、税率与海外收入（作者称暂未出海）、域名选择（作者认为 cn 更好）。作者说明工具由 AI 完成，盈利仅刚覆盖成本且未计 AI 费用。
+有回复指出楼主把自己放在“下位者”位置、急于讨好，反而削弱吸引力（18238293）；也有人建议把相亲对象当普通朋友，先多接触，不成也多一个朋友（18238402）。关于分享 IT 话题，楼主担心对方不感兴趣，被提醒不要预设（18238363）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252837" target="_blank" rel="noopener noreferrer">独立开发者的一些经验分享</a></span><span class="topic-stats">回复 23 · 收藏 38</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253104" target="_blank" rel="noopener noreferrer">第一次相亲的一点情况</a></span><span class="topic-stats">回复 127 · 收藏 14</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252775" markdown="1">
+<details class="topic-card" data-topic-id="1253092" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">被裁当天离职只拿N：失业金与N+1的实操教训</span>
+<span class="topic-title">用 SSH 反向隧道搭梯子：一年实测与 Mihomo 实现方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -90,29 +89,32 @@ data_url: "/data/2026-10-29.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主在 27 号被通知、29 号离职，签的是协议离职，只拿到 N，没有 N+1。他自述公司“蛮好的”，不想撕破脸，并记录了失业金、失业登记、简历和交接等感受。评论区多数人认为，这种“光速离职”本应争取 N+1，并补充了失业金与协商离职的法律细节。
+
+作者在国内有公网 IP 的家宽上，用 SSH 反向隧道做代理，跑了约一年，称各种“开大会”期间都稳定；最长一次 8 条 SSH 连接存活 30 天，直到重新拨号。性能上，正向 trojan-go 建联 speedtest 约 400Mbps，走 SSH 反向隧道可达 1400Mbps，接近 CloudFront CDN 接入。作者推测原因是国内有公网 IP 的家宽少、审查重点不在此，且长连接避免了每条业务连接都新建 TCP。
 
 ### 关键要点
-- **补偿口径存在分歧**：有回复称协商离职的区间是 N 到 2N，N+1 只是常见约定；但另一些回复引用《劳动合同法》第 40 条，认为未提前 30 日通知就解除，应额外支付一个月工资，即 +1。
-- **失业金与社保**：楼主称当地失业金为最低工资×90%，工作几年最多领 3 个月；多位回复纠正：失业登记期间通常只代缴医保，养老等社保仍会断。
-- **离职原因很关键**：有回复提醒，务必让公司在离职原因上不要写成“自离”，否则可能领不到失业金。
-- **谈判方法**：不要当场答应，可以说“今天内或明早回复”；约谈时可录音，并先打听同事的补偿方案。
+
+- **架构**：家庭路由器上的 Mihomo 内置 SSH Server；VPS 上的 agent 作为 SSH Client 主动建 8 条长连接。业务 Channel 由路由器侧 SSH Server 主动向 VPS 打开，VPS 再拨号到目标。
+- **实现**：基于 `golang.org/x/crypto/ssh`，Mihomo 新增 `ssh-reverse-servers` 顶层配置与 `ssh-reverse` 出站类型，用原子计数器轮询会话，自定义 Channel 类型传递目标地址。
+- **并发**：每条长连接可承载多个 Channel，agent 全局通道上限默认 4096；多连接用于分散加解密负载，单条业务连接不跨连接拆包，仍受队头阻塞影响。
+- **注意**：单个 Channel 取消不应关闭共享长连接；加密优先 `aes128-gcm@openssh.com`。作者明确表示不应宣称 SSH 协议头能保证绕过审查。
 
 ### 评论补充
-有回复建议，若在意背景调查可接受 N，若尚未签协商文件且不在意背调，可争取 2N；也有人认为，离职后同事大多成为路人，不必因“体面”放弃应得补偿。以上法律口径来自评论，具体仍应以当地法规和专业意见为准。
+
+多位老用户提醒这是“古早”方案：SSH 隧道特征明显，历史上曾被定向封端口、限速或断开，有人称早期被封以分钟计。作者回应称，从泄露的 GFW 代码与研究看，当前审查重点在 TLS/QUIC 前 N 个报文，二元组封禁多为特殊时期临时规则；并附研究报告 https://geedge.report/assets/geedge-tsg-usenix26.pdf。也有回复指出裸 SSH 会出现无规律断连，建议叠加 overlay。结论：可作为有公网 IP 者的备用思路，但稳定性可能依赖运气，不宜大范围依赖。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252775" target="_blank" rel="noopener noreferrer">被裁了，今天最后一天。</a></span><span class="topic-stats">回复 94 · 收藏 16</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253092" target="_blank" rel="noopener noreferrer">通过 ssh 反向隧道搭梯子，经过长期验证</a></span><span class="topic-stats">回复 26 · 收藏 13</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252936" markdown="1">
+<details class="topic-card" data-topic-id="1253035" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">达泊西汀使用体验：起效时间、副作用与用药提醒</span>
+<span class="topic-title">家庭网络防护方案：OpenWrt+VLAN隔离+WireGuard</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -120,32 +122,34 @@ data_url: "/data/2026-10-29.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主28岁，自述长期存在进入后很快射精的问题，尝试过延时套、延时喷雾、寸止训练和深蹲，均效果有限：深蹲只提升硬度，延时套起效慢、体验差，喷雾有麻木和火辣感。改用处方药达泊西汀后，时间明显延长，敢于尝试更多姿势和技巧，伴侣反馈体验改善。
+楼主分享了一套家庭网络加固方案，核心思路是**减少攻击面、做网络分段、只走 VPN 入内**。方案本身可复用，但“固若金汤”的表述被评论区普遍质疑。
 
 ### 关键要点
-- **起效时间**：楼主实测约1小时起效，最佳浓度期在1.5至3小时之间，体质不同有差异；建议在洗澡前服用。
-- **副作用**：需大量喝水吞服，否则易头晕；饭后服用比空腹头晕更轻；楼主称用2至3次后头晕几乎消失。
-- **剂量**：说明书允许从一颗增至两颗，但楼主明确不建议，可能导致射不出来。
-- **药物定位**：达泊西汀不是伟哥，不助勃，只延长时间，有效浓度约维持24小时并逐渐下降。
-- **用药前提**：属处方药，应先线上问诊，并非人人适用；楼主强调自己不是医生，不要因帖子轻松就随意用药。
+- **设备与固件**：二层/三层设备统一用官方 OpenWrt（一台 x86 软路由 + 两台 N60 Pro 做 AP），只装官方源软件，不用第三方插件。
+- **网络隔离**：多 SSID + VLAN 划分主人、访客、智能家居（几十个米家设备）、媒体设备四类网络；VLAN 间只放通必要服务，例如媒体网络仅允许访问 NAS 的 Emby，访客与 IoT 网络除 DNS/DHCP 外一律 reject。
+- **边界与 IPv6**：WAN 入站除 VPN 外全部 drop；仔细配置 IPv6，禁用不必要的 forward。
+- **远程访问**：只通过 WireGuard VPN 回家。
+- **运维习惯**：用 AI Agent 跟踪设备漏洞（如 dnsmasq 的 DHCPv6 漏洞后关闭 DHCPv6）；重要数据冷备到独立硬盘；公网服务器 SSH 仅密钥登录、每周检查安全更新、缩减域名与服务数量，PHP 漏洞时先下线网站再更新。
 
 ### 评论补充
-有用户称喝酒后也有效，楼主反驳称会更晕；有人服药后无效果，楼主建议等待1.5至2小时以上。另一用户分享通过事前自慰脱敏、第二次耐久度提升，几次后摆脱心理暗示，楼主认为这更可能是心理作用。
-
-＞ 楼主对中成药持怀疑态度，认为其多为安慰剂，此为主观观点，缺乏数据支撑。
+- 有回复认为**一个 VPN 已挡掉约 99% 攻击**，再加独立 WiFi 做内网隔离即可，300 元级路由器也能实现，不必过度设计。
+- 安全边界提醒：补丁再新也可能被 0day 打穿，老旧模组中可能存在未被发现的漏洞。
+- 可加强项：把密钥登录换成证书登录，配合生物识别与定期重认证/令牌。
+- 楼主回应称，除非出现 Linux 内核级 0day，否则无法从公网提权。
+- 大量回复调侃索要公网 IP“测试强度”，属玩笑，不构成技术论证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252936" target="_blank" rel="noopener noreferrer">关于达泊西汀，我有句话想说，时间短的兄弟们建议看看</a></span><span class="topic-stats">回复 47 · 收藏 31</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253035" target="_blank" rel="noopener noreferrer">“我这碉楼，固若金汤”，我家强迫症的家庭网络防护方案，不信谁能攻破。</a></span><span class="topic-stats">回复 55 · 收藏 7</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252772" markdown="1">
+<details class="topic-card" data-topic-id="1253044" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">ChatGPT Pro与Business订阅可领每月API额度及领取方法</span>
+<span class="topic-title">居家物品位置记录：固定归位、分类收纳与工具方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -153,29 +157,32 @@ data_url: "/data/2026-10-29.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，已订阅用户同样可以领取。主帖给出的额度规则：Pro 100 每月 100 美元、Pro 200 每月 200 美元、Pro 500 每月 500 美元；Business Standard 每席位 20 美元、Premium 每席位 100 美元，每个工作区最高 500 美元。
+
+主帖列举了换季找衣服、找螺丝刀、找电工胶布、找会员实体卡、找结婚证护照、找智能门锁备用钥匙等场景，核心问题是：居家物品多且分散，临时需要时难以定位。评论区的共识是，**记录本身不是关键，固定归位和用完归还的习惯才是根本**；单纯做记录往往因为维护成本高而难以持续。
 
 ### 关键要点
-- **领取条件**：订阅满 7 天，进入 ChatGPT → Settings → Billing，找到 API credits benefit，关联 API Organization 后领取。
-- **发放规则**：首次按账期剩余天数折算，之后随续费每月自动发放，未用完不累计。
-- **实际到账**：多位回复者反馈首月到账低于标称额度，如 65、67、29、15 美元，有人解释为按当前订阅周期剩余时间折算，下个周期才会足额。
-- **Business 入口**：有用户表示在管理后台 billing 页面未找到入口，Business 是否需管理员操作尚无明确结论。
+
+- **习惯优先**：多位用户主张“固定东西放固定地方”，如手机放左裤兜、钥匙放右裤兜；有人建议参考 6S 管理，工具箱只放工具、衣橱只放衣服、杂物箱只放杂物，用完立即归还。
+- **分类收纳**：按类别装箱，标注箱子编号，需要时再翻找，比逐件记录更省事。
+- **工具方案**：有用户提到自建网页记录物品数量和位置，但发现“记录本身就很麻烦”；也有人推荐自部署 [homebox](https://github.com/sysadminsmedia/homebox) 记录物品，以及用 InvenTree 搭库存系统并配合 MCP 插件；还有用户用开源小智音响接 MCP，对房间储物格做增删查改。
+- **适用边界**：自己住且习惯好时，脑中索引通常够用；多人同住容易打乱归位，记录才更有价值。记录还能避免“舍不得扔又忘了”的东西被重复购买。
 
 ### 评论补充
-部分用户成功领取并致谢，也有用户称找不到入口，说明该福利的可见性可能因账户或订阅状态而异。主帖末尾推荐的 codex-reset.com 被回复者指出会触发卡巴斯基安全浏览告警，涉及数据丢失威胁，访问需谨慎。
+
+有用户尝试文档、开源软件记录后放弃；也有人认为只有别墅等大空间才需要这类服务。总体看，低成本方案是固定归位加分类编号，工具记录适合物品多、同住者多或记性差的人。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252772" target="_blank" rel="noopener noreferrer">OpenAI 有个小福利 去领一下</a></span><span class="topic-stats">回复 79 · 收藏 8</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253044" target="_blank" rel="noopener noreferrer">想问问你们居家收纳东西有记录某物在某处吗？</a></span><span class="topic-stats">回复 46 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252851" markdown="1">
+<details class="topic-card" data-topic-id="1253089" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">群晖DSM遭C3RB3R勒索：内存取证恢复密钥实录</span>
+<span class="topic-title">电瓶车换锂电的价格与方案：铁锂实例与安全分歧</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -183,29 +190,32 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主群晖 DSM 上的 GitLab CE 容器遭 C3RB3R 勒索，文件被改为 `.L0CK3D` 后缀并留下 `read-me3.txt`。最初怀疑 GitLab RCE，后续排查把根因指向 DSM 漏洞（CVE-2024-10441），并称最新版 DSM 也有中招报告，可能与未公开 0day 有关，与是否开 SSH/QuickConnect 无必然关系。攻击脚本曾驻留系统 crond 计划任务，升级 GitLab 到 19.5.1 后仍可能残留。
+
+主帖想给 72V22A 铅酸电自换锂电，因电池仓为 T 型，担心锂电不好放，并明确排除三元锂。评论给出了多个真实换电案例，价格、容量和续航差异较大，可作为选型参考。
 
 ### 关键要点
-- **中招后不要拔电源**：断开公网，开本地 SSH，暂停可疑进程，保留加密二进制与内存 dump，为逆向主密钥留证据。
-- 楼主用 REA/Ghidra 分析样本，确认算法为 ChaCha8（32 字节文件密钥、8 字节 nonce、64 位计数器），文件尾 588 字节含 48 字节 AES-256-CBC 加密的密钥记录。
-- 从 PVE 虚拟机内存中定位进程页表，取出 IV 与 AES key，已成功解密 PSD、PNG、日志、XZ 及 GitLab 备份 tar，并用 SHA-256 逐字节验证。
-- 救灾仓库含攻击路径文档、AI 提示词与脚本：https://github.com/soimy/c3rb3r-rescue
+
+- **铁锂大容量方案**：极核 AE4SE+ 装 72V75A 铁锂约 4200 元，ECO 40 码续航约 220 公里，Sport 80 码约 130 公里；除电池仓外坐桶也可放电池。
+- **比亚迪铁锂**：64V45Ah 约 2750 元，25 码实际约 100 公里，约 1 公里掉 1% 电，低于销售宣称的 120 公里；官方称质保 5 年、可用 10 年。
+- **其他实例**：深远 T50 换博邦 5450 共 3300 元；老雅迪换 60V30Ah 约 1300 元；48V24A 锂电用 5 年，解速 40 码续航约 50–60 公里。
+- **安装方式**：多为商家上门，报电自型号后带电池和工具就地拆装，不建议自己弄。
 
 ### 评论补充
-多人报告无 GitLab 也中招，共同点是公网可访问；有用户已关闭端口转发、改用 Tailscale/EasyTier 等虚拟局域网。评论提醒双盘同步备份挡不住勒索，重要数据需离线第二备份；另有 360 预警称群晖已发补丁，真伪待核验。
+
+安全上存在分歧：有人因怕锂电起火特意选铅酸，并称见过电瓶车瞬间起火；反驳观点认为起火多为三元锂，磷酸铁锂穿刺实验不易起火。另有用户提醒锂电二手难出，容量买小会后悔。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252851" target="_blank" rel="noopener noreferrer">群晖 DSM+Gitlab CE 遭 C3RB3R 勒索软件攻击！救灾直播贴</a></span><span class="topic-stats">回复 58 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253089" target="_blank" rel="noopener noreferrer">有给电瓶车装锂电的吗，来说说价格与方案？</a></span><span class="topic-stats">回复 21 · 收藏 11</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252917" markdown="1">
+<details class="topic-card" data-topic-id="1253235" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">工作9年裁员只给3个月：转签合同与仲裁2N经验</span>
+<span class="topic-title">用 three.js 把个人网站做成三维我的世界并开源模板</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -213,34 +223,29 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-上海一名员工在公司工作 9 年多，9 月被人事约谈裁员，公司只愿给 3 个月赔偿，理由是环境不好、行业内卷。员工不同意，人事建议去仲裁调解。当天公司就出具解除通知书，写明“组织架构调整”原因，并关闭全部权限。员工先申请仲裁，调解中公司只把方案加到 0.5 个月，最终委托律师按 2N 主张赔偿。
-
-律师提示的最大风险是合同主体转签：A 公司 → B 公司 → 再签回 A 公司，原公司可能借此切断工龄。
+作者把传统二维个人网站改造成三维方块世界，灵感来自《我的世界》《黑客帝国》和元宇宙，并借助 AI 完成开发。世界内可自由移动，包含篮球场、泳池、健身房、工作台、作品展示、昼夜交替和天气系统；二维网页也能内嵌，按 F 查看。方块风性能开销较小，手机可访问。
 
 ### 关键要点
-
-- **转签要留痕**：保存工作事实、社保、工资、考勤、沟通记录等证据，证明实际为同一主体服务。
-- **解除通知书是优势**：公司直接出具书面解除通知，比“耗着逼你走”更利于主张违法解除。
-- **工龄可争取连续计算**：评论提到有案例支持转签后工龄延续，但律师评估胜率约六七成，并非稳赢。
-- **提前准备现金流**：发帖人已办理房贷延期 2 年，做好长期仲裁准备。
+- 技术栈：作者在评论中确认使用 **three.js + HTML/CSS/JS**，并非游戏引擎。
+- 开源模板：项目 homecraft 除个人网站源码外，还提供初始模板、开发调优经验和传送门功能，可 fork 后提交收录，方便互相“串门”。
+- 启动方式：一行命令 `python3 tools/serve.py` 即可运行，其余内容可交给 AI 扩展。
+- 实机地址：https://terryhu.cn/ ；源码：https://github.com/terryHu7/homecraft
 
 ### 评论补充
-
-有回复称，转签时另签“工龄保持协议”并约定福利不低于原合同，属于较规范做法；也有公司以税务、社保等理由更换主体。另有回复提醒，权限被关前就应主动收集证据，不要等到被裁才补。
+有用户反馈“有点卡”，作者追问是手机端还是电脑端、加载卡还是画面卡；另有用户反馈 **D 键无反应**，作者称已收到同类反馈并正在修复。说明该项目当前仍存在交互与性能问题，体验前需有预期。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252917" target="_blank" rel="noopener noreferrer">裁员了公司只想给 3 个月 在公司工作了 9 年多了-伤心</a></span><span class="topic-stats">回复 54 · 收藏 11</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253235" target="_blank" rel="noopener noreferrer">🔨 我把个人网站，建成了我的世界</a></span><span class="topic-stats">回复 14 · 收藏 13</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252975" markdown="1">
+<details class="topic-card" data-topic-id="1253069" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">零基础大龄学英语：目标、方法与工具建议</span>
+<span class="topic-title">AI 写代码越多越担心：传统企业全 AI 开发的风险与应对</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -248,33 +253,29 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-楼主初中学历、英语基础近乎为零，三十多岁想学英语，明确目标是**跟外国人交流**。评论区的共识是：先明确目标再选路径，听说读写都要练，不能只背单词。
+作者入职一家传统生产企业，公司此前没有技术部门，因外贸经理用 AI 自建工具获老板认可，决定全公司推广 AI 开发。作者在 HR 经理手下做开发，工具从 TRAE 换到 codex + workbuddy + zed，再被要求直接用 Claude Code 配第三方 API。速度上去了，但 AI 的思考与改动多为英文，作者基本是“回车确认”，只做功能测试，担心误写、误改数据却无从察觉。
 
 ### 关键要点
-
-- **先定目标**：为读英文资料就先背单词；为交流则必须练听力和口语，否则“永远瘸腿”。
-- **方法**：有 be 动词概念、会写简单句即可起步；单词放进句子里记，每天坚持。可参考林语堂《英文学习法》、史嘉玲《回音法》；口讲练反应和肌肉记忆，写作练逻辑。
-- **工具与资源**：多邻国可猛刷；开源书 [everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english/tree/main/book)；[VoiceTube](https://tw.voicetube.com/) 及多位母语者教学 YouTube 频道；AI 可直接问答。
-- **环境法**：把手机、电脑语言设为英文；逛英文论坛开双语翻译插件；看 YouTube 长视频和直播；从儿童读物、带英文字幕的慢速教学入手。
-- **报班**：自学多年无果者，可考虑有资质的外教一对一网课，试课换老师，并设雅思托福等阶段目标。
+- **风险根源**：领导以“外贸经理半天出功能”为标杆持续压速度，导致代码审查被跳过，责任仍落在开发者身上。
+- **可落地的管控**：关闭 force-push 权限，通过 Git 查看改动；禁止直接读数据库，只允许提交 SQL 文件并由 CI 自动执行，从而掌握 AI 对数据的修改。
+- **流程建议**：需求拆细，先与 AI 讨论敲定方案再动手；提供充足上下文；多轮让 AI 自审；上线前由测试跑用例。
+- **工具差异**：有回复称 Claude 更易无视规范，ChatGPT 更守约束，属个人经验，需自行验证。
 
 ### 评论补充
-
-有回复认为不必研究语法，把语法当固定搭配、像学语文一样从单词到短语再到阅读；也有人提醒别照搬老友记等老剧台词。另有“润出去”“和留学生谈恋爱”等建议，可行性因人而异。
+多数回复认为这是大势所趋，“代码和程序员有一个能跑就行”，建议受不了就换工作，不必试图说服老板。也有观点提醒：不懂技术时即使用最强 AI，过程与结果仍不可控；领导驱动 AI 直接上生产，出事只是时间问题。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252975" target="_blank" rel="noopener noreferrer">初中学历的大龄男青年零基础学英语，你们有什么好的建议吗？</a></span><span class="topic-stats">回复 28 · 收藏 19</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253069" target="_blank" rel="noopener noreferrer">用 AI 写的代码越多，感觉离跑路不远了。</a></span><span class="topic-stats">回复 32 · 收藏 7</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252965" markdown="1">
+<details class="topic-card" data-topic-id="1253155" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">2026年关闭电信、移动、联通一键登录认证的实操流程</span>
+<span class="topic-title">新晋团队负责人该不该自费给组员买AI token plan</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -282,31 +283,33 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在 2026 年 10 月底实测关闭三大运营商的一键/免密登录认证服务，三家均无需提供服务密码或身份信息，只需接听外呼电话确认，但流程顺畅度差异明显。
+
+一位传统行业企业的程序员即将带团队，考虑自费给组员购买 GPT Pro 等 token plan 提升效率；公司内网只部署了 `ds-v4-flash-fp8`，且保密要求较高。评论区的共识倾向**先别买**：走公司审批、向上要资源，比个人掏钱更稳妥。
 
 ### 关键要点
-- **电信**：拨打 10000 开工单，备注关闭“天翼数字生活”提供的一键认证；外呼号 `4008281189` 回访确认后立即生效，可一次关闭名下所有电信号码（每个号码需接一次外呼）。工单有短信链接可全程查看，办结次日有专员回访评价。
-- **移动**：10086 客服不熟悉业务，工单易被归档且难催办。更有效渠道是添加 QQ `3171572822`，说明关闭第三方 App、H5、小程序上的号码认证功能及号码，立即生效。UAID 可在网页端自助关闭：https://wap.cmpassport.com/resources/html/uaid_contract2.html
-- **联通**：10010 客服同样不清楚，需通过本地联通私人微信提交资料；对方一度误称“不属于运营商设置”，需出示服务协议反驳。业务实际归属“联通在线”，要求转单后约 1 小时回电，关闭约 24 小时生效（实际即时生效）。
+
+- **保密优先**：公司保密要求高时，让代码出内网使用外部模型可能构成数据泄露风险，负责人首当其冲。
+- **走审批而非自费**：先向公司申报资源，批下来再买、费用可报销；公司不批就不折腾，避免“出钱不讨好”。
+- **先验证需求**：可先小范围试用（如少量 Plus 账号），看谁真的会用，再决定是否扩大。
+- **内网模型可能够用**：有回复认为 `ds-v4-flash` 对非高复杂任务已足够，前提是较新版本；也可考虑内网 DeepSeek API 配合 Codex、Claude Code 等工具。
+- **管理视角**：新 leader 更该先摸清上级与下属的诉求，低成本改善痛点；灵机一动的自费方案可作为思路提出，而非直接执行。
 
 ### 评论补充
-有回复提出直接在端侧屏蔽相关 API，作者指出端侧拦截可随时解除、无法完全屏蔽，因此走运营商渠道更彻底。
 
-### 注意事项
-办理时需向客服明确业务归属部门：电信转天翼数字生活、移动转中移互联网、联通转联通在线，并可用各家认证服务协议作为业务归属证据。
+有回复提醒，自费配好工具还可能引发员工“被加大压榨”的猜疑，以及进度不达预期后的内耗；也有回复认为传统企业多数程序员仍停留在“跟 AI 聊天”阶段，买了未必有人用。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252965" target="_blank" rel="noopener noreferrer">记录 2026 年关闭三大运营商一键/免密登录或认证服务的流程</a></span><span class="topic-stats">回复 3 · 收藏 17</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253155" target="_blank" rel="noopener noreferrer">下个月要被调去带团队了，是否需要给组员买一些 token plan</a></span><span class="topic-stats">回复 44 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252848" markdown="1">
+<details class="topic-card" data-topic-id="1253162" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">Go 从零写 coding agent：15 章可运行开源教程</span>
+<span class="topic-title">VictoriaLogs 与 Loki、ES、ClickStack 日志写入性能实测</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -314,29 +317,32 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者开源了 Mino：用 Go 从零实现一个终端 coding agent，不使用任何 agent 框架，只调用官方 OpenAI Go SDK 的 Responses API，并整理成中英双语分章教程。每章对应一个可运行版本（git tag `chapter-01` 至 `chapter-15`），从可观察的交互讲起，说明模型收到什么、程序如何处理返回，最后用小实验验证效果与边界。
+VictoriaMetrics 公开了结构化日志写入基准测试，覆盖 VictoriaLogs v1.53.0、Loki 3.7.8、Elasticsearch 9.5.5、OpenSearch 3.9.0、SigNoz v0.145.0 与 ClickStack 2.39.1。测试在单台 8 vCPU/32GB 机器上运行，日志每行 30–40 个字段、约 930 字节，共 5,000 个流，写入速率从 10k 行/秒阶梯升至 180k。仓库与结果均可复现。
 
 ### 关键要点
-- 覆盖 15 个主题：流式终端问答、JSONL 对话历史与重启恢复、Agent 循环与逐次批准、中断工具调用的如实恢复（不重复执行，结果未知需用户确认）、多会话、上下文压缩（手动 `/compact` 与自动预算检查）、项目 Skills、限定项目目录的文件读写、MCP（HTTP/stdio）、统一工具策略与三种权限模式、Evals、macOS Seatbelt 沙箱、用户记忆、子 Agent 并行委派及自定义角色。
-- 面向会基础 Go、想理解 agent 原理的读者；`base_url` 可配置，兼容 OpenAI Responses API 的服务均可使用。
-- 目前仅支持 macOS 13+，提供一行安装脚本。
-- 代码以可读性为主，未追求功能全面。
+- **写入上限**：Loki 139k 行/秒最高，VictoriaLogs 120k 次之；Elasticsearch、OpenSearch、ClickStack 为 28k–48k；SigNoz 仅 10k，20k 时崩溃。
+- **资源成本**：40k 行/秒时 VictoriaLogs 与 Loki 各用 1.6 核，ClickStack 4.0 核，Elasticsearch 5.2 核；VictoriaLogs 内存最少，40k 时比 Loki 少约 14 倍。
+- **磁盘**：存 100 万行，Elasticsearch 占用约为 VictoriaLogs 的 5 倍，OpenSearch 约 10 倍；50k 行/秒保留 30 天，VictoriaLogs 约 7 TiB、Loki 约 12 TiB、Elasticsearch 约 33 TiB。
+- **查询权衡**：Loki 只索引流标签，统计每应用错误数需 171 秒，VictoriaLogs 为 0.59 秒；Elasticsearch 单词查询极快，但双词短语查询需 175 秒。
+- **选型建议**：Loki 适合低成本存对象存储、少查询或愿为大量 CPU 付费的场景；VictoriaLogs 适合结构化日志的 Dashboard 与聚合；纯文本日志收益会缩小。
 
 ### 评论补充
-有读者反馈教程偏啰嗦，认为可压缩约一半；作者回应代码并非完全手写，但章节与技术细节经过 review。另有读者询问单目录多仓库场景是否支持，主帖未给出答案。
+读者追问 OpenObserve 与 GreptimeDB 的对比，作者表示已将 OpenObserve 需求转给同事，尚未纳入本次测试。
+
+＞ 注意：测试由 VictoriaMetrics 自建，单节点、结构化日志场景，集群与查询性能待后续文章验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252848" target="_blank" rel="noopener noreferrer">从零写一个 Agent： 15 章开源教程，每章都能跑</a></span><span class="topic-stats">回复 6 · 收藏 16</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253162" target="_blank" rel="noopener noreferrer">VictoriaLogs 与 Loki、Elasticsearch、OpenSearch、SigNoz、ClickStack 的日志写入性能对比</a></span><span class="topic-stats">回复 4 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252784" markdown="1">
+<details class="topic-card" data-topic-id="1253063" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">PHP 5.6 升级到 8.3.36 的实操步骤与四个坑</span>
+<span class="topic-title">开源项目 homecraft：用 AI 把个人网站建成 3D 我的世界</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -344,31 +350,29 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者因 PHP 爆出 9.3 分严重漏洞，把运行近 10 年的 PHP 5.6 项目升级到 8.3.36，从漏洞爆发到周日完成共 3 天。核心结论：借助 AI 做兼容性检查能大幅降低改动成本，但类型定义、JSON 解析、数组问题仍需人工排查。
+作者把个人网站从二维网页改造成可自由移动的 3D 方块世界，灵感来自《我的世界》《黑客帝国》和元宇宙。站内包含篮球场、泳池、健身房、工作台、作品展示，以及昼夜交替和天气系统；二维网页也能内嵌，按 F 查看。方块风性能开销较小，作者称手机也能轻松访问。
 
 ### 关键要点
-- **兼容性检查**：本地搭 8.3.36 环境，用 Claude Code 检查并导出 Excel，共发现 284 处不兼容，集中在数据库返回类型、DES 加密、已移除函数、类型错误。
-- **上线流程**：先搭与生产一致的测试环境覆盖常用业务；生产用 remi 安装 8.3.36，新目录上传代码、新建 Apache 配置指向 prod-test 域名；验证后入口文件改为“系统升级中”，上传代码，切换 Apache 的 PHP 模块到 8.3 并重启。
-- **坑一**：5.6 不受 Apache `Timeout` 影响，8.3 会，大数据导出报维护错误，将 Timeout 改为 120s 解决。
-- **坑二**：cron 任务仍指向 php5.6，用 `grep -E 'CROND.*CMDOUT|CROND.*CMD' /var/log/cron | tail -50` 定位后改路径。
-- **坑三**：`array_multisort` 因数组元素数量不一致报 `Array sizes are inconsistent`。
-- **坑四**：`json_decode` 参数非字符串时报类型错误，解析前需判断是否字符串及为空。
+- 项目已开源：homecraft（https://github.com/terryHu7/homecraft），除个人网站源码外还提供初始模板，并内置作者的开发调优经验与传送门等功能。
+- 启动方式：执行 `python3 tools/serve.py` 即可运行，之后可借助 AI 继续搭建自己的世界。
+- 在线体验：Terry's Home（https://terryhu.cn/）。
+- 作者表示想法为原创，X 上也有发布。
 
 ### 评论补充
-有回复主张紧急期先给旧版本打补丁（1–2 小时），再慢慢做大版本升级，避免升级期间暴露风险；也有人提醒弱类型比较行为变化（如 `0 == "foo"` 由 true 变 false）属隐性风险，AI 全量扫描 token 成本高。另有建议把大数据导出改为后台异步任务，结果放下载区或对象存储。
+有用户认为形式有趣、有个人特色，并建议加入实时显示其他访客的功能；作者回应称考虑过，但超出自身开发与维护能力。另有用户反馈载具暂时进不去，作者确认该功能尚未开发。整体评论以称赞为主，缺少性能、兼容性等实测数据，实际体验仍需自行验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252784" target="_blank" rel="noopener noreferrer">php5.6 升级到 php8.3.36 踩的一些坑</a></span><span class="topic-stats">回复 32 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253063" target="_blank" rel="noopener noreferrer">[开源] 🔨我把个人网站，建成了 3D 我的世界</a></span><span class="topic-stats">回复 17 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252749" markdown="1">
+<details class="topic-card" data-topic-id="1253181" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">Claude Pro 老号被要求 KYC 后封号：经历与应对</span>
+<span class="topic-title">小型Web应用国内部署：轻量服务器与备案实践</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -376,30 +380,33 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-一位使用约 7 个月的 Claude Pro 用户，在收到 KYC 要求后用护照认证，未通过并被封号。作者判断封号核心是地区问题：平台怀疑账号在中国大陆使用，KYC 进一步确认了这一点。作者已注册第二个账号，但原账号的苹果商店订阅退款未通过，且同一苹果账号无法再为新号开通订阅。
+
+作者为发小做了一个快递单号入库出库的小型 Web 应用，前端两页、后端 Go + MySQL，测试环境用 Cloudflare 隧道代理到家里的飞牛 NAS 容器，免费但访问慢且担心被墙。正式部署的核心诉求是：国内访问稳定、成本尽量低。
 
 ### 关键要点
-- **触发信号**：VPS 机房网络、非本地卡支付、Pro 用量经常跑满，被评论概括为“vps+非卡支付+跳了 KYC+pro 蹬满”。
-- **KYC 不等于安全**：多位用户反馈，弹 KYC 说明平台已认定账号可疑；即使通过，也可能很快被封。
-- **订阅绕行**：评论建议为新号单独注册或购买一个苹果账号来付款；礼品卡充值的退款只退回余额，需另找消费渠道。
-- **用量缺口**：作者认为 Pro 不够用、Max 又过剩，希望有 1.5～2 倍 Pro 档位，目前没有合适方案。
-- **迁移预案**：有用户将记忆与工作流沉淀为 Markdown，被封后已切换到 Codex，并计划更换 IP、清理本地指纹后再试。
+
+- **轻量应用服务器可行**：有用户使用腾讯云南京轻量应用服务器运行 4 年半，部署多个服务，认为稳定性没问题；但续费价格需重点关注，建议活动时续费。
+- **备案是稳定访问的前提**：若面向国内多人使用，备案加国内服务器基本绕不开，否则访问体验和稳定性难保证。
+- **云函数/Serverless 适合起步**：laf、Unicloud 等可低成本起步，但量起来后成本可能扛不住，届时再迁移即可。
+- **数据库选型可优化**：有建议将 MySQL 换成 PostgreSQL 或 SQLite，并考虑阿里云轻量 2C2G 新人价；低访问量场景可用按需休眠、同步到对象存储的架构降低内存占用。
+- **Cloudflare 方案不适合国内**：CF 全家桶加 Worker 成本极低，但海外 IP 在国内访问不稳定，作者明确排除。
 
 ### 评论补充
-当天出现一波集中封号，多名老号用户同样在护照 KYC 后遭封；作者申诉后收到“申诉无效”的回复。也有用户指出，若护照 KYC 真能普遍通过，号商成本应会下降，但市场价仍高，说明通过条件可能有限。
+
+评论普遍认为此类表单型应用负载不高，轻量服务器足够；分歧在于是否值得为省成本改用云函数或 CF，结论倾向国内稳定优先、先低成本起步再按量迁移。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252749" target="_blank" rel="noopener noreferrer">记一个 claude 被封号的经历</a></span><span class="topic-stats">回复 33 · 收藏 8</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253181" target="_blank" rel="noopener noreferrer">个人 web 应用国内部署最佳实践是什么？</a></span><span class="topic-stats">回复 27 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252714" markdown="1">
+<details class="topic-card" data-topic-id="1253206" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">ChatGPT Pro/Business 订阅可领 API 额度：最高每月 500 美元</span>
+<span class="topic-title">一天一顿减肥想吃零食：低热量替代与饮食风险</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -407,32 +414,29 @@ OpenAI 为 ChatGPT Pro 和 Business 订阅用户提供每月 API 额度福利，
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-OpenAI 为符合条件的 ChatGPT 付费订阅提供 API 额度福利，额度按订阅档位发放：Pro100 为 $100、Pro200 为 $200、Pro500 为 $500；Business Standard 每付费席位每月 $20，Business Premium 每席位每月 $100。
+楼主每天只吃一顿饭控制热量，久坐办公，晚上不饿但嘴馋，想找耐嚼、几乎无热量的零食，并担心牛肉干钠高、容易一次吃完。评论区的共识是：**与其找零食替代，不如先修正一天一顿的饮食结构**，同时给出了若干低热量、可操作的替代选项。
 
 ### 关键要点
-- **领取条件**：订阅需生效至少 7 天，免费试用与赠送订阅不符合；ChatGPT 账户与 API 账户须为同一所有者且邮箱一致。
-- **不适用**：Plus、Go、免费版及 Enterprise 均不在范围内。
-- **领取路径**：Pro 用户走 Settings → Billing；Business 用户走工作空间账单设置；也可在 API Platform 用同一邮箱登录，选择自有 API 组织后在 Billing 关联订阅。
-- **到账规则**：有用户 Pro100 仅到账 $75，作者解释额度按剩余订阅天数折算；额度跟随订阅周期，当月有效。
-- **分批开放**：部分用户暂时看不到入口，官方称按批次推出，需等待。
+- **低热量解馋选项**：黄瓜、胡萝卜、小番茄/圣女果（补钾、热量极低）、水煮蛋、牛奶、无糖希腊酸奶、鹰嘴豆（选原味非油炸，高蛋白高纤维低 GI）、真空包装溏心鸡蛋、无糖可乐。
+- **坚果存在分歧**：有人反对坚果热量高，也有回复称自己吃坚果瘦了 70 斤，说明关键在份量控制。
+- **牛肉干**：有回复认为钠高多喝水即可，钠代谢较快；但楼主自认容易吃多，需谨慎。
+- **饮食结构建议**：把一顿拆成三餐、每餐七分饱；按公式算基础代谢，至少吃够基础代谢；饮食清淡少油少盐，配合阻抗训练和适量运动，用黑咖啡抑制食欲。
 
 ### 评论补充
-有用户质疑额度偏低、用途有限，认为只适合周配额用完后临时接 API；也有人指出这是官方 key，兼容 OpenAI 格式的第三方平台同样可用。Google Play 渠道订阅能否领取尚无定论，作者本人也有账号无法领取。
-
-官方说明见 https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions ，界面名称可能随官方更新变化。
+多位回复提醒一天一顿对肠胃伤害大、减重过快会降低代谢并易反弹。也有回复用 DeepSeek、Grok 记录食材热量并参考 USDA 数据，属于可复用的记录方法。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252714" target="_blank" rel="noopener noreferrer">ChatGPT 订阅也能领 API 额度了：最高每月 500 美元，手把手教你领取</a></span><span class="topic-stats">回复 19 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253206" target="_blank" rel="noopener noreferrer">有没有减肥期间可以吃的零食？</a></span><span class="topic-stats">回复 24 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252715" markdown="1">
+<details class="topic-card" data-topic-id="1253294" markdown="1">
 <summary>
 <span class="topic-rank">14</span>
-<span class="topic-title">AirPods 2 左耳续航骤降：换电池还是补单耳</span>
+<span class="topic-title">开源 Zotero 插件 Mktero：PDF 转可跳回原文的 Markdown</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -440,30 +444,32 @@ OpenAI 为符合条件的 ChatGPT 付费订阅提供 API 额度福利，额度�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一只左耳”之间犹豫。评论给出的共识是：这更像电池老化而非个例，换电池成本低、可恢复使用，但存在连带故障和续航衰减风险；补单耳或直接换新则更省心。
+作者发布开源 Zotero 插件 **Mktero**（MIT 协议，支持 Zotero 7–10），目标是把论文 PDF 转成可阅读的 Markdown，并保留与原文的映射关系。右键 PDF 选择「使用 Mktero 阅读 Markdown」后，论文在 Zotero 标签页内变为单栏连续正文。
 
 ### 关键要点
-- **换电池价格参考**：有回复称换一对电池 50 元包邮；另有“京修 149 元换两只”的实例，换后满血复活且无电流声。
-- **换电池的隐患**：有人换完电池一个月后另一只耳损坏；也有人表示换电池后续航不到一年又下降，并可能伴随电流声。
-- **左耳先坏的可能原因**：自动选择麦克风常默认左耳，且多数人先戴左耳，左耳长期充当麦克风，耗电更快。
-- **低温掉电**：有用户反映秋冬户外 1 分钟就没电，评论判断仍是电池问题。
-- **补单耳与配对**：主帖询问单买左耳如何配对，评论未给出具体配对步骤；有人整套续航差的 AirPods 2 仅卖 80 元，可作价格参照。
+- **版面与内容**：双栏按阅读顺序重排，保留公式（KaTeX）、表格、图片、引用、脚注，隐藏刊头、页眉页脚和页码。
+- **双向定位**：段落、公式、表格、图片保留页码与区域映射，可「在 PDF 中查看」跳回原页原位置；Markdown 中的高亮即 Zotero PDF 注释，双向同步。
+- **校对与复制**：可修正 OCR 错字（段落、标题、表格单元格），改动单独保存；行间公式复制为 LaTeX，表格复制为 Markdown 或 CSV。
+- **批量与导出**：支持多选条目或分类后台排队转换，导出到本地文件夹或 Obsidian 库；可选 AI 翻译（原文/译文/双语）。
+- **实现细节**：OCR 与版面分析交给 MinerU 或 Mistral OCR，本地读取 PDF 文字层修复换页换栏断段，并把 OCR 擅自「改正」的词还原为印刷原文；缓存按内容寻址，同一论文不重复转换。
 
-### 评论补充
-佩戴体验上，多位用户认为 1、2 代优于 5 代，耳道小的人戴 5 代久了会痛，因此有人换完电池继续用 2 代。官方换电池被认为不划算；线下或线上店铺有推荐，但多为个人经验，需自行核验。
+### 数据与限制
+默认转换会把缓存中没有的 PDF 整份上传到作者运营的转换服务，需登录账号；也可改用自有 MinerU 云端 key、自部署 MinerU 4.0 或 Mistral OCR，自部署时 PDF 不出内网。翻译只走用户自配的 AI 厂商。缓存、校对、凭据以明文存于 Zotero 配置文件夹。已知限制：Beta 阶段，扫描件、三栏及以上、海报类排版阅读顺序可能出错；默认转换与 MinerU 云端单 PDF 上限 200 页；界面仅英文和简体中文。
+
+安装：GitHub Releases 下载 `.xpi`，在 Zotero「工具 → 插件」中 Install Add-on From File。仓库 https://github.com/tenglvjun/mktero ，隐私说明见仓库 docs/privacy.zh-CN.md。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252715" target="_blank" rel="noopener noreferrer">airpods2 代左耳续航不足，换电池还是买一个左耳</a></span><span class="topic-stats">回复 28 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253294" target="_blank" rel="noopener noreferrer">做了一个开源 Zotero 插件 Mktero：把论文 PDF 读成能跳回原文的 Markdown</a></span><span class="topic-stats">回复 0 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252821" markdown="1">
+<details class="topic-card" data-topic-id="1253305" markdown="1">
 <summary>
 <span class="topic-rank">15</span>
-<span class="topic-title">群晖NAS活跃勒索病毒LOCK3D自查与处置要点</span>
+<span class="topic-title">Loon 可莉插件将加密：代理插件生态的信任与迁移选择</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -471,30 +477,36 @@ AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-近期出现针对群晖 NAS 的活跃勒索病毒，会把文件加密为 `.LOCK3D` 或 `.L0CK3D` 后缀并投放勒索信。发帖者称已有设备确认中招，且最新 DSM 也有案例，因此不能把“系统已升级”当作安全保证。
+
+Loon 允许插件加密后，可莉插件后续内容将不再公开源码。主帖作者认为，起因是有人违反协议肆意转发、激怒作者；加密后普通用户只能靠抓包判断插件行为，监督成本大幅上升。作者担心长期风险（如项目转手、偷偷做手脚），倾向自建规则仓库，但认可可莉插件更新快、好用。
 
 ### 关键要点
-- **立即自查**：检查关键目录是否存在 `.LOCK3D` / `.L0CK3D` 文件及勒索信。
-- **收敛暴露面**：检查 DSM 管理端口、SSH、WebDAV、GitLab 等容器服务是否直接暴露公网，非必要立即关闭。
-- **更新但不迷信更新**：确认 DSM 套件与容器镜像已更新，同时排查各服务自身漏洞。
-- **备份要离线**：本机长期可写备份可能被一并加密，应保留离线或异地不可写副本。
-- **已中招处置**：立即断网隔离，保留系统日志、套件日志和勒索信；不要随意删文件、重建存储池，也不要轻信“包解密”服务。
+
+- **影响面**：加密后无法直接审阅插件源码，只能通过抓包分析流量；作者类比“拆掉路边摄像头”，依赖作者良心。
+- **迁移选项**：评论中有人换回 Quantumult X、Surge、Shadowrocket；主帖作者最终迁移完成，去广告改用其他项目，除高德地图外效果满意。
+- **替代来源**：有回复提到墨鱼规则站 `https://ddgksf2013.top` 可一键添加 Loon 相关规则。
+- **自维护**：多位用户表示固定 App 版本、自己写规则，以规避规则频繁变更和链接失效。
 
 ### 评论补充
-有用户报告感染入口疑似为 `6690` 端口的群晖 Drive 服务，攻击者取得 root 权限后改写系统目录，导致无法启动；其依靠每周备份恢复，并建议今后只通过 VPN 访问、不开放端口。发帖者断网排查后初步怀疑 WebDAV、GitLab 等暴露服务。另有评论指出 Reddit 的 synology 版块也有多起中招反馈，反驳“国外无案例”的说法；并给出群晖安全公告链接 https://www.synology.cn/zh-cn/security/advisory/Synology_SA_24_20 。仅内网运行、无公网入口的设备风险相对较低，但具体漏洞与传播路径仍待核实。
+
+- 有用户指出可莉插件存在 bug（Apple Watch 天气不显示、App 闪退），但被解释为未在手表安装 MITM 证书，并非插件本身问题。
+- 关于性能，有回复称 Surge 在常见代理 App 中性能最差，并附截图链接，与“Loon 性能差”的说法形成分歧。
+- 有用户称作者常在群内挂人、规则三天两头变更、公告群广告多，认为走向闭源是必然；也有人认为索引插件者违约且嘲讽交涉，加密属无奈之举。
+
+**限制**：以上均为用户主观陈述，加密范围、生效时间和实际影响尚无官方说明，需自行核验。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252821" target="_blank" rel="noopener noreferrer">群晖 NAS 活跃勒索病毒 LOCK3D，请立即自查（最新 DSM 也有中招）</a></span><span class="topic-stats">回复 19 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253305" target="_blank" rel="noopener noreferrer">Loon 用可莉插件的注意一下，后续插件内容会被加密</a></span><span class="topic-stats">回复 24 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252859" markdown="1">
+<details class="topic-card" data-topic-id="1253234" markdown="1">
 <summary>
 <span class="topic-rank">16</span>
-<span class="topic-title">开源中文手册：单张4090跑通QLoRA微调与vLLM部署</span>
+<span class="topic-title">纯 Rust 浏览器便携化工具 Browser Harbor v0.6.8 开源</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -502,32 +514,30 @@ AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者把自己从零学习 LoRA 微调的过程整理成开源中文手册，面向没有机器学习背景的开发者（后端、前端、客户端、数据开发均可），目标是让读者亲手跑完整条链路，并理解显存花在哪、文件存在哪、每一步是否成功。
+作者用 Rust + egui 开发了开源桌面工具 Browser Harbor（浏览器港湾），用于下载、SHA-256 校验、解压归整、注入便携补丁（Chrome++ / Libportable）并平滑升级浏览器。最新稳定版为 v0.6.8，采用 MIT OR Apache-2.0 双许可证，代码与发行版见 [GitHub](https://github.com/MagicCube99/browser-harbor) 及 Gitee 镜像。
 
 ### 关键要点
-- **完整链路**：QLoRA 微调 → 保存与重载 → BF16 合并 → vLLM 部署为 OpenAI 兼容 API → 本地调用与压测。
-- **硬件与模型**：单张 RTX 4090（24 GB），基座模型 Qwen3-4B-Instruct-2507，练习任务是用中文回答小学生的科学问题，便于对比微调前后差异。
-- **配套内容**：9 章正文 + 5 个附录，支持中/英/日/韩切换；可直接运行的 Notebook 展示 `LoraConfig`、`SFTTrainer`、`trainer.train()`，1 个 epoch 约 72 步；数据集为 60 张事实卡加 500/50/50 段训练、验证、测试对话，按主题隔离。
-- **工程细节**：覆盖合并导出、vLLM 服务、挂载 adapter、OpenAI SDK 流式调用和 `vllm bench serve` 压测；教程命令与附录代码和真实代码逐字比对，降低“文档能看、代码跑不通”的风险。
-- **作者自述限制**：数据集是合成草稿，事实与适读性需逐条核对；不保证微调一定优于写好提示词的基线，这本身也是书中建议读者自行验证的问题。
+- **轻量与克制**：约 7.4 MB 单可执行文件，无 WebView2 依赖，默认免管理员权限；不驻留后台、不改默认浏览器注册表、不读浏览历史。
+- **便携逻辑**：运行时配置使用同盘相对路径（如 `%app%\..\Profiles`），换机或改目录无需重设；工具配置默认在 `%LOCALAPPDATA%`，可切换为 EXE 旁的便携模式。
+- **升级安全**：升级时隔离程序与数据，原子替换二进制并支持失败回滚，保留 Profiles、书签、Cookie 与登录状态。
+- **覆盖范围**：14 款浏览器，Chromium 系 8 款（Chrome、Edge、Brave、Thorium 等，集成 Chrome++ 1.18.x），Firefox 系 6 款（Firefox、Floorp、LibreWolf、Zen 等，注入 Libportable 9.0）。
+- **供应链**：仅从官方 Omaha、Edge 企业 API、Mozilla 官方或经校验的 GitHub Release 获取，Ed25519 签名清单每日校验 SHA-256，内置镜像，也支持本地离线包校验安装。
 
 ### 评论补充
-评论均为正面反馈，有人表示已 star 并准备学习，未出现技术性质疑或补充。
-
-项目地址：https://github.com/qshine/llm-lora-tutorial ，在线阅读：https://qshine.github.io/llm-lora-tutorial/ ，MIT 协议。
+有回复指出 Chromium 难以便携化主要源于 Cookie 加密，并给出 MinHook + setdll 拦截 DPAPI 的最小实现思路；作者回应称该方案轻巧，但本工具意在覆盖下载、校验、原子更新与多浏览器系兼容的全生命周期管理。另有评论询问是否支持双击关闭标签，未获答复。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252859" target="_blank" rel="noopener noreferrer">写了本开源中文手册：一张 4090 从零走通 QLoRA 微调 + vLLM 部署，给不做算法的开发者</a></span><span class="topic-stats">回复 5 · 收藏 9</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253234" target="_blank" rel="noopener noreferrer">搓了个纯 Rust 的 Windows 浏览器便携化工具</a></span><span class="topic-stats">回复 3 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252740" markdown="1">
+<details class="topic-card" data-topic-id="1253171" markdown="1">
 <summary>
 <span class="topic-rank">17</span>
-<span class="topic-title">自费订阅AI除了写代码还能做什么：V2EX用户实践汇总</span>
+<span class="topic-title">公司仅研发部门停工停产要求待岗，是否合法及应对</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -535,30 +545,33 @@ AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主帖问的是：非程序员和程序员自费订阅 AI 后，除了工作写代码还用来做什么。评论给出的答案集中在“把 AI 当执行代理，处理有接口、有权限、可自动化的杂事”，而非单纯聊天。
+
+公司以“研发岗位无持续任务、研发部门停工停产”为由，依据《深圳市员工工资支付条例》第二十八条要求作者待岗：首月正常发薪，次月起只发生活费 2160 元并缴社保，且邮件明确无需到岗、无需考勤。作者补充：研发只剩自己一人、其他部门正常上班、公司有研发项目在外包但无证据。
 
 ### 关键要点
-- **个人项目翻新**：有用户用 AI 重写博客生成器、面试八股网站，并开发上架 iOS App，自己就是核心用户。
-- **自动化信息处理**：用 Codex 或 Claude Code 跑定时任务收集信息、生成报告；用 DeepSeek 批量填写多语言表单，成本约一元。
-- **生活与硬件控制**：接入 Home Assistant 和摄像头，每 10 分钟检查楼下车位，有空位就通知；还能让 AI 写自动化清理脚本并推送到微信。
-- **兴趣与副业**：分析小说与历史地图、给游戏写插件、写表盘、控制达芬奇剪视频、分析运动数据、自动打 Kaggle。
-- **成本参考**：有用户称同时订阅 100 美元的 Codex 和 100 美元的 Claude，每月 AI 支出约一两千元，认为 iOS 开发者年费 99 美元不算多。
+
+- **法定前提存疑**：多位回复指出，停工停产通常要求公司整体性停工停产，而非单个部门；若各部门为独立子公司，才可能单独备案。
+- **备案与咨询**：有回复建议确认公司是否向人社局申请停工停产备案，并直接致电当地劳动监察大队咨询，成本低、结论明确。
+- **“无需考勤”是陷阱**：有回复提醒该邮件可能被用作旷工或自愿接受待岗的依据，应书面提出异议、保留证据。
+- **赔偿基数风险**：若长期按 2160 元发放，后续裁员的经济补偿基数可能被拉低，高薪老员工的赔偿差距巨大。
+- **路径分歧**：一派主张尽快跳槽；另一派主张留下取证、等实际少发工资后申请仲裁，并举报社保、公积金基数问题。
 
 ### 评论补充
-共识是：LLM 单独分析数据不够，需要配合工具和权限才能落地；Agent 的价值在于“有接口就能操作，没接口给权限也能自己造轮子”。分歧主要在模型选择：有人觉得 Opus 贵舍不得用，DeepSeek 便宜听话；也有人提到 Sol 权限报错不干活。
+
+有回复称类似操作在现实中常见，即便胜诉也可能面临公司账户无资产、执行困难；作者表示将先书面提出异议，待实际按 2000 元发放后再仲裁。是否合法最终仍需以当地监察或仲裁认定为准。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252740" target="_blank" rel="noopener noreferrer">你们自费订阅 AI 都，除了工作写代码都用来干啥了？</a></span><span class="topic-stats">回复 30 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253171" target="_blank" rel="noopener noreferrer">请教 v 友，公司这种“待岗”是否合法</a></span><span class="topic-stats">回复 21 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252762" markdown="1">
+<details class="topic-card" data-topic-id="1253112" markdown="1">
 <summary>
 <span class="topic-rank">18</span>
-<span class="topic-title">MacBook Pro 512GB 不够用：SD 卡槽长期扩容可行吗</span>
+<span class="topic-title">群晖 NAS 安全：禁用 admin 账户并关闭公网暴露</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -566,32 +579,29 @@ AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖作者使用 2022 款 MacBook Pro M1 Pro（32GB+512GB），因 AI 开发工具产生大量缓存、日志和临时文件导致硬盘爆满，询问能否用右侧 SD 卡槽插短款卡长期扩容，优先看重稳定性而非速度。
+楼主 2018 年配置群晖时按教程停用了 `admin` 账户，并另建了一个有管理权限的账户。近期群晖被攻击的案例增多，他检查日志后发现大量尝试登录 `admin` 的记录；由于该账户已禁用，系统返回“帐户 [admin] 已受到保护”。他的建议是：禁用 `admin` 账户。
 
 ### 关键要点
-
-- **SD 卡不适合长期高频读写**：多位回复指出 SD/TF 卡持续读写会发热、影响寿命，存在“磁盘意外退出”风险，更适合临时中转文件，不宜承载程序缓存。
-- **工业级 TF 卡可缓解但成本高**：有回复提到工业级 TF 卡约 1 元/GB，可改善频繁读写掉卡问题；BaseQi 转接卡性价比低，仅在刚需时考虑。
-- **主流替代方案是外接 SSD**：推荐 10Gbps 移动固态硬盘（PSSD），部分应用甚至大型游戏可直接放在外置盘；也可用磁吸硬盘盒贴在屏幕背面。
-- **其他路径**：先用手动清理工具分析空间；项目完成后归档到移动盘；或直接找维修店换存储芯片扩容。
+- **禁用 admin 只是基础**：评论普遍认为，仅靠禁用账户、开启 2FA、修改端口、限制登录失败次数，无法抵御漏洞利用。
+- **关闭公网暴露最有效**：多位用户建议关闭所有外网端口映射，改用 Tailscale 等组网方式远程访问；也有用户提到应关闭 QuickConnect。
+- **漏洞风险高于密码爆破**：有回复引用 CVE-2024-10441（CVSS 9.8，synoplugind 预认证 RCE），称攻击者可在密码验证前通过用户名注入以 root 权限加载恶意代码，从入侵到植入勒索软件可能只需约 2 分钟。
+- **黑群晖同样受影响**：有用户称在 7.2.1 上已做全套加固仍中招，并提到 7.4.1 也有案例。
 
 ### 评论补充
-
-有用户分享将 256GB 换芯片扩到 2TB、花费约 2000 元且立等可取，但后续系统升级会报错，疑与芯片信息校验有关。也有回复提醒外接 SSD 降温风扇可能带来噪音。整体共识是：SD 卡槽可应急，长期扩容更推荐外接 SSD 或直接扩容。
+有用户表示，自己用域名加 IPv6 直连多年，现已关闭外网端口并改用 Tailscale。整体共识是：不把服务暴露在公网，比任何账户层面的加固都更关键；禁用 `admin`、开启 2FA 和自动封锁可作为纵深防御，但不能替代隔离。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252762" target="_blank" rel="noopener noreferrer">MacBook Pro 512GB 实在不够用了， SD 卡槽能不能拿来长期扩容？</a></span><span class="topic-stats">回复 29 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253112" target="_blank" rel="noopener noreferrer">群晖的 admin 账户别忘了禁用</a></span><span class="topic-stats">回复 6 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252959" markdown="1">
+<details class="topic-card" data-topic-id="1253025" markdown="1">
 <summary>
 <span class="topic-rank">19</span>
-<span class="topic-title">红果开源播放器：跨平台短剧桌面客户端与Emby接入思路</span>
+<span class="topic-title">B站MOD教程被卖挂商家举报下架后的处理思路</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -599,32 +609,30 @@ AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者发布开源项目「红果开源播放器」（GitHub：https://github.com/zfdang/hongguo-open-player），定位为 macOS 与 Windows 原生短剧桌面客户端，用本地流媒体代理加轻量客户端替代安卓模拟器，降低性能开销。
+作者在 B 站发布《绝地潜兵 2》MOD 教程，该 MOD 用于辅助获取游戏内蓝币，不读取本地进程内存、不发起网络请求。视频遭卖挂商家先冒充官方、后污蔑 MOD 含木马，最终被锁定下架；B 站上同类 MOD 视频也一并消失，搜索只剩商家卖挂视频。作者的核心疑问是：MOD 是否算外挂、如何继续纯分享、是否涉及盗版。
 
 ### 关键要点
-- **免模拟器直连**：开箱即用，原生起播，无需安装安卓模拟器。
-- **本地实时解密**：内置 MP4 CENC 流式解密与并发分片加速，支持 HTTP Range 分段缓冲和秒级拖拽寻道。
-- **播放体验**：9:16 竖屏与 16:9 横屏自适应；全屏空闲自动隐藏控件与鼠标；空格/K 暂停、方向键切集与快进快退、F 或双击全屏。
-- **附加功能**：剧星榜按性别筛选演员、演员主页与一键开播；本地记录观看进度、集数与秒数，支持收藏续播。
-- **平台**：macOS 支持 Apple Silicon 与 Intel x64（DMG/ZIP）；Windows 10/11 x64 提供安装版、单文件便携版与绿色版。
+- **对方动机**：评论认为商家是担心免费方案分流客源，软硬兼施施压，多为转手贩子，未必有持续报复能力。
+- **反制手段**：作者已举报对方视频，对方视频同样被下架；可继续走平台举报渠道。
+- **换平台分发**：评论建议发 Nexus Mods、小黑盒等平台，单一平台举报难以覆盖；但原作者未在 Nexus 发布，且其在 ayakamods 的发布已被下架。
+- **借社区扩散**：用“卖挂商家举报免费 MOD 分享”为切入点制作视频，打对标签，联系圈内较大 UP 主转发，利用玩家对卖挂的反感。
+- **联系官方**：若确无收益，可先向游戏官方反映利用机制牟利问题并留存沟通证据；官方不管则保留证据。
 
 ### 评论补充
-有用户称将项目改为代理容器，一边解密一边把数据交给 Emby，并在 Emby 侧存 strm 实现播放；作者确认项目本身是 web server，其他平台可直接使用，并邀请对方提交 PR 增加平台支持。该用户以版权风险为由拒绝参与，只给出思路。
-
-＞ 注意：项目涉及短剧内容解密与分发，存在版权合规风险，使用前需自行评估。
+回复未就“MOD 是否算外挂”给出定论，也未验证木马指控；作者自述用 AI 分析未发现木马，属单方说法。发布时补充封号风险提示，是作者已意识到的缺失。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252959" target="_blank" rel="noopener noreferrer">🎬 红果开源播放器 (Hongguo Open Player)</a></span><span class="topic-stats">回复 8 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253025" target="_blank" rel="noopener noreferrer">B 站发的视频被 卖挂商家 举报下架, 应如何处理?</a></span><span class="topic-stats">回复 7 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1252858" markdown="1">
+<details class="topic-card" data-topic-id="1253012" markdown="1">
 <summary>
 <span class="topic-rank">20</span>
-<span class="topic-title">开源 wifi2socks：Windows 免刷机临时软路由网关</span>
+<span class="topic-title">OpenAI 将 Pro 100/200/500 与 Business Premium 额度翻倍</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -632,179 +640,22 @@ AirPods 2 左耳续航只剩约 10 分钟，主帖在“换电池”和“补一
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者开源了 Windows 下的临时“软路由”网关 wifi2socks（GPL-3.0），定位是应急或折腾，而非 7x24 常驻主力网关。它基于 WinPkFilter 驱动在二层拦截流量，自动开热点，让 Switch、PS5、电视盒子等设备连上即走代理，客户端无需装证书或改 PAC。
+OpenAI 员工 Tibo（@thsottiaux）在 X 上宣布：即日起，所有 Pro 100/200/500 档位及 Business Premium 的使用额度翻倍；此前计划下调的 Pro 200 额度不再下调，Work 与 Codex 用量维持原状。dots 的扩展额度暂时继续提供，且 dot 用量仍与默认额度分开计算。官方称后续还会通过更好的模型和效率优化，持续提升实际可用量。
 
 ### 关键要点
-- **免配置接入**：管理员运行 `wifi2socks.exe`，设备连默认热点 `wifi2socks_ap`（密码 `password123`），流量转发到本机 HTTP 代理端口（如 Clash/V2Ray 的 2080）。
-- **规则分流**：加载 `geoip.dat` 与 `geosite.dat`，配合 TLS ClientHello 嗅探 SNI，区分直连、代理与广告阻断。
-- **自建基础网络**：手写轻量 DHCP 与热点托管，不依赖常抽风的 Windows ICS。
-- **QUIC 优化**：对海外 QUIC 包回送 ICMP 端口不可达，促使客户端快速 fallback 到 TCP。
-- 源码与 Release 见 GitHub：https://github.com/liliBestCoder/wifi2socks ，仓库另附 33 篇底层网络笔记。
+- **Pro 500 相当于 50x Day**，这是主帖给出的换算。
+- 用户实测额度比例出现跳变：有人从 33% 变 66%，有人从 17% 变 57%，也有人称 1% 突然变 50%。
+- 有回复提到，此前 X 上曾发起“额度×2”与“取消 5 小时限制”二选一的投票，多数人选了取消 5 小时限制。
+- 有用户认为，这次翻倍未必是算力充足，也可能是退订增多、影响预期收益后的应对。
 
 ### 评论补充
-有回复质疑 mihomo/sing-box 已能拦截热点连接，作者解释：这类工具工作在 IP 层，只能处理本机出站流量，无法处理从本机 forward 的其他主机流量。作者还复盘了踩坑路径：WinDivert 改不了 forward 流量，ICS 共享不稳定且跑不满带宽，自造 TCP/UDP 需维护 seq 和窗口，最终改为 WinPkFilter 二层劫持到本机端口再转发。
+有回复指出，Tibo 前一天还表示 Chat 与 Work 能力将在今年内整合，但会谨慎推进；该用户据此推测，OpenAI 可能先给 Pro 翻倍，再收紧 Chat 高级模型或让 Chat 消耗订阅额度，以堵住用 MCP 把 Chat 当本地模型免费使用的做法。此说法仅为推测，未获证实。另有用户提醒，5 小时限制未来仍可能以其他理由回归。
+
+＞ 结论：对 Pro 及 Business Premium 订阅者，这是即时可感知的额度利好；但政策变动频繁，不宜据此做长期用量规划。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252858" target="_blank" rel="noopener noreferrer">[开源] 写了个玩具项目 wifi2socks： Windows 下免刷机的临时“软路由”网关</a></span><span class="topic-stats">回复 4 · 收藏 6</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1252988" markdown="1">
-<summary>
-<span class="topic-rank">21</span>
-<span class="topic-title">Kindle Paperwhite 3 越狱装微信读书插件实测</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者把 2016 年购入、已闲置的 Kindle Paperwhite 3 越狱，装上运行在 KOReader 上的非官方微信读书插件「觅阅（MiuRead）」，让这台老设备重新成为主力阅读器。越狱借助 AI 发送指令、简单操作完成，全程不到 10 分钟。
-
-### 关键要点
-- **插件能力**：扫码登录后可把书下载到本机离线阅读，支持阅读进度同步、显示划线与想法；主页显示最近在读、阅读进度及本周微信读书时长和本地阅读时长。
-- **解决痛点**：此前用 Kindle 网页版微信读书，卡顿、需常开热点且易断线；离线下载后不再依赖热点。
-- **锁屏插件「墨痕」**：待机页可显示近一周读书书目、时长与每日阅读时间曲线，优于微信读书阅读器固定待机页。
-- **显示对比**：作者认为 Kindle 屏幕比微信读书墨水屏更细腻，暗光下灯光更柔和，其他品牌墨水屏也未找到同等观感。
-- **已知不足**：micro-USB 接口需另购线（作者花 29 元）；操作有轻微卡顿；KOReader 设置项路径深；图书下载较慢（《丰乳肥臀》约 5 分钟）；待机一晚耗电约 5%。
-
-### 评论补充
-有读者担心非官方插件是否会被微信读书封号，作者回应该方案已存在较久；另有建议注册美区亚马逊账号保留原生同步与推送功能，或用 calibre 直接传书。
-
-原文附详细越狱攻略链接：https://mp.weixin.qq.com/s/FSqtgfr5L3zuYp4RAKO8IQ
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252988" target="_blank" rel="noopener noreferrer">十年前的 Kindle，用 AI 装上微信读书后，又成了主力</a></span><span class="topic-stats">回复 5 · 收藏 5</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1252696" markdown="1">
-<summary>
-<span class="topic-rank">22</span>
-<span class="topic-title">OLED MacBook Pro 发布：贵3000元、减重、触控与灵动岛</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-新款 OLED MacBook Pro 已发布，官方命名为 MacBook Pro (PROLED XDR 显示屏)，而非此前传闻的 Ultra。最低配 24G+1T、M5 Pro 15C+16G 核售价 ¥22999，比 LCD 版贵 3000 元（LCD 版 ¥19999）。
-
-### 关键要点
-- **屏幕**：与 iPad 相同的双层串联 OLED，持续全屏 1000 尼特、峰值 2000 尼特，支持多点触控并引入灵动岛。
-- **重量**：14 寸 M5 Pro 1.38 kg（原 1.60 kg），16 寸 1.82 kg（原 2.14 kg）。
-- **其他改动**：背面 LOGO 重新可亮、散热架构与扬声器重新设计（低音下潜增强 50%）、前摄加入防抖以抵消点按屏幕的抖动。
-
-### 评论补充
-多数回复认可减重、散热和屏幕是主要价值点，但认为 3000 元溢价是否值得因人而异。有用户指出芯片仍停留在 M5 一代，并称 M6 可能只出基础版；也有人建议等 M7 Pro/Max。关于屏幕技术存在分歧：一方认为 OLED 是过渡、Micro-LED 才是方向，另一方认为 Micro-LED 小型化困难、OLED 已覆盖全尺寸。另有用户担心 PWM 调光伤眼、触控导致屏幕指纹，以及刚购机用户被“背刺”。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252696" target="_blank" rel="noopener noreferrer">OLED MacBook Pro 发布，多点触控，灵动岛，背灯回归，重量变轻，全屏亮 1000 nits</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1252761" markdown="1">
-<summary>
-<span class="topic-rank">23</span>
-<span class="topic-title">用 Codex 做的 ohmyzsh 主题在线预览静态网页</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者长期使用 ohmyzsh 默认主题，想换主题时发现官方 wiki 只有截图、没有在线预览，社区里也只有 generator 而没有 preview，于是让 Codex 做了一个静态预览站，并开源在 GitHub。
-
-### 关键要点
-- 预览地址：https://guangyya.github.io/promptlab/
-- 默认收录官方部分主题及若干 MIT 协议的社区主题
-- 项目本身采用 MIT 协议，可自由使用
-- 纯静态部署，无需后端即可浏览主题效果
-
-### 评论补充
-有用户建议增加投票功能，方便了解网友最喜欢的主题；作者回应纯静态部署下数据存储不便，需要再想办法。另有用户提到自己常用 `spaceship` 主题。关于投票后端，评论中先后提到 Artalk、Valine 与 LeanCloud，但随后更正：LeanCloud 免费存储已停止新用户注册，仅服务老用户，因此免费方案选择有限。
-
-整体看，这是一个解决“选主题只能看截图”痛点的小工具，适合想快速对比 ohmyzsh 主题外观的读者直接访问使用。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252761" target="_blank" rel="noopener noreferrer">做了一个在线预览 ohmyzsh 主题的静态网页</a></span><span class="topic-stats">回复 8 · 收藏 4</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1252968" markdown="1">
-<summary>
-<span class="topic-rank">24</span>
-<span class="topic-title">Claude 账号两次被封的经过与 IP 稳定性避坑总结</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者记录了自己两个 Claude 账号被封的经过，并给出避坑建议。两个阶段中，支付方式（Bybit Card）、节点（阿里云新加坡自建）和设备（Mac mini + iPhone）都没有更换，时区和语言也保持正常。
-
-第一阶段：作者让 Claude 修改过期证件上的日期，Claude 拒绝；约 1 小时后账号被封，Pro 订阅费全额退回，1～2 天后出现 Delete account 入口。
-
-第二阶段：作者用同一 gmail 重新注册，订阅 Pro 约两周正常，升级 5x 后额度基本用满；首次升 20x 被手机号验证拦下，之后直接订阅成功。20x 第三周第二天（10 月 29 日上午）被封。作者怀疑直接原因是节点掉线后自动切到德国节点，随后又切回新加坡；期间还多次弹出 `not allowed in your region`。
-
-### 关键要点
-- **IP 要固定在同一地区**，避免掉线后自动回落到其他节点。
-- 出现 `not allowed in your region` 提示不要忽视，作者认为这类事件会累积扣分。
-- 不要让 Claude 执行改证件日期等敏感操作。
-- 作者建议 IP 漂移后停用一天再继续。
-
-### 评论补充
-有回复建议节点设置“掉线自动断网”，并用软路由全局代理而非本机代理或 TUN 模式，认为固定 IP 能稳住大部分风险；也有人只在电脑使用、不给位置权限、用量不大。关于删号后能否用同一邮箱重注册，反馈不一：有人成功，有人一直提示登录出错。另有回复认为额度不宜长期用满，但无进一步依据。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252968" target="_blank" rel="noopener noreferrer">我的 Claude 号是怎么没的：来龙去脉和踩坑总结</a></span><span class="topic-stats">回复 13 · 收藏 2</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1252783" markdown="1">
-<summary>
-<span class="topic-rank">25</span>
-<span class="topic-title">ChatGPT Plus 订阅支付失败：改用 Google Play 支付可解决</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-用户用 Google Pay 绑定招行信用卡订阅 ChatGPT Plus 时提示“Payment was not approved”，但同一张卡绑定 Google Cloud 做付费测试却成功。最终该用户通过 Google Play 支付成功订阅。
-
-### 关键要点
-- **Google Pay 与 Google Play 支付机制不同**：有回复指出，Google Pay 场景下支付厂商能看到完整卡 BIN 信息，并存在黑名单控制，部分区域的卡片会被拒绝。
-- **走 Google Play 可绕过卡信息暴露**：评论称 OpenAI 不面向大陆提供支持，大陆发卡可能无法通过；而在 Google Play 内订阅时，OpenAI 看不到支付信息，因此更容易成功。
-- **手机 App 内订阅是可行路径**：有用户表示在 ChatGPT 手机 App 点订阅、唤起 Google Pay 后正常完成订阅。
-- **虚拟卡直连官网也有人成功**：另有用户称用虚拟卡在官网直接订阅无问题，说明失败原因可能与卡种、区域和支付通道有关，并非单一结论。
-
-### 评论补充
-有用户遇到 Play 余额提示“只能在美国使用”，即使 IP 和商店均为美区；回复认为这是地理位置与 IP 多因素判断，账号不在美国则余额不可用。该问题与主帖的信用卡订阅失败不同，但同属支付区域限制。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1252783" target="_blank" rel="noopener noreferrer">ChatGPT 支付问题求助</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253012" target="_blank" rel="noopener noreferrer">Pro 200 额度不降了， Pro 100/500 额度翻倍</a></span><span class="topic-stats">回复 13 · 收藏 0</span></p>
 
 </div>
 
