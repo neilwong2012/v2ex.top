@@ -1,0 +1,369 @@
+---
+layout: report-post
+title: "V2EX 每日热点回顾 · 2026-10-31"
+date: 2026-10-31 08:30:00 +0800
+categories: [v2ex, daily-report]
+status: success
+target_date: 2026-10-31
+generated_at: "2026-11-01 08:58:09"
+summary: "昨日主题 141 个，过滤 58 个，DeepSeek 分析 83 个，保留高价值内容 11 个。"
+count_all: 141
+count_excluded: 58
+count_included: 83
+count_high_signal: 0
+count_valuable: 11
+report_url: "/2026/10/31/"
+data_url: "/data/2026-10-31.json"
+---
+
+# V2EX 2026-10-31 昨日新帖报告
+
+<details class="topic-card" data-topic-id="1253343" markdown="1">
+<summary>
+<span class="topic-rank">1</span>
+<span class="topic-title">AI 时代建独立站：首发、可引用结构与 RSS 实践</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者回应“AI 时代建独立站是 49 年入国军”的质疑：若把独立站当流量生意，靠 SEO、广告联盟和批量更新，在 AI 把内容供给打到无限后确实没有胜算；但他押注的是另一件事——一手经历、真实项目、可验证署名会变得更稀缺。
+
+### 关键要点
+- **入口在变，不是读者消失**：直接访问陌生站点的概率降低，但通过 AI 搜索、GitHub、开发者社区、RSS 找到你的路径可能变多。
+- **区分三个概念**：被 AI 读到 ≠ 被 AI 引用 ≠ 被 AI 导流；`llms.txt` 不是标准，只当导览，不当战略。
+- **可引用结构**：长文补结论卡、事实表、FAQ、版本记录；工具页写清一句话定义、功能、边界、许可证、对比与路线图。
+- **首发站策略**：文章先发独立站，再同步平台且不删减；能设 canonical 就指向站内原文，不能设就在文末注明首发地址。
+- **保留 RSS**：不经过算法，更新即达，是少数真正属于作者的连接方式。
+- **dogfood**：站点用作者自研的 QuireKit 组件库与 MD Editor 搭建，源码以 MIT 开源（https://github.com/kingshuaishuai/yishuai.wang）。
+
+### 评论补充
+有回复认为独立站应只做唯一渠道、不再多平台分发，才够专注；也有人指出获取正反馈对长期坚持很重要，建议做推广和友链。另有评论质疑正文行文“太 AI”，作者回应为本人撰写、打磨约两天半。多数回复在晒自己的博客，佐证“玩个人站的人不少，多数是自己看”。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253343" target="_blank" rel="noopener noreferrer">AI 时代少有人类阅读，我开始建自己的独立站，但真的是 49 年入国军吗</a></span><span class="topic-stats">回复 77 · 收藏 9</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253421" markdown="1">
+<summary>
+<span class="topic-rank">2</span>
+<span class="topic-title">Obsidian 多端同步方案汇总：iCloud、Git、Syncthing 与自建 S3</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖询问在新增 Mac mini 后，Obsidian 多端同步该走什么路线。评论给出了多种实际在用的方案，覆盖商业网盘、代码托管、点对点同步和对象存储，可作为选型参考。
+
+### 关键要点
+
+- **iCloud**：多位用户把 vault 直接建在 iCloud 文件夹下，手机可自动同步，有人表示长期未出问题。
+- **Git / GitHub**：用 Git 或市场里的 GitHub 同步插件，适合熟悉版本控制的用户。
+- **Syncthing**：被提到可全平台使用，有用户从 Self-hosted LiveSync 换到 Syncthing，原因是后者多端偶尔同步异常。
+- **对象存储**：阿里云、腾讯云对象存储，纯笔记场景成本很低，有人称 10 元可用好几年；也有自建 S3 同步的做法。
+- **其他**：坚果云、百度网盘同步空间、官方云同步（基础版仅一个 Vault）均有人使用。
+
+### 评论补充
+
+官方同步并非没有坑：有用户遇到 A 端删除后 B 端未删、内容被恢复的情况。另有 fast-note-sync-service 作者停更数月的提醒。部分评论转向讨论 AI memory 和改用 Typora，与同步主题关系较弱。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253421" target="_blank" rel="noopener noreferrer">大家用 obsidian 么，用什么路线同步的。</a></span><span class="topic-stats">回复 30 · 收藏 11</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253420" markdown="1">
+<summary>
+<span class="topic-rank">3</span>
+<span class="topic-title">四款 iOS 代理软件耗电与稳定性实测：Qx、Shadowrocket、Stash、Clash Mi</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者在自建单节点（ss2022）、DNS 与分流规则一致、24 小时开启且基本不打开程序页面的条件下，对四款 iOS 代理软件做了数月耗电与稳定性对比，并给出一个反直觉结论：内存占用更高的 Clash Mi（Mihomo 内核约 21MB）反而比 Stash（约 12MB）更省电，作者归因于开源内核的持续优化。
+
+### 关键要点
+- **Qx**：日常耗电 1%-3%，稳定，但支持的协议少；7 月起 iPhone 不支持国外 App 推送，软件内又无代理 APNs 开关，收不到 Telegram 等推送，作者视为致命缺陷。
+- **Shadowrocket**：耗电 3%-5%，协议支持多、更新快；但玩王者荣耀约每 10 分钟出现周期性 460ms 延迟，且两个月内出现两次夜间异常耗电（20%、40%）。
+- **Stash**：耗电 3%-7%，支持 Clash 配置，稳定、协议丰富，主要缺点是耗电略高。
+- **Clash Mi**：耗电 1%-3%，稳定、协议多，仅有 VPN 功能；但默认开启备用下载通道并拉取官方规则覆写，GitHub issues 有人抓包讨论其上传数据，官方未正面回应，订阅链接与隐私安全存疑。
+
+### 评论补充
+有用户推荐 Loon，称其社区活跃、插件多，但另一用户指出 Loon 是耗电大户；也有人建议试 sing-box、Clash Lite（原生 Mihomo 内核、无强制覆写但不开源）以及名为 Clash 的新套壳。针对 Qx 推送问题，有回复称换第三方客户端 Nicegram 可解，作者表示不愿换客户端且 X 同样收不到推送。作者强调以上仅为个人体验，机场节点、协议与分流规则不同，结果会有差异。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253420" target="_blank" rel="noopener noreferrer">给大家分享一下四款 ios 梯子软件的使用体验，我主要看哪个更省电</a></span><span class="topic-stats">回复 22 · 收藏 6</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253336" markdown="1">
+<summary>
+<span class="topic-rank">4</span>
+<span class="topic-title">Apple 智能中国版 11 月 4 日测试：接入千问、支持机型公布</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Apple 宣布首批 Apple 智能功能将在中国推出：11 月 4 日起随 iOS 开发者 Beta 版开放测试，12 月随 iOS 27.3 正式面向中国用户发布。首批功能包括实时翻译、写作工具、视觉智能、照片消除、智绘表情、照片自然语言搜索与回忆影片、邮件优先/摘要/智能回复、通知摘要与首要通知、减少干扰、备忘录音频转录摘要、通话转录摘要，以及支持文字输入、上下文连贯的 Siri。
+
+Apple 与阿里巴巴合作，在 Siri、写作工具和视觉智能中接入千问，支持文本与图像理解；用户可登录千问账户或通过 Apple 登录使用，并可在写作工具中让千问从零创作内容。
+
+### 关键要点
+- **支持设备**：iPhone 16 及后续机型、iPhone Duo、iPhone 15 Pro/Pro Max、iPhone Air；Siri 与设备语言需设为英文或简体中文。
+- **不含内容**：本次更新不包含 Siri AI 及 WWDC 2026 宣布的其他下一代功能；其他平台需获审批后推出。
+- 官方说明链接：https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/
+
+### 评论补充
+评论普遍认为功能偏保守：有人指出这不是新版 Siri，实用性有限，认为通知摘要与减少干扰最有用；也有人质疑模型由 Apple 自部署还是调用阿里接口，以及是否要求中区 Apple ID。另有观点称三星同类功能已在中国上线两年，Apple 节奏偏慢。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253336" target="_blank" rel="noopener noreferrer">Apple 智能即将登陆中国</a></span><span class="topic-stats">回复 23 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253370" markdown="1">
+<summary>
+<span class="topic-rank">5</span>
+<span class="topic-title">LockSticky 被国区 App Store 下架，开发者申请免备案与服务器选择</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+开发者 zitup 的 App「LockSticky」在更新后从中国大陆 App Store 搜索不到，后台显示已被下架。作者已在 App Connect 提交免备案申请，同时准备购买服务器作为备选方案，并向社区询问低价服务器推荐。
+
+### 关键要点
+
+- **触发场景**：多位开发者反馈，App 在提交更新后中国区被下架，并非首次上架时触发。
+- **免备案路径**：有开发者称，保证 App 无联网功能后申请免备案，几天即通过；联网 App 则可能不适用。
+- **申请入口**：Apple Developer 中文页面的「联系我们」→「有新的问题」→「分发」→「有关分发的其它疑问」，填写申请信息。
+- **服务器选择**：评论建议阿里云，称可年年同价续费；有用户提醒腾讯云不能同价续费。
+- **成本争议**：部分开发者认为，纯本地 App 也被要求购买服务器备案，属于额外负担。
+
+### 评论补充
+
+有回复指出，国区上架是否需要备案存在个案差异，YouTube、X 等未备案应用仍在架，具体执行标准待核验。另有开发者提到使用 RevenueCat 等第三方服务时，免备案能否通过尚不确定。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253370" target="_blank" rel="noopener noreferrer">LockSticky 喜提大陆 App Store 下架</a></span><span class="topic-stats">回复 25 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253430" markdown="1">
+<summary>
+<span class="topic-rank">6</span>
+<span class="topic-title">API 中转站 wkele.kukuai.fyi 被指隐藏 10 倍扣费倍率</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+有用户在使用 API 中转站 `wkele.kukuai.fyi` 时发现，前端标价与实际扣费严重不符：一次请求按标价精算约 ¥0.007，即使全部按全价计算也仅约 ¥0.0318，但系统实际扣费 ¥0.31367，约为最高理论全价的 10 倍（评论指出精确为 14.62 倍）。客服回应称“阶梯计价收费，匹配到贵的线路了”，暴露了前端低价引流、后台用分组或模型倍率暗中加价的模式。
+
+### 关键要点
+- **核对扣费日志**：不要只看价目表，应逐笔比对实际用量与扣费金额。
+- **警惕“全站”路由**：所谓负载均衡可能把请求路由到高倍率线路，相当于开盲盒。
+- **注意顶格计费**：有评论指出，部分中转站对长上下文模型一律按最高档价格计费，即使请求很短。
+- **数据风险**：评论提醒，中转站除价格问题外，还可能存在项目与数据被滥用的风险。
+
+### 评论补充
+多位用户认为中转站乱收费已较普遍，并有人点名 `aixapi.io` 同样需要避雷；也有人推荐 PackyApi 等企业级中转，但随即有评论指出“有公司背书的中转站也会跑路”。共识是：使用任何中转服务都应保留扣费记录，优先考虑官方直连或可退订的订阅方案。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253430" target="_blank" rel="noopener noreferrer">避雷 API 中转站 wkele.kukuai.fyi：计费陷阱：前端低价引流，实际暗藏 10 倍扣费倍率</a></span><span class="topic-stats">回复 10 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253321" markdown="1">
+<summary>
+<span class="topic-rank">7</span>
+<span class="topic-title">NAS 中勒索病毒后，杀毒软件是否必要及防护方案</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+楼主 NAS 中勒索病毒、文件全被加密后，提出“装杀毒软件能否止损”的疑问。评论区的共识是：**杀毒软件作用有限，真正的防线是关闭公网暴露与做好备份**。
+
+### 关键要点
+
+- **入侵路径多为公网暴露**：有用户（回复 18241399）自述去年 NAS 同样中招，原因是 NAS 可被外网访问、漏洞被无差别利用；关闭外网访问、仅局域网使用后恢复正常。
+- **杀毒软件不是安全软件**：多位评论者指出，漏洞入侵时脚本执行的是“正常管理员操作”，可先关闭安全措施，杀毒软件难以拦截；它只能应对已知病毒特征。
+- **防勒索思路**：回复 18241431 提出在 NAS 中放置 decoy 诱饵文件，一旦被改动即判定为勒索行为并锁死访问；需告知 SMB/FTP 用户不要动这些随机命名文件。
+- **备份是底线**：多条回复强调 321 备份原则（多份、异地、离线冷备），认为这是应对数据损失的唯一有效途径。
+- **兼顾远程访问**：若需要外网功能，可用 VPN 替代直接暴露管理页面。
+
+### 评论补充
+
+有用户担心装杀毒会拖慢 NAS；也有人质疑“不联网 NAS 就失去网盘意义”，回复建议以 VPN 折中。楼主进一步追问防勒索专杀是否有现成项目，帖内未给出具体方案。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253321" target="_blank" rel="noopener noreferrer">中了勒索病毒后，我觉得 NAS 有必要装个杀毒软件吧</a></span><span class="topic-stats">回复 17 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253424" markdown="1">
+<summary>
+<span class="topic-rank">8</span>
+<span class="topic-title">Sublime Text 新 Swift 插件接管 9.7 万安装量老插件</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Sublime Text 官方一直未内置 Swift 语法支持，Package Control 中排名靠前的 Swift 插件多停留在数年前，较新的也只支持到 Swift 5.6。作者因此自写了一个 Swift 语法高亮插件，并提交到 Package Control。
+
+提交 PR 后，Package Control 核心维护者表达了不同思路：基础语言语法插件不应继续碎片化，用户只需要一个完整可用的实现。维护者还说明，社区过去两次尝试孵化可内置官方的标准 Swift 语法插件均半途而废。
+
+### 关键要点
+- 维护者 @deathaxe 审查后认为新实现架构干净，甚至可向下兼容 Sublime Text 3。
+- 最终决定由作者接管安装量约 97K 的元老级 Swift 插件，用新实现顶替。
+- 按惯例需给十年前的原作者留两周反对期，但原作者 @quiqueg 在 2 分钟内回复赞成，并协助将旧版本打包为无历史记录的孤立分支，便于同步历史。
+- 结果是老用户自动升级到新实现，新用户搜索 Swift 也会优先找到该插件。
+- 项目地址：https://github.com/hanguokai/sublime-swift ；Package Control：https://packagecontrol.io/packages/Swift
+
+### 评论补充
+有用户表示正在使用该插件；也有人认为 Sublime Text 轻量、配合 LSP 可替代 VS Code，但插件数量和更新速度偏弱。另有长期 Swift 用户表示愿意在 PR 中提 issue 或 fork/PR 参与贡献。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253424" target="_blank" rel="noopener noreferrer">做了个 Sublime Text 的 Swift 语法高亮插件，没想到被官方安排接管了用户量最多的老插件</a></span><span class="topic-stats">回复 8 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253429" markdown="1">
+<summary>
+<span class="topic-rank">9</span>
+<span class="topic-title">中转站计费陷阱：标称0.47折实际按2.15倍扣费</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+用户发现某 AI API 中转站（wkele.kukuai.fyi）的扣费远超标价：标称 gpt-6.1-sol 输入 0.64、输出 3.20（约官方 0.47 折），但一次输入 42991（缓存命中 41088）、输出 1354 的请求实际扣费 0.31367，约为标称价的 10 倍。
+
+### 关键要点
+- 按官方价核算，该请求应约 ¥0.1459；按中转站标称价应约 ¥0.0057；实际扣费 ¥0.3137，相当于在官方原价基础上再乘约 2.15 倍。
+- 客服工单称“阶梯计价，匹配到贵的线路”，用户据此认为前端低价引流、后端以线路随机匹配收取高价。
+- 评论指出中转站普遍存在实际成本远高于宣传的问题，有人称一个月花费够买两个 Pro 10x。
+- 可复用经验：使用中转站前应核对缓存读取、输出单价与结算倍率，用单次请求的 token 数手工复算账单，并保留截图与工单记录。
+
+### 评论补充
+有回复认为这属于“只赚不亏”的计费 bug；也有回复按官方价、标称价、实际扣费三档列出公式，指出实际输入约 ¥29.24、输出约 ¥146.20、缓存读取约 ¥1.462，判断为诈骗站。上述倍率与结论来自用户自述与评论推算，未获平台确认，需自行核验。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253429" target="_blank" rel="noopener noreferrer">中转站计费陷阱?bug?</a></span><span class="topic-stats">回复 4 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253406" markdown="1">
+<summary>
+<span class="topic-rank">10</span>
+<span class="topic-title">群晖NAS防勒索：关公网、套VPN与快照备份</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+有用户发现多人中勒索病毒后，选择强行关机并关闭 QuickConnect 与路由器公网访问。讨论中的共识是：**关闭公网暴露是首要防线**，升级到最新版并不能单独保证安全，因为有人称最新版也中招，但该说法未获证实。
+
+### 关键要点
+- **网络层**：关闭公网访问、QuickConnect 和群晖自带 DDNS，改用 VPN 或内网访问；有回复建议在网关路由器上阻止 IPv4 到 VPN 的入站，只放行 IPv6。
+- **系统层**：保持系统和全部套件更新，套件只使用官方源。
+- **数据层**：安装 Snapshot Replication 定时拍快照并启用不可变快照；用 HyperBackup 将高价值数据备份到网盘；定期备份到外置移动硬盘，备份后推出。
+- **物理隔离**：有回复认为最安全的是物理隔离，安全与方便难以兼得；IPv4 公网地址被扫描的速度很快。
+
+### 评论补充
+有回复给出群晖官方公告链接 https://www.synology.cn/zh-cn/company/news/article/C3RB3R ，可据此核对漏洞与修复信息。关于拆盘再插回的做法，评论未给出可靠结论，不建议在未备份前操作。另有回复提到用远程电源开关控制开机，属于辅助手段。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253406" target="_blank" rel="noopener noreferrer">群晖 NAS 如何防止中勒索病毒？</a></span><span class="topic-stats">回复 14 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1253417" markdown="1">
+<summary>
+<span class="topic-rank">11</span>
+<span class="topic-title">显示器偶发黑屏后自动恢复：按成本从低到高排查线材与刷新率</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+ThinkBook 14 G6+ 在 Arch Linux + Hyprland 下外接显示器偶发黑屏，几秒后自动恢复；黑屏期间显示器电源灯仍为白色，也未提示“无信号”，系统日志显示为热插拔事件。评论普遍认为这更像链路重新握手，而非显示器彻底断电。
+
+### 关键要点
+- **先换线**：用一根确认能跑到当前分辨率和刷新率的 HDMI 线，两端插紧；也可改走笔记本 Type-C（DP Alt）口做对比。
+- **降低刷新率**：从 200Hz 降到 144Hz 或 120Hz 观察几天。高刷新率下链路余量更小，线材或接口稍差就容易短暂掉信号。
+- **交叉验证**：换视频输出口，或用另一台设备接这台显示器；只有笔记本接别的显示器不掉、显示器接别的设备也不掉，才能把问题定位到具体一端。
+- 前三步都做完仍复现，再找售后检查显示器或笔记本接口。
+
+### 评论补充
+有用户称 LG 显示器同类问题换主板后解决；也有人认为可能是显示器电源模块内部直流电压不稳。另有用户反映 MiniLED 显示器随机瞬黑且越用越频繁，维修渠道有限。这些属于个案经验，不能替代逐项排查。
+
+**结论**：优先按“换线 → 降刷新率 → 交叉换口/换设备”的低成本顺序排除，再考虑送修。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253417" target="_blank" rel="noopener noreferrer">显示器突然黑屏，几秒后重新亮起，笔记本检测到的事件热插拔</a></span><span class="topic-stats">回复 5 · 收藏 0</span></p>
+
+</div>
+
+</details>
