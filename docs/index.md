@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-11-03 08:30:00 +0800
+date: 2026-11-04 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-11-03
-generated_at: "2026-11-04 10:10:32"
-summary: "昨日主题 304 个，过滤 204 个，DeepSeek 分析 99 个，保留高价值内容 19 个。"
-count_all: 304
-count_excluded: 204
+target_date: 2026-11-04
+generated_at: "2026-11-05 10:15:11"
+summary: "昨日主题 281 个，过滤 181 个，DeepSeek 分析 100 个，保留高价值内容 20 个。"
+count_all: 281
+count_excluded: 181
 count_included: 100
 count_high_signal: 0
-count_valuable: 19
-report_url: "/2026/11/03/"
-data_url: "/data/2026-11-03.json"
+count_valuable: 20
+report_url: "/2026/11/04/"
+data_url: "/data/2026-11-04.json"
 ---
 
-# V2EX 2026-11-03 昨日新帖报告
+# V2EX 2026-11-04 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1253990" markdown="1">
+<details class="topic-card" data-topic-id="1254330" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">Claude 十分钟做出四则运算练习站，首轮提示词公开</span>
+<span class="topic-title">TCL Q9K配Apple TV，2000元内回音壁是否值得买</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,28 +29,30 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主用 Claude 在不到 10 分钟内做出一个面向约 8 岁儿童的四则运算练习网页，部署在 GitHub Pages 上，纯前端、无后端，适配平板横屏与手机。真正让楼主意外的不是成品本身，而是首轮提示词就基本成型、几乎没有返工。
+楼主使用 TCL Q9K 电视和 Apple TV，预算 2000 元以内，想买入门 5.1 回音壁，主要看网盘剧集和电影，不玩 PT，沙发靠墙，担心后环绕摆位。评论区的共识是：回音壁能否带来提升，关键看**电视自带喇叭的功率和片源质量**，而不是回音壁本身。
 
 ### 关键要点
-- 首轮提示词先要求“做计划”，再列出 9 条约束：题目难度合适且每次生成、类似 Duolingo 的答题与虚拟数字键盘、每轮 15~20 题、UI 可爱、结束有结果反馈、轻量易懂的讲解面板、部署到 GitHub Pages、纯前端、适配横屏平板和手机。
-- 后续几轮只是追加需求：乘除法、三位数难度、多页打印和竖式解读，其中图形解读由模型自行补充。
-- 评论指出成品缺少键盘输入支持；楼主说明目标场景本就是平板和手机。
+- **先查电视参数**：普通电视喇叭约 10–20W，千元级回音壁约 100W，提升明显；但高配电视本身已有几十瓦，两三百元的“回音壁样式音箱”可能没有提升。
+- **片源决定上限**：多位用户强调，没有高质量片源，再好的回音壁也发挥不出来；Apple TV 不支持音频直通，播放 TrueHD 等蓝光环绕声会有损失，流媒体 Dolby Atmos 片源也较少。
+- **摆位与供电**：沙发靠墙时后环绕角度受限，有用户直接放在左右两侧，认为不必太讲究；建议选独立供电的后环绕，避免充电麻烦导致吃灰。
+- **预算建议**：入门千元级即可体验，2000 元内可考虑 TCL 自家型号（如 S65K、55H）以获联动；三星 Q700B、Q990B、930D 等也有用户实际搭配 Apple TV 使用。
+- **使用风险**：功率上来后容易吵到邻居，有用户提醒“开了就等着邻居敲门”。
 
 ### 评论补充
-有回复认为这类 UI 与音效的完成度会冲击美工等岗位，也有人称类似效果几个月前就能做到，对“码农要完了”的说法已经脱敏。可复用的经验是：把需求拆成明确约束、先让模型出计划，再逐轮追加功能，比一次性堆砌描述更稳。
+有用户认为，如果平时看电影不多，回音壁容易吃灰；也有用户指出，电视嵌入墙面会遮挡后置喇叭，此时外接音箱收益更大。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253990" target="_blank" rel="noopener noreferrer">Claude 不到 10 分钟搓了个这个，码农真的要玩完了</a></span><span class="topic-stats">回复 145 · 收藏 59</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254330" target="_blank" rel="noopener noreferrer">大佬们，你们觉得有必要上回音壁吗</a></span><span class="topic-stats">回复 69 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254054" markdown="1">
+<details class="topic-card" data-topic-id="1254426" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">在家复刻川渝火锅：底料、牛油与油碟的实用建议</span>
+<span class="topic-title">大陆个人小站接境外收款：Creem、Paddle、Stripe香港等方案对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -59,31 +61,32 @@ data_url: "/data/2026-11-03.json"
 
 ### 核心内容
 
-一位北方读者想在家复刻川渝火锅的辣锅加油碟，主帖列出了底料、香油、肉和蘸料四个待解决的问题，并提到自己在外租房、没有厨房，只有一个加热锅。评论区的共识是：**锅底香不香，关键看牛油够不够**，而肉的选择和吃法可以更灵活。
+主帖作者有 PayPal 个人账号，但国内办个体工商户才能收款；试过 Ko-fi、Lemon Squeezy，后者卡在商店激活，Stripe 又不支持大陆。评论给出的替代方案集中在 Creem、Paddle、waffo.ai、dodopayments，以及 Stripe 香港个人账号。
 
 ### 关键要点
 
-- **底料与牛油**：多位回复推荐名扬、饭巢、秋霞牛油锅底、王刚等品牌；有重庆读者指出，市售底料常因油渣比例低（约 3:1 或更低）而不够香，可另买不咸的纯牛油加进去。也有人建议买成都、重庆寄来的纯牛油火锅料，约 50 元一包，一人吃可切 2 到 3 次。
-- **用量与做法**：普通 28 到 34cm 的锅，一锅水可放约一斤底料，尽量买特辣而非微辣；底料切碎炒一下更香，但多数产品已不建议炒。另有回复强调水开后再下底料，并补姜、大葱段和牛油提味。
-- **油碟**：选纯芝麻香油，不要调和油；馨田被点名推荐，蘸料加葱蒜按个人口味。
-- **肉**：有重庆读者认为吊龙、匙柄并不适配重庆火锅，内脏下水更典型；潮汕牛肉讲究屠宰后数小时内上桌，盒马鲜切评价一般，可考虑农贸市场。
+- **Creem**：多人提到接入简单，但手续费偏高，也有人反馈容易丢单。
+- **Paddle**：适合产品不敏感的场景，可作为备选。
+- **waffo.ai / dodopayments**：被指门槛较低，dodopayments 支持大陆身份证；但审核速度尚无人给出实测天数。
+- **Stripe 香港个人**：可用护照认证，有香港银行卡即可用大陆身份开户，支持每日自动提现且无提现费。
+- **加密货币**：有人用 USDT/USDC 在网页直接提供地址收款，但认为体验不便。
 
 ### 评论补充
 
-没有厨房、只有加热锅的情况下，有回复直言“建议直接出去吃”；在家煮还需考虑全屋散味问题。
+共识是第三方平台手续费普遍偏高，利润薄时可能被手续费吃掉；合规路径仍绕不开个体工商户或香港账户。有回复追问 waffo 的背书与审核时效，暂未得到明确答复，相关说法需自行核验。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254054" target="_blank" rel="noopener noreferrer">「请指教，如何在家复刻川渝火锅」</a></span><span class="topic-stats">回复 80 · 收藏 26</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254426" target="_blank" rel="noopener noreferrer">做的小站点怎么接境外个人收款，求推荐平台和方式</a></span><span class="topic-stats">回复 16 · 收藏 21</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254035" markdown="1">
+<details class="topic-card" data-topic-id="1254297" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">Codex 过度设计与测试泛滥的实用解法</span>
+<span class="topic-title">VPS 装 Tailscale 的隔离风险与六项加固措施</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -92,31 +95,35 @@ data_url: "/data/2026-11-03.json"
 
 ### 核心内容
 
-主帖反映 Codex 在简单需求上倾向过度设计：把简单逻辑拆成多个文件、写数百行代码，并大量生成测试，导致测试代码超过业务代码；即使要求参考目标框架结构也难纠正。评论普遍认为这是 AI 编程的固有风格，需要靠规范与流程约束，而非期待模型自觉。
+把 VPS 纳入 Tailscale 组网后，VPS 与家中 Mac、NAS、其他服务器同处一个 Tailnet。一旦 VPS 被入侵，攻击者可能顺着 Tailscale 横向访问家庭网络。作者据此做了六项调整，核心思路是给 VPS 划出独立安全边界。
 
 ### 关键要点
 
-- **项目规范硬约束**：在 `AGENTS.md` 中写明“按满足当前需求的最简单方式实现”“单实现不写接口”“不写需求外的东西”“没有消费者的代码不进仓库”，并明确“不新增文件、不新增抽象、不写测试除非我要求”。
-- **小步交付**：每次只给一个小任务，先让 Codex 输出改动计划（改哪些文件、多少行），确认后再动手，做完先 review 再继续。
-- **测试按需触发**：有用户编写测试规范与工作报告规范，要求完成全部任务后再统一测试，并让其他 AI 审核改动是否符合业务目标。
-- **工具辅助**：评论提到 Ponytail、ub-mode、moyu、stop-that-shit 等约束类工具；楼主反馈使用 Ponytail 后明显改善。
+- **独立分组**：给 VPS 打 `tag:vps`，与个人设备区分，避免权限混用。
+- **收紧 ACL / Grants**：只放行可信设备访问 VPS 必要端口，默认拒绝。
+- **清理宽泛规则**：删除 `* → *` 全开放规则；权限规则是累加的，一条宽泛规则会让精细限制失效。
+- **不给多余网络能力**：VPS 不配置 Exit Node 和 Subnet Router。
+- **收回公网管理端口**：SSH、数据库、管理面板只保留必要公网服务。
+- **定期检查**：核对设备列表、授权密钥、节点状态，清理陌生设备。
+
+作者特别提醒：ACL / Grants 只约束 Tailnet 内访问，VPS 本机能访问哪些网络和端口，仍需靠系统防火墙和路由策略单独限制。
 
 ### 评论补充
 
-部分用户认为这种防御性风格是 AI 保证正确性的必要代价，应主动适应；也有人建议直接换 Claude，称其更接近“许愿式”编程。另有提醒：中转 Claude 存在模型指纹不符（标称 opus5.5 实为 haiku4.6）的风险。
+有回复建议在路由器上部署 Tailscale 再配转发和防火墙，但路由器需承担加解密性能开销；作者使用软路由，所有设备入网，因此更需隔离，让 VPS 只能单向访问。另有用户提到 Tailscale 回程丢包可能与 IPv4 限制有关，确保走 IPv6 直连可改善。也有人认为加跳转机即可，作者则称直连延迟更低。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254035" target="_blank" rel="noopener noreferrer">Codex 的过度设计,防御性编程,测试狂魔有解法吗</a></span><span class="topic-stats">回复 20 · 收藏 14</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254297" target="_blank" rel="noopener noreferrer">⚠️ 给所有把 Tailscale 装在 VPS 上的朋友提个醒</a></span><span class="topic-stats">回复 23 · 收藏 10</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254125" markdown="1">
+<details class="topic-card" data-topic-id="1254347" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">退休后回农村养老的现实考量与折中方案</span>
+<span class="topic-title">开源台铃电动车蓝牙钥匙APP：2秒内开锁，实测上锁271ms</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -124,32 +131,33 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖作者想退休后回到小时候长大的山村度过余生，但被现实问题劝退，陷入“灵魂无处安放”的焦虑。评论区的共识是：**怀念的是记忆中的乡村，而不是现在的乡村**。多数人认为“回不去”，但给出了可操作的折中思路。
+作者因官方 APP 启动慢，逆向官方 APK 后用 Kotlin 从零写了轻量客户端 TL-key，已开源。项目基于官方账户与车辆鉴权体系，不绕过车辆授权，也不依赖官方 APP 运行。
 
 ### 关键要点
-
-- **乡村已变**：村里人越来越少、空房多，年轻人流向县城和大城市；回去可能更孤独，“儿童相见不相识”。
-- **基础设施是硬门槛**：有回复以山东济南商河县某村为例，离县城 40 分钟车程、县城到济南要两小时，快递外卖都没有，取快递还得去 5 里外的镇上。广东部分乡村同样“收不了快递、没外卖、没医院、没菜卖、有公路没公交”。
-- **折中方案**：身体好时住村里，冬天或身体不好时回城；或回县城居住，老家离县城 10 公里，骑三轮车即可往返；也有人倾向选云南、惠州、青岛、烟台等医疗和交通更方便的小城市。
-- **先试住再决定**：有回复建议不必等到退休，先回老家住几个月，很可能就想离开。
+- **已实现功能**：官方账号登录、车辆绑定、多车管理；BLE 开锁、上锁、上电、断电、寻车；支持多代 BLE 协议；离线控制、桌面快捷方式、快捷设置磁贴；MQTT 云控与 ECU 设置。
+- **实测数据**：一次上锁耗时 271ms，包含 BLE 连接、鉴权、指令发送及设备应答。
+- **限制**：属非官方客户端，目前主要在自己车上测试，其他车型兼容性待验证。
+- **逆向方法**：作者称用 Claude Code + DeepSeek-V4.1-Flash-1017，把安装包交给模型，设定“写出 APP、UI 用 MD3、尽量美观”的目标即可，无需额外绕过限制。
+- 项目地址：https://github.com/100pangci/TL-key
 
 ### 评论补充
-
-有人提醒，这只是“以为自己喜欢农村”，类似电竞房、咖啡馆式的想象；也有人指出不同村庄差异很大，大城市郊区农村可能值得回去。医疗、人情社会和邻里素质仍是农村养老绕不开的问题。
+- 有用户做了台铃 Home Assistant 集成（https://github.com/wongz/tailg），但未搞定账号登录，靠抓包 token 实现远程控车与历史轨迹查看；作者表示账号登录已完整实现，可供参考。
+- 有用户问及台铃车辆是否只能绑定一个账号，作者未确认。
+- 关于“手机靠近自动解锁”，作者澄清该功能只解锁、不自动上电。
+- 评论中有人提议各车型用户分别逆向并合并协议，以扩大兼容范围。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254125" target="_blank" rel="noopener noreferrer">退休后还打算回农村老家养老吗</a></span><span class="topic-stats">回复 49 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254347" target="_blank" rel="noopener noreferrer">[开源] 写了个台铃电动车钥匙串 APP，蓝牙连上打开 APP 两秒内即开锁</a></span><span class="topic-stats">回复 24 · 收藏 8</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254108" markdown="1">
+<details class="topic-card" data-topic-id="1254523" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">1.5K预算电脑桌：DIY桌腿加实木桌板方案与选购建议</span>
+<span class="topic-title">裁员赔偿双封顶：月薪微涨5000元，赔偿反少约26万</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -157,29 +165,39 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-在 1500 元预算内，多数回复倾向 DIY：单独买升降桌腿和实木桌板，比买成品更灵活，价格也更容易控制。成品桌同样需要自行组装，DIY 并不额外增加太多麻烦。
+
+主帖用一个假设案例说明《劳动合同法》第四十七条的“双封顶”悬崖效应：月均工资一旦超过当地上年度社平工资的 3 倍，经济补偿基数按 3 倍社平封顶，支付年限最高 12 年；未超过则按实际工资和实际工龄计算。
+
+案例设定：2008 年 1 月入职、2026 年 11 月离职，工龄计 N=19 个月，上海 3 倍社平线为 37,731 元。
+
+- **情况 A**：近 12 个月收入 455,000 元，月均 37,916.67 元，超过封顶线。N=37,731×12=452,772 元，+1 按实际月薪 37,916.67 元，税前约 49.07 万元。
+- **情况 B**：近 12 个月收入 450,000 元，月均 37,500 元，未触发封顶。N=37,500×19=712,500 元，+1 为 37,500 元，税前 75 万元。
+
+两者税前差约 25.9 万元；按文中税率估算，税后仍差约 21.8 万元。也就是说，多拿 5,000 元收入，可能让赔偿少二十多万。
 
 ### 关键要点
-- **桌板**：南美胡桃木、樱桃木几百元可定制，160×70 尺寸有人 600 多元买到；北美黑胡桃约 1750 元，超预算。建议按销量、评论和价格筛选靠谱定制商家，福建有较多相关厂商，一二线城市也可找线下实木家具厂。
-- **桌腿**：推荐“捷昌电机升降桌腿”，双电机普通版约 700–900 元，公认较稳、静音、价格合理；升降不频繁、载重不大可选单电机。1688 可能更便宜。
-- **避坑**：有用户买的低价桌腿不稳，轮子还要好评才送；预算紧可考虑非升降桌腿。
-- **成品参考**：林氏家居木板、乐歌电机；源氏木语橡木桌带手动升降，结构简约。
+
+- 临界点附近要关注“近 12 个月月均工资”，而非单月工资。
+- 触发封顶后，N 的年限和基数同时受限，形成断崖式下跌。
+- 文中称“+1”通常按实际月均工资计算，不受 3 倍封顶限制。
+- 企业福利假期通常不折现赔偿，离职前应优先休完。
 
 ### 评论补充
-桌腿自攻螺丝直接拧入桌板即可安装；桌板尺寸在空间允许时宜大不宜小。
+
+有回复建议用事假拉低月均工资，但楼主称实际超出封顶线一万多元，已无法通过请假拉回；楼主还提醒应先休企业假期。多位回复认为该机制存在“满减式”不合理，公司有动机在裁员前微调工资压线；也有人质疑公司为此多付一年工资社保并不划算，楼主回应是年薪多发约 1 万元、并非多付一年。以上计算基于假设与 AI 推演，具体应以当地社平工资、工龄认定和司法实践为准。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254108" target="_blank" rel="noopener noreferrer">电脑桌成品选择 OR 手动 DIY</a></span><span class="topic-stats">回复 15 · 收藏 8</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254523" target="_blank" rel="noopener noreferrer">工资微涨 裁员赔偿巨坑</a></span><span class="topic-stats">回复 18 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254016" markdown="1">
+<details class="topic-card" data-topic-id="1254375" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">Surge Tailscale 面板：清理 -1/-2 离线幽灵节点</span>
+<span class="topic-title">广州出国宽带选哪家：移动、联通、电信线路实测对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -187,31 +205,33 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在 Surge Mac/iOS 上使用原生 [Tailscale] 模块时，控制面在重载或重新握手后会在同一 hostname 下派生出 `-1`、`-2` 等新设备，旧记录变成长期离线的“幽灵节点”。其账号设备列表一度膨胀到 36 台，其中 18 台为离线重复项（12 个 `mac-mini-surge-*`、5 个 `iphone-surge-*`、1 个旧 MacBook）。为此作者开源了 Surge 面板模块 [surge-tailscale-panel](https://github.com/flylocus/surge-tailscale-panel)，在面板内展示设备状态并可选清理重复节点。
+
+广州用户出国选宽带，主帖提到电信被收回公网 IP、晚高峰卡顿。评论区的共识是：**普通电信家宽出国路由统一绕美，不建议作为首选**；移动和联通各有优势方向，选择取决于主要访问的地区。
 
 ### 关键要点
-- 模块由 `Tailscale-Panel.sgmodule` 与 `tailscale-panel.js` 组成，零外部依赖，默认 300 秒刷新，单次请求加渲染约 200ms。
-- 通过 Bearer Token 调用 `GET /api/v2/tailnet/{tailnet}/devices?fields=all`；清理走 `DELETE /api/v2/device/{id}`。
-- `MAX_VISIBLE`（1–5）限制展示行数，在线节点优先；`HIDE_DUP` 默认开启，仅隐藏不删云端；`CLEAN_DUP` 默认关闭，需写权限。
-- 判重使用 id、name、hostname、os、user 五项复合键，避免误删真实命名为 `node-1`、`node-2` 的服务器。
-- 在线状态只认 API 返回的 `connectedToControl`，删除结果须等回调确认 2xx 才显示成功。
-- 已知限制：OAuth 短期令牌约 1 小时过期，脚本无状态、暂未做自动续期，长期运行需长效 Token 或外部轮换。
+
+- **移动（AS58453）**：日本、香港、新加坡、印度、阿联酋等东南亚方向延迟最低、路由最直，主要上游走 Lumen/EIEHK 的线路表现好；美西、西欧整体不如联通。多位用户称“几块钱的香港机都起飞”。
+- **联通（AS4837）**：美西、西欧、日本 IIJ/SoftBank、新加坡 SingTel 及走 EIESG 上游的机房（含 AWS、GCP、Linode）表现好；港澳台韩及部分 KDDI 线路会绕美，但速度尚可。广东联通近半年中午 12:00–18:00 有时段性 QoS，晚高峰反而能跑满。
+- **电信**：普通家宽统一绕美；商宽路由接近移动、联通家宽，速度不高但可用。
+- **NAT4 影响**：若只连公网 VPS 或用国外互联网应用，基本无影响；家宽对家宽 P2P（如 PalWorld、Minecraft 私服打洞、组队语音）和连接 NAT3 以下 VPS 时影响明显。
+- **稳定性**：移动用户多、波动常见，国际 QoS 较严，偶有 TCP 不通但 UDP 通；联通用户少、波动少，非常用方向常绕路但速度尚可。广东地区移动、联通家宽价格相近，均低于电信。
 
 ### 评论补充
-有用户表示 Mac 用原生 Tailscale CLI、iOS 用 Surge 内嵌模块，并未出现大量幽灵节点。作者回应称原生 CLI 身份稳定，问题集中在 Surge 模块反复重载的设备上，建议在 Admin Console 按 hostname 搜索 `-N` 后缀核实。另有评论建议改用 bot 定时清理或换用 easytier，作者认为判重清理逻辑可迁移到定时任务，但换组网软件属于换赛道，就地清理更划算。
+
+有用户反映企业专线连不上自建节点，说明个体线路差异存在；也有用户认为电信仍可用。若无折腾经验，可优先考虑联通 4837；需求多、追求便宜可选移动。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254016" target="_blank" rel="noopener noreferrer">写了个 Surge 的 Tailscale 节点状态面板，顺手治好了 -1、-2 离线幽灵节点泛滥的毛病</a></span><span class="topic-stats">回复 5 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254375" target="_blank" rel="noopener noreferrer">现在广州出国，联通移动电信哪个好</a></span><span class="topic-stats">回复 14 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254255" markdown="1">
+<details class="topic-card" data-topic-id="1254484" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">手机改直供电：保护板加法拉电容与降压方案</span>
+<span class="topic-title">高速被后车闪灯该不该让道：车速与车道是关键</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -220,31 +240,33 @@ data_url: "/data/2026-11-03.json"
 
 ### 核心内容
 
-老手机电池鼓包后，想拆掉电池、改由 USB-C 直供电，同时保留 adb 通信。主帖提出两个方案：一是在电池保护板上接电容充当“假电池”；二是用 5V 充电器经 mini360 降压到保护板，但担心 C 口供电反充。评论区的共识是：**方案一可行，但必须用法拉电容，不能接普通电容**；方案二则要控制降压后的电压。
+主帖问的是高速上被后车闪灯或按喇叭时是否让道，并提到“让速不让道”。评论区的核心共识是：**先看自己的车速和所在车道，再决定是否让**，而不是机械套用“让速不让道”。
 
 ### 关键要点
 
-- **电容选型**：多位回复强调必须用法拉电容（如 5.5V 10F～30F），普通电容容量不够。有人用 5.5V 30F 实现从扩展坞到 Type-C 显示器的移动使用，并称 10F 一般够用；也有人推荐 LIC 锂电容（约 4.2V、250F），称红米 7A 断电后待机约 30 分钟未重启。
-- **降压电压**：有回复给出的接法是 USB 5V → 并联电容缓冲 → 可调降压模块调至约 4V → 并联电容稳压 → 电池保护板。
-- **风险提示**：直接拿 5V 接保护板被指不可靠，能否长期使用取决于保护板 IC；有用户这样用了一年多，但把手机放在空旷无易燃物处，并担心起火。
-- **替代思路**：淘宝有现成直供电板或卡扣式方案；若手机支持，root 后装 acca 限制充电、走直供电也可减少改造。
+- **“让速不让道”常被误用**：多位回复指出，这句话针对的是旁边车道车辆并线到你前方的情形，不是前车被后车催促时的处理原则。
+- **左侧快车道是判断重点**：若在限速 120 的路段左侧只跑 80–100，多数回复认为应在安全前提下打灯向右变道让行；若已顶着限速行驶，则没有必须让的义务。
+- **安全优先于对错**：有回复表示，后车高速接近时会提前让开，因为无法判断对方是否失控，也不愿赌对方变道时是否波及自己。
+- **并排或慢速更易被闪**：有回复认为，旁边车道空着时后车一般直接超车，闪灯往往说明前车慢或与旁车并排。
 
 ### 评论补充
 
-有用户建议在开源硬件广场搜索现成供电小板，或先查同机型是否有人改过；也有人提醒电容体积和安全问题。整体看，改造可行，但需注意电容耐压、降压精度与散热防火。
+有回复给出具体做法：两车道左侧跑 118 被闪时不让；前方和右侧都有车、暂时无法超车时也不让，但会侧一点身位让后车看到前方有车，必要时开雾灯提示。也有回复提醒，遇到情绪激烈的驾驶者，能让则让，不必和安全较劲。
+
+整体看，讨论未形成“一律让”或“一律不让”的结论，可复用的判断依据是：**车速是否明显低于车道通行速度、右侧是否安全可并线、后车行为是否异常**。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254255" target="_blank" rel="noopener noreferrer">请教手机改直供电的一些电路问题</a></span><span class="topic-stats">回复 19 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254484" target="_blank" rel="noopener noreferrer">[高速] 高速被后车闪灯或者按喇叭，会让道嘛</a></span><span class="topic-stats">回复 35 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1253992" markdown="1">
+<details class="topic-card" data-topic-id="1254300" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">QuireKit 的 AI-Native 编辑器设计：自描述命令让通过率从48.3%升至98.3%</span>
+<span class="topic-title">上海首例盗用视频聚合平台API案：非法调用29万次获刑</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -252,30 +274,34 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者认为，AI-Native 编辑器不应停留在“侧边栏对话”或“选中后润色”这类形式上，关键在于模型能否原生操作编辑器命令，而不是先生成 Markdown/HTML 再经兼容层转换。QuireKit 的做法是让编辑器自描述能力：模型只保留读文档、改文档、查帮助三个固定工具，插件通过 `defineCommand` 声明用途、参数 JSON Schema 和作用位置，通过 `addAiCapabilities()` 声明格式属性（如对齐的枚举值与读写方式）。
+
+上海徐汇检察院披露一起非法获取计算机信息系统数据案：被告人宗某某用 AI 编写自动化注册脚本、伪造电子签名，绕过平台注册与调用限制，自建中转网站低价出售图片、视频生成服务。至案发非法调用接口 **29 万余次**，违法所得 **3.4 万余元**，被判有期徒刑三年、缓刑三年，并处罚金 4 万元。
+
+涉案平台未对外开放 API 付费调用，用户协议禁止自动化抓取和绕过验证，相关账号曾被批量封禁。检方明确：调用接口需获得合法授权。
 
 ### 关键要点
-- **评测数据**：初版每个插件各自注册工具，20 个日常任务通过率仅 48.3%；改为自描述后同模型同任务达 98.3%，平均每任务 1.1 次工具调用，唯一失败源于题目歧义。
-- **统一底层命令**：AI 写入与用户点工具栏走同一套命令，非法操作只回退该步；修订模式与 Word 修订互通，可逐条接受或拒绝。
-- **专属命令包**：公文等强标准场景（GB/T 9704—2012）把标准封装为命令加 skill，模型只负责整理机关、标题、主送等要素。
-- **工具不宜贪多**：工具越多，模型在相似名称与参数间越易误选。
-- **开源**：`@quirekit/ai-runtime` 以 MIT 开源，含 read/help/edit 核心机制；文档见 https://docs.quirekit.com 。
+
+- **“免费额度”不等于可商用**：平台未开放付费 API 时，绕过注册限制调用接口可能被认定为盗用。
+- **反代风险边界**：评论普遍认为自用反代与对外售卖（含引流获利）性质不同，后者风险显著更高。
+- **技术手段本身构成要件**：自动化注册、伪造签名、绕过验证等行为是定罪关键，而非仅看获利金额。
+- **收益与风险严重不匹配**：获利 3.4 万元换来刑责与罚金。
 
 ### 评论补充
-作者回应复杂格式问题时称，不让模型直接改 ProseMirror JSON，而是选中内容后调用工具，可显著降低幻觉导致的失败；测试 Qwen、DeepSeek V4/V4.1、GPT 与 Claude 顶尖模型，工具调用差距不明显，DeepSeek 中文表现甚至更好。评论区另有关于文章是否由 AI 生成的争论，与主题技术内容无关。
+
+有回复质疑一人注册 400 万账号的可行性，怀疑平台放任以“钓鱼”凑够立案金额；也有人指出被告持续破解平台升级的防护措施。另有观点提醒，在国内对本土平台做此类灰产，被追责概率高。案件具体公司未被披露，相关细节仍待核实。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253992" target="_blank" rel="noopener noreferrer">QuireKit 编辑器的 AI-Native 是如何设计的？谈谈我对真正 AI-Native 的理解</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254300" target="_blank" rel="noopener noreferrer">应该是反代入刑第一案了，调用的是知名视频聚合网站的 api</a></span><span class="topic-stats">回复 17 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254223" markdown="1">
+<details class="topic-card" data-topic-id="1254301" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">Claude Code 连数据库：密码会留在 ps 和会话记录里</span>
+<span class="topic-title">内置电池机械键盘唤醒吞键：主控方案才是关键</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -283,31 +309,33 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者在 Mac 上用 Claude Code 2.1.317 复现：让 AI 执行 `curl -u demo:FAKEPASS123 ...` 时，curl 进程自身会把密码抹成空格，但 Claude Code 启动的外层 zsh 进程仍保留完整命令（含密码），且 curl 运行多久它就挂多久。原因是 Claude Code 把命令包在 `source 快照 && ... && eval '命令'` 复合结构中，shell 必须等待执行完毕；而手动 `bash -c 'curl ...'` 单条命令会被 exec 替换，看不到这一层。
 
-除 ps 外，命令还会原样写入 `~/.claude/projects/` 下的 jsonl 会话记录。作者自查 253 个会话中有 16 个出现 `mysql -p 密码`、`curl -u user:pass` 等写法。
+楼主用 2.4G 接收器连接京造 JZ990Pro、ikbc 答案 108 和首席玩家 NEO108，发现唤醒后要等一阵才能用，或随机几个键失灵；而老款干电池 ikbc W210 没有这些问题。评论区的共识是：**问题出在主控方案和电源唤醒逻辑，与“内置电池”本身无关**。
 
 ### 关键要点
-- Linux 默认挂载下，同机其他用户可读 `/proc/pid` 命令行；环境变量受 ptrace 权限保护，相对更安全。
-- 官方文档均不建议把密码放参数：MySQL 称 `MYSQL_PWD` 极不安全且 8.4 已弃用；PostgreSQL 推荐权限 600 的 `~/.pgpass`；redis-cli `-a` 会自行警告。
-- 改法：配置 `~/.my.cnf`、`~/.pgpass` 并 `chmod 600`，在 CLAUDE.md/AGENTS.md 中写明密钥不得出现在命令参数里；已进会话的密码应直接更换，删 jsonl 无效。
-- 自查正则只统计命中数量、不打印内容，作者结果为会话 16 个、shell 历史 8 行，正则较粗会漏报误报。
+
+- **唤醒延迟与吞键是两回事**：延迟指休眠后第一个键出现得慢，但内容不丢；吞键指输入内容直接丢失。低端产品也可能做到不吞键、仅有轻微延迟。
+- **主控方案决定表现**：有回复称贱驴唤醒会吞键，需延迟一秒；unphy、铝厂 MG65、AKKO Made68、EVO75、wave75、rainy75、nuphy node75、凌豹 K87、RK65 等未出现吞键。VGN87 则会吞键。
+- **厂商定位影响方案选择**：有观点认为高端自研能解决，低端直接用容圆方案也没问题，中间厂商自研能力不足反而容易出问题；京造部分型号被认为是贱驴换标。
+- **老款 ikbc W210 简单可靠**：主控简单、无驱动和改键功能，2.4G 方案不吞键但信号一般；后续型号卷功能后暴露技术差距。
+- **可手动关闭休眠**：部分 Keychron 型号可关闭睡眠保持连接，代价是续航变差。
 
 ### 评论补充
-有回复指出不止 curl，多数 CLI 把密码放 argv 都会进 ps；更稳的是环境变量（启动后立即 unset）或本地 socket、600 配置文件，外层再套 `bash -c` 同样会暴露。多人倾向用 MCP 或自建 CLI 包在 agent 前，不让 AI 直连中间件，并保留人工确认执行。
+
+识别容圆方案的一个方法是看网页驱动是否同款公版，并支持额外安装 ITO 驱动增强功能（AKKO 即用此方案）。目前缺少专门查键盘主控的评测站，zFrontier 装备前线是外设圈较大社区。另有回复提到 ikbc W210 可换罗技优联主控。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254223" target="_blank" rel="noopener noreferrer">让 Claude Code 连数据库的注意下： curl 把密码从 ps 里藏了，外面那层 shell 没藏</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254301" target="_blank" rel="noopener noreferrer">现在内置电池的机械键盘普遍都会吞键或者唤醒问题吗？</a></span><span class="topic-stats">回复 16 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254047" markdown="1">
+<details class="topic-card" data-topic-id="1254357" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">美区Apple ID注册卡验证码的可行方法与风险</span>
+<span class="topic-title">三条宽带单连接上行聚合到146M：16KB分段多线传输实测</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -315,32 +343,30 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-楼主用 giffgaff 英国号码注册美区 Apple ID，因长期不在英国被运营商封号，导致二次验证无法登录；改用 +86 号码在官网注册时，能收到短信但点下一步无响应。评论给出的可行路径集中在“换注册入口”和“换网络环境”，而非继续折腾被 ban 的号码。
+作者家里有两条电信宽带和一条移动宽带，每条上行只有 40–60M，合计约 150M。爱快的多线负载按连接分流，多线程测速好看，但单个大文件传输仍只走一条线，上行卡在 40–60M。作者改为在两端节点上把单条 TCP 连接的数据拆开、分走三条线路，再在对端按序拼回，NAS 和访问设备都无需改动。
 
 ### 关键要点
-
-- **设备端注册法**（回复 18251637）：先把 iPhone/iPad 地区改为 US 并关闭定位，再在“邮件→添加账户→iCloud→创建新 Apple 账户”走流程；用国内手机号接码可直接通过，注册后该设备成为可信任设备，网页登录的验证码会发到这台设备。之后在“媒体与订阅”登录新账号，再用手机浏览器打开 `https://apps.apple.com/us/app` 切到美区商店，下载免费 App 触发完善支付方式与地址。
-- **网页注册法**（回复 18251303）：谷歌邮箱 + +86 手机号 + 美国 IP + PC 端官网，近期注册顺利。
-- **国区转区法**（回复 18250363、18250598）：先注册国区 ID 绑 +86，再用美国原生 IP 全局代理，把 ID 地区改为美国。
-- **客服白名单**（回复 18250481）：官网注册提示出错时，可联系苹果客服申请加入白名单。
+- **分段方式**：把连接数据切成 16KB 一段，头部写入序号和长度；每条线路一个协程，发完一段再领下一段，因此速度快的线路自然领得更多。
+- **容错**：某条线路断开或卡住时，未确认的段换到其他线路重发，掉一条线连接也不会断。
+- **线路条件**：两条电信有公网直连，移动无公网，靠 UDP 打洞接入。
+- **实测**：iperf3 单连接上行从不聚合的 52.7 Mbits/sec 提升到聚合后的 146 Mbits/sec，接近三条上行之和 147；从 NAS 拉大文件单连接约 17MB/s（约 136Mbps）。
+- **部署**：NAS 支持 Docker 即可部署。
 
 ### 评论补充
-
-支付方式需为当地发行卡片，大陆卡无法挂到美区；电话号码本身不要求与发卡行一致。楼主指出转区会导致 iCloud、Apple Music 订阅失效，故倾向独立美区 ID；购买现成 ID 被认为风险高。
+有回复担心动态 QoS 会影响效果；作者称测试在跨省晚高峰进行，暂未明显遇到，可能与使用 hy2 协议加端口跳跃有关。另有回复指出该方案主要受益于单线大文件场景，作者认同，并说明多线本可靠负载均衡跑满。关于分段走多个 IP 是否导致银行软件报错，仅为评论中的传闻，未经验证。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254047" target="_blank" rel="noopener noreferrer">求助！如何注册美区 id 啊，之前使用 giffgaff 的电话注册了一个，但后面运营商邮件告知我检测到长期处于大陆地区然后给 giffgaff 号 ban 掉了，而由于登录该美区 id 要使用手机的信息验证码二次认证登录，现在无法使用。</a></span><span class="topic-stats">回复 27 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254357" target="_blank" rel="noopener noreferrer">家里两电信一移动三条宽带，单线程 上行成功聚合到 150M，从原先 50M</a></span><span class="topic-stats">回复 7 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254168" markdown="1">
+<details class="topic-card" data-topic-id="1254340" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">用脚本把罗技 Logi Options+ 从 3.5GB 精简到 0.5GB</span>
+<span class="topic-title">电瓶车铅酸锂电双电池接线：互锁空开与线径方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -348,29 +374,29 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者因 Logi Options+ 占用过大（约 3.5GB），用 AI 辅助写了一个精简脚本，将其压缩到约 0.5GB，只保留鼠标基础功能。项目地址：https://github.com/goopoh/logi-slim 。作者自述是“技术小白”，并称试过 option-mini 但未明显减少内存占用。
+楼主买了黄金锂电 7240，想保留原车 7222 铅酸电池做双电池，安装师傅因“保留原电池”拒装，车店老板又只肯用 1.5 平方线（甚至说两根并接），于是楼主暂停施工，自行整理出一套接线清单：铅酸正极接 63A 空开接口 1（原车 4 平方不动），锂电正极换 6 平方硅胶软线接接口 2，空开下端到控制器正极、锂电负极到控制器负极均换 6 平方，铅酸负极保持原线并在控制器负极处并接。
 
 ### 关键要点
-- **目标**：削减 Logi Options+ 的体积，保留基础鼠标功能。
-- **结果**：从约 3.5GB 降至约 0.5GB（作者自述，未提供验证细节）。
-- **替代方案**：评论提到官方 Onboard Memory Manager（板载模式）、OpenLogi（https://github.com/AprilNEA/OpenLogi ）、网页版 ClickSync（https://nuitfanee.github.io/ClickSync.github.io/ ）以及罗技官方网页驱动（https://ghub.logitechg.com.cn/ ）。
-- **兼容性提醒**：作者测试官方网页驱动后表示“不支持 anywhere”。
+- **互锁是前提**：楼主澄清空开为互锁型，铅酸与锂电只能一路供电，并非简单并联。
+- **线径争议**：有回复认为控制器 40A 是启动峰值，平稳运行约 25A，按每平方铜线 8A 持续电流算，4 平方够用；也有人认为 4 平方经不住双电折腾。
+- **替代思路**：用物理插头切换比互锁空开更直观；也有人建议直接上大单体锂电，铅酸做备用。
+- **风险提示**：电瓶车无热管理系统，自改锂电属自甘风险，不应进电梯或推回家充电。
 
 ### 评论补充
-有用户指出罗技存在 G HUB 与 Logi Options+ 两套驱动，G502X 等游戏鼠标走 G HUB。作者表示多数第三方方案都试过，仍认为官方滚轮调教最好；另有用户只保留电量监控，让 AI 基于 OpenLogi 改了一版。国产鼠标的网页驱动也被提及为替代方向，但未给出具体型号。
+有维修经验者提醒，没有动手经验别自己搞，自己修车曾搞坏控制器；若坚持自装，建议先用万用表测通空开段、不接电池和控制器，再逐路接入。另有用户指出铅酸低温压降大、死沉，锂电带 BMS 已较成熟，但两套电池需分别配充电器。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254168" target="_blank" rel="noopener noreferrer">苦罗技驱动久矣，怒 vibe 精简脚本一枚，存现储如金，可省 3GB 存储占用</a></span><span class="topic-stats">回复 12 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254340" target="_blank" rel="noopener noreferrer">自己给电瓶车接线双电池，是否简单？</a></span><span class="topic-stats">回复 27 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254217" markdown="1">
+<details class="topic-card" data-topic-id="1254407" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">如何让 AI 生成美观 UI：从模糊描述到参考图与组件拼装</span>
+<span class="topic-title">2万元预算买足金首饰：银行金条打金与水贝渠道对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -378,35 +404,30 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-作者在开发开源抓包工具 Sniffy 的根证书安装向导时发现：功能布局确定后，让 AI“更美观一点”往往得到一套全新风格，难以收敛。用 GPT 画图生成的几版方案都过度强调标题、图标和按钮，不符合桌面工具应有的清爽与信息优先级。作者最终先手绘草稿（顶部选平台、左侧步骤、右侧操作截图），再让 AI 按布局实现，效果更接近预期。
+提问者预算 2 万元，想买 9999 足金首饰，优先看克重、样式要求不高、不追求保值，纠结金店与银行实物金条。评论共识是：品牌金店溢价高、价格不透明，想省钱应压低品牌溢价和工费，把钱花在克重上。
 
 ### 关键要点
-
-- **宽泛要求靠运气**：需要具体到字体字号、间距、高度和宽度比例，否则结果不确定。
-- **先定布局再谈风格**：手绘或明确结构草图，比反复说“不好看”更有效。
-- **参考图要拆开给**：评论建议分别提供布局、配色、控件风格，或直接找漂亮网站让 AI 复刻。
-- **组件级拼装**：让 AI 出多版，指出 A 版某组件、B 版某组件的可取处，再合成一版。
-- **换模型尝试**：有回复称 Google Argon 与 Claude Opus 在相同提示词下更接近预期。
+- **银行金条+打金店**：被认为是最优解，但需现场盯制作、看光谱检测结果，防止打金环节出问题。
+- **水贝类渠道**：此前为金价加工费（约 5–30 元/克），加税后有人反馈为金价+50+工费，20 多克成交价约高于大盘 35 元/克，仍有议价空间。
+- **本地批发市场**：有南京读者在小水贝以大盘价+20~30+工费购买；上海读者提到城隍庙比周大福便宜数百元，部分可还价、免工费。
+- **小克重替代**：金豆、淘宝实时金店金条被多次提及，重量固定、贴近金价。
+- **品牌店问题**：同品牌不同商场价格不一，且部分产品不标注 9999。
 
 ### 评论补充
-
-程序员缺少描述 UI/UX 的“词典”，可多积累设计名词，或向设计师朋友请教配色。也有回复推荐 Mobbin、Stitch、基于 DESIGN.md 的参考实现等工具，并指出暗黑模式下文字亮度等细节仍需人工校验。
-
-＞ 工具链接：https://github.com/mintfog/sniffy 、https://gosniffy.com/download/ 、https://mobbin.com/
+工行 APP 可买如意金条，但近期小克重缺货；有读者提醒银行金条可能涉及税费。熊猫金币被提及但提问者认为不适用。整体看，渠道选择需结合所在地与验金能力，水贝和打金店并非零风险。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254217" target="_blank" rel="noopener noreferrer">怎么让 AI 把页面设计美观好看的</a></span><span class="topic-stats">回复 16 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254407" target="_blank" rel="noopener noreferrer">「如何买金子」</a></span><span class="topic-stats">回复 23 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254110" markdown="1">
+<details class="topic-card" data-topic-id="1254310" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">开源 HDR 转换工具：JXR/RAW 转 JXL/AVIF，25MB 压至 500KB</span>
+<span class="topic-title">开源工具 Deskflow DDC：快捷键切换双机显示器输入源</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -414,30 +435,32 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者基于 LocalViewer 的 C++ 图像代码，做了一个桌面端 HDR 图片转换器 JXRConverter，支持 Windows、macOS、Linux，采用 Float32 高精度处理，可把 JXR、JXL、RAW 转为浏览器和手机支持的 JPG/AVIF，并保留广色域、高色深、ICC 与 Exif 信息。实测 4K、25MB 的 JXR 游戏截图经 JXL 压缩后约 500KB。
+作者在 Mac 与 Windows 双机共用一台显示器的场景下，用 Rust + Tauri 2 + Vue 3 开发了开源工具 **Deskflow DDC**（当前版本 0.2.5，MIT 协议），把键鼠共享与显示器输入源切换整合到一起。它不传输画面，两台电脑仍各自通过视频线连接显示器，应用通过 DDC/CI 切换输入源并协调键鼠归属，相当于用软件实现部分 KVM 体验。
 
 ### 关键要点
-- 下载地址：https://github.com/zmz125000/JXRConverter
-- 支持 16bit Linear/scRGB/PQ 输出，RAW 支持 HDR Boost。
-- **输出格式选择很关键**：JXR 保存的是 16 位线性 scRGB，可理解为相机的线性 16-bit RAW；PQ 是非线性压缩，供浏览器和看图软件使用，会带来不可逆的信息丢失。
-- 若后续还要在 HDR 链路调色或二次处理，应保留 scRGB 16bit 线性输出，PQ 只作为最终交付时的一次性导出，避免反复转换累积损失。
-- RAW 的 HDR Boost 由 LibRAW 解码为 F32 后处理：Source headroom 原味输出 HDR 范围，HDR Boost 则把 HDR 范围映射到默认 1500nits 的 HDR target。
+- 支持快捷键、按钮或托盘切换画面与键鼠；有独立屏幕时可滑动转移键鼠。
+- 内置 Deskflow，共享键鼠与剪贴板，无需单独安装引擎。
+- 支持文件与目录传输，含大文件、暂停续传、同名冲突处理及 SHA-256 校验，作者称速度可达几十 M/s。
+- 支持主机名连接、局域网设备发现与 IP 兜底，跨系统修饰键映射。
+- 使用前提：完整共享需两台电脑网络互通；自动切换画面需显示器及连接链路支持 DDC/CI，扩展坞、转接线可能影响兼容性。
+- 平台：Apple Silicon Mac、Windows x64；Ubuntu 24.04 x64/ARM64 为 Beta，完整键鼠共享仅支持 X11；Intel Mac 的 DDC 控制暂未支持。
+- 通信在两台电脑间直连，无需账号或云端中转。
 
 ### 评论补充
-评论认可 25MB 压到 500KB 的实用性，并追问 HDR Boost 是自动还是手动指定曝光/白点；作者答复其本质是 HDR 范围映射，而非手动曝光参数。
+有用户表示原本用 Deskflow 加自定义命令实现类似效果，作者追问其方案；该用户随后给出通过 NVIDIA API 发送显示器控制命令切换屏幕的思路（https://github.com/kaleb422/NVapi-write-value-to-monitor），可作为非 DDC 路线的参考。另有用户关心不同键鼠是否可用，作者回复与键鼠型号无关，只要键鼠正常、处于同一局域网且显示器支持 DDC 即可。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254110" target="_blank" rel="noopener noreferrer">给 NAS 里的相机 RAW 和 JXR 游戏截图做了个 HDR 转换工具</a></span><span class="topic-stats">回复 5 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254310" target="_blank" rel="noopener noreferrer">做了个开源工具：两台电脑共用显示器和键鼠，用快捷键切换输入源</a></span><span class="topic-stats">回复 8 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1253984" markdown="1">
+<details class="topic-card" data-topic-id="1254284" markdown="1">
 <summary>
 <span class="topic-rank">14</span>
-<span class="topic-title">基于 Cloudflare 的自托管邮件服务 mailroom</span>
+<span class="topic-title">64个恐龙交互演示：浏览器查看三维复原与证据标注</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -445,31 +468,30 @@ data_url: "/data/2026-11-03.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-mailroom 是一个部署在用户自己 Cloudflare 账号上的邮件中心，项目地址为 https://github.com/fdddf/mailroom 。一次部署可管理任意多个域名，每个域名拥有独立的邮箱地址、收件箱、联系人、群发、API key 和 webhook。
+作者陪孩子学习时做了一个交互演示网站，恐龙专题共 64 个演示，浏览器打开即用、无需登录，电脑和平板体验最佳，手机可看但不如大屏。网站地址：https://gewujian.cn
 
 ### 关键要点
-- 收发信依赖 Cloudflare 的 email service，发信需月付 5 美元，每天可发 1000 封，作者认为用于注册和订阅通知基本够用。
-- 发信带队列支持，可配置 Bark 提醒和自定义订阅表单。
-- 部署方式为在 README 中点击按钮直接在 Cloudflare 上完成。
+- **区分“知道的”和“猜的”**：每条关于身体、行为、颜色的说法前都有标记，标明是化石所见、有证据的推测还是想象；有争议的并排呈现多种说法，数字标记可点开查看出处。
+- **物种页**：恐龙与远古爬行动物共 52 种，含禄丰龙、马门溪龙、华阳龙、青岛龙、永川龙、羽王龙等中国恐龙；每页有可拖动的地质时间轴和化石产地地图。
+- **代表性演示**：霸王龙三维复原支持旋转、缩放、张嘴，可切换“有嘴唇/没嘴唇”两种复原，滑杆调透明度看骨架，体长体重按 Sue 骨架对比；另有“霸王龙见过剑龙吗”地层年代互动，以及从 2.3 亿年前延伸到今天的鸟类演化树。
+- **易混淆类群**：翼龙、蛇颈龙、鱼龙、沧龙、异齿龙虽名带“龙”但非恐龙，单独成组解释原因。
+- 支持中英文切换且不重置画面状态，页面附“可以问孩子”的引导问题。
 
 ### 评论补充
-- 关于免费发信存在分歧：有回复称 worker 可免费发信，但作者与另一回复指出，免费方案多依赖第三方 Resend，限额约每天 100 封，用量小才够用。
-- 有用户提到同类项目 cloud-mail，同样用 Resend 发信，主打免费；另有回复认为其与 inboxes.net 类似。
-
-整体适合已有域名、希望低成本自建多域名邮件收发的用户，但免费额度与第三方依赖需自行权衡。
+有读者询问模型来源，作者回复模型（含全部植物）均为自己借助辅助工具逐个制作。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253984" target="_blank" rel="noopener noreferrer">基于 cloudflare 造的邮件 web 服务 mailroom</a></span><span class="topic-stats">回复 6 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254284" target="_blank" rel="noopener noreferrer">给孩子整理了一组恐龙交互演示： 64 个，浏览器里能转着看三维复原</a></span><span class="topic-stats">回复 2 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254079" markdown="1">
+<details class="topic-card" data-topic-id="1254525" markdown="1">
 <summary>
 <span class="topic-rank">15</span>
-<span class="topic-title">国补快递能否下班后当面激活？各品类要求与预约经验</span>
+<span class="topic-title">威联通 NAS 自建同步方案：Seafile 与微力同步等推荐</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -477,29 +499,30 @@ mailroom 是一个部署在用户自己 Cloudflare 账号上的邮件中心，�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-国补商品通常需要快递员当面拆箱或激活，但多数情况下可以协商时间。综合多位用户经验，**提前与快递员电话或微信沟通到家时间**是最有效的办法；若当天无法配合，也可要求暂不派送、改约周末。
+楼主使用威联通 QSync 约四五年，遇到多端同步文件缺失、触发延迟，甚至出现未主动删除的文件被同步机制删除（客户端记录显示周一 08:47 被删）。因涉及办公文档不愿用公有云，希望找可跑在威联通 Docker 上的开源同步方案，并认为 ownCloud、Nextcloud、Seafile 有的偏重、有的性能不足。
 
 ### 关键要点
-- **不同品类要求不同**：笔记本一般只需拆箱、拍背面 SN，不必开机；电视需通电查看屏幕；手机通常要联网激活；耳机只需拆箱拍照。
-- **快递员时间**：一二线城市配送时间较长，有用户反映晚上 8 点后仍可上门，甚至 9 至 10 点仍在派送；县城则可能较早收工，需提前确认。
-- **替代方案**：可寄到公司；或与小哥约定到件后暂不派送、周末再送；也有用户把身份证交给家人协助处理。
-- **信任度差异**：有用户与快递员较熟，自行拿回家激活后微信发照片即可；也有京东直接放前台的情况，执行尺度因人而异。
+- **Seafile**：多位回复者实际部署，提供全平台客户端；文件传输核心用 C 编写，性能较高，Web 端为 Python、UI 较传统，但胜在稳定。有实例自 2022-06-16 部署后稳定运行 4 年。
+- **部署方式**：可用一个 compose 同时起 `seafileltd/seafile-mc`、`mariadb:10.5` 和 `memcached:1.6`，数据分别挂载到 `./seafile-data` 与 `./seafile-mysql/db`，并设置 `SEAFILE_SERVER_HOSTNAME`、管理员邮箱和密码。
+- **微力同步（verysync）**：被提及为可选方案，但无进一步使用反馈。
+- **GoodSync**：有用户称好用，但已从买断转为订阅制，楼主倾向先找开源方案。
+- **轻量替代**：带密码的 WebDAV 服务配合公网 VPS 或 headscale 服务端，可能已满足需求。
 
 ### 评论补充
-有用户称快递员做国补激活有提成，因此愿意配合购买人时间，但该说法未获证实。另有用户晚上 8 点收到顺丰配送的国补手机并当面激活，说明晚间配送可行。总体建议先下单，配送前主动联系快递员确认时间。
+有用户提醒 Seafile 存储的不是源文件（分块存储），担心丢件，这是选择前需要权衡的限制。楼主也确认会先尝试 Seafile 的 Docker 版本。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254079" target="_blank" rel="noopener noreferrer">国补的快递可以等下班再当面激活吗？</a></span><span class="topic-stats">回复 19 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254525" target="_blank" rel="noopener noreferrer">关于 NAS 上的自建同步软件有什么推荐的</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1253986" markdown="1">
+<details class="topic-card" data-topic-id="1254303" markdown="1">
 <summary>
 <span class="topic-rank">16</span>
-<span class="topic-title">32G M6 Mac mini 需官网定制，电商仅售 24G 现货</span>
+<span class="topic-title">开源可达性检测工具：18地区分段测NAS/网站/游戏服连通性</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -507,31 +530,34 @@ mailroom 是一个部署在用户自己 Cloudflare 账号上的邮件中心，�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-想买 32G 内存的 M6 Mac mini，电商平台（某猫、某东）基本只有 24G+512G 的标准配置，32G 属于按订单定制（CTO，Configure To Order）机型，需要到苹果官网下单，按配置生产后发货。
+作者开源了一个可达性检测工具，用于回答自建服务最常见的疑问：「我这边打不开，但自己测一切正常」。用户填入域名或 IP 加端口后，工具会从全球 18 个地区同时发起连接，定位失败发生在哪一步。
 
 ### 关键要点
-- **CTO 机型**：下单时可选内存、硬盘、芯片等配置，官网按单生产，零售渠道通常没有现货。
-- **购买渠道**：多位回复建议直接去 [store.apple.com/cn](http://store.apple.com/cn) 下单；有用户称上周订的 32G 已到店。
-- **价格权衡**：官网没有国补，教育优惠后仍偏贵；有回复提到黄牛渠道可能比官网 CTO 便宜，但风险需自行判断。
-- **等待预期**：有回复称电商平台 12 月至次年 1 月可能补货，但来源不明，不宜当作确定信息。
+- **覆盖范围**：中国电信、联通、移动三网单独列出，另含香港、中国台湾、东京、韩国、新加坡、印度、澳洲、伦敦、法兰克福、俄罗斯、阿联酋、南非、洛杉矶、纽约、圣保罗。
+- **分段耗时**：按 DNS → TCP 握手 → TLS 握手 → 首字节 → 下载逐段展示，便于判断慢在哪一环。
+- **失败分类**：区分拒绝连接（端口无服务）、超时（防火墙丢包或未做端口转发）、DNS 解析失败、连接被重置、TLS 出错。
+- **非网页服务**：内置 SSH、RDP、Minecraft、Plex、Jellyfin、群晖 DSM、Home Assistant 等端口预设，可判断端口是否开放。
+- **排查建议**：覆盖内网地址写入公网 DNS、Cloudflare 代理端口不在转发范围、运营商封端口、国内 DNS 污染、仅个别地区失败多为线路问题等场景。
+
+工具免费开源、无需登录，支持 10 种语言；结果可生成分享链接，失败地区可点「追踪路由」查看断点。探测数据来自 Globalping 志愿者探针，请求由浏览器直接发出，不经过作者服务器，也不保存结果。
 
 ### 评论补充
-关于 24G 是否成为主流，有用户观察到单卖内存条多为 24G 倍数，但未形成结论。另有用户询问定制机排产周期：10 月 9 日下单的 M5 Pro 定制机到 11 月 3 日仍未发货，说明 CTO 等待时间可能较长。
+有回复认为 ping.pe 更好用；作者回应称认可 ping.pe 是标杆，但本工具在受众和易用性上做了不同取舍。另有回复注意到页面 CSS 模板近期常见，询问是否由 AI 生成，未获答复。
 
-**结论**：要 32G+256G 的组合，官网定制是当前最可靠的路径；若在意补贴和价格，可继续观望电商补货，但时间不确定。
+链接：https://reach.1ms.dog 、https://github.com/yt1988/reach-check 、https://ping.pe/
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1253986" target="_blank" rel="noopener noreferrer">如何购买 32G 的 M6 Mac mini</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254303" target="_blank" rel="noopener noreferrer">[开源] 可达性检测：你的 NAS / 网站 / 游戏服，别人到底能不能连上？</a></span><span class="topic-stats">回复 3 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254264" markdown="1">
+<details class="topic-card" data-topic-id="1254342" markdown="1">
 <summary>
 <span class="topic-rank">17</span>
-<span class="topic-title">Open Typora 0.22.0：本地 Markdown 加入 AI 审阅与跨文档修改</span>
+<span class="topic-title">开源剪贴板工具 Pasto：REA 逆向 Paste，支持迁移与 iCloud 同步</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -539,30 +565,32 @@ mailroom 是一个部署在用户自己 Cloudflare 账号上的邮件中心，�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-开源 Markdown 编辑器 Open Typora 发布 0.22.0，作者在帖中说明新增的 AI 工作流。项目采用 MIT 许可证，源码与安装包见 [GitHub](https://github.com/AniChikage/open-typora)，支持 macOS 14+ Apple Silicon、Windows 10/11 x64 和 Linux x64，界面含中英文。
+作者用 REA 反编译 Paste，对照分析结果重新实现了一个免费开源的 Mac 剪贴板工具 **Pasto**，无需订阅。按 `⇧⌘V` 呼出，可浏览、搜索历史内容，常用文字和链接可收进分组；逆向分析与实现对照记录也放在仓库中。
 
 ### 关键要点
-- **选区改写与逐处审阅**：选中文字提出要求，先对比原文与建议，再决定保留哪些改动，可一次撤销。
-- **跨文档修改**：最多选 4 份文档，先生成修改计划，再逐文件逐处审阅；数字、常见日期、链接和代码默认受保护，也可锁定术语，受保护内容变化会阻止应用。
-- **参考文件与目录问答**：改写时用 `@文件` 补充上下文；目录问答先在本机检索，勾选片段后再交给模型，答案可带脚注插入文档。
-- **本地版本历史**：AI 修改前保留恢复点，跨文档批次记录可跨重启保留；若后续内容已变会阻止整批恢复。历史有保留上限，重要文件仍需另行备份。
-- **模型配置**：AI 为可选功能，需自配 OpenAI 兼容 API、OpenRouter、LM Studio 或 Ollama；发送内容与费用、数据保留取决于所选服务。
+- **迁移**：支持导入 Paste 的本地分组和组内内容，保留颜色与顺序。
+- **iCloud 同步**：采用 iCloud Drive 文件同步，默认关闭，需在「设置 → 通用」中开启。
+- **技术栈**：Swift 开发，支持 macOS 14 及以上，单个 DMG 兼容 Intel 与 Apple 芯片。
+- **功能对比**：剪贴板历史、搜索、分组、批量复制粘贴、Stack 顺序粘贴、OCR、自定义快捷键、MCP 接入、iCloud 同步均已提供；系统「快捷指令」、iPhone/iPad 应用、分组共享协作、联网链接预览未提供。
+- 作者说明交互细节与跨应用粘贴兼容性仍在打磨，问题可提 Issue 并附系统版本与复现步骤。
 
 ### 评论补充
-评论未讨论功能本身：有人因 Electron 实现而放弃，也有人质疑项目名与 Typora 官方的关系。作者已声明项目独立实现、与 Typora 官方无关联，但命名风险仍值得留意。
+有 M1 MacBook Pro 用户反馈导入 Paste 失败、点设置闪退；作者随后发布 `v1.0.7` 称已修复。另有用户建议支持 Windows，作者回应「好咧」，但未给出时间表。
+
+＞ 官网与源码见正文链接：https://github.com/yingyanzhitong/pasto
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254264" target="_blank" rel="noopener noreferrer">Open Typora 0.22.0：给本地 Markdown 加上 AI 审阅、跨文档修改和目录问答</a></span><span class="topic-stats">回复 3 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254342" target="_blank" rel="noopener noreferrer">[开源自荐] 用 REA 反编译 Paste，做了个免费开源的 Pasto，支持分组迁移和 iCloud 同步</a></span><span class="topic-stats">回复 7 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254231" markdown="1">
+<details class="topic-card" data-topic-id="1254359" markdown="1">
 <summary>
 <span class="topic-rank">18</span>
-<span class="topic-title">AI Agent 调用生产接口：办公网直连生产是否合规</span>
+<span class="topic-title">用AI做电饭锅预约时间小工具：Flutter APK与替代方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -570,32 +598,31 @@ mailroom 是一个部署在用户自己 Cloudflare 账号上的邮件中心，�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主帖描述了一种在 AI 推动下出现的做法：把内部系统的 Web 接口包装成 CLI，让 AI Agent 在办公网或员工个人电脑上调用，从而绕开正规发布流程，直接触达生产环境。发帖人质疑其规范性，评论区的分歧集中在“入口形态变化是否等于风险”这一点上。
+作者用电饭锅做早饭，需要根据“目标完成时间”倒推预约时间，但电饭锅非智能、需手动设置，且预约时间包含烹饪时间。他先用 AI 生成 DroidScript 脚本做桌面快捷方式，显示距下一个 7:40 还有多久（精确到 10 分钟、向下取整）；因没有小组件不够方便，又让 AI 搭好 Android 与 Flutter 环境，做成 APK，并加入 DeepLink 和桌面小工具。作者认为成品界面审美不佳，计划自己重画后再改。
 
 ### 关键要点
-
-- **风险不在 CLI 本身**：有回复指出，CLI 只是 Web 接口的包装，不会凭空获得原本没有的能力；真正的问题在于是否绕过了发布流程和权限边界。
-- **绕开流程的代价**：生产接口暴露到办公网、由非开发人员在个人电脑上驱动 Agent，会丢失变更审计、回滚能力和权限控制，出事后难以定位责任人和快速回退。
-- **可执行的三条底线**：CLI 调用统一走网关，带身份、限流和完整审计日志；写操作设审批闸门，Agent 只提建议不直接落地；办公网到生产只走白名单接口，避免个人机器成为事实上的发布通道。
-- **效率收益**：运营等非开发人员可用自然语言完成任务，若基建到位，后续工作量可能减少。
+- 核心需求是“倒推预约时间”，而非单纯计时；电饭锅预约时间通常包含烹饪时间。
+- 实现路径：DroidScript 快捷方式 → Flutter APK + 桌面小工具 + DeepLink。
+- 评论给出更轻量的替代：PWA、iOS 快捷指令、手机闹钟（开关一次会提示剩余时长）。
+- 有回复提醒：电器预约功能一般指完成时间，不是启动时间。
 
 ### 评论补充
-
-有回复认为“包成 CLI 给 Agent 调”本身没问题，前提是最后发布仍有闸门审核；也有回复强调，正规与否的核心是审计、回滚与权限边界，而非调用形式。发帖人补充担忧：方便工作的同时，也让人更容易做“不太对的事情”。
+- 有用户分享现成 iOS 快捷指令，可直接倒计时到 07:40。
+- 关于鸡蛋煮老，讨论认为可能是蒸煮时间过长或保温过久，建议做测试。
+- 作者反馈超级小爱响应慢，口算反而更快；也有人建议直接换智能电饭锅。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254231" target="_blank" rel="noopener noreferrer">你们公司有没有把生产服务蔓延到办公环境？</a></span><span class="topic-stats">回复 9 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254359" target="_blank" rel="noopener noreferrer">✌️ 我让 AI 给我做了个 APP，电饭锅做早饭计算预约时间</a></span><span class="topic-stats">回复 12 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1254159" markdown="1">
+<details class="topic-card" data-topic-id="1254367" markdown="1">
 <summary>
 <span class="topic-rank">19</span>
-<span class="topic-title">网页对话与Agent的额度差异：12月Chat与Work额度合并</span>
+<span class="topic-title">用480倍月开销估算躺平所需资产：200万够不够</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -603,20 +630,53 @@ mailroom 是一个部署在用户自己 Cloudflare 账号上的邮件中心，�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主认为网页对话窗口足以完成研究、写代码等任务，额度几乎不消耗，而 Work 模式消耗过快、比较鸡肋。评论区的共识是：**问题不在额度，而在使用场景**。纯网页聊天适合问答、查资料、写小段代码等一次性任务，成本低；一旦涉及本地项目、批量文档或需要实际改文件、跑命令，就必须用 agent，token 消耗快属于正常现象。
+主帖给出一个可套用的财富自由估算公式：**财富自由 = 平均月开销 × 480 + 终身健康开销预留 + 孩子数量 × 育儿成本 + 重大金融支出（买房、买车）**。其中 480 倍来自“年开销 ÷ 实际回报率”：假设长期名义回报 4%~4.5%、通胀约 2%，实际回报 2%~2.5%，则 12 ÷ 2.5% = 480。
 
 ### 关键要点
-- 轻量问答、查资料、写小段代码：网页 chat 够用，免费或便宜。
-- 本地项目有几百上千个文件、需要批量处理文档或操作电脑：网页版无法逐个上传，应改用 agent。
-- 评论提到的 agent 工具包括 `codex`（较全面）和 `workbuddy`（有免费额度），另有 `claude code` 一类。
-- 有回复提醒：12 月 chat 与 work 的额度将打通、合并使用，届时 chat 的“无限额度”可能消失，Work 消耗快意味着 chat 额度也会紧张。
+- 回报率依据：社保基金 2000-2024 平均回报 7.39%，企业年金 2007-2024 平均 6.17%；散户扣除管理费、手续费后约再减 2-3 个百分点。
+- 育儿成本参考《中国生育成本报告》：全国 0-18 岁约 58 万/孩，北京 100 万、上海 108 万、贵州 43 万。
+- 终身医疗：全国人均约 20 万（统计框架偏窄），二线 15-30 万，一线 30-60 万。
+- 2025 全国人均消费支出 2456 元/月，城镇居民 2990 元/月（已含医疗、居住、育儿）。
 
 ### 评论补充
-有回复直言“这种用法落后不少个版本”，但未展开；楼主追问更好的方法后，多位回复者给出的答案一致：按场景选工具，而非纠结额度。
+- 有回复指出 4%~4.5% 的名义回报假设偏乐观，普通人可参考的银行定存年化已不超过 2%，这会显著抬高所需本金。
+- 2000 多元的月消费不含住房，实际开支更高；有人按“400 万房产 + 400 万类现金资产/人”估算。
+- 低消费地区存在另一种路径：不买房、租房旅居，月租加买菜约 1500 元，年支出约 2 万，几十万即可维持。
+- 已达标者提醒：躺平后缺少目标易焦虑，且父母、亲戚的压力和老年医疗自费支出是隐性成本，因此“低薪清闲工作 + 固定作息”被视为更现实的折中。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254159" target="_blank" rel="noopener noreferrer">你们一般用 ai 干什么 额度从来不是问题 为什么经常听说 token 太快了</a></span><span class="topic-stats">回复 8 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254367" target="_blank" rel="noopener noreferrer">算算你离躺平还差多少钱？我的目标是 200 万就够了</a></span><span class="topic-stats">回复 7 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254558" markdown="1">
+<summary>
+<span class="topic-rank">20</span>
+<span class="topic-title">GPT/Codex 被指不遵守原型与规范：额度消耗与模型路由疑云</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主称两天消耗 Pro 200 美元套餐约 60% 的周额度，用 Codex 做简单前端交互还原却反复返工，体验较此前明显变差；模型指纹验证显示为 GPT-6 Astra，但用量分析页出现从未主动使用的 Luna 用量，怀疑存在随机路由或降智。
+
+### 关键要点
+- **具体失控行为**：模型擅自加入硬编码限制（如单用户每天仅能发 10 封验证码邮件）且不告知；编辑状态下切换组织会刷新页面，却无二次确认等交互提示。
+- **楼主自述的约束条件**：已有系统、数据、产品、交互文档与可交互原型，并在 `agents.md` 中要求 100% 还原原型，模型仍擅自简化页面、合并入口、改写交互。
+- **可复用做法**：需求阶段充分讨论并写需求文档，明确交互细节与逻辑边界，再让模型在现有代码框架上修改，减少开发中的未知变更。
+- **待核验**：Luna 用量是否来自默认路由，楼主未给出结论，仅为猜测。
+
+### 评论补充
+有回复认为问题在于需求边界未讨论清楚就开写，此前“心有灵犀”更像抽卡没歪；也有回复批评安全围栏过重，并称已转用 DeepSeek。分歧集中在“模型退化”与“需求约束不足”两种解释，双方均未提供可复现的对照测试。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254558" target="_blank" rel="noopener noreferrer">gpt 已经听不懂人话了</a></span><span class="topic-stats">回复 9 · 收藏 0</span></p>
 
 </div>
 
