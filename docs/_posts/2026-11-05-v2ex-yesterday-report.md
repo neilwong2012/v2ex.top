@@ -1,0 +1,572 @@
+---
+layout: report-post
+title: "V2EX 每日热点回顾 · 2026-11-05"
+date: 2026-11-05 08:30:00 +0800
+categories: [v2ex, daily-report]
+status: success
+target_date: 2026-11-05
+generated_at: "2026-11-06 10:14:59"
+summary: "昨日主题 282 个，过滤 182 个，DeepSeek 分析 100 个，保留高价值内容 17 个。"
+count_all: 282
+count_excluded: 182
+count_included: 100
+count_high_signal: 0
+count_valuable: 17
+report_url: "/2026/11/05/"
+data_url: "/data/2026-11-05.json"
+---
+
+# V2EX 2026-11-05 昨日新帖报告
+
+<details class="topic-card" data-topic-id="1254628" markdown="1">
+<summary>
+<span class="topic-rank">1</span>
+<span class="topic-title">洗洁精洗眼镜会伤镀膜吗？清洗流程与注意事项</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖担心用洗洁精洗蔡司镜片会加速镀膜磨损。评论区的共识是：**中性洗洁精可以洗眼镜，且是日常最推荐的清洁方式之一**，真正伤镜片的是灰尘沙粒和不当擦拭，而非洗洁精本身。
+
+### 关键要点
+
+- **原理**：洗洁精能有效去除油污和灰尘，中性配方对常规镀膜腐蚀性有限；有评论称市售眼镜清洗液成分与洗洁精相近（未证实）。
+- **推荐流程**（多位用户一致）：先用大水流冲掉浮尘沙粒 → 手指搓出洗洁精泡沫轻涂镜片 → 双指轻夹镜片滑动清洗 → 清水冲净 → 用纸巾轻粘吸水，避免来回擦拭。
+- **划痕主因**：镜片上的灰尘、硬物在干擦时像砂纸一样磨损镜片，所以先冲后洗比用什么清洁剂更关键。
+- **寿命预期**：有用户称树脂镜片寿命约 2–3 年，之后透光度下降，镀膜完好也不建议继续戴；正常使用几年磨花属正常。
+- **特殊镀膜**：变色等功能性镀膜不宜用含酒精的清洁方式。
+
+### 评论补充
+
+- 有用户认为眼镜店超声波清洗才是刮花元凶，但另一用户自用家用超声波未遇问题，此说法存在分歧。
+- 关于水温，主帖追问后未获明确答复，原文无定论。
+- 有边框眼镜清洗后边框易留水渍，只能靠纸巾吸水缓解。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254628" target="_blank" rel="noopener noreferrer">刚去接水，发现领导在用洗洁精洗眼镜，搜了下好像说是可以，不过长期用会有什么问题吗</a></span><span class="topic-stats">回复 162 · 收藏 26</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254590" markdown="1">
+<summary>
+<span class="topic-rank">2</span>
+<span class="topic-title">Mole 作者复盘：AI 时代如何做慢产品</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Mole 作者 tw93 复盘了从 1.13 到 1.19 的开发过程，核心判断是：代码越来越便宜，能拉开差距的是只有亲手做过才知道的细节。这些“不可扩展的蠢事”AI 不会替你决定去做，但做完能让用户产生“秒懂、卧槽、变魔术”的体验。
+
+### 关键要点
+- **大规模实测补规则**：用 Agent 的 computer use 能力下载安装 853 款 Mac 软件，逐款检查目录、bundle、自启动与卸载残留，最终补出 13 类通用规则、90 多条精确清理路径，并改掉 30 多个“以为要清、其实不该动”的地方，补 100 多条单元测试。
+- **AI 工具实测数据**：测了 30 多款 AI 工具（桌面端 13 个、命令行 13 个）。13 个桌面端同开约占 23 GB 内存，某国产工具启动即 41 个进程、4.49 GB；`~/.codex` 达 24 GB，其中会话 17 GB；Claude 桌面版 14 GB 中 12 GB 是 Cowork 虚拟机。
+- **清理设计原则**：会话按 15/30/90/120 天保留期列出并先留恢复副本；worktree 仅在 git 证明无未提交改动时出现；`opencode.db` 只做数据库压缩不删对话；iPhone 备份、虚拟机等大文件只显示大小和管理入口，不可勾选。
+- **系统数据不可硬凑**：Apple 的“系统数据”只是分类结果，不是可删清单。快照清理改为实测磁盘可用空间变化；曾抓出读取可用空间拿到缓存旧值的 bug。
+- **运营细节**：给 400 多位购买未激活用户补发邮件，发现不少邮箱填错（gmai.com、gmail.con），于是补上付款后直接展示 Key、网页一键唤起客户端填 Key 的流程。
+- **图标与文案**：图标改用 Phosphor，30% 用 AI 自绘 SVG；按用户反馈把“检查更新”从下载图标改为顺时针箭头等，部分改了三轮。文案用 Gemini 3.8 Flash High 改写，要求“说人话、不要 AI 味”。
+- **无障碍属性的意外收益**：早期加的无障碍属性让 AI 测试能稳定定位控件，比截图坐标更抗界面变动。
+
+### 评论补充
+有用户反馈清理识别会把 zip、pdf 等文档误判为可清理，且清理后无法查看历史；启动项状态与系统不一致；手动删除多个 App 会连续弹窗。作者回应启动项问题在 1.16.0 修复，1.19.1 增加多选清理，并承诺优化多 App 弹窗合并。另有用户询问授权，作者确认 15.2 美元为终身授权、可授权两台 Windows 电脑。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254590" target="_blank" rel="noopener noreferrer">在快 AI 时代，如何做一款慢产品？</a></span><span class="topic-stats">回复 69 · 收藏 22</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254605" markdown="1">
+<summary>
+<span class="topic-rank">3</span>
+<span class="topic-title">如何判断一段文字是否AI生成：特征与检测工具</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主在知乎用 AI 回答被禁言 7 天，平台提示“多次发布疑似 AI 辅助创作的内容”。他贴出原文，用朱雀 AI 检测却显示“人工 99.6%、AI 0.4%”，与平台判定相反，引发对 AI 文本识别可靠性的讨论。
+
+### 关键要点
+- **结构过于工整**：总分总、排比、转折词生硬（如“但不骗人”的“但”无明确转折对象），是常见 AI 味。
+- **情绪与细节缺失**：平铺直叙、缺少作者倾向，情绪化表达也显得克制。
+- **信息密度低**：读完像受到冲击，却复述不出具体新知识。
+- **检测工具仅供参考**：朱雀 AI、扫描全能王 AI 鉴别等均为概率判断，不能打包票；楼主案例即出现误判。
+- **平台判定未必靠系统**：也可能来自人工举报。
+
+### 评论补充
+有用户指出，纯人写的千字回答也曾被知乎折叠并提示 AI 生成；也有人提到部分 AI 会在文本中嵌入不可见字符或规律口癖（AI 文本水印）。共识是：短文本更难判断，长文去 AI 味很难，规则过多还会让模型“降智”。结论：AI 检测只能作辅助，不能作为处罚的唯一依据。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254605" target="_blank" rel="noopener noreferrer">怎么判断一段文字是不是 AI 写的？</a></span><span class="topic-stats">回复 78 · 收藏 9</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254608" markdown="1">
+<summary>
+<span class="topic-rank">4</span>
+<span class="topic-title">高强度用AI写代码两个月：掌控感为何到尽头</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+一位外包转岗的程序员高强度使用 AI 开发两个月后，从逐行 review 退化为“写完只跑流程和测试、基本不看代码”。他发现人指挥 AI 写代码反而更累：一是人脑难以并行处理多个 AI 任务，任务一多就分不清上下文，只能按 AI 推荐做选择；二是遇到 BUG 时只能交给 AI 排查，对数据为何出错、如何避免心里没底。面对金蝶总部加七个子公司的数据，他不敢让 AI 自行拆分、写码、测试，仍坚持拆步骤推进，实际速度最多快 1 倍。
+
+### 关键要点
+- **掌控点应上移**：把握上层抽象与方案设计，而非逐行盯实现。
+- **任务串行化**：一次只推进一个步骤，避免多任务并行导致上下文丢失。
+- **验收流程化**：用 issue 描述需求、用 MR 与验证视频确认结果，再抽查关键代码。
+- **风险分级**：对高风险改动人工复核，上线前再查一次。
+- **角色转变**：从写代码转为管理 AI，像管理下属一样管理产出与情绪。
+
+### 评论补充
+评论对“AI 是否适合写自己不懂的项目”分歧明显：一方认为不懂才没有心智负担，另一方指出有交付压力或工业场景下风险极高。较有共识的是：AI 更适合充当技术出身的架构师角色，人负责方向与验收；有回复提到可借助 AI 开发平台按 issue 驱动、录制复现与修复视频来降低上下文丢失。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254608" target="_blank" rel="noopener noreferrer">两个月的高强度使用 AI 开发项目，感觉我对 AI 写的代码的控制已到尽头。</a></span><span class="topic-stats">回复 35 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254604" markdown="1">
+<summary>
+<span class="topic-rank">5</span>
+<span class="topic-title">苹果封禁 Trust Asset Version 1014 上的 MITM 定位伪造</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+苹果对 Trust Asset Version（受信任资产版本）大于等于 1014 的设备封禁了 MITM 证书信任，依赖该机制的 iOS 定位伪造项目（如 ios-location-spoofer、wloc）因此失效。楼主指出，封禁与 iOS 版本号关系不大，关键看证书信任版本，且该版本由苹果热更新推送、用户无法抵抗。
+
+### 关键要点
+
+- **验证反馈**：有用户在 iOS 17.7.2、证书版本 1014 上实测提示证书无效，上周尚可用；另有用户称 iOS 26.6.1 仍能成功，楼主解释是其尚未收到热更新。
+- **不受影响的路径**：楼主称爱思助手走开发者模式调试修改定位，不在此逻辑内；尾插类物理虚拟定位设备理论上也不受限制（该说法未获实测确认）。
+- **替代思路**：评论建议改用安卓 root 备用机，避免在 iPhone 上反复折腾。
+- **版本查看**：有用户询问如何升级或查看 Trust Asset Version，帖中未给出具体方法。
+
+### 评论补充
+
+多名用户实测 wloc 已无法使用，与主帖结论一致；关于尾插设备是否有效、mac 端修改定位是否受影响，帖中仅有提问，没有确定答案，需自行验证。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254604" target="_blank" rel="noopener noreferrer">苹果彻底封禁了 ios-location-spoofer 项目</a></span><span class="topic-stats">回复 23 · 收藏 7</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254750" markdown="1">
+<summary>
+<span class="topic-rank">6</span>
+<span class="topic-title">keyqiao.com：为8岁儿童设计的免注册打字练习工具</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者为 8 岁学编程、习惯“一指禅”的儿子自建打字练习站 keyqiao.com，免注册、打开即练，进度存本地浏览器。课程分 8 关：认识键盘、中排基准键、上下排、大写标点、数字符号、单词句子与拼音、小程序员（括号、快捷键、代码片段）。
+
+### 关键要点
+- **指法引导**：屏幕键盘按手指上色并配手势示意，学新键从基准键出发再返回；第 0 关延迟 3 秒展示提示，引导孩子先自己找键。
+- **游戏化练习**：专注模式与游玩模式（打地鼠、太空射击、物理堆塔），玩法不同但练习内容一致。
+- **先准后快**：打得准即过关，速度只影响星星数；每日 1 分钟热身专练近期易错键。
+- **限制**：需电脑与实体键盘，手机仅可浏览；进度仅存当前浏览器，换机不同步；无广告、无追踪、可离线。
+
+### 评论补充
+多位家长反映同类需求真实存在：有人用 codex 让 AI 挑常用字练打字兼学拼音，有人孩子学 Scratch 因键盘不熟而命名偷懒。评论还提到金山打字通“警察抓小偷”等经典打字游戏可作参照，以及用 Python turtle 画图作为下一阶段编程练习。作者回应称后续考虑加入英语短语，兼顾打字与英语学习。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254750" target="_blank" rel="noopener noreferrer">给 8 岁儿子做了个打字练习工具：敲敲键 keyqiao.com</a></span><span class="topic-stats">回复 14 · 收藏 11</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254654" markdown="1">
+<summary>
+<span class="topic-rank">7</span>
+<span class="topic-title">手机端 AI 真正需要什么：跨 App 调用与统一入口</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖从自身使用出发，逐一排除手机 AI 的伪需求：不在手机上编程或整理数据、原生翻译已够用、文本润色鸡肋、修图剪视频只是偶发刚需。作者真正想要的是**日程管理**（一句话完成分类、优先级、周期识别并写入 TODO，目前用快捷指令把听写交给 GPT 结构化，再经 API 写入滴答清单）、**智能家居场景联动**（结合位置、家中是否有人、健身与身体数据调节温湿度），以及**需求修正**——让 AI 把“用起来不舒服”的主观感受转成可量化的设置调整。
+
+### 关键要点
+
+- 评论普遍认为手机 AI 的突破口是**跨 App 调用**：系统只保留少数必要 App 和一个超级 AI 入口，第三方通过本地接口或 SDK 接入，用户主要与入口对话。
+- 现实障碍是**数据与权限**：各家数据需重重验证，App 未开放 MCP，AI 只能模拟点击，实时比价、多平台查帖等操作太慢。
+- 有观点认为手机 App 的交互本就为真人浏览消费设计，不适合 Agent；也有回复主张用一台常开 Mac mini 承载 AI 客户端与权限，手机只作语音终端。
+- 智能家居被部分人视为伪需求：用电子围栏、温湿度计等触发器即可实现，真正的智能应无声无息。
+
+### 评论补充
+
+来电代接与转录、语音控制 App（如洗漱时语音打开播客）、跨平台比价、B 站找片加收藏等被列为候选场景；也有人直言“没有需求”，认为日程提醒自带功能已足够。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254654" target="_blank" rel="noopener noreferrer">大家对手机端 AI 真正的需求是什么？</a></span><span class="topic-stats">回复 22 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254586" markdown="1">
+<summary>
+<span class="topic-rank">8</span>
+<span class="topic-title">群晖NAS遭勒索后从SSD缓存恢复文件，及备份与公网访问经验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+作者出差期间，群晖 NAS 上的文件被勒索病毒加密，病毒进程已退出，常规恢复手段均无效。转机在于 NAS 装了两条 SSD 作为缓存，缓存中仍留有数百 GB 数据（一条使用率约 70%，一条约 30%）。作者用 AI 生成缓存目录的 CSV 清单，发现重要文件基本都在，目前正用 AI 批量提取，之后计划重置 NAS 和硬盘。作者强调：最重要的文件已做云端单向冷备份，3-2-1 备份原则仍然关键。
+
+### 关键要点
+
+- **SSD 缓存可能成为勒索后的恢复来源**：缓存中残留的文件副本值得优先排查。
+- **云端单向冷备份**：作者用阿里云 OSS，通过群晖同步软件单向上传重要文件夹；上传和存储每月仅几元，但下载费用高，1TB 约 400~500 元。单向备份只能上传、不能删除，勒索后的 `.L0CK3D` 文件也被上传，但原始文件安全。
+- **公网暴露是主要风险**：评论普遍建议关闭公网端口，改用 VPN 或 Tailscale、WireGuard 等组网方式访问。
+- **群晖 7.2 的 WriteOnce** 被提及可抵御加密写入，但需提前配置。
+
+### 评论补充
+
+- Tailscale 的漏洞与 `tailscale ssh` 功能相关，仅用于组网影响较小，新版本已修复。
+- 有用户将 qb WebUI 暴露公网后被植入挖矿程序（因在 Docker 内未进一步扩散），后用 Cloudflare 网关加口令、失败封 IP、fail2ban 防护，并分享了 https://github.com/jiaton/wicket 。
+- 也有用户反映曾用某 NAS 账号登录却进入他人空间，提示厂商服务本身也可能存在隔离问题。
+
+**限制**：作者未说明具体系统版本和入侵入口，缓存能否完整恢复尚待验证。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254586" target="_blank" rel="noopener noreferrer">群晖 NAS 被勒索后从 SSD 缓存恢复文件</a></span><span class="topic-stats">回复 18 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254643" markdown="1">
+<summary>
+<span class="topic-rank">9</span>
+<span class="topic-title">iPhone 14 Pro Max 电池健康 78%：换电池还是换机</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+主帖的疑问是：iPhone 14 Pro Max 用了四年、电池健康度 78%，是否该换电池。评论区的共识是：**换电池未必能恢复流畅度**，因为卡顿不只来自电池，还来自系统与 App 多年升级后的负担；是否值得换，取决于换机计划与预算。
+
+### 关键要点
+- **官方换电体验不一**：有用户换官方电池后“提升不是很大”；也有人去年 11 月花 809 元官方换电，如今健康度 88%，却一天充 3–4 次且发烫。
+- **第三方更省钱**：有回复称替代电池不到 200 元、可用约两年，旧电池保留以便出售时换回；另有用户提到百邦换原装 519 元。
+- **算残值与成本**：有评论估算该机残值约 2300 元出头，授权店优惠换电约 599 元，认为不值得；也有人建议直接以旧换新。
+- **78% 仍有容量**：有用户指出 78% 的 Pro Max 仍有 3300 多毫安，够用一天，若不打算换机可先不换。
+
+### 评论补充
+有长期 iPhone 用户称，早年换新电池后流畅度与续航几乎无提升，新电池一年就掉到 93%，因此后来改为电池不行就换机，趁旧机还值钱出手。另有建议：不想换机可配磁吸充电宝，等健康度更低再换非原装电池当备用机。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254643" target="_blank" rel="noopener noreferrer">iPhone 14 pro max 电池健康度 78%，有必要换电池吗</a></span><span class="topic-stats">回复 28 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254806" markdown="1">
+<summary>
+<span class="topic-rank">10</span>
+<span class="topic-title">公司允许用外部模型写代码吗？数据安全的分层做法</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖提出的矛盾是：员工大量使用外部大模型写代码和做运维，公司又担心敏感数据、核心资产外泄；明面规定与实际执行往往不一致。评论区的共识是，这个问题不能一刀切，关键看数据类型和接入方式。
+
+### 关键要点
+
+- **按数据分级选模型**：有回复给出分层方案——不重要内容用国产便宜模型，重要但不涉密用 OpenAI，保密内容自建 DeepSeek 或本地部署。
+- **不用中转站**：多位回复认为直连官方服务比走中转站风险更低；也有公司只允许签了合同的服务，协议约定对方不得收集数据、不得用于训练，并给出每人每月 500 美元额度、主力用 OpenAI 模型的实例。
+- **隔离生产数据**：普遍认为代码和运维环境本身敏感度有限，真正值钱的是用户数据和生产库，应做到生产与测试环境隔离，不让 AI 接触生产数据库。
+- **脱敏与自建**：可通过脱敏网关用占位符替换敏感信息；更彻底的是内部部署开源模型，有公司只开放自部署 DeepSeek，新模型需限量申请。
+
+### 评论补充
+
+有回复提醒，用国外 AI 处理用户敏感信息可能面临监管风险；也有人指出，把密码、私钥贴进上下文属于员工行为问题，与是否用外部模型无直接关系，重视程度不同对应制度或高规格监控。另有观点认为多数公司实际是“口号要喊、执行靠自觉”。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254806" target="_blank" rel="noopener noreferrer">你们公司都允许用外部模型写代码开发和运维吗，不会担心数据泄露么🤔</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254603" markdown="1">
+<summary>
+<span class="topic-rank">11</span>
+<span class="topic-title">V2EX.REP 热门回复侧栏错位与楼号失效的临时修复</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+V2EX.REP 扩展右侧“当前页热门回复”出现两个问题：用户名和时间被挤成竖排，点击楼号无法跳转到原楼层。作者 Hirah 说明自己并非插件作者，只是遇到问题后借助 Claude Code 排查并修复，并已向作者提交 issue。
+
+### 关键要点
+- **原因**：V2EX 调整了回复区结构，用户名、时间、红心被放入同一弹性布局行，原工具栏 `.fr` 被移除；插件仍按旧结构处理，导致 270px 侧栏内文字被压缩，楼号也无法被替换为可点击链接。
+- **修复方式**：不改插件本体，在 Tampermonkey 新建用户脚本，通过 `GM_addStyle` 让侧栏内容换行显示，并用捕获阶段点击监听把 `#top_replies .no` 映射回正文对应回复，执行 `scrollIntoView`。
+- **适用范围**：仅在 Chrome + Tampermonkey、V2EX 默认主题下验证；使用 V2EX Polish 等改样式扩展可能不适用。
+- **定位**：属于临时补丁，作者更新后删除即可，保留一般也不冲突。
+
+### 评论补充
+插件作者 Pipecraft 确认已参考 issue 修复并发布新版本；针对评论反馈的“+ 插入图片”偶发重复显示，已加入防御代码并发布 1.8.2。作者同时推荐了替代图片上传脚本：https://greasyfork.org/zh-CN/scripts/553341-universal-image-uploader 。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254603" target="_blank" rel="noopener noreferrer">V2EX.REP 的“当前页热门回复”侧栏错位、楼号点了不跳，分享个临时修复</a></span><span class="topic-stats">回复 6 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254835" markdown="1">
+<summary>
+<span class="topic-rank">12</span>
+<span class="topic-title">OpenSSH 在 musl 环境下输入 257 个 A 可登录 root</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖称，在基于 musl libc 的环境（如 Alpine、OpenWrt）中，OpenSSH 存在严重认证问题：输入 257 个 `A` 可能以 root 身份登录。根因是 musl 自 2012 年起，`crypt()` 在输入超过 256 个字符而失败时返回 `*` 而非 `NULL`；`sshd` 未处理该返回值，导致哈希失败结果与 shadow 中锁定账户的 `*` 字段匹配。主帖建议升级到 OpenSSH 10.6p2 或更高版本。
+
+### 关键要点
+
+- 影响面集中在 musl 环境，glibc 系统不受影响。
+- 关键前提是账户密码字段为 `*`（表示禁止密码登录），并非“默认密码是 `*`”。
+- 多位用户实测 Alpine 上的 OpenSSH 9.3p2、9.7p1、10.2p1 均无法复现，说明具体版本与补丁状态需核实。
+- OpenWrt 默认使用 dropbear，多位用户称不受影响。
+
+### 评论补充
+
+有回复指出，原本靠密码字段锁定、预期仅密钥登录的账户也可能受影响；另有回复认为已修复版本或已打补丁的发行版难以复现。建议 musl 环境用户核对 OpenSSH 版本与发行版安全公告，必要时升级或临时禁用密码认证。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254835" target="_blank" rel="noopener noreferrer">OpenSSH 严重问题,输入 257 个 A 即可登录 root</a></span><span class="topic-stats">回复 14 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254579" markdown="1">
+<summary>
+<span class="topic-rank">13</span>
+<span class="topic-title">「AI 味」是什么：前端设计与文案中的可辨识特征</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖问「AI 味」是自由心证还是有可确定标准。讨论没有给出量化标准，但多数回复认为它可被具体描述：本质是**缺少人类在真实体感下做出的取舍**，表现为视觉、交互、文案三方面的共性特征。
+
+### 关键要点
+
+- **视觉**：不指定风格时，常出现圆角卡片、渐变、玻璃拟态、emoji 图标，细节均匀丰富却无主次；人做的设计通常有重点突出、其余平淡。
+- **交互**：功能不分主次，把用户提到的 a/b/c 全塞进一个面板；把约束条件用小字直接呈现在界面上；无约束时过度扩展 corner case，导致交互爆炸。
+- **文案**：行话毫无征兆地冒出，不照顾读者知识水平；事无巨细复述约束；读起来「像伪人写的」，看似充实却难懂。
+- **判断线索**：挑不出大毛病、各细节均衡丰富、只有一种「性格」，反而更像 AI。
+
+### 评论补充
+
+有回复指出这类似当年对「Bootstrap 味」的抱怨，说明「AI 味」部分是风格趋同带来的观感，而非严格标准；也有人认为一旦标准明确，AI 就能规避，因此它可能天然「不可说」。共识是：AI 直出且不经人工审核修改时最明显，人工筛选与取舍能显著削弱这种味道。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254579" target="_blank" rel="noopener noreferrer">「AI 味」到底是什么？</a></span><span class="topic-stats">回复 14 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254746" markdown="1">
+<summary>
+<span class="topic-rank">14</span>
+<span class="topic-title">OkkMax 称 VeriDrop 高度复制其页面与用户评论</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+OkkMax 站长称，同类 AI 中转站评测站 VeriDrop 在页面布局、功能模块和内容上与其高度相似，并列举了三类证据：PackyAPI 页面出现相同用户名、相同五星评价文字与相同评价标签；首页模块顺序一致（模型智商榜→Codex 额度重置→最新实测→站点排行）；检测入口的输入项与提示文案接近。发帖人强调做同类产品本身正常，争议点在于用户评价被直接搬运、未注明来源，也未确认评价者是否同意。
+
+### 关键要点
+- 发帖人诉求明确：说明相同内容来源、未经授权则移除、对高度相似页面公开说明。
+- 作者称 7 月 4 日已在 V2EX 发布过 OkkMax 信息，截至发帖未收到对方联系；后续补充称沟通后对方态度不佳。
+- 已采取的措施：留存截图与社交联系方式、向 Google 和 Bing 提交侵权投诉。
+- 评论提出的技术方向：数据展示类站点可做数据加密、非登录不展示完整数据、登录后限流，提高对方爬取与复刻成本。
+
+### 评论补充
+有回复建议公开对方社交资料施压，发帖人认为这会让自己变成失理方；也有回复认为应先看是否盈利再决定投入维权成本。技术建议属于提高逆向成本的思路，并非法律结论，实际效果与合规性需自行评估。整体上，帖子提供了内容被复刻时的取证与投诉路径参考，但双方说法仅来自一方陈述，事实仍待核验。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254746" target="_blank" rel="noopener noreferrer">做的中转站评测网站，被另一个网站高度复制，连用户评论都一样</a></span><span class="topic-stats">回复 15 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254745" markdown="1">
+<summary>
+<span class="topic-rank">15</span>
+<span class="topic-title">苹果官网买礼品卡支付失败：Apple Pay 与账单地址经验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+有用户 9 月初用中信银联卡在苹果官网买 gift card 成功，之后同一操作报错“Your payment authorization failed on card”，换招商 Visa 和银联卡同样失败。评论给出的可行方向集中在两点：改用 Apple Pay 支付，以及把账单地址填成美区 Apple ID 的地址。
+
+### 关键要点
+- **Apple Pay 路径**：在 Apple Store App 或官网用国内 Visa/Mastercard 绑定的 Apple Pay 付款，有回复称“没发现问题”“随便买”。
+- **账单地址**：有用户用招商经典版 Visa 在官网支付，第一次填国内办卡地址失败，改填美区 Apple ID 账单地址后通过。
+- **绑卡入口**：招行可在“掌上生活”搜 Apple Pay 查看是否已绑 VISA。
+- **其他渠道**：评论提到 seagm、pocket 等第三方购买渠道，但未说明费率与风险。
+- **时间差异**：有用户 10 月用交通银行银联信用卡购买成功，说明失败并非所有银联卡都必然出现。
+
+### 评论补充
+有回复建议查看各行 App 的返现活动，降低购卡成本。第三方渠道和具体失败原因均缺少进一步验证，遇到报错可优先尝试 Apple Pay 并核对账单地址。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254745" target="_blank" rel="noopener noreferrer">大家最近都是怎么买苹果 gift card？</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254813" markdown="1">
+<summary>
+<span class="topic-rank">16</span>
+<span class="topic-title">线上还是线下配眼镜：验光、镜框与散光的经验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖问现在配眼镜去哪儿，评论区的共识是：**验光可以线下做，镜片和镜框可以线上买，但镜框品控和散光配镜是线上配镜的主要风险点**。
+
+### 关键要点
+
+- **验光单可复用**：有回复提到在万达宝岛眼镜花一百多元验光，验光单存在小程序里可随时调阅；也有人建议去美团找眼科诊所或医院测度数，再线上购买。
+- **镜框比镜片更影响体验**：有用户淘宝三四百元配镜，镜片体验与几千元差别不大，但两副镜框分别夹太阳穴、压耳朵；后在京东花 800 多元买品牌镜框才舒适。建议看明月、睛姿（JINS）、精工等针对亚洲头型优化的品牌。
+- **散光建议线下配**：有散光者反映某网红连锁店未配散光，试镜重影被以“不适应”搪塞，后到本地小店花一个多小时调整散光才解决。
+- **实体店的价值在调整**：有用户指出实体店可现场微调，不合适可换镜片；线上购买缺少这一环节。
+- **明码标价省心**：多位用户推荐 JINS，认为价格含镜片与服务，无需与商家议价；也有人用 1688、横岗眼镜城等低价渠道。
+
+### 评论补充
+
+注意“宝岛眼镜”存在不同地区的同名不同店，需区分。另有用户线上配镜从 1500 元降到 300 元，最终改做 ICL 植入。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254813" target="_blank" rel="noopener noreferrer">各位现在配眼镜都去哪儿配？</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1254722" markdown="1">
+<summary>
+<span class="topic-rank">17</span>
+<span class="topic-title">导航站被谷歌 spam 更新降流后如何自救</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者用一年时间做了聚合 vibe coding 作品的导航站 lovableapp.org，最高月访问量达 80 万 PV。谷歌 8 月下旬的 spam 更新将其判定为垃圾内容后，流量跌至约 30K。作者尝试增加新工具无效，最近上线了类似 outbid.lol 的 bid 模式，希望提升用户活跃度。目前站点仍有 30K 访问、DR＞60。
+
+### 关键要点
+- **降流主因**：评论认为问题不在技术层，而在谷歌判定“页面主体没有原创价值”——纯收录链接、内容为他人作品摘要。
+- **可尝试方向**：为条目补充作者自己产生的内容，如真实使用后的两三句具体评价（解决了什么、哪里不行、与同类差异），把“目录”变成“有观点的目录”。
+- **基本无效的做法**：只改标题、加内链、换模板。
+- **作者自述风险点**：条目内容由 AI 试用后按同一模板生成，且参考了 Google AI Overview 的写法，可能加重被判定为 spam 的风险。
+
+### 评论补充
+- 有读者反馈首页信息量过大、UI 不舒服，建议花钱找人重新设计；作者认可这是短板。
+- 右上角 pricing 与 submit 指向同一链接，易造成误解，作者表示会改。
+- 有建议加翻译功能，作者担心每页多语言更易被判 spam。
+
+### 限制
+恢复效果尚无验证，bid 模式能否提升活跃度也未可知。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1254722" target="_blank" rel="noopener noreferrer">尝试救一救我的导航站</a></span><span class="topic-stats">回复 9 · 收藏 0</span></p>
+
+</div>
+
+</details>
