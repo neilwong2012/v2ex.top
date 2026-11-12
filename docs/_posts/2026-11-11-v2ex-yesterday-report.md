@@ -1,0 +1,495 @@
+---
+layout: report-post
+title: "V2EX 每日热点回顾 · 2026-11-11"
+date: 2026-11-11 08:30:00 +0800
+categories: [v2ex, daily-report]
+status: success
+target_date: 2026-11-11
+generated_at: "2026-11-12 10:52:47"
+summary: "昨日主题 309 个，过滤 209 个，DeepSeek 分析 100 个，保留高价值内容 15 个。"
+count_all: 309
+count_excluded: 209
+count_included: 100
+count_high_signal: 0
+count_valuable: 15
+report_url: "/2026/11/11/"
+data_url: "/data/2026-11-11.json"
+---
+
+# V2EX 2026-11-11 昨日新帖报告
+
+<details class="topic-card" data-topic-id="1256189" markdown="1">
+<summary>
+<span class="topic-rank">1</span>
+<span class="topic-title">秋招面试官观察：应届硕士AI知识浮于表面</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+一位面试官在秋招中面试了多名应届硕士，整体评价是简历与表达水平很高：CCF A 一作不少，两段大厂实习基本是标配，且能讲出实习细节，聊业务、Agent 搭建和评测都有思考。
+
+但追问底层就露馅：说不清 LLM 接口 token 的分类与计费差异，说不清 prefill 和 decode 各自做什么；QKV 八股答得漂亮，再问 KV cache 存什么、长上下文为何慢就答不上。作者把原因归为 AI 时代的军备竞赛——老师用 GPT 出题、学生用 GPT 做题、老师再用 GPT 阅卷，论文靠 AI 找方向、写代码、跑实验、润色，面试准备也靠 AI 整理八股和模拟面试。
+
+结果是候选人普遍处于“似懂非懂”：概念、术语、公式都知道，追问两句就露馅；心里清楚却不敢停下来补，因为身边人都在往前冲。
+
+### 关键要点
+- 面试官视角下，**表层知识可被 AI 快速补齐，底层原理追问才是分水岭**。
+- 典型追问点：token 分类与计费、prefill/decode、KV cache、长上下文性能。
+- 候选人困境是“一边心虚，一边加速”，缺乏停下来整理知识框架的时间。
+
+### 评论补充
+有回复认为问题在于只输入不输出，没时间思考和整理认知框架；也有人指出这类追问过段时间就会进入 AI 面试题库，形成新的“AI 八股”。另有观点提醒：若基本功不足、AI 给什么信什么，遇到不适合业务的方案就会判断错误。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256189" target="_blank" rel="noopener noreferrer">最近秋招陆陆续续面了一堆应届生，说点感受</a></span><span class="topic-stats">回复 97 · 收藏 50</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256038" markdown="1">
+<summary>
+<span class="topic-rank">2</span>
+<span class="topic-title">Switch 1 还是 2：向下兼容与性能差异选购建议</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖需求很明确：和女朋友在家玩体感游戏，玩《野炊》，以及《暗黑》类刷子游戏。评论区的共识是**优先买 Switch 2**，核心理由是向下兼容：1 代游戏基本都能在 2 上运行，而 2 的独占游戏 1 玩不了。
+
+### 关键要点
+
+- **兼容性**：多位回复称大部分 1 代游戏可在 2 上玩，不必担心“只支持 1”的问题。
+- **性能差异**：有回复称 2 代机能约为 1 代的 10 倍，分辨率和帧率提升明显；《野炊》在 2 上画质帧率是质变，《暗黑 3》后期怪多时 1 代会明显掉帧。
+- **形态**：2 目前没有 Lite 版，机身偏大，接近大号平板掌机。
+- **性价比路线**：若预算有限、且大量老游戏没玩过，便宜的 1 代（含破解方案）性价比更高；但 2 除价格外全面占优。
+- **配件**：有回复建议另购 Pro 手柄，自带 Joy-Con 操作体验差距较大。
+
+### 评论补充
+
+也有回复提醒，买来后可能长期吃灰，是否值得取决于实际游玩频率。另有回复提到 PC 模拟器，但未给出可验证的具体信息，仅作参考。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256038" target="_blank" rel="noopener noreferrer">想买 switch 了 是买 1 还是 2？</a></span><span class="topic-stats">回复 86 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256013" markdown="1">
+<summary>
+<span class="topic-rank">3</span>
+<span class="topic-title">谷歌披露MECOOL机顶盒预埋后门，130万台设备受影响</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+谷歌于11月2-3日发布调查报告，指深圳视壮科技（Videostrong，品牌MECOOL）在超过130万台安卓电视盒的出厂固件中预埋名为XCPE（x.cpe）的系统级后门，并将控制权出售给网络犯罪集团。后门在设备首次开机后才从远程下载恶意模块，以绕过谷歌认证检测；可远程监控、窃取账号密码，并把用户宽带转租为住宅代理用于非法活动，重启后自动恢复，普通用户难以清除。
+
+谷歌联合日本警察厅及多家安全公司于10月最后一周切断了其指挥服务器，并永久禁止Videostrong生产销售谷歌认证设备。受影响设备遍布200多个国家，另有超1000万台设备因此次行动脱离黑产控制。
+
+### 关键要点
+- **风险范围**：MECOOL/视壮科技外贸电视盒，涉及130万台以上出厂设备。
+- **后门特征**：首次开机后远程下载模块、绕过认证、重启自恢复、用户无法清除。
+- **处置结果**：指挥服务器被切断，厂商被永久取消谷歌认证资格。
+- **用户建议**：评论提到“买盒子还是自己刷机好”，但有人质疑固件级后门刷第三方系统是否有效，尚无定论。
+
+### 评论补充
+有用户反映使用此类外贸盒子后夜间网络卡顿、关机即恢复，怀疑与后门有关；也有人指出MECOOL在外贸盒子市场较常见，部分型号带Netflix认证。评论还提到住宅代理IP可能正来自这类被控设备。谷歌原始报告见 https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet 。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256013" target="_blank" rel="noopener noreferrer">深圳一机顶盒厂商在 130 万台出厂设备中预埋系统级后门，并将控制权卖给犯罪集团</a></span><span class="topic-stats">回复 24 · 收藏 7</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256133" markdown="1">
+<summary>
+<span class="topic-rank">4</span>
+<span class="topic-title">自由职业一年回款难：外包与ToB产品的现实经验</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主做了一年自由职业，靠朋友介绍的两个外包项目维持生活，但回款困难，只能吃老本；随后转向自研 AI 机房智能运维系统（实时监测、智能巡检、故障分析与处置建议、知识库沉淀），但 ToB 产品只能靠线下朋友推广，落地周期长，一个医院客户可能要一年。核心问题是经济压力与客户来源，而非产品本身。
+
+### 关键要点
+- **外包回款难是常态**：能外包出来的项目多是别人挑剩的，预算低或甲方难缠；优质客户极少。
+- **先解决客户，再做产品**：有回复建议先找到第一个愿意付启动资金的客户再启动，可用 PPT 推广但不提前投入开发。
+- **主动获客**：上线做 SEO、找本地企业负责人推销，或与周边城市外包公司合作由其抽成、负责客户与项目。
+- **规模与搭档**：长期做需组 3-4 人团队，AI 可压缩人力，但仍需靠谱搭档分摊心力；优先线下认识的人。
+- **边工作边推进**：ToB 落地慢，不耽误上班，可降低现金流风险。
+
+### 评论补充
+有回复认为 ToC 比 ToB 更难，个人开发者常因不会推广、不设失败指标而“做十个暴死十个”；也有回复建议 ToB 先试线上获客，能获客再考虑付费投流。另有观点指出工控机厂商已把 BMC 远程运维做成硬件模块，软件竞争激烈。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256133" target="_blank" rel="noopener noreferrer">自由职业怎么才能维持下去，走了一年</a></span><span class="topic-stats">回复 19 · 收藏 7</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256100" markdown="1">
+<summary>
+<span class="topic-rank">5</span>
+<span class="topic-title">过碳酸钠去茶渍实测：5g温水泡30分钟，柠檬酸基本无效</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖给出一个低成本去茶渍方案：拼多多散装**过碳酸钠**，取约 **5g**，用温水浸泡 **30 分钟**，不锈钢内壁杯子可恢复光亮。作者同时给出反例：在 ChatGPT 建议下用过**柠檬酸**，基本无效。
+
+### 关键要点
+
+- **原理区分**：评论指出柠檬酸主要针对水垢类无机离子沉积，而茶垢含复杂有机物，更适合用漂白类清洁剂；过碳酸钠即“爆炸盐”，属漂白类。
+- **安全提醒**：有回复提醒过碳酸钠碱性较强，使用时注意防护，不建议用于日常餐具的强清洁场景。
+- **可复用流程**：有评论建议先用过碳酸钠加约 60℃ 水清洗，漂洗至少 3 次，再用柠檬酸处理一次，以降低复杂有机物残留附着风险。
+- **替代方案**：小苏打、碱面（碳酸钠）加开水浸泡一夜也被多人验证有效；另有成品茶垢清洁剂可选。
+
+### 评论补充
+
+关于“柠檬酸无效”的原因，评论给出较一致的解释：柠檬酸除水垢有效，但对有机茶垢作用有限。也有回复提到牙膏、可乐、草灰等偏方，但缺乏细节验证。整体共识是碱性/漂白类方案对茶垢更有效，酸性方案更适合后续除垢。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256100" target="_blank" rel="noopener noreferrer">去除茶渍的神-过碳酸钠</a></span><span class="topic-stats">回复 14 · 收藏 8</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256259" markdown="1">
+<summary>
+<span class="topic-rank">6</span>
+<span class="topic-title">Casvisor：Apache-2.0 开源堡垒机，单 Go 二进制支持 SSH/RDP/VNC/Telnet</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Casvisor 是一个 Apache-2.0 开源堡垒机，用单个 Go 二进制提供 SSH、RDP、VNC、Telnet 四种协议的网页接入，目标是补上 JumpServer 社区版把 RDP 代理、数据库原生客户端代理等能力放进企业版的缺口。作者对比了 Teleport（AGPL、社区版有规模限制）、Next Terminal（2.0 起服务端闭源、免费版限 100 资产）、Boundary（仓库已归档）和 Warpgate（Apache-2.0、Rust、单二进制），认为 Warpgate 是最接近“完全开源”的对手。
+
+### 关键要点
+- **连接能力**：SSH 用 xterm.js 加 SFTP 文件面板；RDP 是自研纯 Go 客户端 gordp，支持 NLA、GFX 图形管道、高 DPI、剪贴板、磁盘重定向；VNC 用 noVNC，认证在后端完成；Telnet 面向交换机等老设备。另有 SSH 网关（`ssh -p 2222`）和通过跳板机或主动外连 agent 的网域网关。
+- **权限与审计**：按用户/用户组 × 资产/标签配置连接、复制、粘贴、上传、下载、端口转发，可限来源 IP 和有效期；正则命令规则可拦截或告警；权限变更会立即断开已连会话。四种协议均录像，SSH/Telnet 可导出 asciicast，支持实时旁观和断连。
+- **部署**：`docker run` 暴露 19000 和 2222 端口，默认 SQLite，管理员口令打印在日志中；SSO、MFA、LDAP 需接 Casdoor。
+- **已知短板**：无数据库代理和 K8s；一个资产只有一组系统账号，无自动改密和工单；无资产树和批量导入；录像只能存本机；本地账号无 MFA；命令审计读虚拟屏幕，全屏程序内操作不可见。
+
+### 评论补充
+有读者询问是否支持定期自动修改密码，用于等保测评；主帖已明确当前没有自动改密功能。另有读者表示先 fork 以防后续闭源。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256259" target="_blank" rel="noopener noreferrer">Casvisor： JumpServer 之外的开源堡垒机， Apache-2.0，一个 Go 二进制装下 SSH / RDP / VNC / Telnet</a></span><span class="topic-stats">回复 3 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256178" markdown="1">
+<summary>
+<span class="topic-rank">7</span>
+<span class="topic-title">房贷提前还款与应急资金如何平衡</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主剩余房贷六十多万，夫妻每月结余，攒满 10 万就提前还一次；AI 建议保留约 10 万流动资金防失业，楼主倾向尽快还贷省利息，纠结“攒 10 万就还”还是“攒到 20 万再还 10 万”。
+
+### 关键要点
+- **先定应急资金，再定还款节奏**：多数回复认为必须留应急金，但金额分歧大，从 5 万、半年工资、一年房贷加日常开销到 20 万不等。
+- **按支出而非拍脑袋计算**：有回复建议算出含房贷的月总支出，按工作稳定性留 6～12 个月，再设提前还款门槛（如满 5 万就还）。
+- **不必等 10 万**：小几万也可提前还；有回复提醒可选“缩短年限”，通常比减少月供更省利息。
+- **股票不宜当应急金**：楼主转述 AI 观点，股票波动大，急用时可能被迫亏损卖出。
+
+### 评论补充
+楼主最终表示按“留一年房贷”执行。也有回复认为消费贷、信用卡可作缓冲，不必留太多现金；但这类方案依赖授信可用和利率稳定，属于风险偏好较高的选择。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256178" target="_blank" rel="noopener noreferrer">关于房贷提前还款咨询下大家</a></span><span class="topic-stats">回复 20 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256207" markdown="1">
+<summary>
+<span class="topic-rank">8</span>
+<span class="topic-title">单线复用做有线Mesh：弱电箱小、散热差的替代方案</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主家客厅、书房、卧室各只预埋一根网线，想用现有设备做有线 Mesh，方案是“单线回程”：客厅加交换机，同时接主路由的 WAN 和 LAN 口形成回程。评论确认这本质上是单线复用，可行但结构较乱。
+
+### 关键要点
+- **可行但偏复杂**：有回复表示自己以前就这样做，主路由 WAN/LAN 都接交换机，能实现单线回程，缺点是结构不清晰、维护成本高。
+- **更简单的做法**：把主路由放进弱电箱，子路由直连；或弱电箱放一台无 WiFi 的小型有线路由（如中兴星云 max，约 200 元、5 个 2.5G 口、15×10cm），其余路由只做 AP，可省掉两台交换机。
+- **物理改造**：若网线能抽动，可把一根换成两根，一劳永逸；也可考虑 AC+AP，用有线路由替换弱电箱交换机。
+- **限制**：楼主弱电箱小、散热差，放光猫后空间有限，两个路由器体积又大，因此倾向先试现有方案。
+
+### 评论补充
+有回复提醒：若在弱电箱放小型无 WiFi 路由，设备多时要留意性能，楼主家智能家电、手机电脑平板较多。另有回复建议把主路由外挂在弱电箱盖上，但需接受外观。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256207" target="_blank" rel="noopener noreferrer">求助有线 mesh 组网</a></span><span class="topic-stats">回复 25 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256010" markdown="1">
+<summary>
+<span class="topic-rank">9</span>
+<span class="topic-title">cc-clean：清理 Claude Code 与 Codex 会话存储的 npx 工具</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者同时使用 Claude Code 和 Codex，会话积累过多导致磁盘紧张，于是开发了 `cc-clean`，可通过 `npx cc-clean@latest` 一键运行。其思路是在不影响 `resume` 的前提下保留会话，只移除冗余字段，并支持恢复。
+
+### 关键要点
+- **主要占用来自内嵌图片**：图片以 Base64 形式写入聊天记录，且可能重复出现多次，会话结束后基本不再使用。
+- **清理范围**：移除内嵌图片、精简命令输出、清理 Codex 加密推理状态与旧上下文压缩快照、移除 Claude API 请求存档、精简成功 Hook 内容与历史工具/技能定义、清理临时任务输出与工作目录记录、清理 Codex 安装包残留等。
+- **保留能力**：整体花费统计、AI 查询记忆、resume 旧 session 等长期用途不受影响。
+- 项目地址：https://github.com/moonrailgun/cc-clean
+
+### 评论补充
+作者回应称，Codex 新旧版本迁移会遗留大量重名会话（`.json` 与 `.json.zstd`），仅靠新会话归档无法清除，这正是“重复会话原文件移除”针对的问题。有评论提出直接让 Claude Code 自行清理，作者认为清不干净，除非直接删除，但那样会丢失会话内容。另有评论确认“内嵌图片移除”覆盖了嵌入的媒体资源。
+
+### 限制
+清理效果与安全性目前仅有作者自述，缺少第三方验证或量化数据；使用前建议先备份会话目录。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256010" target="_blank" rel="noopener noreferrer">写了一个可以清理 claude code 和 codex 会话存储的工具: cc-clean</a></span><span class="topic-stats">回复 4 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256147" markdown="1">
+<summary>
+<span class="topic-rank">10</span>
+<span class="topic-title">Copilot 用 Claude 值不值：计费改版后的成本对比</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主帖问的是为什么不买 GitHub Copilot 来用 Claude 模型。评论区的共识很明确：**改版前按次计费时 Copilot 性价比极高，改成按量/积分计费后吸引力大幅下降**，多位用户用“拉完了”“一坨大便”形容现状。
+
+### 关键要点
+
+- **计费方式是核心分歧点**：早期按次调用可以“狂用”，改版后按 credits 消耗，简单任务也可能快速烧额度。有用户称问一个 Node 日志问题、把整个项目丢进去分析，一次就消耗约 300 credits。
+- **额度换算不划算**：有回复称同样 $200 费用，Copilot 额度约 $300，而 Claude Ultra 约 $12000；另有说法称官方订阅每月能用出约 60 倍 API 额度（$100/$200 套餐对应约 $6000/$12000 API 用量）。
+- **可用模型被削减**：有用户称现在只剩低倍率但能力弱的模型，以及高倍率、用不起的模型。
+- **替代选择**：评论提到 Codex 性价比更高，也有人建议直接买 GLM 或 DeepSeek。
+- **企业采购场景不同**：公司集采的 Copilot credits 只拿来调 Claude 模型，按 API 同价，个人自购则被认为不划算。
+
+### 评论补充
+
+关于“折腾海外环境用 Claude”是否值得，有回复认为重度用户订阅换算成 API 计费差价巨大，足以覆盖折腾成本；也有回复指出企业采购 Claude 同样按 API 价格走，只有个人和小团队相对便宜。以上数字均为用户自述，未经核实。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256147" target="_blank" rel="noopener noreferrer">为啥你们不买 copilot 来用 Claude？</a></span><span class="topic-stats">回复 23 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256061" markdown="1">
+<summary>
+<span class="topic-rank">11</span>
+<span class="topic-title">Play版B站关闭自动更新仍被强制同版本更新及应对</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+有用户发现 Play 版 B 站在关闭自动更新的情况下，仍被后台更新，且版本号保持 3.20.4（8230800）不变。更新后每次打开或从后台切回都会跳转更新提示页，可点右上角关闭，但会反复出现。用此前提取的同版本安装包覆盖安装后，跳转暂时消失，但次日乘车时又被强制同版本更新。
+
+### 关键要点
+- 评论指出，这类提示更可能由 Google Play 商店弹出，而非 App 自身，依据是 Google 2024 年关于提示用户更新到最新版本的官方博客：https://android-developers.googleblog.com/2024/01/prompt-users-to-update-to-your-latest-app-version-google-play.html
+- 有用户称所有应用都可开启该功能，只是多数应用不愿强更以免流失用户。
+- 一条经验做法：关闭自动更新后，主动点一次更新并在下载中取消，之后可能不再偷偷更新（个人经验，未验证）。
+- 替代方案包括冻结 Play 商店或改用第三方客户端，评论提到 PiliPlus；但第三方客户端能否使用定向免流尚未确认。
+
+### 评论补充
+多名用户表示遇到同样弹窗，并认为新版 Play 版 B 站体验不佳。有人提议改包名重打包以规避 Play 识别，但仅为设想，无验证结果。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256061" target="_blank" rel="noopener noreferrer">白标 bilibili，没开更新，居然被强制同版本号后台更新</a></span><span class="topic-stats">回复 14 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256079" markdown="1">
+<summary>
+<span class="topic-rank">12</span>
+<span class="topic-title">开源原神圣遗物评分工具0.3.3：免登录同步与配装模拟</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者因不满现有圣遗物工具转向收费、广告或弃坑，自研并开源了一款原神圣遗物评分工具，当前版本 0.3.3，仅支持 miao 算法评分。
+
+### 关键要点
+- **免登录同步**：输入 UID 即可同步角色展柜中的 12 个角色，支持多次同步自动合并多批角色。
+- **评分与建议**：可查看多角色圣遗物评分并过滤排序，找出低分圣遗物以建议优先刷取方向。
+- **明细与模拟**：查看角色面板、武器、圣遗物评分明细与伤害计算，并模拟替换装备后与实际装备对比。
+- **开源地址**：后端 https://github.com/jhpx/seiten-suikyou ，前端 https://github.com/jhpx/seiten-suikyou-web ，在线版 https://seiten-suikyou.donneryst.com/ 。
+- **算法规划**：作者认为 miao 与 ysin 各有千秋，提瓦特小助手、原魔工具箱的算法或权重不够理想；ysin 算法已研究大半，计划 0.4 版本支持，但因原作者闭源且已弃坑，需从老角色逐步推导迭代。
+
+### 评论补充
+有用户用米游社 cookie 拉取全部角色数据，作者回应这种方式更方便但存在安全风险。另有用户反馈输入 UID 后提示需手动 POST 刷新，作者确认是 bug，手动点刷新即可。还有用户提出自动最优配队需求，帖内未给出方案。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256079" target="_blank" rel="noopener noreferrer">有玩原神的吗，分享一个自己手搓的圣遗物评分工具</a></span><span class="topic-stats">回复 10 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256032" markdown="1">
+<summary>
+<span class="topic-rank">13</span>
+<span class="topic-title">Apple ID 订阅 ChatGPT 后无法解绑，换号或改用 Google Play</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+同一个 Apple ID 在订阅过 ChatGPT 后，基本无法解绑再给另一个 ChatGPT 账号订阅。多位回复者的一致经验是：Apple ID 与 ChatGPT 账号的绑定关系会长期保留，等待“自动解绑”并不可靠。
+
+### 关键要点
+
+- **不要指望等待解绑**：有回复称半年后会自动解绑，但更多人反馈等了一年甚至两年仍未解绑，旧账号依然被绑定。
+- **可行做法是换支付渠道**：重新注册一个 Apple ID，或改用 Google Play 订阅；没有安卓手机时可用模拟器操作。
+- **风险提示**：有用户尝试用新号重新订阅，结果费用仍充到已注销的旧账号上；若旧账号被封，钱可能无法追回。
+- **方向不对称**：一个 ChatGPT 账号可以被多个 Apple ID 开通订阅，但一个 Apple ID 只能绑定一个 ChatGPT 账号。
+
+### 评论补充
+
+主帖引用订阅政策称“取消特定开发者的所有订阅且 180 天内未重新订阅，订阅者 ID 会被重置”，但回复者实测并未生效，说明该条款不能作为解绑依据。另有回复提到 Google Play 侧也开始出现类似绑定限制。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256032" target="_blank" rel="noopener noreferrer">同一个 appleid 能给两 gpt 订阅吗？怎么解绑前一个。</a></span><span class="topic-stats">回复 14 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256250" markdown="1">
+<summary>
+<span class="topic-rank">14</span>
+<span class="topic-title">Claude封号规避：虚拟机+海外IP方案与风险讨论</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主提出用本地虚拟机模拟干净 OS 与硬件环境、劫持流量到海外家宽节点，以规避 Claude 封号，并询问是否有人成功。评论普遍认为环境伪装只是最容易的一环，真正难点在账号画像与支付链路。
+
+### 关键要点
+- **环境不是瓶颈**：有回复指出直接租境外服务器全程操作，比费心包装虚拟机更简单严谨；虚拟机设备特征本身也可能被检测。
+- **行为画像难绕过**：语言表达、编码场景、仓库名称与地址等都可能被哈希上传，用于判定用户身份与地区。
+- **支付与注册链路是关键**：若在 VPS 上仍被封，应排查支付方式、注册环境和支付环境。
+- **封禁已升级**：有回复称 Anthropic 已关闭虚拟信用卡支付渠道，Apple/Google 支付存在连坐，KYC 过的账号也可能被无差别封禁。
+
+### 评论补充
+有回复建议用另一个 AI 把中文转成地道美式英语再输入，或在发送前做内容置信度过滤；也有人认为这类钻营意义有限，不如转向国产模型或直接考虑入职 Anthropic。另有回复提醒，绑定真实身份信息使用此类服务存在隐私与追溯风险。
+
+＞ 以上方案与时间线均来自帖内用户陈述，未经独立核实。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256250" target="_blank" rel="noopener noreferrer">封号，我让你封尼玛</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1256213" markdown="1">
+<summary>
+<span class="topic-rank">15</span>
+<span class="topic-title">瑞舒伐他汀肝损后，血脂康+依折麦布方案与替代选择</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+63 岁女性，总胆固醇 8.06、LDL-C 5.44、甘油三酯 3.07，属明显高血脂。此前服集采瑞舒伐他汀后出现肝功能异常、茶色尿、尿量减少，停药。医生新开血脂康胶囊+依折麦布，家属担心血脂康含洛伐他汀类成分，是否同样伤肝。
+
+### 关键要点
+- **就医优先级**：多位回复建议挂三甲医院心内科副主任以上医生，带日常食谱评估，而非自行换药。
+- **药物认知**：他汀类包括瑞舒伐他汀、阿托伐他汀、辛伐他汀；依折麦布常与他汀联用增强降脂。血脂康含洛伐他汀类成分，存在类似肝损风险，需监测。
+- **替代方案**：回复提到依洛尤单抗（瑞百安）140mg 每 2 周一针约 280 元/针；英克司兰钠（乐可为）284mg 半年一针约 2790 元/针；瑞卡西单抗可走医保。有回复称“打针+他汀”效果一流。
+- **生活方式**：BMI 偏超重，建议减少脂肪摄入、多动提升代谢。
+
+### 评论补充
+有用户分享自身用英克司兰钠+他汀第 5 个月，LDL-C 降至 0.87 mmol/L，目标压到 1.8 以内。也有长期服原研立普妥、益适纯控制良好的案例。部分回复对血脂康持保留态度，认为应优先原研药并复查肝功能。所有用药调整须由医生决定。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1256213" target="_blank" rel="noopener noreferrer">家里老人血脂严重偏高，吃瑞舒伐他汀伤肝，求建议</a></span><span class="topic-stats">回复 13 · 收藏 1</span></p>
+
+</div>
+
+</details>
