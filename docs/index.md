@@ -1,25 +1,25 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-11-13 08:30:00 +0800
+date: 2026-11-14 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: blocked
-target_date: 2026-11-13
-generated_at: "2026-11-14 10:14:36"
+target_date: 2026-11-14
+generated_at: "2026-11-15 09:45:42"
 summary: "API 抓取失败，已发布阻塞诊断。"
 count_all: 0
 count_excluded: 0
 count_included: 0
 count_high_signal: 0
 count_valuable: 0
-report_url: "/2026/11/13/"
-data_url: "/data/2026-11-13.json"
+report_url: "/2026/11/14/"
+data_url: "/data/2026-11-14.json"
 ---
 
-# V2EX 2026-11-13 昨日新帖报告（阻塞）
+# V2EX 2026-11-14 昨日新帖报告（阻塞）
 
-抓取时间：2026-11-14 10:14:36（Asia/Shanghai）  
-时间口径：2026-11-13 00:00:00 到次日 00:00:00（Asia/Shanghai）  
+抓取时间：2026-11-15 09:45:42（Asia/Shanghai）  
+时间口径：2026-11-14 00:00:00 到次日 00:00:00（Asia/Shanghai）  
 状态：数据抓取或 DeepSeek 分析失败，未生成有效分析报告。
 
 ## 阻塞原因
@@ -28,7 +28,7 @@ data_url: "/data/2026-11-13.json"
 - DEEPSEEK_API_KEY：已检测到
 - 代理环境：未检测到
 - 是否已尝试代理：否
-- 具体错误：Error: DeepSeek analysis success ratio 19/100 is below 0.8
+- 具体错误：Error: DeepSeek analysis success ratio 0/93 is below 0.8
 
 ## 需要修复
 
@@ -38,5 +38,5 @@ data_url: "/data/2026-11-13.json"
 
 ## 输出文件
 
-- 失败 JSON：[v2ex_2026-11-13_failure.json]({{ site.baseurl }}/data/2026-11-13.json)
-- 阻塞报告：[v2ex_2026-11-13_report_blocked.md]({{ page.url | relative_url }})
+- 失败 JSON：[v2ex_2026-11-14_failure.json]({{ site.baseurl }}/data/2026-11-14.json)
+- 阻塞报告：[v2ex_2026-11-14_report_blocked.md]({{ page.url | relative_url }})
