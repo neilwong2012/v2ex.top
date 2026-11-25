@@ -1,25 +1,25 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-11-23 08:30:00 +0800
+date: 2026-11-24 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: blocked
-target_date: 2026-11-23
-generated_at: "2026-11-24 13:52:55"
+target_date: 2026-11-24
+generated_at: "2026-11-25 12:51:45"
 summary: "API 抓取失败，已发布阻塞诊断。"
 count_all: 0
 count_excluded: 0
 count_included: 0
 count_high_signal: 0
 count_valuable: 0
-report_url: "/2026/11/23/"
-data_url: "/data/2026-11-23.json"
+report_url: "/2026/11/24/"
+data_url: "/data/2026-11-24.json"
 ---
 
-# V2EX 2026-11-23 昨日新帖报告（阻塞）
+# V2EX 2026-11-24 昨日新帖报告（阻塞）
 
-抓取时间：2026-11-24 13:52:54（Asia/Shanghai）  
-时间口径：2026-11-23 00:00:00 到次日 00:00:00（Asia/Shanghai）  
+抓取时间：2026-11-25 12:51:44（Asia/Shanghai）  
+时间口径：2026-11-24 00:00:00 到次日 00:00:00（Asia/Shanghai）  
 状态：数据抓取或 DeepSeek 分析失败，未生成有效分析报告。
 
 ## 阻塞原因
@@ -28,7 +28,7 @@ data_url: "/data/2026-11-23.json"
 - DEEPSEEK_API_KEY：已检测到
 - 代理环境：未检测到
 - 是否已尝试代理：否
-- 具体错误：ApiError: 401 topics/1256410: {"message":"Token expired","success":false} | status=401 | endpoint=topics/1256410
+- 具体错误：ApiError: 401 topics/1256660: {"message":"Token expired","success":false} | status=401 | endpoint=topics/1256660
 
 ## 需要修复
 
@@ -38,5 +38,5 @@ data_url: "/data/2026-11-23.json"
 
 ## 输出文件
 
-- 失败 JSON：[v2ex_2026-11-23_failure.json]({{ site.baseurl }}/data/2026-11-23.json)
-- 阻塞报告：[v2ex_2026-11-23_report_blocked.md]({{ page.url | relative_url }})
+- 失败 JSON：[v2ex_2026-11-24_failure.json]({{ site.baseurl }}/data/2026-11-24.json)
+- 阻塞报告：[v2ex_2026-11-24_report_blocked.md]({{ page.url | relative_url }})
