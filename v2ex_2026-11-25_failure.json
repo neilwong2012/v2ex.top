@@ -1,0 +1,17 @@
+{
+  "target_date": "2026-11-25",
+  "timezone": "Asia/Shanghai",
+  "status": "blocked",
+  "token_present": true,
+  "deepseek_key_present": true,
+  "proxy": null,
+  "proxy_attempted": false,
+  "forced_proxy": false,
+  "fallback_proxy": false,
+  "direct_error_before_proxy": null,
+  "proxy_note": null,
+  "blocker": "ApiError: 401 topics/1256942: {\"message\":\"Token expired\",\"success\":false} | status=401 | endpoint=topics/1256942",
+  "generated_at": "2026-11-26 12:04:46",
+  "failure_file": "/home/runner/work/v2ex.top/v2ex.top/v2ex_2026-11-25_failure.json",
+  "blocked_report_file": "/home/runner/work/v2ex.top/v2ex.top/v2ex_2026-11-25_report_blocked.md"
+}
